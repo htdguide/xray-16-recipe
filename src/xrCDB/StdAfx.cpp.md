@@ -1,0 +1,21 @@
+# src/xrCDB/StdAfx.cpp
+
+> The translation unit that exists only so the precompiled header has something to
+> be generated from.
+
+**Needs** — [`stdafx.h`](stdafx.h.md)
+**Used by** — nothing in this recipe; entry point or dead code.
+**Tier floor** — T4: build scaffolding.
+
+## Purpose
+
+One line of source. It decides nothing, contains nothing, and exists because the original's
+toolchain needs a compilation unit to anchor a precompiled header to.
+
+## State
+
+Stateless.
+
+## Notes
+
+Delete it in a rebuild. Nothing is lost.
