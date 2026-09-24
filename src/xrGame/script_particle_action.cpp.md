@@ -3,7 +3,7 @@
 > Creates the live particle effect the channel owns — and does not destroy it.
 
 **Needs** — [`script_particle_action.h`](script_particle_action.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_particle_action.h`](script_particle_action.h.md); callers name that, not this file.
 **Tier floor** — T2
 
 ## Purpose

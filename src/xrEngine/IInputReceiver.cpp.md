@@ -3,7 +3,7 @@
 > Stack push and pop for an input receiver, and the synthetic release burst that runs when one loses the input.
 
 **Needs** — [`IInputReceiver.h`](IInputReceiver.h.md) · [`xr_input.h`](xr_input.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`IInputReceiver.h`](IInputReceiver.h.md); callers name that, not this file.
 **Tier floor** — T2.
 
 ## Purpose

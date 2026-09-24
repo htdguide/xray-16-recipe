@@ -3,7 +3,7 @@
 > The navigation overlays: the level's walkable mesh, the cross-level graph miniature, restrictor borders, per-vertex cover values, and where offline creatures currently are.
 
 **Needs** — [`LevelGraphDebugRender.hpp`](LevelGraphDebugRender.hpp.md) · [`Level.h`](Level.h.md) · [`debug_renderer.h`](debug_renderer.h.md) · [`space_restriction_manager.h`](space_restriction_manager.h.md) · [`cover_manager.h`](cover_manager.h.md) · [`cover_point.h`](cover_point.h.md) · [`ai_space.h`](ai_space.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`alife_graph_registry.h`](alife_graph_registry.h.md) · [`CustomMonster.h`](CustomMonster.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`smart_cover_object.h`](smart_cover_object.h.md) · [`team_base_zone.h`](team_base_zone.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md) · [Seam: Debug overlay UI](../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`LevelGraphDebugRender.hpp`](LevelGraphDebugRender.hpp.md); callers name that, not this file.
 **Tier floor** — T2: spatial queries and immediate-mode drawing; present only in a development build
 
 ## Purpose

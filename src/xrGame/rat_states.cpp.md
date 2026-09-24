@@ -3,7 +3,7 @@
 > The rat's whole behaviour: twelve states, each a short priority-ordered test of the world that either hands the machine to another state or acts.
 
 **Needs** — [`rat_states.h`](rat_states.h.md) · [`rat_state_manager.h`](rat_state_manager.h.md) · [`ai/monsters/rats/ai_rat.h`](ai/monsters/rats/ai_rat.h.md) · [`ai/monsters/ai_monster_squad_manager.h`](ai/monsters/ai_monster_squad_manager.h.md) · [`ai/monsters/ai_monster_squad.h`](ai/monsters/ai_monster_squad.h.md) · [`entity_alive.h`](entity_alive.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`rat_states.h`](rat_states.h.md); callers name that, not this file.
 **Tier floor** — T3: a dozen boolean tests per rat per update
 
 ## Purpose

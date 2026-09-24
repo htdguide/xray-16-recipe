@@ -3,7 +3,7 @@
 > One inbound transfer: accumulate arriving chunks into a file or a memory buffer, learn the expected size from the first chunk, and know when it is finished.
 
 **Needs** — [`filereceiver_node.h`](filereceiver_node.h.md) · [`filetransfer_common.h`](filetransfer_common.h.md) · [`xrCore/buffer_vector.h`](../xrCore/buffer_vector.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`filereceiver_node.h`](filereceiver_node.h.md); callers name that, not this file.
 **Tier floor** — T1: it writes received bytes straight out of the packet buffer without copying, and the destination may be a file handle
 
 ## Purpose

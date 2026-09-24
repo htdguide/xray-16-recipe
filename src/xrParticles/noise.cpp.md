@@ -4,7 +4,7 @@
 > on it that drives the turbulence action.
 
 **Needs** — [`noise.h`](noise.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`noise.h`](noise.h.md); callers name that, not this file.
 **Tier floor** — T2: a table of gradients and float interpolation. It sits in the frame budget,
 so a tier with boxed floats would hurt, but nothing here needs explicit layout.
 

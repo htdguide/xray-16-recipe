@@ -3,7 +3,7 @@
 > Maps a scoreboard panel's authored name to the team it displays.
 
 **Needs** — [`UIPanelsClassFactory.h`](UIPanelsClassFactory.h.md) · [`UITeamState.h`](UITeamState.h.md) · [`UITeamPanels.h`](UITeamPanels.h.md) · [`game_base.h`](game_base.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIPanelsClassFactory.h`](UIPanelsClassFactory.h.md); callers name that, not this file.
 **Tier floor** — T3: a name lookup table
 
 ## Purpose

@@ -4,7 +4,7 @@
 
 **Needs** — [`xrScriptEngine.hpp`](xrScriptEngine.hpp.md) · [`script_space.hpp`](script_space.hpp.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrScriptEngine.hpp`](xrScriptEngine.hpp.md); callers name that, not this file.
 
 **Tier floor** — T3: one linear count.
 

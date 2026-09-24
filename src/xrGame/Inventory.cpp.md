@@ -3,7 +3,7 @@
 > One entity's carried belongings: three storage areas, a slot that is currently in the hands, and the rules that move an item between them.
 
 **Needs** — [`Inventory.h`](Inventory.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Actor.h`](Actor.h.md) · [`CustomOutfit.h`](CustomOutfit.h.md) · [`Weapon.h`](Weapon.h.md) · [`Grenade.h`](Grenade.h.md) · [`eatable_item.h`](eatable_item.h.md) · [`Level.h`](Level.h.md) · [`player_hud.h`](player_hud.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Inventory.h`](Inventory.h.md); callers name that, not this file.
 **Tier floor** — T2: containers, an authority check, and a state machine over item handles
 
 ## Purpose

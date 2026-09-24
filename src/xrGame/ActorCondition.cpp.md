@@ -3,7 +3,7 @@
 > The player's body as a set of slowly-moving numbers: stamina spent by moving, hunger, alcohol, radiation, psychic health, temporary boosts, and the thresholds at which the player starts to limp, cannot run, or dies.
 
 **Needs** — [`ActorCondition.h`](ActorCondition.h.md) · [`EntityCondition.h`](EntityCondition.h.md) · [`Actor.h`](Actor.h.md) · [`ActorEffector.h`](ActorEffector.h.md) · [`Inventory.h`](Inventory.h.md) · [`Level.h`](Level.h.md) · [`Wound.h`](Wound.h.md) · [`Weapon.h`](Weapon.h.md) · [`PDA.h`](PDA.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`autosave_manager.h`](autosave_manager.h.md) · [`ai/monsters/basemonster/base_monster.h`](ai/monsters/basemonster/base_monster.h.md) · [`ui/UIMainIngameWnd.h`](ui/UIMainIngameWnd.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ActorCondition.h`](ActorCondition.h.md); callers name that, not this file.
 **Tier floor** — T3: scalar integration over time plus threshold bookkeeping
 
 ## Purpose

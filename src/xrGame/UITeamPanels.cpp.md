@@ -3,7 +3,7 @@
 > The whole multiplayer scoreboard: every team's panel, plus the rule that decides which panels are visible in which phase of the match.
 
 **Needs** — [`UITeamPanels.h`](UITeamPanels.h.md) · [`UIPanelsClassFactory.h`](UIPanelsClassFactory.h.md) · [`UITeamState.h`](UITeamState.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`ui/UIStatsIcon.h`](ui/UIStatsIcon.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UITeamPanels.h`](UITeamPanels.h.md); callers name that, not this file.
 **Tier floor** — T3: a container plus a phase-to-visibility table.
 
 ## Purpose

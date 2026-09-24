@@ -3,7 +3,7 @@
 > Team deathmatch: two teams whose scores are the sum of their members' frags, with friendly fire, team-kill punishment, automatic balancing and swapping, and a drop-bag that replaces ordinary item pickup.
 
 **Needs** — [`game_sv_teamdeathmatch.h`](game_sv_teamdeathmatch.h.md) · [`game_sv_deathmatch.h`](game_sv_deathmatch.h.md) · [`game_cl_mp.h`](game_cl_mp.h.md) · [`xrServer.h`](xrServer.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`clsid_game.h`](../xrServerEntities/clsid_game.h.md) · [`Level.h`](Level.h.md) · [`ui/UIBuyWndShared.h`](ui/UIBuyWndShared.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`game_sv_teamdeathmatch.h`](game_sv_teamdeathmatch.h.md); callers name that, not this file.
 **Tier floor** — T2: session rules over the network and entity layers
 
 ## Purpose

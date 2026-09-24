@@ -3,7 +3,7 @@
 > Per-level record of which parts of the map the player has walked near, and the pass that draws the unexplored parts over the map screen.
 
 **Needs** — [`LevelFogOfWar.h`](LevelFogOfWar.h.md) · [`Level.h`](Level.h.md) · [`alife_registry_wrappers.h`](alife_registry_wrappers.h.md) · [`ui/UIMap.h`](ui/UIMap.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`LevelFogOfWar.h`](LevelFogOfWar.h.md); callers name that, not this file.
 **Tier floor** — T1: builds a vertex buffer in place and hands it to the graphics device
 
 ## Purpose

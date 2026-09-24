@@ -3,7 +3,7 @@
 > Reads the material half of the frozen library file, infers which game the file came from, supplies acoustic properties the shipped files never carried, and builds the dense pairwise table.
 
 **Needs** — [`GameMtlLib.h`](GameMtlLib.h.md) · [`Common/FSMacros.hpp`](../Common/FSMacros.hpp.md) · [`xrCore/FS.h`](../xrCore/FS.h.md) · [Seam: Compression](../../SYSTEM-REQUIREMENTS.md#seam-compression)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GameMtlLib.h`](GameMtlLib.h.md); callers name that, not this file.
 **Tier floor** — T1: it reads a frozen chunked file, including one block copied in as a raw byte image, and computes a checksum over the file's bytes.
 
 ## Purpose

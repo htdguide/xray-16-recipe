@@ -3,7 +3,7 @@
 > An anti-radiation drug: an edible item with no behaviour beyond what its configuration section gives it.
 
 **Needs** — [`antirad.h`](antirad.h.md) · [`eatable_item_object.h`](eatable_item_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`antirad.h`](antirad.h.md); callers name that, not this file.
 **Tier floor** — T3: a named subclass with no added behaviour
 
 ## Purpose

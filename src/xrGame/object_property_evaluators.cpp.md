@@ -3,7 +3,7 @@
 > The planner's eyes: eleven small observers that turn the live state of a weapon or grenade into the booleans the object-handling search runs on.
 
 **Needs** — [`object_property_evaluators.h`](object_property_evaluators.h.md) · [`Weapon.h`](Weapon.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md) · [`Missile.h`](Missile.h.md) · [`FoodItem.h`](FoodItem.h.md) · [`Inventory.h`](Inventory.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`object_property_evaluators.h`](object_property_evaluators.h.md); callers name that, not this file.
 **Tier floor** — T2: per-search state queries against live objects
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The firing state machine every conventional firearm runs: draw, idle, burst, jam, reload, holster — plus the addon attachment rules, the fire-mode selector and the ammunition accounting that reload performs.
 
 **Needs** — [`WeaponMagazined.h`](WeaponMagazined.h.md) · [`Weapon.h`](Weapon.h.md) · [`Scope.h`](Scope.h.md) · [`Silencer.h`](Silencer.h.md) · [`GrenadeLauncher.h`](GrenadeLauncher.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`Inventory.h`](Inventory.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Actor.h`](Actor.h.md) · [`EffectorZoomInertion.h`](EffectorZoomInertion.h.md) · [`HudSound.h`](HudSound.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`game_object_space.h`](game_object_space.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponMagazined.h`](WeaponMagazined.h.md); callers name that, not this file.
 **Tier floor** — T2: a state machine over a real-valued shot clock, running every frame for the held weapon.
 
 ## Purpose

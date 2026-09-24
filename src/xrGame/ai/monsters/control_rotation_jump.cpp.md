@@ -3,7 +3,7 @@
 > The rotation jump: a running creature that finds its enemy behind it skids to a stop through a turn, then accelerates back out toward the enemy.
 
 **Needs** — [`control_rotation_jump.h`](control_rotation_jump.h.md) · [`control_manager.h`](control_manager.h.md) · [`control_animation_base.h`](control_animation_base.h.md) · [`control_direction_base.h`](control_direction_base.h.md) · [`control_movement_base.h`](control_movement_base.h.md) · [`monster_velocity_space.h`](monster_velocity_space.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_rotation_jump.h`](control_rotation_jump.h.md); callers name that, not this file.
 **Tier floor** — T2: builds paths and drives the body for the duration of two clips
 
 ## Purpose

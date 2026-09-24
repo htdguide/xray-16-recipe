@@ -3,7 +3,7 @@
 > Gives the shared prologue a compilation unit of its own.
 
 **Needs** — [`pch.hpp`](pch.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`pch.hpp`](pch.hpp.md); callers name that, not this file.
 **Tier floor** — None: a build artifact with no runtime behaviour
 
 ## Purpose

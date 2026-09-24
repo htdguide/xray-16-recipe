@@ -3,7 +3,7 @@
 > The cheapest artefact detector: it beeps and blinks faster the closer the nearest artefact is, and shows nothing else.
 
 **Needs** — [`SimpleDetector.h`](SimpleDetector.h.md) · [`CustomDetector.h`](CustomDetector.h.md) · [`Artefact.h`](Artefact.h.md) · [`player_hud.h`](player_hud.h.md) · [`ui/ArtefactDetectorUI.h`](ui/ArtefactDetectorUI.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrEngine/LightAnimLibrary.h`](../xrEngine/LightAnimLibrary.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SimpleDetector.h`](SimpleDetector.h.md); callers name that, not this file.
 **Tier floor** — T3: a distance search, a period interpolation and a few bone and light writes
 
 ## Purpose

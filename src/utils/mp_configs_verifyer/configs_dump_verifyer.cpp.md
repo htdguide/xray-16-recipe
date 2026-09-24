@@ -4,7 +4,7 @@
 
 **Needs** — [`configs_dump_verifyer.h`](configs_dump_verifyer.h.md) · [`configs_common.h`](configs_common.h.md) · [`mp_config_sections.h`](mp_config_sections.h.md) · [`pch.h`](pch.h.md) · [`xrCore/Crypto/xr_dsa_verifyer.h`](../../xrCore/Crypto/xr_dsa_verifyer.h.md) · [`xrCore/Crypto/xr_sha.h`](../../xrCore/Crypto/xr_sha.h.md) · [`xrCore/xr_ini.h`](../../xrCore/xr_ini.h.md) · [Data: Configuration](../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`configs_dump_verifyer.h`](configs_dump_verifyer.h.md); callers name that, not this file.
 
 **Tier floor** — T1: it locates a structure inside an untrusted byte buffer by scanning for a marker and then truncates that buffer in place, and it feeds an exactly-sized digest to a signature primitive.
 

@@ -3,7 +3,7 @@
 > Deathmatch's two extra server events: a player asked to be killed, and a player finished shopping.
 
 **Needs** — [`game_sv_deathmatch.h`](game_sv_deathmatch.h.md) · [`xrServer.h`](xrServer.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — [`game_sv_deathmatch.h`](game_sv_deathmatch.h.md)
 **Tier floor** — T3: a dispatch on an event type
 
 ## Purpose

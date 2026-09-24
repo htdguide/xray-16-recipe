@@ -6,7 +6,7 @@
 > ways, depending on whether anyone is enforcing joint limits.
 
 **Needs** — [`limb.h`](limb.h.md) · [`Dof7control.h`](Dof7control.h.md) · [`eulersolver.h`](eulersolver.h.md) · [`aint.h`](aint.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`limb.h`](limb.h.md); callers name that, not this file.
 **Tier floor** — T2. With limits off — the shipping path — it is a handful of matrix
 multiplies and two Euler decompositions, allocating nothing. With limits on it builds
 interval sets and therefore allocates.

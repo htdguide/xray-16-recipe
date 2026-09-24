@@ -3,7 +3,7 @@
 > A semi-automatic sniper rifle: one shot per pull, and the weapon stays locked for the whole length of the shot animation.
 
 **Needs** — [`WeaponSVD.h`](WeaponSVD.h.md) · [`WeaponCustomPistol.h`](WeaponCustomPistol.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponSVD.h`](WeaponSVD.h.md); callers name that, not this file.
 **Tier floor** — T2: two overrides of the firing state machine.
 
 ## Purpose

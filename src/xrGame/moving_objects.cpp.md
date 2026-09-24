@@ -3,7 +3,7 @@
 > Owns the spatial index of every moving creature: built per level, maintained by register, unregister and reindex.
 
 **Needs** — [`moving_objects.h`](moving_objects.h.md) · [`moving_object.h`](moving_object.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`moving_objects.h`](moving_objects.h.md); callers name that, not this file.
 **Tier floor** — T3: index lifecycle
 
 ## Purpose

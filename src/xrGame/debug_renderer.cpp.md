@@ -3,7 +3,7 @@
 > Turns the three volume shapes the game layer wants to visualize — oriented box, axis-aligned box, ellipsoid — into indexed line lists for the renderer's debug channel.
 
 **Needs** — [`debug_renderer.h`](debug_renderer.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`debug_renderer.h`](debug_renderer.h.md); callers name that, not this file.
 **Tier floor** — T2: geometry generation into a vertex/index pair
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The flashlight: three render objects that must follow the player's gaze rather than his model, plus — for historical reasons — the switch that drives night vision.
 
 **Needs** — [`Torch.h`](Torch.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md) · [`Actor.h`](Actor.h.md) · [`Inventory.h`](Inventory.h.md) · [`CustomOutfit.h`](CustomOutfit.h.md) · [`ActorHelmet.h`](ActorHelmet.h.md) · [`ActorEffector.h`](ActorEffector.h.md) · [`Level.h`](Level.h.md) · [`HudSound.h`](HudSound.h.md) · [`xrEngine/LightAnimLibrary.h`](../xrEngine/LightAnimLibrary.h.md) · [`xrEngine/CameraBase.h`](../xrEngine/CameraBase.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Items.h`](../xrServerEntities/xrServer_Objects_ALife_Items.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Torch.h`](Torch.h.md); callers name that, not this file.
 **Tier floor** — T2: light parameter management, an angular filter and a per-frame pose decision
 
 ## Purpose

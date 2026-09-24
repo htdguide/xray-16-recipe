@@ -3,7 +3,7 @@
 > One entity's *effective movement space*: the permitted volumes it must stay inside, minus the forbidden volumes it must stay out of, reduced to a single navigation-mesh border that can be stamped onto the level graph as a barrier.
 
 **Needs** — [`space_restriction.h`](space_restriction.h.md) · [`space_restriction_inline.h`](space_restriction_inline.h.md) · [`space_restriction_manager.h`](space_restriction_manager.h.md) · [`space_restriction_base.h`](space_restriction_base.h.md) · [`space_restriction_bridge.h`](space_restriction_bridge.h.md) · [`space_restriction_abstract.h`](space_restriction_abstract.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`space_restriction.h`](space_restriction.h.md); callers name that, not this file.
 **Tier floor** — T2: set operations over sorted vertex lists, on the pathfinding path but not per-frame
 
 ## Purpose

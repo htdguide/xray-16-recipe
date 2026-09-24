@@ -3,7 +3,7 @@
 > A rocket in flight: a rigid body pushed forward by a simulated motor, trailing light, smoke and a looping sound, that stops dead at the first surface it is not allowed to pass through.
 
 **Needs** — [`CustomRocket.h`](CustomRocket.h.md) · [`physic_item.h`](physic_item.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/PHUpdateObject.h`](../xrPhysics/PHUpdateObject.h.md) · [`xrPhysics/ExtendedGeom.h`](../xrPhysics/ExtendedGeom.h.md) · [`xrPhysics/CalculateTriangle.h`](../xrPhysics/CalculateTriangle.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md) · [`Include/xrRender/RenderVisual.h`](../Include/xrRender/RenderVisual.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CustomRocket.h`](CustomRocket.h.md); callers name that, not this file.
 **Tier floor** — T1: its contact handling runs inside the solver's collision callback and reads the library's own contact geometry
 
 ## Purpose

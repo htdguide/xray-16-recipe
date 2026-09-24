@@ -3,7 +3,7 @@
 > Lets a script define its own game UI layer by subclassing the engine's.
 
 **Needs** — [`UIGame_custom_script.h`](UIGame_custom_script.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIGame_custom_script.h`](UIGame_custom_script.h.md); callers name that, not this file.
 **Tier floor** — T3: registration data plus one dispatch decision
 
 ## Purpose

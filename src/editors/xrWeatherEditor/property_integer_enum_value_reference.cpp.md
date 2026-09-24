@@ -3,7 +3,7 @@
 > The named-value whole-number row, bound by alias instead of by callbacks.
 
 **Needs** — [`property_integer_enum_value_reference.hpp`](property_integer_enum_value_reference.hpp.md) · [`property_integer_reference.hpp`](property_integer_reference.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_integer_enum_value_reference.hpp`](property_integer_enum_value_reference.hpp.md); callers name that, not this file.
 **Tier floor** — T2: copies a native `(value, label)` array into a managed list at construction
 
 ## Purpose

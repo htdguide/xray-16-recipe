@@ -3,7 +3,7 @@
 > Converts hit-type names between the configuration's spelling and the engine's numbering, in both directions.
 
 **Needs** — [`alife_space.h`](alife_space.h.md) · [`xrCore/xr_token.h`](../xrCore/xr_token.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_space.h`](alife_space.h.md); callers name that, not this file.
 **Tier floor** — T3: string comparison against a fixed table.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The set-piece psi attack: four clips during which the player's weapons are blocked, the camera is hauled toward the creature, the player is thrown backwards, and psi damage lands — all of it scaled by the player's psi resistance.
 
 **Needs** — [`controller_psy_hit.h`](controller_psy_hit.h.md) · [`controller.h`](controller.h.md) · [`../control_animation_base.h`](../control_animation_base.h.md) · [`../control_direction_base.h`](../control_direction_base.h.md) · [`../control_movement_base.h`](../control_movement_base.h.md) · [`../basemonster/base_monster.h`](../basemonster/base_monster.h.md) · [`../../../Actor.h`](../../../Actor.h.md) · [`../../../ActorCondition.h`](../../../ActorCondition.h.md) · [`../../../ActorEffector.h`](../../../ActorEffector.h.md) · [Seam: Rigid-body dynamics](../../../../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Static collision database](../../../../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`controller_psy_hit.h`](controller_psy_hit.h.md); callers name that, not this file.
 **Tier floor** — T2: drives a camera effector, a physics impulse and a network event
 
 ## Purpose

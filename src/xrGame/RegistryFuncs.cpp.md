@@ -3,7 +3,7 @@
 > Reads and writes a handful of values in the host's machine-wide settings store, under the key the retail installer created — the only place the engine keeps state outside its own files.
 
 **Needs** — [`RegistryFuncs.h`](RegistryFuncs.h.md) · [`xrGameSpy/xrGameSpy_MainDefs.h`](../xrGameSpy/xrGameSpy_MainDefs.h.md) · [Seam: Multiplayer matchmaking and accounts](../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`RegistryFuncs.h`](RegistryFuncs.h.md); callers name that, not this file.
 **Tier floor** — T3: a key-value store wrapper
 
 ## Purpose

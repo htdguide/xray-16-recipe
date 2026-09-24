@@ -3,7 +3,7 @@
 > A whole-number row that clamps to an authored range in both directions.
 
 **Needs** — [`property_integer_limited.hpp`](property_integer_limited.hpp.md) · [`property_integer.hpp`](property_integer.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_integer_limited.hpp`](property_integer_limited.hpp.md); callers name that, not this file.
 **Tier floor** — T2: a managed refinement of the accessor-bound whole-number adapter
 
 ## Purpose

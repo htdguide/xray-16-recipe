@@ -3,7 +3,7 @@
 > The jump ability: a four-stage animated leap that seizes the whole body, hands the arc to the physics, lands by detecting its own deceleration, and hits whatever it passes through.
 
 **Needs** — [`control_jump.h`](control_jump.h.md) · [`control_manager.h`](control_manager.h.md) · [`control_animation_base.h`](control_animation_base.h.md) · [`control_direction_base.h`](control_direction_base.h.md) · [`control_movement_base.h`](control_movement_base.h.md) · [`control_path_builder_base.h`](control_path_builder_base.h.md) · [`monster_velocity_space.h`](monster_velocity_space.h.md) · [`trajectories.h`](../../trajectories.h.md) · [`xrAICore/Navigation/level_graph.h`](../../../xrAICore/Navigation/level_graph.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md) · [Seam: Rigid-body dynamics](../../../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Static collision database](../../../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_jump.h`](control_jump.h.md); callers name that, not this file.
 **Tier floor** — T2: raycasts, a ballistic solve and per-frame steering during flight
 
 ## Purpose

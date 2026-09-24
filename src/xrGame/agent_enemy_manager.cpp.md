@@ -3,7 +3,7 @@
 > Target assignment for a squad: pool what every member knows, decide who fights whom, swap assignments until nobody is running past a nearer target, and share the knowledge back.
 
 **Needs** — [`agent_enemy_manager.h`](agent_enemy_manager.h.md) · [`agent_manager.h`](agent_manager.h.md) · [`agent_member_manager.h`](agent_member_manager.h.md) · [`agent_memory_manager.h`](agent_memory_manager.h.md) · [`member_enemy.h`](member_enemy.h.md) · [`member_order.h`](member_order.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`sound_memory_manager.h`](sound_memory_manager.h.md) · [`hit_memory_manager.h`](hit_memory_manager.h.md) · [`enemy_manager.h`](enemy_manager.h.md) · [`ef_storage.h`](ef_storage.h.md) · [`ef_pattern.h`](ef_pattern.h.md) · [`ai_space.h`](ai_space.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`agent_enemy_manager.h`](agent_enemy_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: repeated pairwise scoring over squad-sized sets, on the AI budget
 
 ## Purpose

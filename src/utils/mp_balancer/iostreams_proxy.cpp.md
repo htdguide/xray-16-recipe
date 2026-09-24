@@ -4,7 +4,7 @@
 
 **Needs** — [`iostreams_proxy.h`](iostreams_proxy.h.md) · [`pch.h`](pch.h.md)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`iostreams_proxy.h`](iostreams_proxy.h.md); callers name that, not this file.
 
 **Tier floor** — T4.
 

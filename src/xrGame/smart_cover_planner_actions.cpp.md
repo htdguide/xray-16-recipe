@@ -3,7 +3,7 @@
 > The three operators that get a creature from one loophole to another, or out of the cover — and the rule that a smart-cover action's effect lands when its clip ends, not when it is chosen.
 
 **Needs** — [`smart_cover_planner_actions.h`](smart_cover_planner_actions.h.md) · [`smart_cover.h`](smart_cover.h.md) · [`smart_cover_description.h`](smart_cover_description.h.md) · [`smart_cover_transition.hpp`](smart_cover_transition.hpp.md) · [`smart_cover_transition_animation.hpp`](smart_cover_transition_animation.hpp.md) · [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`sight_manager.h`](sight_manager.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`animation_movement_controller.h`](animation_movement_controller.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_decision_space.h`](stalker_decision_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_planner_actions.h`](smart_cover_planner_actions.h.md); callers name that, not this file.
 **Tier floor** — T2: operator lifecycle around an animated move
 
 ## Purpose

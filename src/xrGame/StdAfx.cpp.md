@@ -3,7 +3,7 @@
 > The one source file that exists to make the precompiled prelude compile. Nothing else.
 
 **Needs** — [`StdAfx.h`](StdAfx.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`StdAfx.h`](StdAfx.h.md); callers name that, not this file.
 **Tier floor** — T4: a build input
 
 ## Purpose

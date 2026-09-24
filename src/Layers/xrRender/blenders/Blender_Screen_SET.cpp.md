@@ -3,7 +3,7 @@
 > The general-purpose material: everything about the pipeline state is a parameter, and the shipped data uses it for screen overlays, user-interface art, decals and anything else with no template of its own.
 
 **Needs** — [`Blender_Screen_SET.h`](Blender_Screen_SET.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`Blender_CLSID.h`](../Blender_CLSID.h.md) · [`HWCaps.h`](../HWCaps.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Blender_Screen_SET.h`](Blender_Screen_SET.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description; the parameter block is a frozen tagged byte stream.
 
 ## Purpose

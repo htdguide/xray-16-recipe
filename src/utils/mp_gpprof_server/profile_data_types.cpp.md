@@ -4,7 +4,7 @@
 
 **Needs** — [`profile_data_types.h`](profile_data_types.h.md) · [`atlas_stalkercoppc_v1.h`](atlas_stalkercoppc_v1.h.md) · [Seam: Multiplayer matchmaking and accounts](../../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`profile_data_types.h`](profile_data_types.h.md); callers name that, not this file.
 
 **Tier floor** — T3: three parallel tables and linear searches over them.
 

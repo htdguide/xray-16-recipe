@@ -4,7 +4,7 @@
 > are allowed to differ.
 
 **Needs** — [`NET_AuthCheck.h`](NET_AuthCheck.h.md) · [`xrCore/LocatorAPI.h`](../xrCore/LocatorAPI.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`NET_AuthCheck.h`](NET_AuthCheck.h.md); callers name that, not this file.
 **Tier floor** — T3: two lists of logical paths and a prefix test. Nothing here is
 performance- or layout-sensitive.
 

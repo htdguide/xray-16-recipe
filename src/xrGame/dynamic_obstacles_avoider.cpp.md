@@ -3,7 +3,7 @@
 > Avoiding other creatures rather than walls: take the navigation cells the traffic registry says are claimed by somebody else, and stand still entirely when the registry has told this creature to wait.
 
 **Needs** — [`dynamic_obstacles_avoider.h`](dynamic_obstacles_avoider.h.md) · [`static_obstacles_avoider.h`](static_obstacles_avoider.h.md) · [`moving_objects.h`](moving_objects.h.md) · [`moving_object.h`](moving_object.h.md) · [`ai_space.h`](ai_space.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`dynamic_obstacles_avoider.h`](dynamic_obstacles_avoider.h.md); callers name that, not this file.
 **Tier floor** — T3: set operations over navigation vertices
 
 ## Purpose

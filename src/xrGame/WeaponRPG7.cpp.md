@@ -3,7 +3,7 @@
 > The rocket launcher: a single-shot weapon whose loaded round is a visible rocket on the model and a real object in the world at the same time.
 
 **Needs** — [`WeaponRPG7.h`](WeaponRPG7.h.md) · [`WeaponCustomPistol.h`](WeaponCustomPistol.h.md) · [`RocketLauncher.h`](RocketLauncher.h.md) · [`ExplosiveRocket.h`](ExplosiveRocket.h.md) · [`player_hud.h`](player_hud.h.md) · [`Level.h`](Level.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponRPG7.h`](WeaponRPG7.h.md); callers name that, not this file.
 **Tier floor** — T2: bone visibility and a launch transform per shot.
 
 ## Purpose

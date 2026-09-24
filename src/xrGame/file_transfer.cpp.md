@@ -4,7 +4,7 @@
 
 **Needs** — [`file_transfer.h`](file_transfer.h.md) · [`filetransfer_node.h`](filetransfer_node.h.md) · [`filereceiver_node.h`](filereceiver_node.h.md) · [`filetransfer_common.h`](filetransfer_common.h.md) · [`Level.h`](Level.h.md) · [`xrServer.h`](xrServer.h.md) · [`xrServerEntities/xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`xrNetServer/NET_Messages.h`](../xrNetServer/NET_Messages.h.md) · [`xrCore/buffer_vector.h`](../xrCore/buffer_vector.h.md) · [`xrUICore/ui_base.h`](../xrUICore/ui_base.h.md) · [`xrEngine/StatGraph.h`](../xrEngine/StatGraph.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport) · [Seam: Debug overlay UI](../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`file_transfer.h`](file_transfer.h.md); callers name that, not this file.
 **Tier floor** — T2: session bookkeeping, timeouts and message dispatch over the transport
 
 ## Purpose

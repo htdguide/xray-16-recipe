@@ -3,7 +3,7 @@
 > The faction a character belongs to, and the shared tables that say how any two factions feel about each other.
 
 **Needs** — [`character_community.h`](character_community.h.md) · [`character_info_defs.h`](../xrServerEntities/character_info_defs.h.md) · [`ini_id_loader.h`](ini_id_loader.h.md) · [`ini_table_loader.h`](ini_table_loader.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`character_community.h`](character_community.h.md); callers name that, not this file.
 **Tier floor** — T3: two square lookup tables loaded from configuration
 
 ## Purpose

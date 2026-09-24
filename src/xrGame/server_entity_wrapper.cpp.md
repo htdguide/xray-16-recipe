@@ -3,7 +3,7 @@
 > Writes and reads one server object as a self-contained two-chunk record, by replaying the network spawn and update messages into a file.
 
 **Needs** — [`server_entity_wrapper.h`](server_entity_wrapper.h.md) · [`xrServerEntities/xrServer_Objects.h`](../xrServerEntities/xrServer_Objects.h.md) · [`xrServerEntities/xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`server_entity_wrapper.h`](server_entity_wrapper.h.md); callers name that, not this file.
 **Tier floor** — T1: byte-exact message framing written into a chunked container
 
 ## Purpose

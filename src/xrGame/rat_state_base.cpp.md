@@ -3,7 +3,7 @@
 > Binds a rat state to its rat.
 
 **Needs** — [`rat_state_base.h`](rat_state_base.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`rat_state_base.h`](rat_state_base.h.md); callers name that, not this file.
 **Tier floor** — T3: one assignment
 
 ## Purpose

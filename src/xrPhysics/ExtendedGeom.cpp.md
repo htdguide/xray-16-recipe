@@ -3,7 +3,7 @@
 > The three shape-payload helpers that cannot be resolved at the point of use.
 
 **Needs** — [`ExtendedGeom.h`](ExtendedGeom.h.md) · [`dcylinder/dCylinder.h`](dcylinder/dCylinder.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ExtendedGeom.h`](ExtendedGeom.h.md); callers name that, not this file.
 **Tier floor** — T1: shape-class identity and pointer unwrapping across the module boundary.
 
 ## Purpose

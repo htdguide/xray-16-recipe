@@ -3,7 +3,7 @@
 > The two operators that carry out what the alife simulation decided off-screen: hold station when there is nothing to do, and travel to the job a smart terrain has assigned.
 
 **Needs** — [`stalker_alife_task_actions.h`](stalker_alife_task_actions.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_base_action.h`](stalker_base_action.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`sight_manager.h`](sight_manager.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`alife_human_brain.h`](../xrServerEntities/alife_human_brain.h.md) · [`alife_smart_terrain_task.h`](alife_smart_terrain_task.h.md) · [`game_location_selector.h`](game_location_selector.h.md) · [`Inventory.h`](Inventory.h.md) · [`Weapon.h`](Weapon.h.md) · [`movement_manager_space.h`](movement_manager_space.h.md) · [`detail_path_manager_space.h`](detail_path_manager_space.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_alife_task_actions.h`](stalker_alife_task_actions.h.md); callers name that, not this file.
 **Tier floor** — T3: parameter assignment plus one two-level routing decision
 
 ## Purpose

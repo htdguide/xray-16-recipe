@@ -3,7 +3,7 @@
 > The announcement mixer: one announcement plays at a time, a more important one cuts off a less important one, and equally important ones queue behind each other.
 
 **Needs** — [`game_cl_mp.h`](game_cl_mp.h.md) · [`game_cl_mp_snd_messages.h`](game_cl_mp_snd_messages.h.md) · [`Level.h`](Level.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`game_cl_mp_snd_messages.h`](game_cl_mp_snd_messages.h.md); callers name that, not this file.
 **Tier floor** — T2: schedules playback against measured sound lengths
 
 ## Purpose

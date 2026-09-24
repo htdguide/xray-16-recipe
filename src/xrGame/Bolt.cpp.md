@@ -3,7 +3,7 @@
 > The bolt: a throwable that is never consumed, used to probe for anomalies.
 
 **Needs** — [`Bolt.h`](Bolt.h.md) · [`Missile.h`](Missile.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/DamageSource.h`](../xrPhysics/DamageSource.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Bolt.h`](Bolt.h.md); callers name that, not this file.
 **Tier floor** — T3: a thrown item with two tuning overrides
 
 ## Purpose

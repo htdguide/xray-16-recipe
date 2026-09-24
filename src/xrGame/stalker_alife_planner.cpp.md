@@ -3,7 +3,7 @@
 > The stalker's default brain: three world properties and three operators covering the only three things a stalker does when nothing is demanding its attention.
 
 **Needs** — [`stalker_alife_planner.h`](stalker_alife_planner.h.md) · [`stalker_alife_actions.h`](stalker_alife_actions.h.md) · [`stalker_alife_task_actions.h`](stalker_alife_task_actions.h.md) · [`stalker_decision_space.h`](stalker_decision_space.h.md) · [`stalker_property_evaluators.h`](stalker_property_evaluators.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`action_planner_action_script.h`](action_planner_action_script.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_alife_planner.h`](stalker_alife_planner.h.md); callers name that, not this file.
 **Tier floor** — T3: a table of preconditions and effects
 
 ## Purpose

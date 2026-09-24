@@ -3,7 +3,7 @@
 > The base class every entity in the game is: the client object's lifecycle from spawn record to destruction, its place in the spatial and scheduling registries, its navigation-graph position, its script binding and its script callback table.
 
 **Needs** — [`GameObject.h`](GameObject.h.md) · [`xrEngine/xr_object.h`](../xrEngine/xr_object.h.md) · [`script_binder.h`](script_binder.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`game_object_space.h`](game_object_space.h.md) · [`Hit.h`](Hit.h.md) · [`Level.h`](Level.h.md) · [`ai_space.h`](ai_space.h.md) · [`ai_obstacle.h`](ai_obstacle.h.md) · [`object_factory.h`](../xrServerEntities/object_factory.h.md) · [`animation_movement_controller.h`](animation_movement_controller.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`magic_box3.h`](magic_box3.h.md) · [`doors.h`](doors.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GameObject.h`](GameObject.h.md); callers name that, not this file.
 **Tier floor** — T2: registry bookkeeping, transform arithmetic and lifecycle ordering; the only T1 pressure is one lock-free per-frame flag and the fact that it is on every entity's hot path
 
 ## Purpose

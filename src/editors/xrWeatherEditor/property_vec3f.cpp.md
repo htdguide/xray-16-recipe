@@ -3,7 +3,7 @@
 > The vector row bound to the engine by a whole-vector getter and setter.
 
 **Needs** — [`property_vec3f.hpp`](property_vec3f.hpp.md) · [`property_vec3f_base.hpp`](property_vec3f_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_vec3f.hpp`](property_vec3f.hpp.md); callers name that, not this file.
 **Tier floor** — T2: owns native callback objects that must be released on a schedule the collector does not choose
 
 ## Purpose

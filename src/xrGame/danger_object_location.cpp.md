@@ -3,7 +3,7 @@
 > A squad warning that follows an object: its position is the object's, it never times out, and it is dropped when that object goes away.
 
 **Needs** — [`danger_object_location.h`](danger_object_location.h.md) · [`GameObject.h`](GameObject.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`danger_object_location.h`](danger_object_location.h.md); callers name that, not this file.
 **Tier floor** — T3: delegation to a bound object
 
 ## Purpose

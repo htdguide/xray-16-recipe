@@ -3,7 +3,7 @@
 > A screen-effect controller that ramps its post-process effect up as the viewer approaches a source and turns it off at the outer edge.
 
 **Needs** — [`pp_effector_distance.h`](pp_effector_distance.h.md) · [`pp_effector_custom.h`](pp_effector_custom.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`pp_effector_distance.h`](pp_effector_distance.h.md); callers name that, not this file.
 **Tier floor** — T3: two configuration reads and one linear interpolation
 
 ## Purpose

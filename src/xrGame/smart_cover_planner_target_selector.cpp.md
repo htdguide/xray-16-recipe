@@ -3,7 +3,7 @@
 > The top of the smart-cover stack: decides whether a creature in a cover should look out, fire, fire blind, or fall back to peaceful behaviour, and tells the script layer every cycle.
 
 **Needs** — [`smart_cover_planner_target_selector.h`](smart_cover_planner_target_selector.h.md) · [`smart_cover_planner_target_provider.h`](smart_cover_planner_target_provider.h.md) · [`smart_cover_default_behaviour_planner.hpp`](smart_cover_default_behaviour_planner.hpp.md) · [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md) · [`smart_cover_evaluators.h`](smart_cover_evaluators.h.md) · [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`stalker_property_evaluators.h`](stalker_property_evaluators.h.md) · [`stalker_decision_space.h`](stalker_decision_space.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_planner_target_selector.h`](smart_cover_planner_target_selector.h.md); callers name that, not this file.
 **Tier floor** — T2: a five-operator plan search per cycle, plus a script call
 
 ## Purpose

@@ -3,7 +3,7 @@
 > A real row that clamps to an authored range on the way out as well as on the way in.
 
 **Needs** — [`property_float_limited.hpp`](property_float_limited.hpp.md) · [`property_float.hpp`](property_float.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_float_limited.hpp`](property_float_limited.hpp.md); callers name that, not this file.
 **Tier floor** — T2: a managed refinement of the accessor-bound real adapter
 
 ## Purpose

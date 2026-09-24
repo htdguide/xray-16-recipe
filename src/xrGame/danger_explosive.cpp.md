@@ -3,7 +3,7 @@
 > The record of one live grenade a creature has noticed, and the rule that lets it be matched by object identifier.
 
 **Needs** — [`danger_explosive.h`](danger_explosive.h.md) · [`GameObject.h`](GameObject.h.md) · [`Explosive.h`](Explosive.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`danger_explosive.h`](danger_explosive.h.md); callers name that, not this file.
 **Tier floor** — T3: an identity comparison
 
 ## Purpose

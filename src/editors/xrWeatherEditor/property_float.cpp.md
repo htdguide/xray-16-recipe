@@ -3,7 +3,7 @@
 > One grid row bound to a real number in the engine by a getter and a setter, plus the step a nudge applies.
 
 **Needs** — [`property_float.hpp`](property_float.hpp.md) · [`property_holder_include.hpp`](property_holder_include.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_float.hpp`](property_float.hpp.md); callers name that, not this file.
 **Tier floor** — T2: owns native callback objects that must be released on a schedule the collector does not choose
 
 ## Purpose

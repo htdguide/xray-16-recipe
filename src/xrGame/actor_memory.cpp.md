@@ -3,7 +3,7 @@
 > The player's vision: what the player has actually seen, computed with the player's own camera, so that scripts and creatures can ask what the human is looking at.
 
 **Needs** — [`actor_memory.h`](actor_memory.h.md) · [`Actor.h`](Actor.h.md) · [`GamePersistent.h`](GamePersistent.h.md) · [`vision_client.h`](vision_client.h.md) · [`xrEngine/CameraBase.h`](../xrEngine/CameraBase.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`actor_memory.h`](actor_memory.h.md); callers name that, not this file.
 **Tier floor** — T2: a frustum and a visibility query per tracked object, on the AI budget
 
 ## Purpose

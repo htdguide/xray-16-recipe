@@ -3,7 +3,7 @@
 > Turns a file the artist picked into a path relative to the asset root, which is the only form the document may hold.
 
 **Needs** — [`property_editor_file_name.hpp`](property_editor_file_name.hpp.md) · [`property_file_name_value.hpp`](property_file_name_value.hpp.md) · [`property_file_name_value_base.hpp`](property_file_name_value_base.hpp.md) · [`property_container.hpp`](property_container.hpp.md) · [Seam: Windowing and input](../../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_editor_file_name.hpp`](property_editor_file_name.hpp.md); callers name that, not this file.
 **Tier floor** — T3: pure presentation; text crosses to the row through its own interface
 
 ## Purpose

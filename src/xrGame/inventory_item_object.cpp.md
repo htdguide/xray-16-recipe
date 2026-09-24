@@ -3,7 +3,7 @@
 > The join between "a thing that can be carried" and "a thing that exists physically in the world" — and the order in which the two halves are told about every event.
 
 **Needs** — [`inventory_item_object.h`](inventory_item_object.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`physic_item.h`](physic_item.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`inventory_item_object.h`](inventory_item_object.h.md); callers name that, not this file.
 **Tier floor** — T2: dispatch ordering across two behaviour mix-ins
 
 ## Purpose

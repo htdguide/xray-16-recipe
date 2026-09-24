@@ -4,7 +4,7 @@
 > preset library.
 
 **Needs** — [`SoundRender_CoreA.h`](SoundRender_CoreA.h.md) · [`Sound.h`](Sound.h.md) · [`SoundRender_Environment.h`](SoundRender_Environment.h.md) · [`Include/xrAPI/xrAPI.h`](../Include/xrAPI/xrAPI.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Sound.h`](Sound.h.md); callers name that, not this file.
 **Tier floor** — T2: lifetime wiring and one file load.
 
 ## Purpose

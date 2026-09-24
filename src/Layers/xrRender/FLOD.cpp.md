@@ -3,7 +3,7 @@
 > Eight billboards around an object, an outward normal per billboard, and a screen-coverage factor derived from how much of the object's bounding sphere the object actually fills — with the draw itself removed.
 
 **Needs** — [`FLOD.h`](FLOD.h.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md) · [`R_DStreams.h`](R_DStreams.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FLOD.h`](FLOD.h.md); callers name that, not this file.
 **Tier floor** — T1: it reads a frozen record as a byte image and declares a vertex layout.
 
 ## Purpose

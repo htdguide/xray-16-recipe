@@ -6,7 +6,7 @@
 > convention, and the two things you can do with them.
 
 **Needs** — [`eulersolver.h`](eulersolver.h.md) · [`jtlimits.h`](jtlimits.h.md) · [`math3d.h`](math3d.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`eulersolver.h`](eulersolver.h.md); callers name that, not this file.
 **Tier floor** — T2. Table lookup and scalar trigonometry.
 
 ## Purpose

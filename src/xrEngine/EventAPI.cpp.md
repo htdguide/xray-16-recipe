@@ -3,7 +3,7 @@
 > A registry of named events with reference-counted identity, immediate or deferred delivery, and a single drain point at the top of every frame.
 
 **Needs** — [`EventAPI.h`](EventAPI.h.md) · [`XR_IOConsole.h`](XR_IOConsole.h.md) · [Seam: Threads, atomics and process services](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EventAPI.h`](EventAPI.h.md); callers name that, not this file.
 **Tier floor** — T2: a lock, a name table and two payload words. Nothing device-facing.
 
 ## Purpose

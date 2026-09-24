@@ -5,7 +5,7 @@
 > not three lines inside the joint-limit solver.
 
 **Needs** — [`aint.h`](aint.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`aint.h`](aint.h.md); callers name that, not this file.
 **Tier floor** — T2. The set allocates a node per interval during a solve and frees them
 at the end of it. That is the one property a rebuild should change — the sets are never
 larger than a handful of entries, so a fixed-capacity array in the caller's frame removes

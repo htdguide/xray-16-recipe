@@ -3,7 +3,7 @@
 > The animation player: motion banks loaded from the shipped animation files, a fixed pool of blends distributed across body parts and channels, the per-bone blend lists, and the sample-dequantize-mix step that turns them into one bone pose.
 
 **Needs** — [`SkeletonAnimated.h`](SkeletonAnimated.h.md) · [`SkeletonCustom.h`](SkeletonCustom.h.md) · [`SkeletonX.h`](SkeletonX.h.md) · [`Animation.h`](Animation.h.md) · [`AnimationKeyCalculate.h`](AnimationKeyCalculate.h.md) · [`KinematicAnimatedDefs.h`](KinematicAnimatedDefs.h.md) · [`xrCore/Animation/SkeletonMotions.hpp`](../../xrCore/Animation/SkeletonMotions.hpp.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md) · [`Include/xrRender/KinematicsAnimated.h`](../../Include/xrRender/KinematicsAnimated.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SkeletonAnimated.h`](SkeletonAnimated.h.md); callers name that, not this file.
 **Tier floor** — T1: animation keys are read as quantized byte images out of a mapped file and dequantized in the inner loop, the blend pool is a fixed preallocated array, and the per-bone blend lists are fixed-capacity inline arrays sized so that a bone's whole list fits in cache.
 
 ## Purpose

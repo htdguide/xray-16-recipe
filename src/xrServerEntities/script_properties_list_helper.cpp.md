@@ -3,7 +3,7 @@
 > Makes a field of a script table editable as if it were a field of a record, by giving the editor a real memory location and keeping it synchronized with the table.
 
 **Needs** — [`script_properties_list_helper.h`](script_properties_list_helper.h.md) · [`script_value_wrapper.h`](script_value_wrapper.h.md) · [`script_value_container_impl.h`](script_value_container_impl.h.md) · [`xrServer_Object_Base.h`](xrServer_Object_Base.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_properties_list_helper.h`](script_properties_list_helper.h.md); callers name that, not this file.
 **Tier floor** — T3.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The entry point of one item's upgrade tree: it reads the item's upgrade declaration, keeps a flat index of everything below it, and resolves the upgrade screen's grid cells.
 
 **Needs** — [`inventory_upgrade_root.h`](inventory_upgrade_root.h.md) · [`inventory_upgrade.h`](inventory_upgrade.h.md) · [`inventory_upgrade_group.h`](inventory_upgrade_group.h.md) · [`inventory_upgrade_base.h`](inventory_upgrade_base.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md) · [`game_type.h`](game_type.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`inventory_upgrade_root.h`](inventory_upgrade_root.h.md); callers name that, not this file.
 **Tier floor** — T3: walks an object graph built from configuration
 
 ## Purpose

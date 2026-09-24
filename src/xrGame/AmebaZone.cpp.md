@@ -3,7 +3,7 @@
 > An anomaly that slows everything living inside it and, when it discharges, throws them upward.
 
 **Needs** — [`AmebaZone.h`](AmebaZone.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`ZoneVisual.h`](ZoneVisual.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`PHMovementControl.h`](PHMovementControl.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`xrPhysics/PHUpdateObject.h`](../xrPhysics/PHUpdateObject.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`AmebaZone.h`](AmebaZone.h.md); callers name that, not this file.
 **Tier floor** — T2: participates in the physics step, before the solve
 
 ## Purpose

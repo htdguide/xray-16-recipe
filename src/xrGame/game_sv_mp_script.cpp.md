@@ -3,7 +3,7 @@
 > Makes the multiplayer server rules subclassable from Lua, and hands scripts the one thing they cannot otherwise reach: the damage numbers inside a hit packet.
 
 **Needs** — [`game_sv_mp_script.h`](game_sv_mp_script.h.md) · [`game_sv_mp.h`](game_sv_mp.h.md) · [`xrServer.h`](xrServer.h.md) · [`Level.h`](Level.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`xrServerEntities/xrServer_script_macroses.h`](../xrServerEntities/xrServer_script_macroses.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`game_sv_mp_script.h`](game_sv_mp_script.h.md); callers name that, not this file.
 **Tier floor** — T1: rewrites floats at fixed byte offsets inside a packet
 
 ## Purpose

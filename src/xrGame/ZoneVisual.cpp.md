@@ -3,7 +3,7 @@
 > An anomaly whose blowout is an animation: it idles on one motion and plays an attack motion at authored offsets within the blowout timeline.
 
 **Needs** — [`ZoneVisual.h`](ZoneVisual.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [`Include/xrRender/RenderVisual.h`](../Include/xrRender/RenderVisual.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ZoneVisual.h`](ZoneVisual.h.md); callers name that, not this file.
 **Tier floor** — T2: motion lookup and timeline comparison
 
 ## Purpose

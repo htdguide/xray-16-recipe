@@ -3,7 +3,7 @@
 > The detail path's lifecycle and its queries: build, validate, report where the follower is, how far is left, and construct the two turning circles a point's heading and speed imply.
 
 **Needs** — [`detail_path_manager.h`](detail_path_manager.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [`GameObject.h`](GameObject.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`detail_path_manager.h`](detail_path_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: plane geometry over a navigation mesh
 
 ## Purpose

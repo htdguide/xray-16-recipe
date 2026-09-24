@@ -3,7 +3,7 @@
 > An empty translation unit: the matchmaking callbacks it was meant to hold live elsewhere.
 
 **Needs** — [`xrGameSpyServer.h`](xrGameSpyServer.h.md) · [`xrGameSpyServer_callbacks.h`](xrGameSpyServer_callbacks.h.md) · [Seam: Multiplayer matchmaking and accounts](../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrGameSpyServer_callbacks.h`](xrGameSpyServer_callbacks.h.md); callers name that, not this file.
 **Tier floor** — T4: contributes no code
 
 ## Purpose

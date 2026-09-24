@@ -3,7 +3,7 @@
 > Which species-group a creature belongs to, and the one square table that answers how any two groups feel about each other.
 
 **Needs** — [`monster_community.h`](monster_community.h.md) · [`ini_id_loader.h`](ini_id_loader.h.md) · [`ini_table_loader.h`](ini_table_loader.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`monster_community.h`](monster_community.h.md); callers name that, not this file.
 **Tier floor** — T3: two configuration-loaded tables and an index
 
 ## Purpose

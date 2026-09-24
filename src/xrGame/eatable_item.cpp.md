@@ -3,7 +3,7 @@
 > Consumable items: a use counter, the condition and booster effects one use applies, a weight that drops as the item is eaten, and the rule for when a spent item leaves the world.
 
 **Needs** — [`eatable_item.h`](eatable_item.h.md) · [`physic_item.h`](physic_item.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`EntityCondition.h`](EntityCondition.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Level.h`](Level.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`ui/UIActorMenu.h`](ui/UIActorMenu.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`eatable_item.h`](eatable_item.h.md); callers name that, not this file.
 **Tier floor** — T3: a counter and a table of effects read from configuration
 
 ## Purpose

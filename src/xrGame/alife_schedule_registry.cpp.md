@@ -3,7 +3,7 @@
 > Membership rules for the offline update rotation: which server objects get an alife tick at all.
 
 **Needs** — [`alife_schedule_registry.h`](alife_schedule_registry.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_schedule_registry.h`](alife_schedule_registry.h.md); callers name that, not this file.
 **Tier floor** — T2: a membership test plus a map insertion
 
 ## Purpose

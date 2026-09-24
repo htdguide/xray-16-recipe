@@ -3,7 +3,7 @@
 > Makes a vector row readable as one line of three numbers and writable the same way, and forces its child rows into axis order.
 
 **Needs** — [`property_converter_vec3f.hpp`](property_converter_vec3f.hpp.md) · [`property_vec3f.hpp`](property_vec3f.hpp.md) · [`property_vec3f_base.hpp`](property_vec3f_base.hpp.md) · [`property_container.hpp`](property_container.hpp.md) · [`property_converter_float.hpp`](property_converter_float.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_converter_vec3f.hpp`](property_converter_vec3f.hpp.md); callers name that, not this file.
 **Tier floor** — T3: pure presentation; the vector crosses by value through the row's own interface
 
 ## Purpose

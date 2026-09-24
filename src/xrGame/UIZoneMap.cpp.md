@@ -3,7 +3,7 @@
 > The minimap: a rotating slice of the level's map texture under a fixed centre mark, with a compass, a clock and a contacts counter.
 
 **Needs** — [`UIZoneMap.h`](UIZoneMap.h.md) · [`ui/UIMap.h`](ui/UIMap.h.md) · [`ui/UIHelper.h`](ui/UIHelper.h.md) · [`ui/UIInventoryUtilities.h`](ui/UIInventoryUtilities.h.md) · [`Actor.h`](Actor.h.md) · [`PDA.h`](PDA.h.md) · [`Level.h`](Level.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIZoneMap.h`](UIZoneMap.h.md); callers name that, not this file.
 **Tier floor** — T3: transform bookkeeping over a widget tree; the sub-level lookup is data-driven.
 
 ## Purpose

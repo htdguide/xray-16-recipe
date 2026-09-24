@@ -3,7 +3,7 @@
 > The base every thinking creature is built on: it owns the senses, the memory, the movement and the sound player, splits the frame between a slow thinking tick and a fast presentation tick, and interpolates the creature's visible pose from a queue of past states.
 
 **Needs** — [`CustomMonster.h`](CustomMonster.h.md) · [`CustomMonster_inline.h`](CustomMonster_inline.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`script_entity.h`](script_entity.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`sound_memory_manager.h`](sound_memory_manager.h.md) · [`enemy_manager.h`](enemy_manager.h.md) · [`item_manager.h`](item_manager.h.md) · [`danger_manager.h`](danger_manager.h.md) · [`movement_manager.h`](movement_manager.h.md) · [`detail_path_manager.h`](detail_path_manager.h.md) · [`sound_player.h`](sound_player.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`EntityCondition.h`](EntityCondition.h.md) · [`moving_object.h`](moving_object.h.md) · [`Level.h`](Level.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`GamePersistent.h`](GamePersistent.h.md) · [Seam: Threads, atomics and process services](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CustomMonster.h`](CustomMonster.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame vector and angle work, a bounded state queue, and worker-thread dispatch
 
 ## Purpose

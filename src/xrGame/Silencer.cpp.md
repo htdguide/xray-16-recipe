@@ -3,7 +3,7 @@
 > The silencer attachment: an inventory item with an explicit, fully empty lifecycle.
 
 **Needs** — [`Silencer.h`](Silencer.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Silencer.h`](Silencer.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identifier with a name
 
 ## Purpose

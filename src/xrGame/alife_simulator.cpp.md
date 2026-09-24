@@ -3,7 +3,7 @@
 > The alife simulation's top object: constructing it starts a game, destroying it ends one.
 
 **Needs** — [`alife_simulator.h`](alife_simulator.h.md) · [`alife_update_manager.h`](alife_update_manager.h.md) · [`alife_interaction_manager.h`](alife_interaction_manager.h.md) · [`alife_simulator_base.h`](alife_simulator_base.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`ai_space.h`](ai_space.h.md) · [`object_factory.h`](../xrServerEntities/object_factory.h.md) · [`xrEngine/IGame_Persistent.h`](../xrEngine/IGame_Persistent.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_simulator.h`](alife_simulator.h.md); callers name that, not this file.
 **Tier floor** — T2: startup sequencing, a small cache of open files
 
 ## Purpose

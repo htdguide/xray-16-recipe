@@ -3,7 +3,7 @@
 > Constructs the Vintorez silenced sniper rifle as a magazine-fed weapon that reports itself to the sound-perception layer as a sniper rifle.
 
 **Needs** — [`WeaponVintorez.h`](WeaponVintorez.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponVintorez.h`](WeaponVintorez.h.md); callers name that, not this file.
 **Tier floor** — T3: one constant choice
 
 ## Purpose

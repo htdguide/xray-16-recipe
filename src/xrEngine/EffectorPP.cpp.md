@@ -3,7 +3,7 @@
 > The default post-process effector: count down, contribute nothing.
 
 **Needs** — [`EffectorPP.h`](EffectorPP.h.md) · [`CameraManager.h`](CameraManager.h.md) · [`device.h`](device.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EffectorPP.h`](EffectorPP.h.md); callers name that, not this file.
 **Tier floor** — T3.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > What a walking human does about a world that moves: wait for a door, stop for someone in the way, replan around something that appeared, and give up quietly for a second when no path exists.
 
 **Needs** — [`stalker_movement_manager_obstacles.h`](stalker_movement_manager_obstacles.h.md) · [`stalker_movement_manager_space.h`](stalker_movement_manager_space.h.md) · [`restricted_object_obstacle.h`](restricted_object_obstacle.h.md) · [`level_path_manager.h`](level_path_manager.h.md) · [`detail_path_manager.h`](detail_path_manager.h.md) · [`level_path_builder.h`](level_path_builder.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`doors_actor.h`](doors_actor.h.md) · [`doors_manager.h`](doors_manager.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_movement_manager_obstacles.h`](stalker_movement_manager_obstacles.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame obstacle queries plus a trial graph search under a mask
 
 ## Purpose

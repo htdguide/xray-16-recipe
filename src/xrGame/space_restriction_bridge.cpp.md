@@ -3,7 +3,7 @@
 > The indirection cell every restriction is held through, so that a named restrictor can be swapped from a not-yet-spawned placeholder to real geometry without invalidating anybody's handle — plus the two boundary tests that need the border's spatial sort order.
 
 **Needs** — [`space_restriction_bridge.h`](space_restriction_bridge.h.md) · [`space_restriction_bridge_inline.h`](space_restriction_bridge_inline.h.md) · [`space_restriction_base.h`](space_restriction_base.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`space_restriction_bridge.h`](space_restriction_bridge.h.md); callers name that, not this file.
 **Tier floor** — T2: a binary search over a sorted vertex list plus delegation
 
 ## Purpose

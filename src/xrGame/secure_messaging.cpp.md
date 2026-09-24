@@ -3,7 +3,7 @@
 > Obfuscates network message payloads with a seed-derived keystream chained against the previous word, and returns a plaintext checksum as the tamper check.
 
 **Needs** — [`secure_messaging.h`](secure_messaging.h.md) · [`xrCore/_random.h`](../xrCore/_random.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`secure_messaging.h`](secure_messaging.h.md); callers name that, not this file.
 **Tier floor** — T1: in-place word-width transform over a byte buffer, including a partial trailing word
 
 ## Purpose

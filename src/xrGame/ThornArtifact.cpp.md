@@ -3,7 +3,7 @@
 > The "thorn" artefact: a named artefact type with no behaviour of its own.
 
 **Needs** — [`ThornArtifact.h`](ThornArtifact.h.md) · [`Artefact.h`](Artefact.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ThornArtifact.h`](ThornArtifact.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identifier with a name
 
 ## Purpose

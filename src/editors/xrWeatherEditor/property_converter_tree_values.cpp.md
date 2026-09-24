@@ -3,7 +3,7 @@
 > One answer: no, this row cannot be typed into.
 
 **Needs** — [`property_converter_tree_values.hpp`](property_converter_tree_values.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_converter_tree_values.hpp`](property_converter_tree_values.hpp.md); callers name that, not this file.
 **Tier floor** — T3: pure presentation; it never touches engine memory
 
 ## Purpose

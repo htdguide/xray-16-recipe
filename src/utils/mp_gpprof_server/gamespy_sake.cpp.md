@@ -4,7 +4,7 @@
 
 **Needs** — [`gamespy_sake.h`](gamespy_sake.h.md) · [`profile_data_types.h`](profile_data_types.h.md) · [`atlas_stalkercoppc_v1.h`](atlas_stalkercoppc_v1.h.md) · [Seam: Multiplayer matchmaking and accounts](../../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`gamespy_sake.h`](gamespy_sake.h.md); callers name that, not this file.
 
 **Tier floor** — T1 as written: it fills a fixed-layout request record, hands the vendor library pointers into text it continues to own, and uses a fixed-width secret buffer. The protocol shape underneath is T2.
 

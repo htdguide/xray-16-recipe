@@ -3,7 +3,7 @@
 > The level's door registry: a spatial index of every door, and the query that hands one creature the doors it is about to have an opinion about.
 
 **Needs** — [`doors_manager.h`](doors_manager.h.md) · [`doors_door.h`](doors_door.h.md) · [`doors_actor.h`](doors_actor.h.md) · [`GameObject.h`](GameObject.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`doors_manager.h`](doors_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: a spatial query and delegation
 
 ## Purpose

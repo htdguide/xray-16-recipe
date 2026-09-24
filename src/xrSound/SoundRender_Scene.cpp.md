@@ -4,7 +4,7 @@
 > queries, the play entry points, and the queue that feeds the AI's hearing sense.
 
 **Needs** — [`SoundRender_Scene.h`](SoundRender_Scene.h.md) · [`SoundRender_Core.h`](SoundRender_Core.h.md) · [`SoundRender_Emitter.h`](SoundRender_Emitter.h.md) · [`SoundRender_Environment.h`](SoundRender_Environment.h.md) · [`Common/LevelStructure.hpp`](../Common/LevelStructure.hpp.md) · [`xrCDB/Intersect.hpp`](../xrCDB/Intersect.hpp.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_Scene.h`](SoundRender_Scene.h.md); callers name that, not this file.
 **Tier floor** — T1: it reads two level files as memory images, rewriting triangle payload words in
 place and reinterpreting a stored word's bits as a real.
 

@@ -3,7 +3,7 @@
 > The transition from a walking character to a falling body: while alive the creature is an upright capsule steered by its movement controller, and on death it becomes a ragdoll built from its own skeleton — with an optional death animation driving the joints on the way down.
 
 **Needs** — [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`PHMovementControl.h`](PHMovementControl.h.md) · [`PHSkeleton.h`](PHSkeleton.h.md) · [`PHDestroyable.h`](PHDestroyable.h.md) · [`PHSoundPlayer.h`](PHSoundPlayer.h.md) · [`character_hit_animations.h`](character_hit_animations.h.md) · [`death_anims.h`](death_anims.h.md) · [`character_shell_control.h`](character_shell_control.h.md) · [`IKLimbsController.h`](IKLimbsController.h.md) · [`imotion_position.h`](imotion_position.h.md) · [`imotion_velocity.h`](imotion_velocity.h.md) · [`interactive_animation.h`](interactive_animation.h.md) · [`animation_movement_controller.h`](animation_movement_controller.h.md) · [`ActivatingCharCollisionDelay.h`](ActivatingCharCollisionDelay.h.md) · [`Actor.h`](Actor.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`Inventory.h`](Inventory.h.md) · [`Hit.h`](Hit.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md); callers name that, not this file.
 **Tier floor** — T1: it drives the rigid-body library directly, including stepping the world by hand
 
 ## Purpose

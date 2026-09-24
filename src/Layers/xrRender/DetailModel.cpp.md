@@ -3,7 +3,7 @@
 > Loads one grass model and stamps transformed copies of it into a shared draw buffer, two indices at a time.
 
 **Needs** — [`DetailModel.h`](DetailModel.h.md) · [`DetailFormat.h`](DetailFormat.h.md) · [`xrStripify.h`](xrStripify.h.md) · [`Shader.h`](Shader.h.md) · [`HWCaps.h`](HWCaps.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`DetailModel.h`](DetailModel.h.md); callers name that, not this file.
 **Tier floor** — T1: `transfer` writes vertex and index records into a mapped device buffer and rewrites the index loop to move two 16-bit indices per 32-bit operation.
 
 ## Purpose

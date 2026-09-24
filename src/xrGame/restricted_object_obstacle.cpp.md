@@ -3,7 +3,7 @@
 > Masks the navigation vertices blocked by other objects out of the graph for the duration of one path — while never masking the path's own endpoints.
 
 **Needs** — [`restricted_object_obstacle.h`](restricted_object_obstacle.h.md) · [`obstacles_query.h`](obstacles_query.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`restricted_object_obstacle.h`](restricted_object_obstacle.h.md); callers name that, not this file.
 **Tier floor** — T2: a linear pass over two blocked-vertex sets per border operation
 
 ## Purpose

@@ -3,7 +3,7 @@
 > How a record's model reference and its animation clip name are normalized, stored and serialized.
 
 **Needs** — [`xrServer_Objects_Abstract.h`](xrServer_Objects_Abstract.h.md) · [`xrMessages.h`](xrMessages.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrServer_Objects_Abstract.h`](xrServer_Objects_Abstract.h.md); callers name that, not this file.
 **Tier floor** — T1: it defines two on-disk field groups.
 
 ## Purpose

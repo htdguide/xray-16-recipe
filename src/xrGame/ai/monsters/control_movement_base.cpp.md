@@ -3,7 +3,7 @@
 > The default driver of the movement channel, and the owner of the creature's authored speed table — the ten named gaits every creature is tuned with.
 
 **Needs** — [`control_movement_base.h`](control_movement_base.h.md) · [`control_movement.h`](control_movement.h.md) · [`control_animation_base.h`](control_animation_base.h.md) · [`control_direction_base.h`](control_direction_base.h.md) · [`control_path_builder.h`](control_path_builder.h.md) · [`monster_velocity_space.h`](monster_velocity_space.h.md) · [`detail_path_manager.h`](../../detail_path_manager.h.md) · [Seam: Configuration](../../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_movement_base.h`](control_movement_base.h.md); callers name that, not this file.
 **Tier floor** — T3: reads a table from configuration and publishes one number per frame
 
 ## Purpose

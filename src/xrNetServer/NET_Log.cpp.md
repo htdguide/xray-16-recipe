@@ -4,7 +4,7 @@
 > size, buffered and flushed in batches.
 
 **Needs** — [`NET_Log.h`](NET_Log.h.md) · [`xrCore/net_utils.h`](../xrCore/net_utils.h.md) · [Seam: Threads](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`NET_Log.h`](NET_Log.h.md); callers name that, not this file.
 **Tier floor** — T3: it appends formatted lines to a file. It reads a message's first two
 bytes directly, which a rebuild would express as "read the type field".
 

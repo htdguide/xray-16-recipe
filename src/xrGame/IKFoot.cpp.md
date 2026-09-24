@@ -3,7 +3,7 @@
 > One foot's geometry and its ground contact: where the toe and heel are, which way the sole faces, and what rotation and shift of the leg's last bone would put the foot flat on the surface under it.
 
 **Needs** — [`IKFoot.h`](IKFoot.h.md) · [`IKFoot_inl.h`](IKFoot_inl.h.md) · [`ik_calculate_data.h`](ik_calculate_data.h.md) · [`ik_foot_collider.h`](ik_foot_collider.h.md) · [`ik_collide_data.h`](ik_collide_data.h.md) · [`GameObject.h`](GameObject.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrCore/Animation/Bone.hpp`](../xrCore/Animation/Bone.hpp.md) · [`xrEngine/EnnumerateVertices.h`](../xrEngine/EnnumerateVertices.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`IKFoot.h`](IKFoot.h.md); callers name that, not this file.
 **Tier floor** — T2: vector and plane geometry over a mesh's bind pose; nothing device-facing
 
 ## Purpose

@@ -3,7 +3,7 @@
 > One damage event, as it travels from the thing that caused it to the thing that receives it — and, unchanged, across the network.
 
 **Needs** — [`Hit.h`](Hit.h.md) · [`alife_space.h`](../xrServerEntities/alife_space.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`Level.h`](Level.h.md) · [`xrCore/Animation/Bone.hpp`](../xrCore/Animation/Bone.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Hit.h`](Hit.h.md); callers name that, not this file.
 **Tier floor** — T1: the wire encoding is a frozen bit-packed layout with quantized directions and conditional fields
 
 ## Purpose

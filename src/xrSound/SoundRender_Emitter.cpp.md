@@ -4,7 +4,7 @@
 > mid-sound asset swap, and the AI hearing event.
 
 **Needs** — [`SoundRender_Emitter.h`](SoundRender_Emitter.h.md) · [`SoundRender_Core.h`](SoundRender_Core.h.md) · [`SoundRender_Scene.h`](SoundRender_Scene.h.md) · [`SoundRender_Source.h`](SoundRender_Source.h.md) · [`xrCore/Threading/TaskManager.hpp`](../xrCore/Threading/TaskManager.hpp.md) · [Seam: Audio and video codecs](../../SYSTEM-REQUIREMENTS.md#seam-audio-and-video-codecs)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_Emitter.h`](SoundRender_Emitter.h.md); callers name that, not this file.
 **Tier floor** — T1: it hands raw PCM block pointers to the device seam and sizes them in bytes;
 the layout of those bytes is the device's, not the language's.
 

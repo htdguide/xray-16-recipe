@@ -3,7 +3,7 @@
 > Repopulation: work out which authored spawn records have no live entity, run the spawn walk over them, and instantiate what comes back.
 
 **Needs** — [`alife_surge_manager.h`](alife_surge_manager.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`alife_spawn_registry.h`](alife_spawn_registry.h.md) · [`alife_time_manager.h`](alife_time_manager.h.md) · [`alife_graph_registry.h`](alife_graph_registry.h.md) · [`alife_schedule_registry.h`](alife_schedule_registry.h.md) · [`alife_simulator_header.h`](alife_simulator_header.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/graph_engine.h`](../xrAICore/Navigation/graph_engine.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_surge_manager.h`](alife_surge_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: a sweep over the object registry plus the spawn walk
 
 ## Purpose

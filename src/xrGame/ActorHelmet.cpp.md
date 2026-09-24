@@ -3,7 +3,7 @@
 > The helmet: a worn item that reduces incoming damage per bone and per damage type, and whose damage formula differs depending on which of the three games' data it came from.
 
 **Needs** — [`ActorHelmet.h`](ActorHelmet.h.md) · [`BoneProtections.h`](BoneProtections.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md) · [`Actor.h`](Actor.h.md) · [`Inventory.h`](Inventory.h.md) · [`Torch.h`](Torch.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ActorHelmet.h`](ActorHelmet.h.md); callers name that, not this file.
 **Tier floor** — T2: participates in the damage path and in the network state export
 
 ## Purpose

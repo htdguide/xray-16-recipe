@@ -3,7 +3,7 @@
 > The game layer's per-frame heartbeat: it owns the loaded level's managers, drains the network event queue, runs correction prediction, and drives every subsystem once per frame in a fixed order.
 
 **Needs** — [`Level.h`](Level.h.md) · [`Level_Bullet_Manager.h`](Level_Bullet_Manager.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`NET_Queue.h`](NET_Queue.h.md) · [`HUDManager.h`](HUDManager.h.md) · [`player_hud.h`](player_hud.h.md) · [`map_manager.h`](map_manager.h.md) · [`GametaskManager.h`](GametaskManager.h.md) · [`level_sounds.h`](level_sounds.h.md) · [`space_restriction_manager.h`](space_restriction_manager.h.md) · [`client_spawn_manager.h`](client_spawn_manager.h.md) · [`autosave_manager.h`](autosave_manager.h.md) · [`seniority_hierarchy_holder.h`](seniority_hierarchy_holder.h.md) · [`ai_space.h`](ai_space.h.md) · [`Actor.h`](Actor.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`xrEngine/IGame_Level.h`](../xrEngine/IGame_Level.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [`xrPhysics/PHCommander.h`](../xrPhysics/PHCommander.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Compression](../../SYSTEM-REQUIREMENTS.md#seam-compression)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Level.h`](Level.h.md); callers name that, not this file.
 **Tier floor** — T1: a fixed-rate frame loop with a hard tail, driving physics, script and network in one thread
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Defines the game module's one shared pseudo-random generator instance.
 
 **Needs** — [`Random.hpp`](Random.hpp.md) · [`xrCore/Math/Random32.hpp`](../xrCore/Math/Random32.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Random.hpp`](Random.hpp.md); callers name that, not this file.
 **Tier floor** — T3: one global object
 
 ## Purpose

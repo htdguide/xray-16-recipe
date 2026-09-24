@@ -3,7 +3,7 @@
 > Every debug and editor shape the engine can draw: five preloaded meshes reused for everything solid, a dynamic line stream for everything else, and a triangle batch that flushes when it fills.
 
 **Needs** — [`D3DUtils.h`](D3DUtils.h.md) · [`du_box.h`](du_box.h.md) · [`du_sphere.h`](du_sphere.h.md) · [`du_sphere_part.h`](du_sphere_part.h.md) · [`du_cone.h`](du_cone.h.md) · [`du_cylinder.h`](du_cylinder.h.md) · [`R_DStreams.h`](R_DStreams.h.md) · [`xrEngine/GameFont.h`](../../xrEngine/GameFont.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`D3DUtils.h`](D3DUtils.h.md); callers name that, not this file.
 **Tier floor** — T1: it writes vertex records into mapped device memory through a moving pointer and sets rasterizer state directly.
 
 ## Purpose

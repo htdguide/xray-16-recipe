@@ -3,7 +3,7 @@
 > The file-naming row, bound to an interned-text slot.
 
 **Needs** — [`property_file_name_value_shared_str.hpp`](property_file_name_value_shared_str.hpp.md) · [`property_string_shared_str.hpp`](property_string_shared_str.hpp.md) · [`property_file_name_value_base.hpp`](property_file_name_value_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_file_name_value_shared_str.hpp`](property_file_name_value_shared_str.hpp.md); callers name that, not this file.
 **Tier floor** — T2: a managed refinement over an engine-owned interned-text handle
 
 ## Purpose

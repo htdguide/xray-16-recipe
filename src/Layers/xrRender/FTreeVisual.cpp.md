@@ -3,7 +3,7 @@
 > Wind as four shader constants shared by every tree in the frame, lighting as a per-model scale and bias, and a placement transform that keeps the quantized vertices honest.
 
 **Needs** — [`FTreeVisual.h`](FTreeVisual.h.md) · [`xrEngine/Environment.h`](../../xrEngine/Environment.h.md) · [`R_Backend_tree.h`](R_Backend_tree.h.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FTreeVisual.h`](FTreeVisual.h.md); callers name that, not this file.
 **Tier floor** — T1: it writes named shader constants per draw and reads a frozen record as a byte image.
 
 ## Purpose

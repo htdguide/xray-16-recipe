@@ -3,7 +3,7 @@
 > One conversation: a graph of phrases, two speakers taking strict turns, and the rules that decide which replies are offered next.
 
 **Needs** — [`PhraseDialog.h`](PhraseDialog.h.md) · [`Phrase.h`](Phrase.h.md) · [`PhraseDialogManager.h`](PhraseDialogManager.h.md) · [`PhraseScript.h`](PhraseScript.h.md) · [`GameObject.h`](GameObject.h.md) · [`Actor.h`](Actor.h.md) · [`xrAICore/Navigation/graph_abstract.h`](../xrAICore/Navigation/graph_abstract.h.md) · [`xml_str_id_loader.h`](../xrServerEntities/xml_str_id_loader.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PhraseDialog.h`](PhraseDialog.h.md); callers name that, not this file.
 **Tier floor** — T3: graph walking and script dispatch
 
 ## Purpose

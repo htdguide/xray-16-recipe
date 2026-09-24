@@ -3,7 +3,7 @@
 > The game clock: an in-world calendar that advances at a configurable multiple of real time, with the multiplier changeable mid-game without the clock jumping.
 
 **Needs** — [`alife_time_manager.h`](alife_time_manager.h.md) · [`date_time.h`](date_time.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_time_manager.h`](alife_time_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: an affine map from the device clock, persisted
 
 ## Purpose

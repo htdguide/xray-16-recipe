@@ -3,7 +3,7 @@
 > Declares the server's persistent ban list implemented in [`cdkey_ban_list.cpp`](cdkey_ban_list.cpp.md).
 
 **Needs** — [`xrServer.h`](xrServer.h.md)
-**Used by** — [`cdkey_ban_list.cpp`](cdkey_ban_list.cpp.md) · [`console_commands_mp.cpp`](console_commands_mp.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md)
+**Used by** — [`cdkey_ban_list.cpp`](cdkey_ban_list.cpp.md) · [`console_commands_mp.cpp`](console_commands_mp.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md) · [`game_sv_mp.h`](game_sv_mp.h.md)
 **Tier floor** — T3: a declaration
 
 ## Purpose

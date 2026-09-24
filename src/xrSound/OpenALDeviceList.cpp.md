@@ -3,7 +3,7 @@
 > Enumerate the machine's audio output devices, record what each can do, and choose one.
 
 **Needs** — [`OpenALDeviceList.h`](OpenALDeviceList.h.md) · [`SoundRender_Core.h`](SoundRender_Core.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`OpenALDeviceList.h`](OpenALDeviceList.h.md); callers name that, not this file.
 **Tier floor** — T1: it walks a double-null-terminated string list the device API returns.
 
 ## Purpose

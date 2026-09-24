@@ -3,7 +3,7 @@
 > The registry's lifecycle: fill the table at construction, publish it to scripts at init, destroy the entries at teardown.
 
 **Needs** — [`object_factory.h`](object_factory.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`object_factory.h`](object_factory.h.md); callers name that, not this file.
 **Tier floor** — T2: ownership and ordering of a table of constructors.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The multiplayer player object: the player character with camera freedom removed, death forced, remote-view smoothing applied, and one extra server-driven event.
 
 **Needs** — [`actor_mp_client.h`](actor_mp_client.h.md) · [`Actor.h`](Actor.h.md) · [`ActorCondition.h`](ActorCondition.h.md) · [`eatable_item.h`](eatable_item.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`Level.h`](Level.h.md) · [`xrEngine/CameraBase.h`](../xrEngine/CameraBase.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`actor_mp_client.h`](actor_mp_client.h.md); callers name that, not this file.
 **Tier floor** — T2: per-event logic on the client object
 
 ## Purpose

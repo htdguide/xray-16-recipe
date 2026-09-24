@@ -3,7 +3,7 @@
 > The "zuda" artefact: an artefact leaf with no behaviour beyond its class identifier and its configuration section.
 
 **Needs** — [`ZudaArtifact.h`](ZudaArtifact.h.md) · [`Artefact.h`](Artefact.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ZudaArtifact.h`](ZudaArtifact.h.md); callers name that, not this file.
 **Tier floor** — T3: pure delegation
 
 ## Purpose

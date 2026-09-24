@@ -3,7 +3,7 @@
 > Build scaffolding: the precompiled header's translation unit.
 
 **Needs** — [`stdafx.h`](stdafx.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stdafx.h`](stdafx.h.md); callers name that, not this file.
 **Tier floor** — T4: it decides nothing.
 
 ## Purpose

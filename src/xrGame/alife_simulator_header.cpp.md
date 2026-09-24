@@ -3,7 +3,7 @@
 > The save file's version stamp: written first, checked before anything else is read, and the reason a mismatched save is refused rather than guessed at.
 
 **Needs** — [`alife_simulator_header.h`](alife_simulator_header.h.md) · [`alife_space.h`](../xrServerEntities/alife_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_simulator_header.h`](alife_simulator_header.h.md); callers name that, not this file.
 **Tier floor** — T2: a single integer in its own chunk
 
 ## Purpose

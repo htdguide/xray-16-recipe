@@ -3,7 +3,7 @@
 > Loads a camera's authored rotation limits and reports how close an angle is to one.
 
 **Needs** — [`CameraBase.h`](CameraBase.h.md) · [`IGame_Level.h`](IGame_Level.h.md) · [Configuration format](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CameraBase.h`](CameraBase.h.md); callers name that, not this file.
 **Tier floor** — T3: configuration reads and scalar arithmetic.
 
 ## Purpose

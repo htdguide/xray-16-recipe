@@ -3,7 +3,7 @@
 > The artefact that is the objective in capture-the-artefact: it refuses to be used by the wrong team and re-anchors itself at its home point when carried back to base.
 
 **Needs** — [`cta_game_artefact.h`](cta_game_artefact.h.md) · [`cta_game_artefact_activation.h`](cta_game_artefact_activation.h.md) · [`Artefact.h`](Artefact.h.md) · [`game_cl_capture_the_artefact.h`](game_cl_capture_the_artefact.h.md) · [`game_base.h`](game_base.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`cta_game_artefact.h`](cta_game_artefact.h.md); callers name that, not this file.
 **Tier floor** — T2: a subclass whose decisions are game-rule tests; the only hard edge is the event packet it composes
 
 ## Purpose

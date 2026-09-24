@@ -3,7 +3,7 @@
 > The deferred resolve: the material that reads every g-buffer channel plus the accumulated lighting and turns them into a lit image, and the four variants that composite bloom and distortion on top of it.
 
 **Needs** — [`blender_combine.h`](blender_combine.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`r2_types.h`](../../xrRender_R2/r2_types.h.md) · [Seam: Graphics device](../../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`blender_combine.h`](blender_combine.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description with no parameter block and no data-driven identity.
 
 ## Purpose

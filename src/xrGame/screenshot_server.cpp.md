@@ -3,7 +3,7 @@
 > Demands a screenshot or a configuration dump from one client and forwards it to the administrator who asked, starting the forward leg before the download has finished.
 
 **Needs** — [`screenshot_server.h`](screenshot_server.h.md) · [`file_transfer.h`](file_transfer.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`Level.h`](Level.h.md) · [`xrServer.h`](xrServer.h.md) · [`game_sv_base.h`](game_sv_base.h.md) · [`game_cl_mp.h`](game_cl_mp.h.md) · [`xrNetServer/NET_Messages.h`](../xrNetServer/NET_Messages.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`screenshot_server.h`](screenshot_server.h.md); callers name that, not this file.
 **Tier floor** — T2: two chained streamed transfers driven by callbacks
 
 ## Purpose

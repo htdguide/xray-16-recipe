@@ -3,7 +3,7 @@
 > One outbound transfer: four kinds of source behind one reading interface, plus the adaptive chunk size that decides how much goes out per update.
 
 **Needs** — [`filetransfer_node.h`](filetransfer_node.h.md) · [`filetransfer_common.h`](filetransfer_common.h.md) · [`Level.h`](Level.h.md) · [`xrGame/xrServer.h`](xrServer.h.md) · [`xrCore/buffer_vector.h`](../xrCore/buffer_vector.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`filetransfer_node.h`](filetransfer_node.h.md); callers name that, not this file.
 **Tier floor** — T1: sources are read as raw byte ranges straight into a packet, with a stack scratch buffer and a hard packet-size limit
 
 ## Purpose

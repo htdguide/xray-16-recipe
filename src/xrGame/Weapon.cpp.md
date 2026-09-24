@@ -3,7 +3,7 @@
 > The base of every weapon: what a weapon is made of (a magazine of cartridges, up to three attachable addons, a zoom rig, a wear level), where its muzzle is this frame, and the lifecycle that carries all of it through spawn, save, network and destruction.
 
 **Needs** — [`Weapon.h`](Weapon.h.md) · [`ShootingObject.h`](ShootingObject.h.md) · [`hud_item_object.h`](hud_item_object.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`firedeps.h`](firedeps.h.md) · [`CameraRecoil.h`](CameraRecoil.h.md) · [`first_bullet_controller.h`](first_bullet_controller.h.md) · [`Inventory.h`](Inventory.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Actor.h`](Actor.h.md) · [`ActorEffector.h`](ActorEffector.h.md) · [`Torch.h`](Torch.h.md) · [`WeaponBinocularsVision.h`](WeaponBinocularsVision.h.md) · [`Level.h`](Level.h.md) · [`GamePersistent.h`](GamePersistent.h.md) · [`player_hud.h`](player_hud.h.md) · [`xrServer_Objects_ALife_Items.h`](../xrServerEntities/xrServer_Objects_ALife_Items.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Weapon.h`](Weapon.h.md); callers name that, not this file.
 **Tier floor** — T2: game logic over bones and matrices. Two things stop it going higher: the network export/import is a frozen bit-packed layout, and the per-frame fire-point recomputation is on the hot path for every visible weapon.
 
 ## Purpose

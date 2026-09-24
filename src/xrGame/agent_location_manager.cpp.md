@@ -3,7 +3,7 @@
 > The squad's shared opinion of places: which spots are dangerous and for how long, and which cover point a member may claim without crowding a comrade.
 
 **Needs** — [`agent_location_manager.h`](agent_location_manager.h.md) · [`agent_manager.h`](agent_manager.h.md) · [`agent_member_manager.h`](agent_member_manager.h.md) · [`agent_enemy_manager.h`](agent_enemy_manager.h.md) · [`danger_location.h`](danger_location.h.md) · [`cover_point.h`](cover_point.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`agent_location_manager.h`](agent_location_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: per-cover-point scoring inside the AI's frame budget
 
 ## Purpose

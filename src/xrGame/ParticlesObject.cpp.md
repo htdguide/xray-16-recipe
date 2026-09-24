@@ -3,7 +3,7 @@
 > One playing particle effect as a world entity: a renderer-owned emitter wrapped in a scheduled, spatially indexed object that can end itself.
 
 **Needs** — [`ParticlesObject.h`](ParticlesObject.h.md) · [`xrEngine/PS_instance.h`](../xrEngine/PS_instance.h.md) · [`xrEngine/IGame_Persistent.h`](../xrEngine/IGame_Persistent.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ParticlesObject.h`](ParticlesObject.h.md); callers name that, not this file.
 **Tier floor** — T2: hands a renderer-owned emitter a millisecond delta and a transform; no layout or lifetime constraint of its own beyond ordered release of the visual
 
 ## Purpose

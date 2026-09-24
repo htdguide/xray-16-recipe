@@ -3,7 +3,7 @@
 > Maintains "which entities are inside my radius right now", with enter and leave edges and a temporary exclusion list.
 
 **Needs** — [`Feel_Touch.h`](Feel_Touch.h.md) · [`IGame_Level.h`](IGame_Level.h.md) · [`xr_object.h`](xr_object.h.md) · [`device.h`](device.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Feel_Touch.h`](Feel_Touch.h.md); callers name that, not this file.
 **Tier floor** — T2: a spatial query and two set differences.
 
 ## Purpose

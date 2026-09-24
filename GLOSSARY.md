@@ -28,8 +28,19 @@ save game writes back, which is why the entity serialization contract is frozen.
 **Alife** — the simulation of the *whole* world, including the parts nobody is looking at.
 Creatures, items and events outside the loaded level are advanced at a coarse rate on the
 cross-level graph; when one crosses into the loaded level it is promoted to a fully
-simulated object, and demoted again on the way out. This is the series' signature
-mechanic and the source of most of its state-management complexity. Also written A-Life.
+simulated object, and demoted again on the way out. This is the series' signature mechanic
+and the source of most of its state-management complexity. Also written A-Life.
+
+**What actually runs is narrower than the reputation**, and a rebuilder should know it
+before scoping the work. In this codebase the offline half advances exactly three things:
+an entity's travel along game-graph edges toward a job assigned by a *smart terrain*,
+group population changes (births), and corpse reaping. The offline **combat**,
+**communication** and **trade** managers exist as constructors with their entire bodies
+commented out, and free offline wandering — an entity choosing its own destination — is
+likewise disabled. So an offline creature is not living a life; it is walking to a job or
+standing still. Chapter 23's twins mark each disabled manager in place. A rebuild is free
+to implement the richer simulation the mechanic is famous for, but that is *new work*, not
+reconstruction, and nothing in the shipped data depends on it.
 
 **Online** and **offline** — the two states of an alife entity. *Online* means promoted to
 a live, updating, renderable object in the loaded level; *offline* means a record advanced

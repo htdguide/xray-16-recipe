@@ -3,7 +3,7 @@
 > One collision sound at a time per physical object, chosen by the pair of materials that struck.
 
 **Needs** — [`PHSoundPlayer.h`](PHSoundPlayer.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PHSoundPlayer.h`](PHSoundPlayer.h.md); callers name that, not this file.
 **Tier floor** — T2: one sound handle and a gate
 
 ## Purpose

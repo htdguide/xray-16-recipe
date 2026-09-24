@@ -3,7 +3,7 @@
 > A first-person camera whose look speed is scaled by a frame time supplied from outside, so that a spectator's free look advances at the same rate whether or not the simulation it is watching is running.
 
 **Needs** — [`spectator_camera_first_eye.h`](spectator_camera_first_eye.h.md) · [`CameraFirstEye.h`](CameraFirstEye.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`spectator_camera_first_eye.h`](spectator_camera_first_eye.h.md); callers name that, not this file.
 **Tier floor** — T3: angle arithmetic and two clamps
 
 ## Purpose

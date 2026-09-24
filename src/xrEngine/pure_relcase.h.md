@@ -3,7 +3,7 @@
 > Declares the relcase-subscriber base; the substance is in [`pure_relcase.cpp`](pure_relcase.cpp.md).
 
 **Needs** — [`pure_relcase.cpp`](pure_relcase.cpp.md) · [`IGame_Level.h`](IGame_Level.h.md)
-**Used by** — [`Feel_Touch.h`](Feel_Touch.h.md) · [`Feel_Vision.h`](Feel_Vision.h.md) · [`pure_relcase.cpp`](pure_relcase.cpp.md)
+**Used by** — [`Feel_Touch.h`](Feel_Touch.h.md) · [`Feel_Vision.h`](Feel_Vision.h.md) · [`pure_relcase.cpp`](pure_relcase.cpp.md) · [`game_sv_deathmatch.h`](../xrGame/game_sv_deathmatch.h.md)
 **Tier floor** — T2.
 
 ## Purpose

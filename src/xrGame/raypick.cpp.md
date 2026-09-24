@@ -3,7 +3,7 @@
 > Runs a script's ray cast against the loaded level and keeps the nearest hit.
 
 **Needs** — [`raypick.h`](raypick.h.md) · [`Level.h`](Level.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`raypick.h`](raypick.h.md); callers name that, not this file.
 **Tier floor** — T2: delegates one query to the collision database
 
 ## Purpose

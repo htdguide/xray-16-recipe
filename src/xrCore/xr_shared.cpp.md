@@ -4,7 +4,7 @@
 
 **Needs** — [`xr_shared.h`](xr_shared.h.md)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xr_shared.h`](xr_shared.h.md); callers name that, not this file.
 
 **Tier floor** — T4: it contains no code at all.
 

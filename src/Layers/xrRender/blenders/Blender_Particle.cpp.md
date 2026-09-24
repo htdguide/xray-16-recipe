@@ -3,7 +3,7 @@
 > The particle material: one texture, one of six named blend modes, and nothing else.
 
 **Needs** — [`Blender_Particle.h`](Blender_Particle.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`Blender_CLSID.h`](../Blender_CLSID.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Blender_Particle.h`](Blender_Particle.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description; the parameter block is a frozen tagged byte stream.
 
 ## Purpose

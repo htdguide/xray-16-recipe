@@ -3,7 +3,7 @@
 > A danger location whose position is borrowed from a cover point rather than stored: the place a creature was shot at from, remembered as "that corner".
 
 **Needs** — [`danger_cover_location.h`](danger_cover_location.h.md) · [`cover_point.h`](cover_point.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`danger_cover_location.h`](danger_cover_location.h.md); callers name that, not this file.
 **Tier floor** — T3: one indirection
 
 ## Purpose

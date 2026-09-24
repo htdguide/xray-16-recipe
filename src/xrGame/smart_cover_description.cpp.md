@@ -3,7 +3,7 @@
 > Loads one kind of smart cover out of the authored script tables: its loopholes, the graph of transitions between them, and the four connectivity guarantees that make the cover usable.
 
 **Needs** — [`smart_cover_description.h`](smart_cover_description.h.md) · [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`smart_cover_transition.hpp`](smart_cover_transition.hpp.md) · [`smart_cover_detail.h`](smart_cover_detail.h.md) · [`smart_cover_object.h`](smart_cover_object.h.md) · [`ai_space.h`](ai_space.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_description.h`](smart_cover_description.h.md); callers name that, not this file.
 **Tier floor** — T2: graph construction from a script table; load-time, not frame-time
 
 ## Purpose

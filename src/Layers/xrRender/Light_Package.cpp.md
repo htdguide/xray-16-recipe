@@ -3,7 +3,7 @@
 > Order the frame's lights so that the ones whose occlusion answer has not come back yet are drawn last, and the rest brightest-first.
 
 **Needs** — [`Light_Package.h`](Light_Package.h.md) · [`light.h`](light.h.md) · [`r__occlusion.h`](r__occlusion.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Light_Package.h`](Light_Package.h.md); callers name that, not this file.
 **Tier floor** — T2: a stable sort over three small lists.
 
 ## Purpose

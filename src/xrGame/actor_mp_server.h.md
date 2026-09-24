@@ -3,7 +3,7 @@
 > Declares the server-side networked player record, implemented across [`actor_mp_server.cpp`](actor_mp_server.cpp.md), [`actor_mp_server_export.cpp`](actor_mp_server_export.cpp.md) and [`actor_mp_server_import.cpp`](actor_mp_server_import.cpp.md).
 
 **Needs** — [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`actor_mp_state.h`](actor_mp_state.h.md)
-**Used by** — [`actor_mp_server.cpp`](actor_mp_server.cpp.md) · [`actor_mp_server_export.cpp`](actor_mp_server_export.cpp.md) · [`actor_mp_server_import.cpp`](actor_mp_server_import.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md)
+**Used by** — [`actor_mp_server.cpp`](actor_mp_server.cpp.md) · [`actor_mp_server_export.cpp`](actor_mp_server_export.cpp.md) · [`actor_mp_server_import.cpp`](actor_mp_server_import.cpp.md) · [`game_sv_capture_the_artefact.h`](game_sv_capture_the_artefact.h.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md) · [`game_sv_mp.h`](game_sv_mp.h.md)
 **Tier floor** — T3: a declaration only
 
 ## Purpose

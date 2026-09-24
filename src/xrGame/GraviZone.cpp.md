@@ -3,7 +3,7 @@
 > The gravitational anomaly: an inner region that pulls everything toward its centre and an outer blowout that hits whatever reaches it, plus a telekinesis cycle that lifts inert objects into the air and drops them again.
 
 **Needs** — [`GraviZone.h`](GraviZone.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`ai/monsters/telekinesis.h`](ai/monsters/telekinesis.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`PHMovementControl.h`](PHMovementControl.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`Level.h`](Level.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GraviZone.h`](GraviZone.h.md); callers name that, not this file.
 **Tier floor** — T2: forces and impulses over a set of tracked objects; no device or layout concern
 
 ## Purpose

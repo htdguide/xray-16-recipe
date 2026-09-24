@@ -4,7 +4,7 @@
 
 **Needs** — [`profiles_cache.h`](profiles_cache.h.md) · [`profile_data_types.h`](profile_data_types.h.md) · [`threads.h`](threads.h.md)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`profiles_cache.h`](profiles_cache.h.md); callers name that, not this file.
 
 **Tier floor** — T2: a sorted array sized from a byte budget.
 

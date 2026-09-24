@@ -3,7 +3,7 @@
 > Nothing: the danger record is entirely declared in its header.
 
 **Needs** — [`danger_object.h`](danger_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`danger_object.h`](danger_object.h.md); callers name that, not this file.
 **Tier floor** — T3: nothing to implement
 
 ## Purpose

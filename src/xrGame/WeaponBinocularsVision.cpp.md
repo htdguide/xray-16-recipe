@@ -3,7 +3,7 @@
 > The target brackets drawn through binoculars and alive-detector scopes: four corner marks that converge onto each visible creature and, once locked, colour themselves by whether it is an enemy.
 
 **Needs** — [`WeaponBinocularsVision.h`](WeaponBinocularsVision.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`actor_memory.h`](actor_memory.h.md) · [`relation_registry.h`](relation_registry.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`ai/monsters/basemonster/base_monster.h`](ai/monsters/basemonster/base_monster.h.md) · [`HudSound.h`](HudSound.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponBinocularsVision.h`](WeaponBinocularsVision.h.md); callers name that, not this file.
 **Tier floor** — T2: eight point projections per tracked creature per frame.
 
 ## Purpose

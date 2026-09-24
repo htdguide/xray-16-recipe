@@ -3,7 +3,7 @@
 > One door: the two positions its leaf can be in, a claim list of the creatures that want it open or shut, and the rule that restores it to how it was found once they have all gone.
 
 **Needs** — [`doors_door.h`](doors_door.h.md) · [`doors.h`](doors.h.md) · [`doors_actor.h`](doors_actor.h.md) · [`PhysicObject.h`](PhysicObject.h.md) · [`script_game_object.h`](script_game_object.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`doors_door.h`](doors_door.h.md); callers name that, not this file.
 **Tier floor** — T3: a small state machine with a claim list
 
 ## Purpose

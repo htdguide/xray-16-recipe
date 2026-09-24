@@ -3,7 +3,7 @@
 > Declares the damage event record, implemented in [`Hit.cpp`](Hit.cpp.md).
 
 **Needs** — [`alife_space.h`](../xrServerEntities/alife_space.h.md)
-**Used by** — [`Actor.cpp`](Actor.cpp.md) · [`CarDoors.cpp`](CarDoors.cpp.md) · [`CarSound.cpp`](CarSound.cpp.md) · [`CarWheels.cpp`](CarWheels.cpp.md) · [`CharacterPhysicsSupport.cpp`](CharacterPhysicsSupport.cpp.md) · [`CustomZone.cpp`](CustomZone.cpp.md) · [`DBG_Car.cpp`](DBG_Car.cpp.md) · [`DestroyablePhysicsObject.cpp`](DestroyablePhysicsObject.cpp.md) · [`GameObject.cpp`](GameObject.cpp.md) · [`GameObject.h`](GameObject.h.md) · [`Hit.cpp`](Hit.cpp.md) · [`Mincer.cpp`](Mincer.cpp.md) · [`PHDestroyable.cpp`](PHDestroyable.cpp.md) · [`PHDestroyable.h`](PHDestroyable.h.md) · _and 6 more_
+**Used by** — [`Actor.cpp`](Actor.cpp.md) · [`CarDoors.cpp`](CarDoors.cpp.md) · [`CarSound.cpp`](CarSound.cpp.md) · [`CarWheels.cpp`](CarWheels.cpp.md) · [`CharacterPhysicsSupport.cpp`](CharacterPhysicsSupport.cpp.md) · [`CustomZone.cpp`](CustomZone.cpp.md) · [`DBG_Car.cpp`](DBG_Car.cpp.md) · [`DestroyablePhysicsObject.cpp`](DestroyablePhysicsObject.cpp.md) · [`GameObject.cpp`](GameObject.cpp.md) · [`GameObject.h`](GameObject.h.md) · [`Hit.cpp`](Hit.cpp.md) · [`Mincer.cpp`](Mincer.cpp.md) · [`PHDestroyable.cpp`](PHDestroyable.cpp.md) · [`PHDestroyable.h`](PHDestroyable.h.md) · _and 7 more_
 **Tier floor** — T3: a declaration only
 
 ## Purpose

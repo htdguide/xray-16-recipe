@@ -3,7 +3,7 @@
 > A freshly spawned piece of debris reporting back to the object it broke off from.
 
 **Needs** — [`PHDestroyableNotificate.h`](PHDestroyableNotificate.h.md) · [`PHDestroyable.h`](PHDestroyable.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`Level.h`](Level.h.md) · [`xrServerEntities/xrServer_Objects.h`](../xrServerEntities/xrServer_Objects.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PHDestroyableNotificate.h`](PHDestroyableNotificate.h.md); callers name that, not this file.
 **Tier floor** — T3: one registry lookup and a callback
 
 ## Purpose

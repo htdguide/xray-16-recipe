@@ -3,7 +3,7 @@
 > Where a carried thing can be: the numbered equipment slots, the three places an item can live, and the packed field that records the one it is in.
 
 **Needs** — _(none of substance)_
-**Used by** — [`HudItem.cpp`](../xrGame/HudItem.cpp.md) · [`HudItem.h`](../xrGame/HudItem.h.md) · [`InventoryBox.h`](../xrGame/InventoryBox.h.md) · [`InventoryOwner.h`](../xrGame/InventoryOwner.h.md) · [`UIGameCustom.h`](../xrGame/UIGameCustom.h.md) · [`inventory_item.h`](../xrGame/inventory_item.h.md) · [`UIActorMenu.h`](../xrGame/ui/UIActorMenu.h.md) · [`UIDragDropReferenceList.h`](../xrGame/ui/UIDragDropReferenceList.h.md) · [`UIHudStatesWnd.h`](../xrGame/ui/UIHudStatesWnd.h.md) · [`xrServer_Objects_ALife_Items.h`](xrServer_Objects_ALife_Items.h.md)
+**Used by** — [`HudItem.cpp`](../xrGame/HudItem.cpp.md) · [`HudItem.h`](../xrGame/HudItem.h.md) · [`InventoryBox.h`](../xrGame/InventoryBox.h.md) · [`InventoryOwner.h`](../xrGame/InventoryOwner.h.md) · [`UIGameCustom.h`](../xrGame/UIGameCustom.h.md) · [`game_sv_deathmatch.h`](../xrGame/game_sv_deathmatch.h.md) · [`inventory_item.h`](../xrGame/inventory_item.h.md) · [`UIActorMenu.h`](../xrGame/ui/UIActorMenu.h.md) · [`UIDragDropReferenceList.h`](../xrGame/ui/UIDragDropReferenceList.h.md) · [`UIHudStatesWnd.h`](../xrGame/ui/UIHudStatesWnd.h.md) · [`xrServer_Objects_ALife_Items.h`](xrServer_Objects_ALife_Items.h.md)
 **Tier floor** — T1: the placement field is a packed 16-bit word written into entity records.
 
 ## Purpose

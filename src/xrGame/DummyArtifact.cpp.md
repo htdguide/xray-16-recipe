@@ -3,7 +3,7 @@
 > An artefact with no effect: the base artefact behaviour under its own class identifier.
 
 **Needs** — [`DummyArtifact.h`](DummyArtifact.h.md) · [`Artefact.h`](Artefact.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`DummyArtifact.h`](DummyArtifact.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identity and nothing else
 
 ## Purpose

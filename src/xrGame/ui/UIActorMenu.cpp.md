@@ -4,7 +4,7 @@
 > at a glance which slot an item fits and which ammunition fits the gun under the cursor.
 
 **Needs** — [`UIActorMenu.h`](UIActorMenu.h.md) · [`UIActorStateInfo.h`](UIActorStateInfo.h.md) · [`UICellItem.h`](UICellItem.h.md) · [`UICharacterInfo.h`](UICharacterInfo.h.md) · [`UIItemInfo.h`](UIItemInfo.h.md) · [`UIDragDropListEx.h`](UIDragDropListEx.h.md) · [`UIDragDropReferenceList.h`](UIDragDropReferenceList.h.md) · [`UIMainIngameWnd.h`](UIMainIngameWnd.h.md) · [`UIInventoryUtilities.h`](UIInventoryUtilities.h.md) · [`UIMessageBoxEx.h`](UIMessageBoxEx.h.md) · [Seam: Audio device](../../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIActorMenu.h`](UIActorMenu.h.md); callers name that, not this file.
 **Tier floor** — T2: widget orchestration and per-frame polling; no device-facing layout
 
 ## Purpose

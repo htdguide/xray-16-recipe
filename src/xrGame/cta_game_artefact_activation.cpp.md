@@ -3,7 +3,7 @@
 > The activation sequence for a capture-the-artefact objective: the same staged timeline as a normal artefact, with the visual effects and the self-destruction removed.
 
 **Needs** — [`cta_game_artefact_activation.h`](cta_game_artefact_activation.h.md) · [`artefact_activation.h`](artefact_activation.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`Level.h`](Level.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`cta_game_artefact_activation.h`](cta_game_artefact_activation.h.md); callers name that, not this file.
 **Tier floor** — T2: a timed state advance driven by the frame delta
 
 ## Purpose

@@ -4,7 +4,7 @@
 
 **Needs** — [`statistics_collector.hpp`](statistics_collector.hpp.md) · [`wpn_collection.hpp`](wpn_collection.hpp.md) · [`tools.hpp`](tools.hpp.md) · [`xr_ini_ex.h`](xr_ini_ex.h.md) · [`pch.h`](pch.h.md) · [Data: Configuration](../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`statistics_collector.hpp`](statistics_collector.hpp.md); callers name that, not this file.
 
 **Tier floor** — T3: reading a text format and writing a text format.
 

@@ -3,7 +3,7 @@
 > Turns one look order into head and torso target angles, once per sight-manager tick and again every frame for the two orders that need it.
 
 **Needs** — [`sight_action.h`](sight_action.h.md) · [`sight_manager.h`](sight_manager.h.md) · [`sight_manager_space.h`](sight_manager_space.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`Inventory.h`](Inventory.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`sight_action.h`](sight_action.h.md); callers name that, not this file.
 **Tier floor** — T2: angle arithmetic and a per-frame state machine; no layout or device concern
 
 ## Purpose

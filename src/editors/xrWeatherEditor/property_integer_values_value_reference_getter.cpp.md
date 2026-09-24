@@ -3,7 +3,7 @@
 > The live-list index row, with the index aliased onto an engine field.
 
 **Needs** — [`property_integer_values_value_reference_getter.hpp`](property_integer_values_value_reference_getter.hpp.md) · [`property_integer_reference.hpp`](property_integer_reference.hpp.md) · [`property_integer_values_value_base.hpp`](property_integer_values_value_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_integer_values_value_reference_getter.hpp`](property_integer_values_value_reference_getter.hpp.md); callers name that, not this file.
 **Tier floor** — T2: owns native callback objects and an alias into engine-owned storage
 
 ## Purpose

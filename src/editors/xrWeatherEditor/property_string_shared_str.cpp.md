@@ -3,7 +3,7 @@
 > A text row aliased onto an interned-text slot, with every read and write routed through the engine so the store's accounting stays correct.
 
 **Needs** — [`property_string_shared_str.hpp`](property_string_shared_str.hpp.md) · [`engine_include.hpp`](engine_include.hpp.md) · [`Include/editor/engine.hpp`](../../Include/editor/engine.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_string_shared_str.hpp`](property_string_shared_str.hpp.md); callers name that, not this file.
 **Tier floor** — T2: aliases an engine-owned handle whose representation the editor must not touch directly
 
 ## Purpose

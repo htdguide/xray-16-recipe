@@ -3,7 +3,7 @@
 > The live-choice text row, bound to an interned-text slot.
 
 **Needs** — [`property_string_values_value_shared_str_getter.hpp`](property_string_values_value_shared_str_getter.hpp.md) · [`property_string_shared_str.hpp`](property_string_shared_str.hpp.md) · [`property_string_values_value_base.hpp`](property_string_values_value_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_string_values_value_shared_str_getter.hpp`](property_string_values_value_shared_str_getter.hpp.md); callers name that, not this file.
 **Tier floor** — T2: owns native callback objects and aliases an engine-owned interned-text handle
 
 ## Purpose

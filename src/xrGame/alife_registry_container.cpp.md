@@ -3,7 +3,7 @@
 > Saves and loads the whole bundle of per-character persistent registries as one chunk, in one fixed order.
 
 **Needs** — [`alife_registry_container.h`](alife_registry_container.h.md) · [`alife_space.h`](../xrServerEntities/alife_space.h.md) · [`alife_abstract_registry.h`](alife_abstract_registry.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_registry_container.h`](alife_registry_container.h.md); callers name that, not this file.
 **Tier floor** — T2: serialization order over a fixed list of sub-stores
 
 ## Purpose

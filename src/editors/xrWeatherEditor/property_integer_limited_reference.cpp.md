@@ -3,7 +3,7 @@
 > The range-clamped whole-number row, bound by alias instead of by callbacks.
 
 **Needs** — [`property_integer_limited_reference.hpp`](property_integer_limited_reference.hpp.md) · [`property_integer_reference.hpp`](property_integer_reference.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_integer_limited_reference.hpp`](property_integer_limited_reference.hpp.md); callers name that, not this file.
 **Tier floor** — T2: a managed refinement of the reference-bound whole-number adapter
 
 ## Purpose

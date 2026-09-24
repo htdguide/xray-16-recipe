@@ -3,7 +3,7 @@
 > Dead code: CD audio playback through the operating system's media control strings. Not compiled.
 
 **Needs** — [`xr_cda.h`](xr_cda.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xr_cda.h`](xr_cda.h.md); callers name that, not this file.
 **Tier floor** — T4 in spirit: it drives a subsystem by sending it text commands.
 
 ## Purpose

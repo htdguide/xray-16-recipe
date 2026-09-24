@@ -3,7 +3,7 @@
 > The movement resource: it eases the creature's linear speed toward the commanded target and hands the result to the path builder.
 
 **Needs** — [`control_movement.h`](control_movement.h.md) · [`control_manager.h`](control_manager.h.md) · [`control_path_builder.h`](control_path_builder.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md) · [Seam: Rigid-body dynamics](../../../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_movement.h`](control_movement.h.md); callers name that, not this file.
 **Tier floor** — T2: one integration step per creature per frame, reading back from the physics body
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Positioning a weapon in the player's hands by eye: live sliders over the eleven authored measurements, the debug markers that show where the muzzle actually is, and the configuration text to paste back.
 
 **Needs** — [`player_hud_tune.h`](player_hud_tune.h.md) · [`player_hud.h`](player_hud.h.md) · [`HudItem.h`](HudItem.h.md) · [`HUDManager.h`](HUDManager.h.md) · [`Level.h`](Level.h.md) · [`debug_renderer.h`](debug_renderer.h.md) · [`xrEngine/xr_input.h`](../xrEngine/xr_input.h.md) · [`xrEngine/CameraManager.h`](../xrEngine/CameraManager.h.md) · [`xrUICore/ui_base.h`](../xrUICore/ui_base.h.md) · [Seam: Debug overlay UI](../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`player_hud_tune.h`](player_hud_tune.h.md); callers name that, not this file.
 **Tier floor** — T3: an editor panel over live values
 
 ## Purpose

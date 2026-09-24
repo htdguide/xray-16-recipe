@@ -3,7 +3,7 @@
 > A pistol: a semi-automatic weapon whose slide locks back when empty, so every animation has an empty variant.
 
 **Needs** — [`WeaponPistol.h`](WeaponPistol.h.md) · [`WeaponCustomPistol.h`](WeaponCustomPistol.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponPistol.h`](WeaponPistol.h.md); callers name that, not this file.
 **Tier floor** — T2: animation selection on the firing path.
 
 ## Purpose

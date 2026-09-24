@@ -3,7 +3,7 @@
 > Paints a colour row's swatch and opens a picker for it, converting between the engine's unbounded reals and the picker's bytes at both ends.
 
 **Needs** — [`property_editor_color.hpp`](property_editor_color.hpp.md) · [`property_container.hpp`](property_container.hpp.md) · [`property_color_base.hpp`](property_color_base.hpp.md) · [Seam: Windowing and input](../../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_editor_color.hpp`](property_editor_color.hpp.md); callers name that, not this file.
 **Tier floor** — T3: pure presentation; the colour crosses by value through the row's own interface
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Enumerates the renderers the build offers, picks one that this machine and this installation can actually run, and hands the game module its object factory.
 
 **Needs** — [`EngineAPI.h`](EngineAPI.h.md) · [`XR_IOConsole.h`](XR_IOConsole.h.md) · [`xrCore/xr_token.h`](../xrCore/xr_token.h.md) · [`xrScriptEngine`](../xrScriptEngine/README.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device) · [Seam: Threads, atomics and process services](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EngineAPI.h`](EngineAPI.h.md); callers name that, not this file.
 **Tier floor** — T1: it probes hardware through the graphics backends and queries the process's address-space limit.
 
 ## Purpose

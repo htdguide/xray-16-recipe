@@ -3,7 +3,7 @@
 > Every bullet and fragment in flight, simulated centrally as a ballistic trajectory swept against the world, with hits deferred to a frame boundary.
 
 **Needs** — [`Level_Bullet_Manager.h`](Level_Bullet_Manager.h.md) · [`Level.h`](Level.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`Tracer.h`](Tracer.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`GamePersistent.h`](GamePersistent.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`mt_config.h`](mt_config.h.md) · [`xrCDB/xr_collide_defs.h`](../xrCDB/xr_collide_defs.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Level_Bullet_Manager.h`](Level_Bullet_Manager.h.md); callers name that, not this file.
 **Tier floor** — T1: a per-frame sweep over a hot array, run on a worker thread, with hard latency limits
 
 ## Purpose

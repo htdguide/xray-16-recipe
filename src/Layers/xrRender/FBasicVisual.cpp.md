@@ -3,7 +3,7 @@
 > The model header every model file starts with: version, type tag, bounds and material — and the rule that a duplicated model shares its original's geometry.
 
 **Needs** — [`FBasicVisual.h`](FBasicVisual.h.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md) · [`ResourceManager.h`](ResourceManager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FBasicVisual.h`](FBasicVisual.h.md); callers name that, not this file.
 **Tier floor** — T1: the header chunk is read as a byte image from a shipped model file.
 
 ## Purpose

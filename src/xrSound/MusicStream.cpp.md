@@ -3,7 +3,7 @@
 > Dead code: a slot table over the pre-Vorbis music streamers. Not compiled.
 
 **Needs** — [`MusicStream.h`](MusicStream.h.md) · [`xr_streamsnd.h`](xr_streamsnd.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`MusicStream.h`](MusicStream.h.md); callers name that, not this file.
 **Tier floor** — T3: a list with slot reuse.
 
 ## Purpose

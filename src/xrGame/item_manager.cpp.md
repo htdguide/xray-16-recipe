@@ -3,7 +3,7 @@
 > Decides which of the items a creature can currently see is worth walking over to pick up.
 
 **Needs** — [`item_manager.h`](item_manager.h.md) · [`object_manager.h`](object_manager.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`CustomMonster.h`](CustomMonster.h.md) · [`restricted_object.h`](restricted_object.h.md) · [`movement_manager.h`](movement_manager.h.md) · [`ai_space.h`](ai_space.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`item_manager.h`](item_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: a filter and a ranking over a small remembered set
 
 ## Purpose

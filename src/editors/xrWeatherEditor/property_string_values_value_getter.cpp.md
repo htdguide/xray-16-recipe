@@ -3,7 +3,7 @@
 > A text row whose set of admissible values is asked for fresh every time, because it changes while the editor runs.
 
 **Needs** — [`property_string_values_value_getter.hpp`](property_string_values_value_getter.hpp.md) · [`property_string.hpp`](property_string.hpp.md) · [`property_string_values_value_base.hpp`](property_string_values_value_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_string_values_value_getter.hpp`](property_string_values_value_getter.hpp.md); callers name that, not this file.
 **Tier floor** — T2: owns native callback objects and rebuilds a managed sequence from native text on every query
 
 ## Purpose

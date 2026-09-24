@@ -4,7 +4,7 @@
 > swap-with-last removal that the rest of the engine depends on by name.
 
 **Needs** — [`particle_effect.h`](particle_effect.h.md) · [`psystem.h`](psystem.h.md) · [Seam: Allocator](../../SYSTEM-REQUIREMENTS.md#seam-allocator)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`particle_effect.h`](particle_effect.h.md); callers name that, not this file.
 **Tier floor** — T1: one contiguous allocation of fixed-layout records, handed out by
 reference to the renderer, which walks it as raw memory.
 

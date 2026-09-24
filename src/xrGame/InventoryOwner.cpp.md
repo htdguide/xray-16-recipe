@@ -3,7 +3,7 @@
 > The character half of an entity: an inventory, a personality record, money, trade and conversation state, and the knowledge it has received.
 
 **Needs** — [`InventoryOwner.h`](InventoryOwner.h.md) · [`Inventory.h`](Inventory.h.md) · [`character_info.h`](../xrServerEntities/character_info.h.md) · [`trade.h`](trade.h.md) · [`trade_parameters.h`](trade_parameters.h.md) · [`purchase_list.h`](purchase_list.h.md) · [`PDA.h`](PDA.h.md) · [`CustomOutfit.h`](CustomOutfit.h.md) · [`Bolt.h`](Bolt.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`AI_PhraseDialogManager.h`](AI_PhraseDialogManager.h.md) · [`Level.h`](Level.h.md) · [`alife_registry_wrappers.h`](alife_registry_wrappers.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`InventoryOwner.h`](InventoryOwner.h.md); callers name that, not this file.
 **Tier floor** — T2: composition, lifecycle ordering and message framing
 
 ## Purpose

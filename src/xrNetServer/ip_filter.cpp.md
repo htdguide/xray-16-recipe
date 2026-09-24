@@ -4,7 +4,7 @@
 > is welcome.
 
 **Needs** — [`ip_filter.h`](ip_filter.h.md) · [`xrCore/xr_ini.h`](../xrCore/xr_ini.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ip_filter.h`](ip_filter.h.md); callers name that, not this file.
 **Tier floor** — T2: it packs four octets into one integer and masks it. A tier without
 fixed-width integer arithmetic would have to express the masking differently but nothing else
 changes.

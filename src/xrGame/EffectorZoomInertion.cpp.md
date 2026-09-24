@@ -3,7 +3,7 @@
 > Aim sway: while a scoped weapon is held steady, the aim point wanders along a random walk whose radius and speed scale with the weapon's current dispersion — and the sway stops the moment the player moves the aim themselves.
 
 **Needs** — [`EffectorZoomInertion.h`](EffectorZoomInertion.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md) · [`CameraEffector.h`](CameraEffector.h.md) · [`xrEngine/CameraManager.h`](../xrEngine/CameraManager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EffectorZoomInertion.h`](EffectorZoomInertion.h.md); callers name that, not this file.
 **Tier floor** — T2: a two-dimensional random walk interpolated against the frame clock
 
 ## Purpose

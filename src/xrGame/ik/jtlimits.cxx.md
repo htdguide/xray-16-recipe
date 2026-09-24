@@ -6,7 +6,7 @@
 > stretch. That is the whole method, applied twice with different arithmetic.
 
 **Needs** — [`jtlimits.h`](jtlimits.h.md) · [`aint.h`](aint.h.md) · [`eqn.h`](eqn.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`jtlimits.h`](jtlimits.h.md); callers name that, not this file.
 **Tier floor** — T2. Scalar trigonometry producing interval sets; allocates through the
 interval set.
 

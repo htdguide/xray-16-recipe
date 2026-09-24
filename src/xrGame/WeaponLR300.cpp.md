@@ -3,7 +3,7 @@
 > A western assault rifle: a magazined weapon with nothing added.
 
 **Needs** — [`WeaponLR300.h`](WeaponLR300.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponLR300.h`](WeaponLR300.h.md); callers name that, not this file.
 **Tier floor** — T3: a constructor that picks a sound class
 
 ## Purpose

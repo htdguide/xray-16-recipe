@@ -4,7 +4,7 @@
 
 **Needs** — [`game_cl_teamdeathmatch.h`](game_cl_teamdeathmatch.h.md) · [`game_cl_deathmatch.h`](game_cl_deathmatch.h.md) · [`UIGameTDM.h`](UIGameTDM.h.md) · [`game_cl_teamdeathmatch_snd_messages.h`](game_cl_teamdeathmatch_snd_messages.h.md) · [`game_base_menu_events.h`](game_base_menu_events.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`map_manager.h`](map_manager.h.md) · [`map_location.h`](map_location.h.md) · [`xrServerEntities/clsid_game.h`](../xrServerEntities/clsid_game.h.md) · [`ui/TeamInfo.h`](ui/TeamInfo.h.md) · [`ui/UISkinSelector.h`](ui/UISkinSelector.h.md) · [`ui/UIActorMenu.h`](ui/UIActorMenu.h.md) · [`ui/UIMainIngameWnd.h`](ui/UIMainIngameWnd.h.md) · [`xrServerEntities/xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`game_cl_teamdeathmatch.h`](game_cl_teamdeathmatch.h.md); callers name that, not this file.
 **Tier floor** — T2: session rules and screen state over the network layer
 
 ## Purpose

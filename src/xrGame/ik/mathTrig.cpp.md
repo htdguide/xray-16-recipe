@@ -5,7 +5,7 @@
 > tells the solver whether it is near a degenerate pose.
 
 **Needs** — [`mathTrig.h`](mathTrig.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`mathTrig.h`](mathTrig.h.md); callers name that, not this file.
 **Tier floor** — T3. Four scalar functions. It is in this directory rather than the
 engine's own math layer only because it is vendored with the solver.
 

@@ -3,7 +3,7 @@
 > Opens a long list of admissible values as a browsable tree, and stores what the artist picked.
 
 **Needs** — [`property_editor_tree_values.hpp`](property_editor_tree_values.hpp.md) · [`property_container.hpp`](property_container.hpp.md) · [`property_string_values_value_base.hpp`](property_string_values_value_base.hpp.md) · [`window_tree_values.h`](window_tree_values.h.md) · [Seam: Windowing and input](../../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_editor_tree_values.hpp`](property_editor_tree_values.hpp.md); callers name that, not this file.
 **Tier floor** — T3: pure presentation; text crosses to the row through its own interface
 
 ## Purpose

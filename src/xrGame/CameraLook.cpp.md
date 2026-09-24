@@ -3,7 +3,7 @@
 > The three third-person cameras: one that orbits the player at a distance the world can push in, one that adds a shoulder offset and an auto-aim lock, and one that holds a fixed framing.
 
 **Needs** — [`CameraLook.h`](CameraLook.h.md) · [`Actor.h`](Actor.h.md) · [`actor_memory.h`](actor_memory.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`xrEngine/CameraManager.h`](../xrEngine/CameraManager.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [`xrEngine/xr_input.h`](../xrEngine/xr_input.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CameraLook.h`](CameraLook.h.md); callers name that, not this file.
 **Tier floor** — T2: a ray cast and quaternion interpolation every frame
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Binds entities to restrictions: it keeps each entity's authored restriction lists, merges the level's defaults into them under a conflict rule, resolves the result to one shared restriction object, and re-derives everything when the defaults change.
 
 **Needs** — [`space_restriction_manager.h`](space_restriction_manager.h.md) · [`space_restriction_manager_inline.h`](space_restriction_manager_inline.h.md) · [`space_restriction.h`](space_restriction.h.md) · [`space_restriction_holder.h`](space_restriction_holder.h.md) · [`space_restriction_bridge.h`](space_restriction_bridge.h.md) · [`xrServerEntities/restriction_space.h`](../xrServerEntities/restriction_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`space_restriction_manager.h`](space_restriction_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: list algebra over text plus a keyed cache with timed reclamation
 
 ## Purpose

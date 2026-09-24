@@ -3,7 +3,7 @@
 > Lifecycle and event handling for the path-builder base: it subscribes to the navigation stack's three events and turns them into the failure and end-of-path facts the per-frame pass reads.
 
 **Needs** — [`control_path_builder_base.h`](control_path_builder_base.h.md) · [`control_path_builder.h`](control_path_builder.h.md) · [`cover_evaluators.h`](../../cover_evaluators.h.md) · [`level_path_manager.h`](../../level_path_manager.h.md) · [`detail_path_manager.h`](../../detail_path_manager.h.md) · [`level_location_selector.h`](../../level_location_selector.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../../../xrAICore/Navigation/ai_object_location.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_path_builder_base.h`](control_path_builder_base.h.md); callers name that, not this file.
 **Tier floor** — T2: event handling on the frame path
 
 ## Purpose

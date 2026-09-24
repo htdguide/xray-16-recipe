@@ -3,7 +3,7 @@
 > The bus itself: it owns one control element per channel, arbitrates capture, routes events, and drives the active set each frame.
 
 **Needs** — [`control_manager.h`](control_manager.h.md) · [`control_combase.h`](control_combase.h.md) · [`control_com_defs.h`](control_com_defs.h.md) · [`control_animation.h`](control_animation.h.md) · [`control_direction.h`](control_direction.h.md) · [`control_movement.h`](control_movement.h.md) · [`control_path_builder.h`](control_path_builder.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_manager.h`](control_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame dispatch over a small map of elements
 
 ## Purpose

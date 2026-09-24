@@ -3,7 +3,7 @@
 > A semi-automatic firearm: one round per trigger pull, no burst, and the trigger is not released until the shot's cadence has elapsed.
 
 **Needs** — [`WeaponCustomPistol.h`](WeaponCustomPistol.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponCustomPistol.h`](WeaponCustomPistol.h.md); callers name that, not this file.
 **Tier floor** — T2: two overrides of the firing state machine.
 
 ## Purpose

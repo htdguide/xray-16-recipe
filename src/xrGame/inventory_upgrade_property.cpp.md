@@ -3,7 +3,7 @@
 > One row of the upgrade screen's parameter display: an icon, a label, and a script function that turns a raw item parameter into the string shown beside it.
 
 **Needs** — [`inventory_upgrade_property.h`](inventory_upgrade_property.h.md) · [`inventory_upgrade_manager.h`](inventory_upgrade_manager.h.md) · [`ai_space.h`](ai_space.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`inventory_upgrade_property.h`](inventory_upgrade_property.h.md); callers name that, not this file.
 **Tier floor** — T3: reads configuration and calls into the script virtual machine
 
 ## Purpose

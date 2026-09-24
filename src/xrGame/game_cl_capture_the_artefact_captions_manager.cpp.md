@@ -3,7 +3,7 @@
 > Every on-screen prompt in capture the artefact, decided in one place each update: clear everything, then re-assert whatever the current phase and player state call for.
 
 **Needs** — [`game_cl_capture_the_artefact_captions_manager.h`](game_cl_capture_the_artefact_captions_manager.h.md) · [`game_cl_capture_the_artefact.h`](game_cl_capture_the_artefact.h.md) · [`UIGameCTA.h`](UIGameCTA.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`Spectator.h`](Spectator.h.md) · [`ui/TeamInfo.h`](ui/TeamInfo.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`game_cl_capture_the_artefact_captions_manager.h`](game_cl_capture_the_artefact_captions_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: string assembly and a countdown against the server clock
 
 ## Purpose

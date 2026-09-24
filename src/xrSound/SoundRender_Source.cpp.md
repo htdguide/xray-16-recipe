@@ -4,7 +4,7 @@
 > at an arbitrary byte offset.
 
 **Needs** — [`SoundRender_Source.h`](SoundRender_Source.h.md) · [`SoundRender_Core.h`](SoundRender_Core.h.md) · [`Sound.h`](Sound.h.md) · [Seam: Audio and video codecs](../../SYSTEM-REQUIREMENTS.md#seam-audio-and-video-codecs)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_Source.h`](SoundRender_Source.h.md); callers name that, not this file.
 **Tier floor** — T1: it parses a frozen binary sidecar out of a metadata field and converts between
 byte offsets and sample offsets in the decoder's own units.
 

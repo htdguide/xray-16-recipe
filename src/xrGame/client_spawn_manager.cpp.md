@@ -3,7 +3,7 @@
 > Lets one object say "tell me when the object with this identifier comes into existence", and delivers the notification exactly once.
 
 **Needs** — [`client_spawn_manager.h`](client_spawn_manager.h.md) · [`client_spawn_manager_inline.h`](client_spawn_manager_inline.h.md) · [`Level.h`](Level.h.md) · [`GameObject.h`](GameObject.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`ai_space.h`](ai_space.h.md) · [`alife_space.h`](../xrServerEntities/alife_space.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`client_spawn_manager.h`](client_spawn_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: two levels of map and a one-shot dispatch
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The scripted trigger volume: a restrictor shape that tracks which entities are inside it and calls into Lua when the set changes.
 
 **Needs** — [`script_zone.h`](script_zone.h.md) · [`space_restrictor.h`](space_restrictor.h.md) · [`xrEngine/Feel_Touch.h`](../xrEngine/Feel_Touch.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`game_object_space.h`](game_object_space.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_zone.h`](script_zone.h.md); callers name that, not this file.
 **Tier floor** — T2: an entity on the scheduler doing a per-update proximity query
 
 ## Purpose

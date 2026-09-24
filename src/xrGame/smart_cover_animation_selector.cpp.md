@@ -3,7 +3,7 @@
 > Runs one planning cycle per clip boundary, turns the resulting action into a motion the model can play, and reports the clip's third marker back to the action as the moment its effect lands.
 
 **Needs** — [`smart_cover_animation_selector.h`](smart_cover_animation_selector.h.md) · [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md) · [`smart_cover_planner_actions.h`](smart_cover_planner_actions.h.md) · [`smart_cover.h`](smart_cover.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`Inventory.h`](Inventory.h.md) · [`HudItem.h`](HudItem.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_animation_selector.h`](smart_cover_animation_selector.h.md); callers name that, not this file.
 **Tier floor** — T1: reads playback time and motion markers out of the renderer's animation state
 
 ## Purpose

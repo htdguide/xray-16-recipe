@@ -3,7 +3,7 @@
 > One purchasable upgrade: what it is made of in configuration, the three script hooks it owns, and the verdict it returns when asked whether it may be installed.
 
 **Needs** — [`inventory_upgrade.h`](inventory_upgrade.h.md) · [`inventory_upgrade_base.h`](inventory_upgrade_base.h.md) · [`inventory_upgrade_manager.h`](inventory_upgrade_manager.h.md) · [`inventory_upgrade_group.h`](inventory_upgrade_group.h.md) · [`inventory_upgrade_root.h`](inventory_upgrade_root.h.md) · [`inventory_upgrade_property.h`](inventory_upgrade_property.h.md) · [`ai_space.h`](ai_space.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`inventory_upgrade.h`](inventory_upgrade.h.md); callers name that, not this file.
 **Tier floor** — T3: configuration parsing and script calls
 
 ## Purpose

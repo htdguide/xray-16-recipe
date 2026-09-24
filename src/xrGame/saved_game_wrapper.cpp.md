@@ -3,7 +3,7 @@
 > Peeks into a save file for four facts — clock, level, level name, actor health — by decompressing it and reading exactly the actor's record and the game graph, then throwing the rest away.
 
 **Needs** — [`saved_game_wrapper.h`](saved_game_wrapper.h.md) · [`alife_time_manager.h`](alife_time_manager.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`alife_simulator_header.h`](alife_simulator_header.h.md) · [`alife_spawn_registry.h`](alife_spawn_registry.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md) · [Seam: Compression](../../SYSTEM-REQUIREMENTS.md#seam-compression)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`saved_game_wrapper.h`](saved_game_wrapper.h.md); callers name that, not this file.
 **Tier floor** — T1: reads a frozen on-disk layout, decompressing a whole-file image into one allocation
 
 ## Purpose

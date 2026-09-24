@@ -3,7 +3,7 @@
 > The two detector models with a real screen: a rotating plan view of nearby artefacts drawn onto a bone of the device's own model, and the scientific variant that also shows anomalies.
 
 **Needs** — [`EliteDetector.h`](EliteDetector.h.md) · [`CustomDetector.h`](CustomDetector.h.md) · [`ui/ArtefactDetectorUI.h`](ui/ArtefactDetectorUI.h.md) · [`player_hud.h`](player_hud.h.md) · [`Include/xrRender/UIRender.h`](../Include/xrRender/UIRender.h.md) · [`ui/UIXmlInit.h`](ui/UIXmlInit.h.md) · [`xrUICore/Static/UIStatic.h`](../xrUICore/Static/UIStatic.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EliteDetector.h`](EliteDetector.h.md); callers name that, not this file.
 **Tier floor** — T2: a world-to-screen projection and a widget tree drawn through a world transform
 
 ## Purpose

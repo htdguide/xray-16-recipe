@@ -3,7 +3,7 @@
 > A destination, stated either as a named patrol point or as a pair of navigation vertices, and resolved to the triple an offline mover needs.
 
 **Needs** — [`alife_smart_terrain_task.h`](alife_smart_terrain_task.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_path_storage.h`](../xrAICore/Navigation/PatrolPath/patrol_path_storage.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_path.h`](../xrAICore/Navigation/PatrolPath/patrol_path.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_point.h`](../xrAICore/Navigation/PatrolPath/patrol_point.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_smart_terrain_task.h`](alife_smart_terrain_task.h.md); callers name that, not this file.
 **Tier floor** — T2: a two-case resolution over shared navigation data
 
 ## Purpose

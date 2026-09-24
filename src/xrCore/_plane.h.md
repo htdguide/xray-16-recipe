@@ -39,9 +39,11 @@ Four reals in that order.
   minus the projection of any point on the plane onto the normal. Getting this sign backwards
   inverts every inside/outside test in the engine at once.
 - The positive side — where the signed distance is positive — is the side the normal points
-  to. For a frustum plane the normals point **inward**, so "inside the frustum" is "positive
-  against all six". That inward convention is the frustum's, not the plane's, and is stated
-  where the frustum is built.
+  to. This type fixes nothing beyond that; which side a user calls "inside" is the user's
+  convention, not the plane's. The engine's frustum, the heaviest user, points its normals
+  **outward** and therefore treats "inside" as *non-positive against every plane* — see
+  [`xrCDB/Frustum.cpp`](../xrCDB/Frustum.cpp.md), which is authoritative on it. Take the
+  convention from the user, never assume one here.
 
 ## `classify` — the signed distance
 

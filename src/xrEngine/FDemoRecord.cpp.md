@@ -3,7 +3,7 @@
 > A free-flying camera that records its own keyframes, and the three screenshot modes — plain, cube map, and the orthographic level map — built on top of it.
 
 **Needs** — [`FDemoRecord.h`](FDemoRecord.h.md) · [`Effector.h`](Effector.h.md) · [`IInputReceiver.h`](IInputReceiver.h.md) · [`xr_level_controller.h`](xr_level_controller.h.md) · [`xr_input.h`](xr_input.h.md) · [`IGame_Level.h`](IGame_Level.h.md) · [`IGame_Persistent.h`](IGame_Persistent.h.md) · [`Environment.h`](Environment.h.md) · [`CustomHUD.h`](CustomHUD.h.md) · [`GameFont.h`](GameFont.h.md) · [`Render.h`](Render.h.md) · [`CameraManager.h`](CameraManager.h.md) · [`XR_IOConsole.h`](XR_IOConsole.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FDemoRecord.h`](FDemoRecord.h.md); callers name that, not this file.
 **Tier floor** — T2: camera integration and state sequencing. The screenshot modes reach the graphics device but only through the renderer interface.
 
 ## Purpose

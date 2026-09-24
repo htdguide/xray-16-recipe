@@ -3,7 +3,7 @@
 > Serializes the configuration sections that decide a multiplayer match, so a server can compare a client's tuning against its own.
 
 **Needs** — [`mp_config_sections.h`](mp_config_sections.h.md) · [`Weapon.h`](Weapon.h.md) · [`anticheat_dumpable_object.h`](anticheat_dumpable_object.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`mp_config_sections.h`](mp_config_sections.h.md); callers name that, not this file.
 **Tier floor** — T3: configuration traversal and text serialization
 
 ## Purpose

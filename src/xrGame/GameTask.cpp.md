@@ -3,7 +3,7 @@
 > One quest: an authored tree of objectives, each with completion and failure conditions expressed as information portions and script predicates, a map location, an encyclopedia article and a deadline.
 
 **Needs** — [`GameTask.h`](GameTask.h.md) · [`GameTaskDefs.h`](GameTaskDefs.h.md) · [`GametaskManager.h`](GametaskManager.h.md) · [`map_location.h`](map_location.h.md) · [`map_manager.h`](map_manager.h.md) · [`map_spot.h`](map_spot.h.md) · [`encyclopedia_article.h`](encyclopedia_article.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`alife_story_registry.h`](alife_story_registry.h.md) · [`ai_space.h`](ai_space.h.md) · [`game_object_space.h`](game_object_space.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GameTask.h`](GameTask.h.md); callers name that, not this file.
 **Tier floor** — T2: tree bookkeeping, predicate evaluation and a save record; no device or layout concern
 
 ## Purpose

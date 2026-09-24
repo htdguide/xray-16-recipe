@@ -3,7 +3,7 @@
 > One grid row bound to a text value in the engine, with a copy made at every crossing in both directions.
 
 **Needs** — [`property_string.hpp`](property_string.hpp.md) · [`property_holder_include.hpp`](property_holder_include.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_string.hpp`](property_string.hpp.md); callers name that, not this file.
 **Tier floor** — T2: transfers text between two runtimes' representations, each allocation freed by the side that made it
 
 ## Purpose

@@ -3,7 +3,7 @@
 > An artefact kind distinguished only by its class identifier and its configuration section; it adds no behaviour to the base artefact.
 
 **Needs** — [`GalantineArtifact.h`](GalantineArtifact.h.md) · [`Artefact.h`](Artefact.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GalantineArtifact.h`](GalantineArtifact.h.md); callers name that, not this file.
 **Tier floor** — T3: a named leaf of the entity class hierarchy
 
 ## Purpose

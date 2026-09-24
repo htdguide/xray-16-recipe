@@ -3,7 +3,7 @@
 > The per-damage-type multiplier table: how an outfit, a creature or a vehicle resists each kind of damage differently.
 
 **Needs** — [`hit_immunity.h`](hit_immunity.h.md) · [`hit_immunity_space.h`](hit_immunity_space.h.md) · [`alife_space.h`](../xrServerEntities/alife_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`hit_immunity.h`](hit_immunity.h.md); callers name that, not this file.
 **Tier floor** — T2: a table read from configuration and multiplied into a damage value
 
 ## Purpose

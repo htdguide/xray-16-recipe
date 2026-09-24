@@ -3,7 +3,7 @@
 > Repack a model file's skinning data into the device layout its bone count calls for, remember which faces each bone owns, and answer the three questions that need a creature's triangles where the animation just put them.
 
 **Needs** — [`FSkinned.h`](FSkinned.h.md) · [`FSkinnedTypes.h`](FSkinnedTypes.h.md) · [`SkeletonX.h`](SkeletonX.h.md) · [`SkeletonCustom.h`](SkeletonCustom.h.md) · [`BufferUtils.h`](BufferUtils.h.md) · [`xrCDB/xrCDB.h`](../../xrCDB/xrCDB.h.md) · [`ResourceManager.h`](ResourceManager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FSkinned.h`](FSkinned.h.md); callers name that, not this file.
 **Tier floor** — T1: it maps device buffers for read and write and reinterprets their contents as one of eight byte layouts.
 
 ## Purpose

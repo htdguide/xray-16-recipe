@@ -4,7 +4,7 @@
 
 **Needs** — [`configs_common.h`](configs_common.h.md) · [`pch.h`](pch.h.md) · [`xrCore/Crypto/xr_dsa.h`](../../xrCore/Crypto/xr_dsa.h.md)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`configs_common.h`](configs_common.h.md); callers name that, not this file.
 
 **Tier floor** — T1: fixed-width byte arrays handed to a cryptographic primitive that interprets them as big-endian integers.
 

@@ -3,7 +3,7 @@
 > Drives a keyframed screen-effect curve — colour grading, noise, blur, duality — as a camera effector, in four flavours that differ only in where the blend weight comes from.
 
 **Needs** — [`PostprocessAnimator.h`](PostprocessAnimator.h.md) · [`ActorEffector.h`](ActorEffector.h.md) · [`xrCore/PostProcess/PostProcess.hpp`](../xrCore/PostProcess/PostProcess.hpp.md) · [`xrEngine/EffectorPP.h`](../xrEngine/EffectorPP.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PostprocessAnimator.h`](PostprocessAnimator.h.md); callers name that, not this file.
 **Tier floor** — T3: curve evaluation and interpolation over a small parameter record
 
 ## Purpose

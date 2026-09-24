@@ -4,7 +4,7 @@
 
 **Needs** — [`profile_request.h`](profile_request.h.md) · [`profile_printer.h`](profile_printer.h.md) · [`profile_data_types.h`](profile_data_types.h.md) · [Seam: Networking transport](../../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`profile_request.h`](profile_request.h.md); callers name that, not this file.
 
 **Tier floor** — T2: text handling plus a connection whose release is ordered.
 

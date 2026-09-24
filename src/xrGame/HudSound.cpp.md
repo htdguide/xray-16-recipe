@@ -3,7 +3,7 @@
 > The sound bank held items play from: one alias names a set of interchangeable takes, a collection names many aliases, and a layered collection plays several banks at once as one sound.
 
 **Needs** — [`HudSound.h`](HudSound.h.md) · [`xrSound/Sound.h`](../xrSound/Sound.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HudSound.h`](HudSound.h.md); callers name that, not this file.
 **Tier floor** — T2: configuration parsing and handle bookkeeping over the audio seam
 
 ## Purpose

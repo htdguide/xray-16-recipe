@@ -3,7 +3,7 @@
 > What it means to be a carryable thing: a name and a weight read from configuration, a condition that wears down, a place in someone's inventory, a physical body when nobody is holding it, and — in multiplayer — a stream of network samples to interpolate between.
 
 **Needs** — [`inventory_item.h`](inventory_item.h.md) · [`inventory_item_impl.h`](inventory_item_impl.h.md) · [`inventory_item_inline.h`](inventory_item_inline.h.md) · [`Inventory.h`](Inventory.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`hit_immunity.h`](hit_immunity.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Configuration format](../xrCore/README.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`inventory_item.h`](inventory_item.h.md); callers name that, not this file.
 **Tier floor** — T1: writes and reads a frozen wire format field by field, and hands a physics body raw state
 
 ## Purpose

@@ -4,7 +4,7 @@
 > exactly what it does to every live particle in one step.
 
 **Needs** — [`particle_actions_collection.h`](particle_actions_collection.h.md) · [`particle_effect.h`](particle_effect.h.md) · [`particle_core.h`](particle_core.h.md) · [`noise.h`](noise.h.md) · [`psystem.h`](psystem.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`particle_actions_collection.h`](particle_actions_collection.h.md); callers name that, not this file.
 **Tier floor** — T1: the inner loops run over hundreds of particles thirty-one times a step
 inside a 60 Hz budget, and one of them hand-vectorizes a four-wide float operation. The
 *decisions* are all T2; the throughput is not.

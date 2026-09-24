@@ -3,7 +3,7 @@
 > Holds the speed thresholds at which a physics collision becomes audible, visible as a decal, or worth spawning particles for.
 
 **Needs** — [`PhysicsGamePars.h`](PhysicsGamePars.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PhysicsGamePars.h`](PhysicsGamePars.h.md); callers name that, not this file.
 **Tier floor** — T3: a handful of tuned constants and one configuration read
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The alife simulation's heartbeat: the one place per frame that decides which offline entities come online, advances the offline world under a time budget, and performs the two world-scale operations — starting a new game and changing level — that rewrite everything else.
 
 **Needs** — [`alife_update_manager.h`](alife_update_manager.h.md) · [`alife_simulator_header.h`](alife_simulator_header.h.md) · [`alife_time_manager.h`](alife_time_manager.h.md) · [`alife_graph_registry.h`](alife_graph_registry.h.md) · [`alife_schedule_registry.h`](alife_schedule_registry.h.md) · [`alife_spawn_registry.h`](alife_spawn_registry.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`alife_switch_manager.h`](alife_switch_manager.h.md) · [`alife_storage_manager.h`](alife_storage_manager.h.md) · [`ef_storage.h`](ef_storage.h.md) · [`xrServer.h`](xrServer.h.md) · [`Level.h`](Level.h.md) · [`mt_config.h`](mt_config.h.md) · [`restriction_space.h`](../xrServerEntities/restriction_space.h.md) · [`xrAICore/Navigation/graph_engine.h`](../xrAICore/Navigation/graph_engine.h.md) · [`xrEngine/IGame_Persistent.h`](../xrEngine/IGame_Persistent.h.md) · [`xrEngine/profiler.h`](../xrEngine/profiler.h.md) · [`xrNetServer/NET_Messages.h`](../xrNetServer/NET_Messages.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_update_manager.h`](alife_update_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: registry orchestration and one byte-exact save round trip, which is delegated; the only hard constraint is that the whole thing fits in a declared microsecond budget
 
 ## Purpose

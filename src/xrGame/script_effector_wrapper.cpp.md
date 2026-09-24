@@ -3,7 +3,7 @@
 > Routes the effector's per-frame evaluation into the script object's `process` method.
 
 **Needs** — [`script_effector_wrapper.h`](script_effector_wrapper.h.md) · [`script_effector.h`](script_effector.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_effector_wrapper.h`](script_effector_wrapper.h.md); callers name that, not this file.
 **Tier floor** — T2: a call convention across the script boundary
 
 ## Purpose

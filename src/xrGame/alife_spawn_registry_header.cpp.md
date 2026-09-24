@@ -3,7 +3,7 @@
 > The spawn file's first chunk: the format version and the two identifiers that tie a spawn file, a game graph and a saved game together.
 
 **Needs** — [`alife_spawn_registry_header.h`](alife_spawn_registry_header.h.md) · [`alife_space.h`](../xrServerEntities/alife_space.h.md) · [`Common/LevelStructure.hpp`](../Common/LevelStructure.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_spawn_registry_header.h`](alife_spawn_registry_header.h.md); callers name that, not this file.
 **Tier floor** — T1: a fixed byte layout read from a frozen file
 
 ## Purpose

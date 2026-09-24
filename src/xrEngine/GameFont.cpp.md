@@ -3,7 +3,7 @@
 > Loads a bitmap font's character table from any of four authored layouts, measures text including expanded key bindings, and wraps it to a width.
 
 **Needs** — [`GameFont.h`](GameFont.h.md) · [`IGameFont.hpp`](IGameFont.hpp.md) · [`StringTable/StringTable.h`](StringTable/StringTable.h.md) · [`xr_level_controller.h`](xr_level_controller.h.md) · [`Render.h`](Render.h.md) · [`device.h`](device.h.md) · [Configuration format](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GameFont.h`](GameFont.h.md); callers name that, not this file.
 **Tier floor** — T2: table loading, measurement and line breaking. The atlas upload is the renderer's.
 
 ## Purpose

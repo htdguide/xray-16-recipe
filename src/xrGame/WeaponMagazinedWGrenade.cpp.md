@@ -3,7 +3,7 @@
 > A rifle with an under-barrel grenade launcher: two complete weapons in one object, switched by swapping every ammunition field between a primary set and a secondary set.
 
 **Needs** — [`WeaponMagazinedWGrenade.h`](WeaponMagazinedWGrenade.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md) · [`RocketLauncher.h`](RocketLauncher.h.md) · [`GrenadeLauncher.h`](GrenadeLauncher.h.md) · [`ExplosiveRocket.h`](ExplosiveRocket.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`player_hud.h`](player_hud.h.md) · [`xrPhysics/MathUtils.h`](../xrPhysics/MathUtils.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponMagazinedWGrenade.h`](WeaponMagazinedWGrenade.h.md); callers name that, not this file.
 **Tier floor** — T2: a ballistic solve per grenade, and a per-frame animation selection with eight branches.
 
 ## Purpose

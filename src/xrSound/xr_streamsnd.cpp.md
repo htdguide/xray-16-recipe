@@ -4,7 +4,7 @@
 > circular device buffer. Not compiled.
 
 **Needs** — [`xr_streamsnd.h`](xr_streamsnd.h.md) · [`SoundRender_Core.h`](SoundRender_Core.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xr_streamsnd.h`](xr_streamsnd.h.md); callers name that, not this file.
 **Tier floor** — T1 as written: it locks a device buffer and writes PCM into two wrapped spans.
 
 ## Purpose

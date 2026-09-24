@@ -3,7 +3,7 @@
 > The mixin that lets a weapon carry, release and track *entities* rather than bullets — the grenade launcher and the rocket launcher, whose projectiles are real spawned objects with physics and their own network identity.
 
 **Needs** — [`RocketLauncher.h`](RocketLauncher.h.md) · [`CustomRocket.h`](CustomRocket.h.md) · [`Level.h`](Level.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Items.h`](../xrServerEntities/xrServer_Objects_ALife_Items.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [`xrEngine/IGame_Persistent.h`](../xrEngine/IGame_Persistent.h.md) · [`xrNetServer/NET_Messages.h`](../xrNetServer/NET_Messages.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`RocketLauncher.h`](RocketLauncher.h.md); callers name that, not this file.
 **Tier floor** — T2: entity lifecycle and a spawn message; no byte layout of its own
 
 ## Purpose

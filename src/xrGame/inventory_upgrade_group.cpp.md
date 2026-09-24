@@ -3,7 +3,7 @@
 > The two structural rules of the upgrade mechanic: you must have installed what unlocks this group, and within a group you may install exactly one.
 
 **Needs** — [`inventory_upgrade_group.h`](inventory_upgrade_group.h.md) · [`inventory_upgrade.h`](inventory_upgrade.h.md) · [`inventory_upgrade_manager.h`](inventory_upgrade_manager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`inventory_upgrade_group.h`](inventory_upgrade_group.h.md); callers name that, not this file.
 **Tier floor** — T3: two list walks over an item's installed-upgrade set
 
 ## Purpose

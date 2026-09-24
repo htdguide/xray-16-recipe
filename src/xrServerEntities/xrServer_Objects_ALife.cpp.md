@@ -3,7 +3,7 @@
 > The record layouts for everything the world is built out of that is not a creature or an inventory item: graph points, restrictors, level changers, props, lamps, vehicles, containers.
 
 **Needs** — [`xrServer_Objects_ALife.h`](xrServer_Objects_ALife.h.md) · [`xrServer_Objects_ALife_Monsters.h`](xrServer_Objects_ALife_Monsters.h.md) · [`restriction_space.h`](restriction_space.h.md) · [`character_info.h`](character_info.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md) · [`game_base_space.h`](game_base_space.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrServer_Objects_ALife.h`](xrServer_Objects_ALife.h.md); callers name that, not this file.
 **Tier floor** — T1: twenty on-disk record layouts with exact field widths and order.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The anomaly base class: a volume that notices what is inside it, cycles through idle, waking, blowout and recharge, hits everything in range on the blowout, and occasionally leaves an artefact behind.
 
 **Needs** — [`CustomZone.h`](CustomZone.h.md) · [`space_restrictor.h`](space_restrictor.h.md) · [`xrEngine/Feel_Touch.h`](../xrEngine/Feel_Touch.h.md) · [`Artefact.h`](Artefact.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`zone_effector.h`](zone_effector.h.md) · [`Hit.h`](Hit.h.md) · [`BreakableObject.h`](BreakableObject.h.md) · [`GamePersistent.h`](GamePersistent.h.md) · [`xrEngine/LightAnimLibrary.h`](../xrEngine/LightAnimLibrary.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CustomZone.h`](CustomZone.h.md); callers name that, not this file.
 **Tier floor** — T2: a state machine over a contact set, with effect scheduling against a millisecond clock
 
 ## Purpose

@@ -4,7 +4,7 @@
 > built from.
 
 **Needs** — [`UIBuyWndShared.cpp`](UIBuyWndShared.cpp.md) · [`Restrictions.h`](Restrictions.h.md)
-**Used by** — [`game_cl_deathmatch.h`](../game_cl_deathmatch.h.md) · [`game_sv_artefacthunt.cpp`](../game_sv_artefacthunt.cpp.md) · [`game_sv_deathmatch.cpp`](../game_sv_deathmatch.cpp.md) · [`game_sv_mp.cpp`](../game_sv_mp.cpp.md) · [`game_sv_teamdeathmatch.cpp`](../game_sv_teamdeathmatch.cpp.md) · [`UIBuyWndShared.cpp`](UIBuyWndShared.cpp.md) · [`UIMpItemsStoreWnd.h`](UIMpItemsStoreWnd.h.md) · [`UIMpTradeWnd.h`](UIMpTradeWnd.h.md)
+**Used by** — [`game_cl_deathmatch.h`](../game_cl_deathmatch.h.md) · [`game_sv_artefacthunt.cpp`](../game_sv_artefacthunt.cpp.md) · [`game_sv_deathmatch.cpp`](../game_sv_deathmatch.cpp.md) · [`game_sv_mp.cpp`](../game_sv_mp.cpp.md) · [`game_sv_mp.h`](../game_sv_mp.h.md) · [`game_sv_teamdeathmatch.cpp`](../game_sv_teamdeathmatch.cpp.md) · [`UIBuyWndShared.cpp`](UIBuyWndShared.cpp.md) · [`UIMpItemsStoreWnd.h`](UIMpItemsStoreWnd.h.md) · [`UIMpTradeWnd.h`](UIMpTradeWnd.h.md)
 **Tier floor** — T3: a sorted table over configuration
 
 ## Purpose

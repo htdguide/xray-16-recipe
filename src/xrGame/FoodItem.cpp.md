@@ -3,7 +3,7 @@
 > Food and drink as a class identifier: the consumable item behaviour with no additions.
 
 **Needs** — [`FoodItem.h`](FoodItem.h.md) · [`eatable_item_object.h`](eatable_item_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FoodItem.h`](FoodItem.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identity and nothing else
 
 ## Purpose

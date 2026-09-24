@@ -3,7 +3,7 @@
 > Loads one stalker skeleton's entire animation table by name from three prefix families, once per distinct model.
 
 **Needs** — [`stalker_animation_data.h`](stalker_animation_data.h.md) · [`stalker_animation_state.h`](stalker_animation_state.h.md) · [`stalker_animation_names.h`](stalker_animation_names.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_animation_data.h`](stalker_animation_data.h.md); callers name that, not this file.
 **Tier floor** — T3: three table loads by generated name
 
 ## Purpose

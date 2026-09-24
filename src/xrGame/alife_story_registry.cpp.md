@@ -3,7 +3,7 @@
 > The index that lets a script address an entity by the name a level designer gave it, rather than by a runtime identifier nobody can predict.
 
 **Needs** — [`alife_story_registry.h`](alife_story_registry.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_story_registry.h`](alife_story_registry.h.md); callers name that, not this file.
 **Tier floor** — T2: a filtered map insertion
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Builds the operator set that defines everything a creature can do inside a smart cover, and owns the in-cover lifecycle around it.
 
 **Needs** — [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md) · [`smart_cover_evaluators.h`](smart_cover_evaluators.h.md) · [`smart_cover_planner_actions.h`](smart_cover_planner_actions.h.md) · [`smart_cover_loophole_planner_actions.h`](smart_cover_loophole_planner_actions.h.md) · [`smart_cover_planner_target_selector.h`](smart_cover_planner_target_selector.h.md) · [`smart_cover_animation_selector.h`](smart_cover_animation_selector.h.md) · [`stalker_property_evaluators.h`](stalker_property_evaluators.h.md) · [`stalker_decision_space.h`](stalker_decision_space.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`property_storage.h`](property_storage.h.md) · [`Hit.h`](Hit.h.md) · [`game_object_space.h`](game_object_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md); callers name that, not this file.
 **Tier floor** — T2: a plan search per cycle over a fixed operator set
 
 ## Purpose

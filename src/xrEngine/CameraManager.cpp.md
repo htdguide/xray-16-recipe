@@ -3,7 +3,7 @@
 > Runs the two effector stacks over the frame's camera description and writes the result into the device as a view matrix, a projection matrix and a post-process parameter set.
 
 **Needs** — [`CameraManager.h`](CameraManager.h.md) · [`CameraBase.h`](CameraBase.h.md) · [`Effector.h`](Effector.h.md) · [`EffectorPP.h`](EffectorPP.h.md) · [`Environment.h`](Environment.h.md) · [`IGame_Persistent.h`](IGame_Persistent.h.md) · [`device.h`](device.h.md) · [`Render.h`](Render.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CameraManager.h`](CameraManager.h.md); callers name that, not this file.
 **Tier floor** — T2: matrix construction and list surgery. It is above the device only because it hands the finished matrices across the renderer interface rather than to a driver.
 
 ## Purpose

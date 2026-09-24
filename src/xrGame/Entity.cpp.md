@@ -3,7 +3,7 @@
 > The thing that can be damaged and can die: health, team membership, the damage path, and the once-only bookkeeping of who killed it and when.
 
 **Needs** — [`Entity.h`](Entity.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`damage_manager.h`](damage_manager.h.md) · [`EntityCondition.h`](EntityCondition.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`seniority_hierarchy_holder.h`](seniority_hierarchy_holder.h.md) · [`monster_community.h`](monster_community.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Entity.h`](Entity.h.md); callers name that, not this file.
 **Tier floor** — T2: scalar bookkeeping and a membership registry
 
 ## Purpose

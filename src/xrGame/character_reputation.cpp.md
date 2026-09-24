@@ -3,7 +3,7 @@
 > Turns a character's numeric reputation into a named band, and holds the table of how those bands regard each other.
 
 **Needs** — [`character_reputation.h`](character_reputation.h.md) · [`character_info_defs.h`](../xrServerEntities/character_info_defs.h.md) · [`ini_id_loader.h`](ini_id_loader.h.md) · [`ini_table_loader.h`](ini_table_loader.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`character_reputation.h`](character_reputation.h.md); callers name that, not this file.
 **Tier floor** — T3: a banding function and one lookup table
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Head and spine aiming: this creature looks at things by rotating two bones, so its gaze and its body can point in different directions.
 
 **Needs** — [`controller_direction.h`](controller_direction.h.md) · [`controller.h`](controller.h.md) · [`../control_direction_base.h`](../control_direction_base.h.md) · [`../ai_monster_bones.h`](../ai_monster_bones.h.md) · [`../ai_monster_utils.h`](../ai_monster_utils.h.md) · [Seam: Graphics device](../../../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`controller_direction.h`](controller_direction.h.md); callers name that, not this file.
 **Tier floor** — T2: installs per-bone callbacks that run during pose evaluation
 
 ## Purpose

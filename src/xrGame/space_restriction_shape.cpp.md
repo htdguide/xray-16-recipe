@@ -3,7 +3,7 @@
 > Turns one restrictor entity's authored spheres and boxes into a border: the set of navigation vertices that straddle the volume's edge, found by scanning the mesh under each primitive's footprint.
 
 **Needs** — [`space_restriction_shape.h`](space_restriction_shape.h.md) · [`space_restriction_shape_inline.h`](space_restriction_shape_inline.h.md) · [`space_restrictor.h`](space_restrictor.h.md) · [`space_restriction_base.h`](space_restriction_base.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/graph_engine.h`](../xrAICore/Navigation/graph_engine.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`space_restriction_shape.h`](space_restriction_shape.h.md); callers name that, not this file.
 **Tier floor** — T2: a bounded scan over the navigation mesh, once per restrictor at spawn
 
 ## Purpose

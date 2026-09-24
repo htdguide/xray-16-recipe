@@ -3,7 +3,7 @@
 > The client object for a restrictor entity: an invisible, non-simulated volume assembled from authored spheres and boxes, which registers itself with the level's restriction registry on spawn and answers exact containment queries against a lazily rebuilt world-space cache.
 
 **Needs** — [`space_restrictor.h`](space_restrictor.h.md) · [`space_restrictor_inline.h`](space_restrictor_inline.h.md) · [`GameObject.h`](GameObject.h.md) · [`space_restriction_manager.h`](space_restriction_manager.h.md) · [`Level.h`](Level.h.md) · [`ai_space.h`](ai_space.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`RadioactiveZone.h`](RadioactiveZone.h.md) · [`ZoneCampfire.h`](ZoneCampfire.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`xrServerEntities/restriction_space.h`](../xrServerEntities/restriction_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`space_restrictor.h`](space_restrictor.h.md); callers name that, not this file.
 **Tier floor** — T2: point-in-volume tests against a cached set of planes and spheres
 
 ## Purpose

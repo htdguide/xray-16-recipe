@@ -3,7 +3,7 @@
 > One accumulated injury on one bone of a creature: how much of each damage type it has taken, how it heals, and how it survives a save or a network update.
 
 **Needs** — [`Wound.h`](Wound.h.md) · [`alife_space.h`](../xrServerEntities/alife_space.h.md) · [`hit_immunity.h`](hit_immunity.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Wound.h`](Wound.h.md); callers name that, not this file.
 **Tier floor** — T2: a small numeric record with a quantized wire form
 
 ## Purpose

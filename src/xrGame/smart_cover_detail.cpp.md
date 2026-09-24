@@ -3,7 +3,7 @@
 > Reads typed fields out of an authored script table with a hard failure on anything malformed, and names the two pseudo-loopholes that represent standing outside the cover.
 
 **Needs** — [`smart_cover_detail.h`](smart_cover_detail.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_detail.h`](smart_cover_detail.h.md); callers name that, not this file.
 **Tier floor** — T2: dynamic-to-static field extraction
 
 ## Purpose

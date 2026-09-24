@@ -3,7 +3,7 @@
 > Nothing: the whole file is a disabled implementation of a framed text label that animated its colour from a light-animation curve.
 
 **Needs** — _(none: the file defines nothing)_
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UILabel.h`](UILabel.h.md); callers name that, not this file.
 **Tier floor** — T4: the file contributes no code.
 
 ## Purpose

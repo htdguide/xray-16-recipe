@@ -3,7 +3,7 @@
 > An empty translation unit: the action base type and the action list are entirely inline.
 
 **Needs** — [`particle_actions.h`](particle_actions.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`particle_actions.h`](particle_actions.h.md); callers name that, not this file.
 **Tier floor** — T4: a build-system artifact with no runtime meaning.
 
 ## Purpose

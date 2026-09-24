@@ -3,7 +3,7 @@
 > Maintains one creature's blocked-vertex set: the union of the navigation vertices its known obstacles cover, kept fresh with a checksum rather than a rebuild.
 
 **Needs** — [`obstacles_query.h`](obstacles_query.h.md) · [`obstacles_query_inline.h`](obstacles_query_inline.h.md) · [`ai_obstacle.h`](ai_obstacle.h.md) · [`GameObject.h`](GameObject.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`obstacles_query.h`](obstacles_query.h.md); callers name that, not this file.
 **Tier floor** — T2: set algebra over sorted vertex lists, per creature per path
 
 ## Purpose

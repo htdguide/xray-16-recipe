@@ -3,7 +3,7 @@
 > The renderer's model cache: one loaded copy of each model file, cheap clones of it for each object that wears it, and a free list so a clone that dies is reused instead of reloaded.
 
 **Needs** — [`ModelPool.h`](ModelPool.h.md) · [`FBasicVisual.h`](FBasicVisual.h.md) · [`FVisual.h`](FVisual.h.md) · [`FProgressive.h`](FProgressive.h.md) · [`FSkinned.h`](FSkinned.h.md) · [`FHierrarhyVisual.h`](FHierrarhyVisual.h.md) · [`FLOD.h`](FLOD.h.md) · [`FTreeVisual.h`](FTreeVisual.h.md) · [`SkeletonCustom.h`](SkeletonCustom.h.md) · [`SkeletonAnimated.h`](SkeletonAnimated.h.md) · [`SkeletonX.h`](SkeletonX.h.md) · [`ParticleEffect.h`](ParticleEffect.h.md) · [`ParticleGroup.h`](ParticleGroup.h.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md) · [`xrMaterialSystem/GameMtlLib.h`](../../xrMaterialSystem/GameMtlLib.h.md) · [`xrEngine/IGame_Persistent.h`](../../xrEngine/IGame_Persistent.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ModelPool.h`](ModelPool.h.md); callers name that, not this file.
 **Tier floor** — T1: it reads the first chunk of a shipped model file as a byte image to learn the model's type before it knows which record to build, and the visuals it hands out own device buffers whose release order matters.
 
 ## Purpose

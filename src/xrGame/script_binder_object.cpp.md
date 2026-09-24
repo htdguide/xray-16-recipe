@@ -3,7 +3,7 @@
 > The base class a script author subclasses to attach their own state and lifecycle to an existing game object.
 
 **Needs** — [`script_binder_object.h`](script_binder_object.h.md) · [`script_game_object.h`](script_game_object.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_binder_object.h`](script_binder_object.h.md); callers name that, not this file.
 **Tier floor** — T2: pure dispatch and policy; nothing here touches a device or a byte layout
 
 ## Purpose

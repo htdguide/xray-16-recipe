@@ -3,7 +3,7 @@
 > The texture-description database: the side table that says which detail texture, bump map, surface material and parallax setting belong to a base texture — the convention the shipped art is authored against.
 
 **Needs** — [`TextureDescrManager.h`](TextureDescrManager.h.md) · [`ETextureParams.h`](ETextureParams.h.md) · [`Blender_Recorder.h`](Blender_Recorder.h.md) · [`r_constants.h`](r_constants.h.md) · [`xrCore/FS.h`](../../xrCore/FS.h.md) · [`xrCore/xrCore.h`](../../xrCore/xrCore.h.md) · [Seam: Threads](../../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`TextureDescrManager.h`](TextureDescrManager.h.md); callers name that, not this file.
 **Tier floor** — T1: the `.thm` half reads a chunked binary record written by the art tools, and the constant binder it hands out is written straight into a shader constant register every frame.
 
 ## Purpose

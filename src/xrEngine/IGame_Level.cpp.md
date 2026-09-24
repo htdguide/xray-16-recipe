@@ -3,7 +3,7 @@
 > The level's lifecycle: load its geometry, collision and objects in the one order that works; tear it down; and distribute every emitted sound to the entities that can hear it.
 
 **Needs** — [`IGame_Level.h`](IGame_Level.h.md) · [`IGame_Persistent.h`](IGame_Persistent.h.md) · [`xr_object_list.h`](xr_object_list.h.md) · [`CameraManager.h`](CameraManager.h.md) · [`CustomHUD.h`](CustomHUD.h.md) · [`Feel_Sound.h`](Feel_Sound.h.md) · [`Environment.h`](Environment.h.md) · [`Render.h`](Render.h.md) · [`xrCDB/xr_area.h`](../xrCDB/xr_area.h.md) · [`Common/LevelStructure.hpp`](../Common/LevelStructure.hpp.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device) · [Level data format](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`IGame_Level.h`](IGame_Level.h.md); callers name that, not this file.
 **Tier floor** — T1: it reads a chunked binary level file and hands the collision database raw triangle arrays.
 
 ## Purpose

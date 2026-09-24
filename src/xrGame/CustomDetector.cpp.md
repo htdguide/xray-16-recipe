@@ -3,7 +3,7 @@
 > The artefact detector: a held item that senses nearby artefacts through the touch sense, drives a small readout rendered on its own model, and hides itself automatically whenever the other hand needs to do something incompatible.
 
 **Needs** — [`CustomDetector.h`](CustomDetector.h.md) · [`ui/ArtefactDetectorUI.h`](ui/ArtefactDetectorUI.h.md) · [`Inventory.h`](Inventory.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`Weapon.h`](Weapon.h.md) · [`player_hud.h`](player_hud.h.md) · [`Artefact.h`](Artefact.h.md) · [`HUDManager.h`](HUDManager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CustomDetector.h`](CustomDetector.h.md); callers name that, not this file.
 **Tier floor** — T2: proximity queries and a small state machine over the held-item lifecycle
 
 ## Purpose

@@ -4,7 +4,7 @@
 > claims, and push a preset through it.
 
 **Needs** — [`SoundRender_EffectsA_EAX.h`](SoundRender_EffectsA_EAX.h.md) · [`SoundRender_Effects.h`](SoundRender_Effects.h.md) · [`SoundRender_Environment.h`](SoundRender_Environment.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_EffectsA_EAX.h`](SoundRender_EffectsA_EAX.h.md); callers name that, not this file.
 **Tier floor** — T1: it addresses device properties by identifier with explicit sizes and passes
 raw field pointers.
 

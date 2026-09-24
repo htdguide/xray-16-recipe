@@ -3,7 +3,7 @@
 > Converts a saved limb placement between the two bones it can be expressed against.
 
 **Needs** — [`ik_limb_state.h`](ik_limb_state.h.md) · [`ik/IKLimb.h`](ik/IKLimb.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ik_limb_state.h`](ik_limb_state.h.md); callers name that, not this file.
 **Tier floor** — T2: transform composition
 
 ## Purpose

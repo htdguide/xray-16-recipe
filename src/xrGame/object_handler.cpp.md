@@ -3,7 +3,7 @@
 > The creature's hands: owns the object-handling planner, keeps it in step with the inventory, and answers where a weapon is attached and whether it is slung.
 
 **Needs** — [`object_handler.h`](object_handler.h.md) · [`object_handler_planner.h`](object_handler_planner.h.md) · [`object_handler_space.h`](object_handler_space.h.md) · [`ai_monster_space.h`](ai_monster_space.h.md) · [`Inventory.h`](Inventory.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md) · [`Torch.h`](Torch.h.md) · [`EffectorShot.h`](EffectorShot.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`enemy_manager.h`](enemy_manager.h.md) · [`ef_storage.h`](ef_storage.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`object_handler.h`](object_handler.h.md); callers name that, not this file.
 **Tier floor** — T2: planner ownership, bone lookup and inventory reconciliation
 
 ## Purpose

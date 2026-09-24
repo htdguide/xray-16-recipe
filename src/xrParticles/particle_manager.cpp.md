@@ -4,7 +4,7 @@
 > list in order, and translates "play" and "stop" into pokes at individual actions.
 
 **Needs** — [`particle_manager.h`](particle_manager.h.md) · [`particle_effect.h`](particle_effect.h.md) · [`particle_actions_collection.h`](particle_actions_collection.h.md) · [`psystem.h`](psystem.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`particle_manager.h`](particle_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: handle tables, a lock, and a dispatch over the action kinds.
 
 ## Purpose

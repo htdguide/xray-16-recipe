@@ -4,7 +4,7 @@
 > connection never forms.
 
 **Needs** — [`NET_Client.h`](NET_Client.h.md) · [`../NET_Common.h`](../NET_Common.h.md) · [`../NET_Messages.h`](../NET_Messages.h.md) · [`../NET_Log.h`](../NET_Log.h.md) · [`../NET_Server.h`](../NET_Server.h.md) · [Seam: Networking transport](../../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`NET_Client.h`](NET_Client.h.md); callers name that, not this file.
 **Tier floor** — T1, inherited: it still reinterprets received bytes as system-packet memory
 images, even though none ever arrive.
 

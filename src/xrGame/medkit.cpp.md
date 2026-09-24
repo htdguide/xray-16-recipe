@@ -3,7 +3,7 @@
 > An edible item under its own class identifier, with no behaviour of its own.
 
 **Needs** — [`medkit.h`](medkit.h.md) · [`eatable_item_object.h`](eatable_item_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`medkit.h`](medkit.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identifier slot
 
 ## Purpose

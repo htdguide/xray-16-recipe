@@ -3,7 +3,7 @@
 > What every multiplayer mode's interface has in common: the server's greeting screen, and the playback controls for a recorded match.
 
 **Needs** — [`UIGameMP.h`](UIGameMP.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`Level.h`](Level.h.md) · [`game_cl_mp.h`](game_cl_mp.h.md) · [`ui/UIDemoPlayControl.h`](ui/UIDemoPlayControl.h.md) · [`ui/UIServerInfo.h`](ui/UIServerInfo.h.md) · [`xrUICore/Cursor/UICursor.h`](../xrUICore/Cursor/UICursor.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIGameMP.h`](UIGameMP.h.md); callers name that, not this file.
 **Tier floor** — T3: two windows and their visibility rules
 
 ## Purpose

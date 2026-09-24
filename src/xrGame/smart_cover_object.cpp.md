@@ -3,7 +3,7 @@
 > Spawns a placed smart cover: builds its volume from the server record, registers the cover with the cover manager, then switches the entity off so it costs nothing for the rest of the level.
 
 **Needs** — [`smart_cover_object.h`](smart_cover_object.h.md) · [`smart_cover.h`](smart_cover.h.md) · [`smart_cover_description.h`](smart_cover_description.h.md) · [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`cover_manager.h`](cover_manager.h.md) · [`ai_space.h`](ai_space.h.md) · [`Level.h`](Level.h.md) · [`xrServerEntities/xrServer_Objects_Alife_Smartcovers.h`](../xrServerEntities/xrServer_Objects_Alife_Smartcovers.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_object.h`](smart_cover_object.h.md); callers name that, not this file.
 **Tier floor** — T2: shape construction at spawn, a point-in-volume test on demand
 
 ## Purpose

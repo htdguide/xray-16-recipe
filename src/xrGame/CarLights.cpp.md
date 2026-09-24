@@ -3,7 +3,7 @@
 > A vehicle headlight: a spot light, a glow sprite and a bone that is only drawn while the light is on, kept together so that switching one switches all three.
 
 **Needs** — [`CarLights.h`](CarLights.h.md) · [`Car.h`](Car.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [`xrEngine/Render.h`](../xrEngine/Render.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CarLights.h`](CarLights.h.md); callers name that, not this file.
 **Tier floor** — T2: holds two renderer resources and composes one transform per frame
 
 ## Purpose

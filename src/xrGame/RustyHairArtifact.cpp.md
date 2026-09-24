@@ -3,7 +3,7 @@
 > The "rusty hair" artefact: a named artefact type with no behaviour of its own.
 
 **Needs** — [`RustyHairArtifact.h`](RustyHairArtifact.h.md) · [`Artefact.h`](Artefact.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`RustyHairArtifact.h`](RustyHairArtifact.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identifier with a name
 
 ## Purpose

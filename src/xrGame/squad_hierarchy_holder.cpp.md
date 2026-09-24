@@ -3,7 +3,7 @@
 > One squad's slot table of groups, created on first mention so that the three-level team/squad/group hierarchy costs nothing for the combinations a level never uses.
 
 **Needs** — [`squad_hierarchy_holder.h`](squad_hierarchy_holder.h.md) · [`squad_hierarchy_holder_inline.h`](squad_hierarchy_holder_inline.h.md) · [`group_hierarchy_holder.h`](group_hierarchy_holder.h.md) · [`seniority_hierarchy_space.h`](seniority_hierarchy_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`squad_hierarchy_holder.h`](squad_hierarchy_holder.h.md); callers name that, not this file.
 **Tier floor** — T3: a fixed-size slot table with lazy fill
 
 ## Purpose

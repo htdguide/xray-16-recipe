@@ -3,7 +3,7 @@
 > Constructs entities whose classes are defined in script, and contains the failure so that a broken mod class does not take the process down.
 
 **Needs** — [`object_item_script.h`](object_item_script.h.md) · [`object_factory.h`](object_factory.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`object_item_script.h`](object_item_script.h.md); callers name that, not this file.
 **Tier floor** — T3.
 
 ## Purpose

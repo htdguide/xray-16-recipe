@@ -4,7 +4,7 @@
 
 **Needs** — [`xr_ini_ex.h`](xr_ini_ex.h.md) · [`pch.h`](pch.h.md) · [`xrCore/FS.h`](../../xrCore/FS.h.md) · [`xrCore/FS_internal.h`](../../xrCore/FS_internal.h.md) · [`xrCore/xr_ini.h`](../../xrCore/xr_ini.h.md) · [Data: Configuration](../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xr_ini_ex.h`](xr_ini_ex.h.md); callers name that, not this file.
 
 **Tier floor** — T3: text parsing against a frozen format. Nothing here is device- or layout-facing.
 

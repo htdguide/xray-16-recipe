@@ -3,7 +3,7 @@
 > Membership of the smart-terrain index: which server objects are places that hand out jobs.
 
 **Needs** — [`alife_smart_terrain_registry.h`](alife_smart_terrain_registry.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_smart_terrain_registry.h`](alife_smart_terrain_registry.h.md); callers name that, not this file.
 **Tier floor** — T2: a map insertion behind a kind test
 
 ## Purpose

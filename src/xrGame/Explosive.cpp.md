@@ -3,7 +3,7 @@
 > What it means to explode: a blast wave that tests line of sight with sampled rays, a cloud of simulated fragments, a light, a sound, a decal and a screen shake — spread over several frames because a grenade in a crowded room cannot be resolved in one.
 
 **Needs** — [`Explosive.h`](Explosive.h.md) · [`Entity.h`](Entity.h.md) · [`Weapon.h`](Weapon.h.md) · [`Actor.h`](Actor.h.md) · [`ActorEffector.h`](ActorEffector.h.md) · [`Level.h`](Level.h.md) · [`Level_Bullet_Manager.h`](Level_Bullet_Manager.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`wallmark_manager.h`](wallmark_manager.h.md) · [`game_base_space.h`](../xrServerEntities/game_base_space.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/IActivationShape.h`](../xrPhysics/IActivationShape.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [`xrPhysics/MathUtils.h`](../xrPhysics/MathUtils.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md) · [`xrCDB/xr_collide_defs.h`](../xrCDB/xr_collide_defs.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrEngine/profiler.h`](../xrEngine/profiler.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Explosive.h`](Explosive.h.md); callers name that, not this file.
 **Tier floor** — T2: ray queries against the collision database and a few dozen bullets injected; the cost, not the representation, is what constrains it
 
 ## Purpose

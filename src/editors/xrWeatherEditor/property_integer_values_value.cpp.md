@@ -3,7 +3,7 @@
 > A whole number that is a position in a label list, with the list fixed when the row was built.
 
 **Needs** — [`property_integer_values_value.hpp`](property_integer_values_value.hpp.md) · [`property_integer.hpp`](property_integer.hpp.md) · [`property_integer_values_value_base.hpp`](property_integer_values_value_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_integer_values_value.hpp`](property_integer_values_value.hpp.md); callers name that, not this file.
 **Tier floor** — T2: copies a native text array into a managed list at construction
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Loads a trained evaluation function from its data file and answers by summing one fitted weight per feature pattern.
 
 **Needs** — [`ef_pattern.h`](ef_pattern.h.md) · [`ef_primary.h`](ef_primary.h.md) · [`ef_storage.h`](ef_storage.h.md) · [`ai_space.h`](ai_space.h.md) · [`ai_debug.h`](ai_debug.h.md) · [Seam: Compression](../../SYSTEM-REQUIREMENTS.md#seam-compression)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ef_pattern.h`](ef_pattern.h.md); callers name that, not this file.
 **Tier floor** — T1: reads a binary file whose layout is frozen by shipped data
 
 ## Purpose

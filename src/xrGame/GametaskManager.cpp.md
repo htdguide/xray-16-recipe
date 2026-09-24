@@ -3,7 +3,7 @@
 > The player's quest journal: hands tasks out, re-evaluates every in-progress objective once a frame, decides which task is the *active* one per category, and keeps the map pointer on it.
 
 **Needs** — [`GametaskManager.h`](GametaskManager.h.md) · [`GameTask.h`](GameTask.h.md) · [`GameTaskDefs.h`](GameTaskDefs.h.md) · [`alife_registry_wrappers.h`](alife_registry_wrappers.h.md) · [`map_manager.h`](map_manager.h.md) · [`map_location.h`](map_location.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`UIGameSP.h`](UIGameSP.h.md) · [`ui/UIPdaWnd.h`](ui/UIPdaWnd.h.md) · [`ui/UIMapWnd.h`](ui/UIMapWnd.h.md) · [`encyclopedia_article.h`](encyclopedia_article.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GametaskManager.h`](GametaskManager.h.md); callers name that, not this file.
 **Tier floor** — T2: list bookkeeping and a once-a-frame sweep over a small collection
 
 ## Purpose

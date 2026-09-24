@@ -4,7 +4,7 @@
 
 **Needs** — [`sake_worker.h`](sake_worker.h.md) · [`gamespy_sake.h`](gamespy_sake.h.md) · [`threads.h`](threads.h.md) · [Seam: Multiplayer matchmaking and accounts](../../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`sake_worker.h`](sake_worker.h.md); callers name that, not this file.
 
 **Tier floor** — T2: a worker thread, a queue and a start-up handshake.
 

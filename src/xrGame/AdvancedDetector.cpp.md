@@ -3,7 +3,7 @@
 > The directional artefact detector: a hand-held device whose needle points at the nearest hidden artefact and whose beeping speeds up as you close on it.
 
 **Needs** — [`AdvancedDetector.h`](AdvancedDetector.h.md) · [`CustomDetector.h`](CustomDetector.h.md) · [`Artefact.h`](Artefact.h.md) · [`ui/ArtefactDetectorUI.h`](ui/ArtefactDetectorUI.h.md) · [`player_hud.h`](player_hud.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`AdvancedDetector.h`](AdvancedDetector.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame bone transform override on the first-person model
 
 ## Purpose

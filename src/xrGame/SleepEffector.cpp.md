@@ -3,7 +3,7 @@
 > The screen effect that covers falling asleep and waking up: fade the picture into a sleeping state, hold it for as long as sleep lasts, then fade back.
 
 **Needs** — [`SleepEffector.h`](SleepEffector.h.md) · [`xrEngine/EffectorPP.h`](../xrEngine/EffectorPP.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SleepEffector.h`](SleepEffector.h.md); callers name that, not this file.
 **Tier floor** — T3: an interpolation against a lifetime
 
 ## Purpose

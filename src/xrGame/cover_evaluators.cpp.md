@@ -3,7 +3,7 @@
 > Six ways to score a cover position, each answering a different tactical question, all reduced to "keep the candidate with the lowest number".
 
 **Needs** — [`cover_evaluators.h`](cover_evaluators.h.md) · [`cover_evaluators_inline.h`](cover_evaluators_inline.h.md) · [`cover_point.h`](cover_point.h.md) · [`restricted_object.h`](restricted_object.h.md) · [`smart_cover.h`](smart_cover.h.md) · [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`ai_space.h`](ai_space.h.md) · [`ai_debug.h`](ai_debug.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`cover_evaluators.h`](cover_evaluators.h.md); callers name that, not this file.
 **Tier floor** — T2: arithmetic over prebuilt per-vertex tables, run over hundreds of candidates per creature per decision
 
 ## Purpose

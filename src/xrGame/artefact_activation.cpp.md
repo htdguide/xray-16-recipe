@@ -3,7 +3,7 @@
 > Runs the timed sequence in which a discarded artefact rises, hangs, and detonates into a new anomaly.
 
 **Needs** — [`artefact_activation.h`](artefact_activation.h.md) · [`Artefact.h`](Artefact.h.md) · [`Level.h`](Level.h.md) · [`Inventory.h`](Inventory.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`restriction_space.h`](../xrServerEntities/restriction_space.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`artefact_activation.h`](artefact_activation.h.md); callers name that, not this file.
 **Tier floor** — T2: a timed state machine over effects, a physics force and one spawn; no layout concern beyond the spawn packet
 
 ## Purpose

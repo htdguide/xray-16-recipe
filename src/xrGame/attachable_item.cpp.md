@@ -3,7 +3,7 @@
 > The half of an inventory item that lets it hang visibly on a bone of whoever is carrying it.
 
 **Needs** — [`attachable_item.h`](attachable_item.h.md) · [`attachment_owner.h`](attachment_owner.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Inventory.h`](Inventory.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`attachable_item.h`](attachable_item.h.md); callers name that, not this file.
 **Tier floor** — T2: a rigid offset and a visibility flag; the only device contact is handing a visual to the renderer
 
 ## Purpose

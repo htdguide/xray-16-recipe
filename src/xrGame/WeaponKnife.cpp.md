@@ -3,7 +3,7 @@
 > The knife: two distinct attacks, each landing on an animation marker, each resolved as a small burst of short-range hits aimed at the bone shapes inside a sphere in front of the player.
 
 **Needs** — [`WeaponKnife.h`](WeaponKnife.h.md) · [`Weapon.h`](Weapon.h.md) · [`Level_Bullet_Manager.h`](Level_Bullet_Manager.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`player_hud.h`](player_hud.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md) · [`xrCore/Animation/SkeletonMotions.hpp`](../xrCore/Animation/SkeletonMotions.hpp.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponKnife.h`](WeaponKnife.h.md); callers name that, not this file.
 **Tier floor** — T2: a spatial query and a per-bone shape intersection pass per swing.
 
 ## Purpose

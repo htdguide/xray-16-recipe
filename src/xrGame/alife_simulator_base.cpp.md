@@ -3,7 +3,7 @@
 > Owns every alife registry, and owns entity creation: how a spawn record, a configuration section or a group template becomes a live server object.
 
 **Needs** — [`alife_simulator_base.h`](alife_simulator_base.h.md) · [`alife_simulator_header.h`](alife_simulator_header.h.md) · [`alife_time_manager.h`](alife_time_manager.h.md) · [`alife_spawn_registry.h`](alife_spawn_registry.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`alife_graph_registry.h`](alife_graph_registry.h.md) · [`alife_schedule_registry.h`](alife_schedule_registry.h.md) · [`alife_story_registry.h`](alife_story_registry.h.md) · [`alife_smart_terrain_registry.h`](alife_smart_terrain_registry.h.md) · [`alife_group_registry.h`](alife_group_registry.h.md) · [`alife_registry_container.h`](alife_registry_container.h.md) · [`inventory_upgrade_manager.h`](inventory_upgrade_manager.h.md) · [`object_factory.h`](../xrServerEntities/object_factory.h.md) · [`xrServer.h`](xrServer.h.md) · [`Level.h`](Level.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_simulator_base.h`](alife_simulator_base.h.md); callers name that, not this file.
 **Tier floor** — T2: registry ownership, a factory and a packet round trip
 
 ## Purpose

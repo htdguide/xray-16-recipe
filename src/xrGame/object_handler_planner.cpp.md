@@ -3,7 +3,7 @@
 > Turns "use this object this way" into a target world state, keeps the operator set in step with the inventory, and rolls the creature's burst rhythm.
 
 **Needs** — [`object_handler_planner.h`](object_handler_planner.h.md) · [`object_handler_planner_impl.h`](object_handler_planner_impl.h.md) · [`object_handler_space.h`](object_handler_space.h.md) · [`object_property_evaluators.h`](object_property_evaluators.h.md) · [`object_actions.h`](object_actions.h.md) · [`ai_monster_space.h`](ai_monster_space.h.md) · [`Inventory.h`](Inventory.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md) · [`Missile.h`](Missile.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`object_handler_planner.h`](object_handler_planner.h.md); callers name that, not this file.
 **Tier floor** — T2: planner set maintenance and goal translation, once per creature update
 
 ## Purpose

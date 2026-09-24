@@ -3,7 +3,7 @@
 > The melee jump: a standing creature with its enemy behind it and within arm's reach spins to face it in one clip.
 
 **Needs** — [`control_melee_jump.h`](control_melee_jump.h.md) · [`control_manager.h`](control_manager.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_melee_jump.h`](control_melee_jump.h.md); callers name that, not this file.
 **Tier floor** — T2: seizes the body for the duration of one clip
 
 ## Purpose

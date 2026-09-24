@@ -3,7 +3,7 @@
 > The bloom chain's materials: one template whose five elements are the five steps of a separable blur into a half-resolution target, plus the final post-processing composite.
 
 **Needs** — [`blender_bloom_build.h`](blender_bloom_build.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`r2_types.h`](../../xrRender_R2/r2_types.h.md) · [Seam: Graphics device](../../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`blender_bloom_build.h`](blender_bloom_build.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description with no parameter block and no data-driven identity.
 
 ## Purpose

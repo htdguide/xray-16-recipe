@@ -3,7 +3,7 @@
 > Writes and reads a configuration file that carries a signature over its own text, so a client can prove the server's settings were not edited.
 
 **Needs** — [`gsc_dsigned_ltx.h`](gsc_dsigned_ltx.h.md) · [`xrCore/xr_ini.h`](../xrCore/xr_ini.h.md) · [Seam: Cryptography](../xrCore/Crypto/README.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`gsc_dsigned_ltx.h`](gsc_dsigned_ltx.h.md); callers name that, not this file.
 **Tier floor** — T1: signs and verifies over an exact byte range of a text buffer, and mutates that buffer in place
 
 ## Purpose

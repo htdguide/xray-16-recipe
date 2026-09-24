@@ -3,7 +3,7 @@
 > A revolver: a semi-automatic-feeling handgun whose reload animation depends on how many rounds are still in the cylinder.
 
 **Needs** — [`WeaponRevolver.h`](WeaponRevolver.h.md) · [`WeaponCustomPistol.h`](WeaponCustomPistol.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponRevolver.h`](WeaponRevolver.h.md); callers name that, not this file.
 **Tier floor** — T2: animation selection on the firing and reload paths.
 
 ## Purpose

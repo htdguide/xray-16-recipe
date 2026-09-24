@@ -3,7 +3,7 @@
 > The compilation anchor for the signal registry; the substance is in the header.
 
 **Needs** — [`pure.h`](pure.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`pure.h`](pure.h.md); callers name that, not this file.
 **Tier floor** — T4: no behaviour.
 
 ## Purpose

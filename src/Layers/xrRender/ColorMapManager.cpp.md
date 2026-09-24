@@ -3,7 +3,7 @@
 > Points the two colour-grading lookup slots at named textures, and never lets a grading texture leave memory once loaded.
 
 **Needs** — [`ColorMapManager.h`](ColorMapManager.h.md) · [`ResourceManager.h`](ResourceManager.h.md) · [`SH_Texture.h`](SH_Texture.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ColorMapManager.h`](ColorMapManager.h.md); callers name that, not this file.
 **Tier floor** — T1: it rebinds the underlying device surface of one texture object to another's, which is a handle-level operation below the texture abstraction.
 
 ## Purpose

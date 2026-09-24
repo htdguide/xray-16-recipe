@@ -4,7 +4,7 @@
 > two clocks every emitter reads, and the tunable constants the whole chapter is calibrated around.
 
 **Needs** — [`SoundRender_Core.h`](SoundRender_Core.h.md) · [`SoundRender_Source.h`](SoundRender_Source.h.md) · [`SoundRender_Emitter.h`](SoundRender_Emitter.h.md) · [`SoundRender_Scene.h`](SoundRender_Scene.h.md) · [`Sound.h`](Sound.h.md) · [`Include/xrAPI/xrAPI.h`](../Include/xrAPI/xrAPI.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_Core.h`](SoundRender_Core.h.md); callers name that, not this file.
 **Tier floor** — T2: no device calls and no byte layouts here; it only fails T3 because it sits inside a fixed per-frame budget shared with the renderer.
 
 ## Purpose

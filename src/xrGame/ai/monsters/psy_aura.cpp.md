@@ -3,7 +3,7 @@
 > Refreshes the field's membership from the creature's current position, but only while the ability's charge allows it.
 
 **Needs** — [`psy_aura.h`](psy_aura.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`psy_aura.h`](psy_aura.h.md); callers name that, not this file.
 **Tier floor** — T3: a scheduled position-and-radius query
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The direction resource: it eases the creature's heading and pitch toward their targets each frame, writes the result into the model's transform, and reports when a rotation completes.
 
 **Needs** — [`control_direction.h`](control_direction.h.md) · [`control_manager.h`](control_manager.h.md) · [`control_path_builder.h`](control_path_builder.h.md) · [`detail_path_manager.h`](../../detail_path_manager.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md) · [`xrAICore/Navigation/level_graph.h`](../../../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../../../xrAICore/Navigation/ai_object_location.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_direction.h`](control_direction.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame angle integration plus a transform write for every live creature
 
 ## Purpose

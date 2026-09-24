@@ -3,7 +3,7 @@
 > Turns a character's numeric rating into a named rank band, and holds the tables that say how ranks regard each other and what a kill is worth.
 
 **Needs** — [`character_rank.h`](character_rank.h.md) · [`character_info_defs.h`](../xrServerEntities/character_info_defs.h.md) · [`ini_id_loader.h`](ini_id_loader.h.md) · [`ini_table_loader.h`](ini_table_loader.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`character_rank.h`](character_rank.h.md); callers name that, not this file.
 **Tier floor** — T3: a banding function and two lookup tables
 
 ## Purpose

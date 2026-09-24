@@ -3,7 +3,7 @@
 > Hands the animation planner its next goal, and decides when a creature has spent long enough firing that it should drop back into cover.
 
 **Needs** — [`smart_cover_planner_target_provider.h`](smart_cover_planner_target_provider.h.md) · [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md) · [`agent_manager.h`](agent_manager.h.md) · [`agent_enemy_manager.h`](agent_enemy_manager.h.md) · [`Weapon.h`](Weapon.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_decision_space.h`](stalker_decision_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_planner_target_provider.h`](smart_cover_planner_target_provider.h.md); callers name that, not this file.
 **Tier floor** — T2: planner glue with one timing rule
 
 ## Purpose

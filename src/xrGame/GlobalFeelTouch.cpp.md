@@ -3,7 +3,7 @@
 > A touch-sense participant that senses nothing and exists only to hold a set of temporarily ignored objects with expiry times.
 
 **Needs** — [`GlobalFeelTouch.hpp`](GlobalFeelTouch.hpp.md) · [`xrEngine/Feel_Touch.h`](../xrEngine/Feel_Touch.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GlobalFeelTouch.hpp`](GlobalFeelTouch.hpp.md); callers name that, not this file.
 **Tier floor** — T3: a list with time-based expiry
 
 ## Purpose

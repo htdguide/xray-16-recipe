@@ -3,7 +3,7 @@
 > Turning one physically simulated object into several: spawning the debris, waiting for every piece to arrive, and handing each one the momentum of the blow that broke it.
 
 **Needs** — [`PHDestroyable.h`](PHDestroyable.h.md) · [`PHDestroyableNotificate.h`](PHDestroyableNotificate.h.md) · [`PHSkeleton.h`](PHSkeleton.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`Hit.h`](Hit.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`object_factory.h`](../xrServerEntities/object_factory.h.md) · [`xrServerEntities/xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PHDestroyable.h`](PHDestroyable.h.md); callers name that, not this file.
 **Tier floor** — T2: object lifecycle plus rigid-body state transfer
 
 ## Purpose

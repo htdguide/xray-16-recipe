@@ -3,7 +3,7 @@
 > The artefact: an object that glows and hums while it lies in the world, grants passive effects while it is carried, can be activated into an anomaly, and — for some of them — hides from the player and wanders a patrol path until a detector finds it.
 
 **Needs** — [`Artefact.h`](Artefact.h.md) · [`hud_item_object.h`](hud_item_object.h.md) · [`hit_immunity.h`](hit_immunity.h.md) · [`artefact_activation.h`](artefact_activation.h.md) · [`Inventory.h`](Inventory.h.md) · [`Level.h`](Level.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`restriction_space.h`](../xrServerEntities/restriction_space.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_path.h`](../xrAICore/Navigation/PatrolPath/patrol_path.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Artefact.h`](Artefact.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame light and particle updates plus a physics-step participation
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The default driver of the direction channel: it holds the heading the creature *wants*, from the path or from a target it is facing, and publishes it into the channel each frame.
 
 **Needs** — [`control_direction_base.h`](control_direction_base.h.md) · [`control_direction.h`](control_direction.h.md) · [`control_path_builder.h`](control_path_builder.h.md) · [`detail_path_manager.h`](../../detail_path_manager.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_direction_base.h`](control_direction_base.h.md); callers name that, not this file.
 **Tier floor** — T2: one frame-rate write per creature
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Plays a looping sound at a bone, with its pitch driven by how fast that bone is rotating, so machinery sounds like it is working.
 
 **Needs** — [`moving_bones_snd_player.h`](moving_bones_snd_player.h.md) · [`GameObject.h`](GameObject.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrCore/Animation/Bone.hpp`](../xrCore/Animation/Bone.hpp.md) · [`xrPhysics/matrix_utils.h`](../xrPhysics/matrix_utils.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`moving_bones_snd_player.h`](moving_bones_snd_player.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame matrix differencing and a sound source
 
 ## Purpose

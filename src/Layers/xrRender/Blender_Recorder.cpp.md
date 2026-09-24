@@ -3,7 +3,7 @@
 > The material compiler: the scratch context a blender emits passes into, and the rules that turn "$base0" plus a detail-texture convention into a concrete, deduplicated, immutable pass list.
 
 **Needs** — [`Blender_Recorder.h`](Blender_Recorder.h.md) · [`Blender.h`](Blender.h.md) · [`ResourceManager.h`](ResourceManager.h.md) · [`Shader.h`](Shader.h.md) · [`TextureDescrManager.h`](TextureDescrManager.h.md) · [`tss.h`](tss.h.md) · [`r_constants.h`](r_constants.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Blender_Recorder.h`](Blender_Recorder.h.md); callers name that, not this file.
 **Tier floor** — T1: the state it accumulates is a flat table of device-state tokens whose numeric values are the graphics API's own, and it hands the resource manager byte-comparable keys built from them.
 
 ## Purpose

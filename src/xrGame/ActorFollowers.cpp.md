@@ -3,7 +3,7 @@
 > Dead code: an abandoned squad-of-followers feature, commented out in its entirety.
 
 **Needs** — _(none: the file's whole body is disabled)_
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ActorFollowers.h`](ActorFollowers.h.md); callers name that, not this file.
 **Tier floor** — T4: nothing compiles from this file
 
 ## Purpose

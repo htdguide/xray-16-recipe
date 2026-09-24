@@ -3,7 +3,7 @@
 > Artefact hunt's two extra server events: a player entered or left a team's base.
 
 **Needs** — [`game_sv_artefacthunt.h`](game_sv_artefacthunt.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md)
-**Used by** — [`game_sv_artefacthunt.cpp`](game_sv_artefacthunt.cpp.md)
+**Used by** — [`game_sv_artefacthunt.cpp`](game_sv_artefacthunt.cpp.md) · [`game_sv_artefacthunt.h`](game_sv_artefacthunt.h.md)
 **Tier floor** — T3: a dispatch on an event type
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Photo mode: hand the vehicle-maker's screenshot tool control of the camera's orientation while the world stands still, and take it back cleanly.
 
 **Needs** — [`AnselManager.h`](AnselManager.h.md) · [`holder_custom.h`](holder_custom.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`xrEngine/CameraManager.h`](../xrEngine/CameraManager.h.md) · [`xrEngine/CameraDefs.h`](../xrEngine/CameraDefs.h.md) · [Seam: Windowing and input](../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`AnselManager.h`](AnselManager.h.md); callers name that, not this file.
 **Tier floor** — T1: it loads a vendor library by name at run time and exchanges structures with it
 
 ## Purpose

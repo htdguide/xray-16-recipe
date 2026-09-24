@@ -3,7 +3,7 @@
 > Declares team deathmatch: deathmatch plus two teams, a shared score, friendly fire, team balancing and a team base.
 
 **Needs** — [`game_sv_deathmatch.h`](game_sv_deathmatch.h.md)
-**Used by** — [`game_sv_artefacthunt.cpp`](game_sv_artefacthunt.cpp.md) · [`game_sv_teamdeathmatch.cpp`](game_sv_teamdeathmatch.cpp.md) · [`game_sv_teamdeathmatch_process_event.cpp`](game_sv_teamdeathmatch_process_event.cpp.md) · [`xrServer_Connect.cpp`](xrServer_Connect.cpp.md)
+**Used by** — [`game_sv_artefacthunt.cpp`](game_sv_artefacthunt.cpp.md) · [`game_sv_artefacthunt.h`](game_sv_artefacthunt.h.md) · [`game_sv_teamdeathmatch.cpp`](game_sv_teamdeathmatch.cpp.md) · [`game_sv_teamdeathmatch_process_event.cpp`](game_sv_teamdeathmatch_process_event.cpp.md) · [`xrServer_Connect.cpp`](xrServer_Connect.cpp.md)
 **Tier floor** — T2: a declaration
 
 ## Purpose

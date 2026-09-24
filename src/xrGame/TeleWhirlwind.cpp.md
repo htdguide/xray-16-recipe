@@ -3,7 +3,7 @@
 > The whirlwind anomaly's grip: it drags loose objects along the ground into a funnel, lifts and spins them at the centre, destroys what is fragile enough, and throws the rest back out.
 
 **Needs** — [`TeleWhirlwind.h`](TeleWhirlwind.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`PHDestroyable.h`](PHDestroyable.h.md) · [`ParticlesPlayer.h`](ParticlesPlayer.h.md) · [`Level.h`](Level.h.md) · [`Hit.h`](Hit.h.md) · [`ai/monsters/telekinesis.h`](ai/monsters/telekinesis.h.md) · [`ai/monsters/telekinetic_object.h`](ai/monsters/telekinetic_object.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/PHImpact.h`](../xrPhysics/PHImpact.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`TeleWhirlwind.h`](TeleWhirlwind.h.md); callers name that, not this file.
 **Tier floor** — T2: a per-element force controller stepped against the solver's fixed timestep
 
 ## Purpose

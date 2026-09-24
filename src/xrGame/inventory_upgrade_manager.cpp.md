@@ -3,7 +3,7 @@
 > Builds every item's upgrade tree from configuration at startup, and is the single place an upgrade is checked, installed and recorded onto an item.
 
 **Needs** — [`inventory_upgrade_manager.h`](inventory_upgrade_manager.h.md) · [`inventory_upgrade_base.h`](inventory_upgrade_base.h.md) · [`inventory_upgrade.h`](inventory_upgrade.h.md) · [`inventory_upgrade_root.h`](inventory_upgrade_root.h.md) · [`inventory_upgrade_group.h`](inventory_upgrade_group.h.md) · [`inventory_upgrade_property.h`](inventory_upgrade_property.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`inventory_upgrade_manager.h`](inventory_upgrade_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: parses configuration into an object graph and walks it
 
 ## Purpose

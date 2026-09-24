@@ -3,7 +3,7 @@
 > Getting a human into a piece of authored furniture and keeping them there: walking to the entry point, handing the body over to an animation, and the target the planner is driving toward inside.
 
 **Needs** — [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`movement_manager_space.h`](movement_manager_space.h.md) · [`smart_cover.h`](smart_cover.h.md) · [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`smart_cover_transition.hpp`](smart_cover_transition.hpp.md) · [`smart_cover_transition_animation.hpp`](smart_cover_transition_animation.hpp.md) · [`smart_cover_animation_selector.h`](smart_cover_animation_selector.h.md) · [`smart_cover_planner_target_selector.h`](smart_cover_planner_target_selector.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`stalker_movement_params.h`](stalker_movement_params.h.md) · [`sight_manager.h`](sight_manager.h.md) · [`level_path_manager.h`](level_path_manager.h.md) · [`detail_path_manager.h`](detail_path_manager.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`Inventory.h`](Inventory.h.md) · [`Weapon.h`](Weapon.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`script_game_object.h`](script_game_object.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md); callers name that, not this file.
 **Tier floor** — T2: a state machine handing control between the pathfinder and the animation system
 
 ## Purpose

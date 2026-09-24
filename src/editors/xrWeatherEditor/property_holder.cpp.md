@@ -3,7 +3,7 @@
 > One document node as the editor sees it: the identity, the lifetime, and the rule that deleting a node from the grid deletes it from the document.
 
 **Needs** — [`property_holder.hpp`](property_holder.hpp.md) · [`property_container.hpp`](property_container.hpp.md) · [`Include/editor/property_holder_base.hpp`](../../Include/editor/property_holder_base.hpp.md) · [`Include/editor/engine.hpp`](../../Include/editor/engine.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_holder.hpp`](property_holder.hpp.md); callers name that, not this file.
 **Tier floor** — T2: a managed object reachable through a native interface pointer, released on a schedule a collector does not choose
 
 ## Purpose

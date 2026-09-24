@@ -5,7 +5,7 @@
 > reversed inside each group.
 
 **Needs** — [`base32.h`](base32.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`base32.h`](base32.h.md); callers name that, not this file.
 **Tier floor** — T2. The packing is a shift register over a fixed-width byte array; the
 widths are load-bearing, the storage is not. A rebuild may hold the register as a single
 40-bit integer and get identical results.

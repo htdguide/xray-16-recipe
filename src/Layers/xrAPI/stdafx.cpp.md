@@ -3,7 +3,7 @@
 > The translation unit that exists so the module's precompiled prelude has something to compile into.
 
 **Needs** — [`stdafx.h`](stdafx.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stdafx.h`](stdafx.h.md); callers name that, not this file.
 **Tier floor** — T4: a build-system artifact with no runtime meaning.
 
 ## Purpose

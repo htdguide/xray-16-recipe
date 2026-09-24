@@ -3,7 +3,7 @@
 > Loads a skeleton out of the shipped model file — bones, hierarchy, joint data, level-of-detail stand-in, the model's own configuration block — and owns the two things a posed skeleton does for the game: skinned decals and bone-accurate picking.
 
 **Needs** — [`SkeletonCustom.h`](SkeletonCustom.h.md) · [`SkeletonX.h`](SkeletonX.h.md) · [`FHierrarhyVisual.h`](FHierrarhyVisual.h.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md) · [`xrCore/Animation/Bone.hpp`](../../xrCore/Animation/Bone.hpp.md) · [`xrCDB/Intersect.hpp`](../../xrCDB/Intersect.hpp.md) · [`Include/xrRender/Kinematics.h`](../../Include/xrRender/Kinematics.h.md) · [`Shader.h`](Shader.h.md) · [`xrRender_console.h`](xrRender_console.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SkeletonCustom.h`](SkeletonCustom.h.md); callers name that, not this file.
 **Tier floor** — T1: the bone hierarchy and the joint records are read as byte images out of a mapped model file, and the hierarchy is shared unowned between every instance of the model while the per-instance arrays are raw parallel allocations indexed by bone id.
 
 ## Purpose

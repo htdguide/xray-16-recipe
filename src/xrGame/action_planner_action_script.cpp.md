@@ -3,7 +3,7 @@
 > Exports the composite planner-action to the script virtual machine, so that a nested brain can be written in Lua.
 
 **Needs** — [`action_planner_action.h`](action_planner_action.h.md) · [`script_action_planner_action_wrapper.h`](script_action_planner_action_wrapper.h.md) · [`script_game_object.h`](script_game_object.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`action_planner_action_script.h`](action_planner_action_script.h.md); callers name that, not this file.
 **Tier floor** — T3: registration data
 
 ## Purpose

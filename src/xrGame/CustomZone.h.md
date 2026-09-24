@@ -3,7 +3,7 @@
 > Declares the anomaly base class implemented in [`CustomZone.cpp`](CustomZone.cpp.md), its five states, its twenty configured flags and the per-resident record.
 
 **Needs** — [`space_restrictor.h`](space_restrictor.h.md) · [`xrEngine/Feel_Touch.h`](../xrEngine/Feel_Touch.h.md)
-**Used by** — [`Actor_Feel.cpp`](Actor_Feel.cpp.md) · [`AmebaZone.cpp`](AmebaZone.cpp.md) · [`AmebaZone.h`](AmebaZone.h.md) · [`CustomDetector.h`](CustomDetector.h.md) · [`CustomMonster.cpp`](CustomMonster.cpp.md) · [`CustomZone.cpp`](CustomZone.cpp.md) · [`GraviZone.cpp`](GraviZone.cpp.md) · [`GraviZone.h`](GraviZone.h.md) · [`HairsZone.cpp`](HairsZone.cpp.md) · [`HairsZone.h`](HairsZone.h.md) · [`Helicopter2.cpp`](Helicopter2.cpp.md) · [`Mincer.cpp`](Mincer.cpp.md) · [`MosquitoBald.cpp`](MosquitoBald.cpp.md) · [`MosquitoBald.h`](MosquitoBald.h.md) · _and 14 more_
+**Used by** — [`Actor_Feel.cpp`](Actor_Feel.cpp.md) · [`AmebaZone.cpp`](AmebaZone.cpp.md) · [`AmebaZone.h`](AmebaZone.h.md) · [`CustomDetector.h`](CustomDetector.h.md) · [`CustomMonster.cpp`](CustomMonster.cpp.md) · [`CustomZone.cpp`](CustomZone.cpp.md) · [`GraviZone.cpp`](GraviZone.cpp.md) · [`GraviZone.h`](GraviZone.h.md) · [`HairsZone.cpp`](HairsZone.cpp.md) · [`HairsZone.h`](HairsZone.h.md) · [`Helicopter2.cpp`](Helicopter2.cpp.md) · [`Mincer.cpp`](Mincer.cpp.md) · [`MosquitoBald.cpp`](MosquitoBald.cpp.md) · [`MosquitoBald.h`](MosquitoBald.h.md) · _and 15 more_
 **Tier floor** — T3: a declaration plus one threshold constant
 
 ## Purpose

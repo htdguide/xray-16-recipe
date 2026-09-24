@@ -3,7 +3,7 @@
 > The grass layer's frame: pick this frame's visible plants off a background thread, fade them by distance, and hand three batched lists to a draw path.
 
 **Needs** — [`DetailManager.h`](DetailManager.h.md) · [`HOM.h`](HOM.h.md) · [`xrEngine/Environment.h`](../../xrEngine/Environment.h.md) · [`xrCore/Threading/TaskManager.hpp`](../../xrCore/Threading/TaskManager.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`DetailManager.h`](DetailManager.h.md); callers name that, not this file.
 **Tier floor** — T1: the visibility sweep walks a quarter of a million cache records per frame with explicit prefetching and packed state, and it runs concurrently with the rest of the frame.
 
 ## Purpose

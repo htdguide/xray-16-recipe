@@ -3,7 +3,7 @@
 > Where a creature learns where it is allowed to go: builds its restrictor set at spawn, answers accessibility, and installs a temporary border around a path in progress.
 
 **Needs** — [`restricted_object.h`](restricted_object.h.md) · [`space_restriction_manager.h`](space_restriction_manager.h.md) · [`space_restriction.h`](space_restriction.h.md) · [`space_restriction_bridge.h`](space_restriction_bridge.h.md) · [`space_restriction_base.h`](space_restriction_base.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`Level.h`](Level.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`CustomMonster.h`](CustomMonster.h.md) · [`xrNetServer/NET_Messages.h`](../xrNetServer/NET_Messages.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`restricted_object.h`](restricted_object.h.md); callers name that, not this file.
 **Tier floor** — T2: per-query delegation, with one 4 KB string assembly at spawn
 
 ## Purpose

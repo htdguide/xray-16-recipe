@@ -3,7 +3,7 @@
 > A physics prop that breaks: it accumulates damage through the armour and per-bone scaling tables, and on reaching zero replaces itself with a pre-authored broken version, with a sound and a burst of particles oriented to the blow.
 
 **Needs** — [`DestroyablePhysicsObject.h`](DestroyablePhysicsObject.h.md) · [`PhysicObject.h`](PhysicObject.cpp.md) · [`PHDestroyable.h`](PHDestroyable.h.md) · [`PHCollisionDamageReceiver.h`](PHCollisionDamageReceiver.h.md) · [`hit_immunity.h`](hit_immunity.h.md) · [`damage_manager.h`](damage_manager.h.md) · [`Hit.h`](Hit.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`DestroyablePhysicsObject.h`](DestroyablePhysicsObject.h.md); callers name that, not this file.
 **Tier floor** — T2: damage arithmetic and a model swap; the physics is behind the seam
 
 ## Purpose

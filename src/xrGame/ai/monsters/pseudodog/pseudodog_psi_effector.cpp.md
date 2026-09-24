@@ -3,7 +3,7 @@
 > Empty.
 
 **Needs** — [`pseudodog_psi_effector.h`](pseudodog_psi_effector.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`pseudodog_psi_effector.h`](pseudodog_psi_effector.h.md); callers name that, not this file.
 **Tier floor** — T4: no content
 
 ## Purpose

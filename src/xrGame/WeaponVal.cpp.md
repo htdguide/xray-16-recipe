@@ -3,7 +3,7 @@
 > Constructs the VAL silenced rifle as a magazine-fed weapon that reports itself to the sound-perception layer as a submachine gun.
 
 **Needs** — [`WeaponVal.h`](WeaponVal.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponVal.h`](WeaponVal.h.md); callers name that, not this file.
 **Tier floor** — T3: one constant choice
 
 ## Purpose

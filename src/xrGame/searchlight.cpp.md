@@ -3,7 +3,7 @@
 > A steerable spot light on a two-axis mount: aims at a script-given target, moves both axes so they arrive together, and animates its colour.
 
 **Needs** — [`searchlight.h`](searchlight.h.md) · [`script_object.h`](script_object.h.md) · [`script_entity_action.h`](script_entity_action.h.md) · [`script_watch_action.h`](script_watch_action.h.md) · [`xrEngine/LightAnimLibrary.h`](../xrEngine/LightAnimLibrary.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`game_object_space.h`](game_object_space.h.md) · [`xrServerEntities/xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`searchlight.h`](searchlight.h.md); callers name that, not this file.
 **Tier floor** — T1: owns renderer light and glow handles whose release is ordered against the object's teardown
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The one non-template thing about creature states: the identifier-to-name table the debug overlay reads.
 
 **Needs** — [`state.h`](state.h.md) · [`state_defs.h`](state_defs.h.md) · [Seam: Debug overlay UI](../../../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`state.h`](state.h.md); callers name that, not this file.
 **Tier floor** — T3: a lookup table
 
 ## Purpose

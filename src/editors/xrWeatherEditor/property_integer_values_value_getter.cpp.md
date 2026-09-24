@@ -3,7 +3,7 @@
 > A whole number indexing a list that only exists while the editor is running, so the list is asked for every time.
 
 **Needs** — [`property_integer_values_value_getter.hpp`](property_integer_values_value_getter.hpp.md) · [`property_integer.hpp`](property_integer.hpp.md) · [`property_integer_values_value_base.hpp`](property_integer_values_value_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_integer_values_value_getter.hpp`](property_integer_values_value_getter.hpp.md); callers name that, not this file.
 **Tier floor** — T2: owns native callback objects and rebuilds a managed list from native text on every query
 
 ## Purpose

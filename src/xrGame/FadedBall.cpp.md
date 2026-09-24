@@ -3,7 +3,7 @@
 > Another effectless artefact class: identity only, behaviour entirely inherited.
 
 **Needs** — [`FadedBall.h`](FadedBall.h.md) · [`Artefact.h`](Artefact.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FadedBall.h`](FadedBall.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identity and nothing else
 
 ## Purpose

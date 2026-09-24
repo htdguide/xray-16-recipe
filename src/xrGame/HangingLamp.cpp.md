@@ -3,7 +3,7 @@
 > A light fixture that can be shot out: up to three render lights riding on named bones of a physically-jointed model, with a health value and a bone whose destruction kills the lamp.
 
 **Needs** — [`HangingLamp.h`](HangingLamp.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`PHSkeleton.h`](PHSkeleton.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [`xrEngine/LightAnimLibrary.h`](../xrEngine/LightAnimLibrary.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`game_object_space.h`](game_object_space.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HangingLamp.h`](HangingLamp.h.md); callers name that, not this file.
 **Tier floor** — T2: transform composition and light property updates; the light and body handles are interfaces
 
 ## Purpose

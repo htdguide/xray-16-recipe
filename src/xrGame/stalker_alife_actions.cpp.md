@@ -3,7 +3,7 @@
 > Two stalker behaviours for when nothing is happening: the idle stance a stalker holds on a level with no alife simulation, and the walk-over-and-take-it that picks up an item the stalker has noticed.
 
 **Needs** — [`stalker_alife_actions.h`](stalker_alife_actions.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_base_action.h`](stalker_base_action.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`sight_manager.h`](sight_manager.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`item_manager.h`](item_manager.h.md) · [`sound_player.h`](sound_player.h.md) · [`Inventory.h`](Inventory.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`movement_manager_space.h`](movement_manager_space.h.md) · [`detail_path_manager_space.h`](detail_path_manager_space.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_alife_actions.h`](stalker_alife_actions.h.md); callers name that, not this file.
 **Tier floor** — T3: parameter assignment against the movement, sight and sound subsystems
 
 ## Purpose

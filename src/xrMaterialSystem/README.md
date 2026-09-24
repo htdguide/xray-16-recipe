@@ -49,7 +49,9 @@ other. Most cells of the table are empty and every caller must have a fallback.
 **Identifier versus index.** A material has an authored identifier, stable in the file and
 never reused, and a load-time index, which is its position in the loaded list. The file
 speaks identifiers; everything in a frame speaks indices, because an index fits in the
-16 bits a collision triangle can spare and because it addresses the pair table directly.
+14 bits a collision triangle can spare (see [`xrCDB/xrCDB.cpp`](../xrCDB/xrCDB.cpp.md),
+which owns that packing) and because it addresses the pair table directly. Fourteen bits
+caps a level at 16384 distinct static materials.
 Getting these two confused is the standard way to corrupt a level's surfaces, and the
 engine defends against it with a checksum: the cached collision model records which
 library it was remapped against and is discarded if that library changed.

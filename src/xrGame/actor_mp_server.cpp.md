@@ -3,7 +3,7 @@
 > The server-side record of a networked player: the authoritative state the server relays, and the rule that a dead player stops being relayed.
 
 **Needs** — [`actor_mp_server.h`](actor_mp_server.h.md) · [`actor_mp_state.h`](actor_mp_state.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`actor_mp_server.h`](actor_mp_server.h.md); callers name that, not this file.
 **Tier floor** — T2: record bookkeeping around a frozen wire form
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The signature parameters shared by the client that signs a configuration dump and the server that checks it.
 
 **Needs** — [`configs_common.h`](configs_common.h.md) · [`xrCore/Crypto/xr_dsa.h`](../xrCore/Crypto/xr_dsa.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`configs_common.h`](configs_common.h.md); callers name that, not this file.
 **Tier floor** — T1: fixed-width byte arrays whose exact contents are the contract
 
 ## Purpose

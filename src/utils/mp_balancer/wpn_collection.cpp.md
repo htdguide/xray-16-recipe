@@ -4,7 +4,7 @@
 
 **Needs** — [`wpn_collection.hpp`](wpn_collection.hpp.md) · [`xr_ini_ex.h`](xr_ini_ex.h.md) · [`pch.h`](pch.h.md) · [`xrCore/LocatorAPI.h`](../../xrCore/LocatorAPI.h.md) · [Data: Configuration](../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`wpn_collection.hpp`](wpn_collection.hpp.md); callers name that, not this file.
 
 **Tier floor** — T3: text configuration, a console conversation, and no timing or layout constraint anywhere.
 

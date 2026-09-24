@@ -3,7 +3,7 @@
 > Where a creature is willing to be: the terrain masks the alife simulation scores cross-level graph vertices against when moving it off-screen.
 
 **Needs** — [`location_manager.h`](location_manager.h.md) · [`GameObject.h`](GameObject.h.md) · [`xrAICore/Navigation/game_graph_space.h`](../xrAICore/Navigation/game_graph_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`location_manager.h`](location_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: reads configuration into a preference list
 
 ## Purpose

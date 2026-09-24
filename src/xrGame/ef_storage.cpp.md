@@ -3,7 +3,7 @@
 > Builds every evaluation function at startup, assigns each primary one a fixed numeric identity, and loads the twenty-four trained functions from data files.
 
 **Needs** — [`ef_storage.h`](ef_storage.h.md) · [`ef_primary.h`](ef_primary.h.md) · [`ef_pattern.h`](ef_pattern.h.md) · [Seam: Compression](../../SYSTEM-REQUIREMENTS.md#seam-compression)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ef_storage.h`](ef_storage.h.md); callers name that, not this file.
 **Tier floor** — T3: construction and a linear name lookup
 
 ## Purpose

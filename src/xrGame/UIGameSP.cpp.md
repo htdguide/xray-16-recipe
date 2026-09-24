@@ -3,7 +3,7 @@
 > The single-player game's heads-up layer: which full-screen dialog opens for which key or gameplay event, and the level-change confirmation that freezes the world while the player decides.
 
 **Needs** — [`UIGameSP.h`](UIGameSP.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`UITimeDilator.h`](UITimeDilator.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`GametaskManager.h`](GametaskManager.h.md) · [`GameTask.h`](GameTask.h.md) · [`ui/UIActorMenu.h`](ui/UIActorMenu.h.md) · [`ui/UIPdaWnd.h`](ui/UIPdaWnd.h.md) · [`ui/UITalkWnd.h`](ui/UITalkWnd.h.md) · [Seam: Windowing and input](../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIGameSP.h`](UIGameSP.h.md); callers name that, not this file.
 **Tier floor** — T3: dialog routing and a message box; the only hard constraint is that the level-change packet be sent exactly once.
 
 ## Purpose

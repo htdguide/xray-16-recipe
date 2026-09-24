@@ -3,7 +3,7 @@
 > One line of a conversation: its text, the goodwill it demands, and whether it is a dead end.
 
 **Needs** — [`Phrase.h`](Phrase.h.md) · [`PhraseScript.h`](PhraseScript.h.md) · [`GameObject.h`](GameObject.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Phrase.h`](Phrase.h.md); callers name that, not this file.
 **Tier floor** — T3: a value type with three predicates
 
 ## Purpose

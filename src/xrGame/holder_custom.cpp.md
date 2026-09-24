@@ -3,7 +3,7 @@
 > Records who is currently riding a holder.
 
 **Needs** — [`holder_custom.h`](holder_custom.h.md) · [`Actor.h`](Actor.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`holder_custom.h`](holder_custom.h.md); callers name that, not this file.
 **Tier floor** — T2: two assignments
 
 ## Purpose

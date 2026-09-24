@@ -3,7 +3,7 @@
 > Turns a material name plus a list of texture names into a shader — six compiled element variants, interned so that two objects wearing the same material share one.
 
 **Needs** — [`ResourceManager.h`](ResourceManager.h.md) · [`Shader.h`](Shader.h.md) · [`Blender.h`](Blender.h.md) · [`Blender_Recorder.h`](Blender_Recorder.h.md) · [`TextureDescrManager.h`](TextureDescrManager.h.md) · [`tss.h`](tss.h.md) · [`Texture.cpp`](Texture.cpp.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ResourceManager.h`](ResourceManager.h.md); callers name that, not this file.
 **Tier floor** — T2: name resolution, interning and compilation orchestration. The T1 pressure is one level down, in the pass recorder and the texture loader.
 
 ## Purpose

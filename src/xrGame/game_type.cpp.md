@@ -3,7 +3,7 @@
 > Answers, for any code anywhere in the game layer, whether it is running the authoritative side, the local side, or a single-player session.
 
 **Needs** — [`game_type.h`](game_type.h.md) · [`Level.h`](Level.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`game_type.h`](game_type.h.md); callers name that, not this file.
 **Tier floor** — T3: three predicates over global session state
 
 ## Purpose

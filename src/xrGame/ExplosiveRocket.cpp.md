@@ -3,7 +3,7 @@
 > The rocket that goes off: the flight from one parent, the explosion from another, and the small amount of glue that decides which one hears each event.
 
 **Needs** — [`ExplosiveRocket.h`](ExplosiveRocket.h.md) · [`CustomRocket.h`](CustomRocket.h.md) · [`Explosive.h`](Explosive.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ExplosiveRocket.h`](ExplosiveRocket.h.md); callers name that, not this file.
 **Tier floor** — T3: dispatch between three inherited behaviours, plus one spawn-frame pose fix
 
 ## Purpose

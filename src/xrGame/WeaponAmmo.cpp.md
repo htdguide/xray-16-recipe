@@ -3,7 +3,7 @@
 > A round and a box of rounds: the eleven numbers that decide what a bullet does on impact, and the container that hands them out one at a time.
 
 **Needs** — [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md) · [`Weapon.h`](Weapon.h.md) · [`Inventory.h`](Inventory.h.md) · [`Level_Bullet_Manager.h`](Level_Bullet_Manager.h.md) · [`xrServer_Objects_ALife_Items.h`](../xrServerEntities/xrServer_Objects_ALife_Items.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponAmmo.h`](WeaponAmmo.h.md); callers name that, not this file.
 **Tier floor** — T1: the cartridge parameter block is a packed record copied wholesale into every projectile and read back by the anti-cheat dump; its layout is fixed.
 
 ## Purpose

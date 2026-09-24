@@ -3,7 +3,7 @@
 > The concrete consumable entity: two behaviours joined into one object, with an explicit ordering at every lifecycle point.
 
 **Needs** — [`eatable_item_object.h`](eatable_item_object.h.md) · [`eatable_item.h`](eatable_item.h.md) · [`physic_item.h`](physic_item.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`eatable_item_object.h`](eatable_item_object.h.md); callers name that, not this file.
 **Tier floor** — T3: dispatch ordering
 
 ## Purpose

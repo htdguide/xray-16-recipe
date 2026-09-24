@@ -3,7 +3,7 @@
 > Exports the stalker's suit to the script virtual machine.
 
 **Needs** — [`StalkerOutfit.h`](StalkerOutfit.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`StalkerOutfit.h`](StalkerOutfit.h.md); callers name that, not this file.
 **Tier floor** — T3: registration data
 
 ## Purpose

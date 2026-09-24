@@ -3,7 +3,7 @@
 > Runs the rat's state machine: one step per update, with enter and leave fired only on an actual change.
 
 **Needs** — [`rat_state_manager.h`](rat_state_manager.h.md) · [`rat_state_base.h`](rat_state_base.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`rat_state_manager.h`](rat_state_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: a map lookup and a stack top per update
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Decides what an entity can see: a frustum query for candidates, a set difference against last frame, and one cached, transparency-aware ray per candidate.
 
 **Needs** — [`Feel_Vision.h`](Feel_Vision.h.md) · [`IGame_Level.h`](IGame_Level.h.md) · [`IGame_Persistent.h`](IGame_Persistent.h.md) · [`xr_object.h`](xr_object.h.md) · [`xr_collide_form.h`](xr_collide_form.h.md) · [`xrCDB`](../xrCDB/README.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Feel_Vision.h`](Feel_Vision.h.md); callers name that, not this file.
 **Tier floor** — T2: spatial queries and ray casts. The triangle cache indexes the collision database's own arrays, which is the only low-level touch.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The deferred renderers' filling for the lightmapped-diffuse class tag: the workhorse world surface, reduced to one g-buffer write and one shadow-map write.
 
 **Needs** — [`blender_deffer_flat.h`](blender_deffer_flat.h.md) · [`uber_deffer.h`](uber_deffer.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`Blender_CLSID.h`](../Blender_CLSID.h.md) · [`Shader.h`](../Shader.h.md) · [Seam: Graphics device](../../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`blender_deffer_flat.h`](blender_deffer_flat.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description; the parameter block is a frozen tagged byte stream.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Taking the player's camera away: while a creature holds the actor, the camera is eased toward a point the creature chooses and nearly every input command is refused.
 
 **Needs** — [`controlled_actor.h`](controlled_actor.h.md) · [`Actor.h`](../../Actor.h.md) · [`actor_input_handler.h`](../../actor_input_handler.h.md) · [`Inventory.h`](../../Inventory.h.md) · [`ai_monster_utils.h`](ai_monster_utils.h.md) · [Seam: Windowing and input](../../../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`controlled_actor.h`](controlled_actor.h.md); callers name that, not this file.
 **Tier floor** — T2: runs on the frame path and drives the player's camera
 
 ## Purpose

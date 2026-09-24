@@ -3,7 +3,7 @@
 > The in-game interface: the base every game mode's screen set derives from, owning the heads-up display, the inventory and handheld-computer screens, the message log, the script-driven text overlays — and, separately, the multiplayer map and weather catalogue.
 
 **Needs** — [`UIGameCustom.h`](UIGameCustom.h.md) · [`UIDialogHolder.h`](UIDialogHolder.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`Inventory.h`](Inventory.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`ui/UIActorMenu.h`](ui/UIActorMenu.h.md) · [`ui/UIPdaWnd.h`](ui/UIPdaWnd.h.md) · [`ui/UIMainIngameWnd.h`](ui/UIMainIngameWnd.h.md) · [`ui/UIMessagesWindow.h`](ui/UIMessagesWindow.h.md) · [`ui/UIHudStatesWnd.h`](ui/UIHudStatesWnd.h.md) · [`ui/UIXmlInit.h`](ui/UIXmlInit.h.md) · [`ui/UICellItem.h`](ui/UICellItem.h.md) · [`xrEngine/CustomHUD.h`](../xrEngine/CustomHUD.h.md) · [Seam: Debug overlay UI](../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIGameCustom.h`](UIGameCustom.h.md); callers name that, not this file.
 **Tier floor** — T2: window ownership, a draw order, and a filesystem scan of level archives
 
 ## Purpose

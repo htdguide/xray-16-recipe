@@ -3,7 +3,7 @@
 > Defines the heads-up display's default feature set.
 
 **Needs** — [`CustomHUD.h`](CustomHUD.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CustomHUD.h`](CustomHUD.h.md); callers name that, not this file.
 **Tier floor** — T3: one initialized value.
 
 ## Purpose

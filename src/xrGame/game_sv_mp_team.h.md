@@ -3,7 +3,7 @@
 > The per-team tuning record: which skins a team may wear, what it spawns holding, and the full money-reward table that drives multiplayer economy.
 
 **Needs** — _(none)_
-**Used by** — [`game_sv_deathmatch.cpp`](game_sv_deathmatch.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md)
+**Used by** — [`game_sv_deathmatch.cpp`](game_sv_deathmatch.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md) · [`game_sv_mp.h`](game_sv_mp.h.md)
 **Tier floor** — T3: a data record loaded from configuration
 
 ## Purpose

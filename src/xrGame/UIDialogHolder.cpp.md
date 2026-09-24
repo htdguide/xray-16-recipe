@@ -3,7 +3,7 @@
 > The screen stack and the input router: it decides which window is modal, which windows draw, what happens to a key the top window does not want, and when the pointer is visible.
 
 **Needs** — [`UIDialogHolder.h`](UIDialogHolder.h.md) · [`ui/UIDialogWnd.h`](ui/UIDialogWnd.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`xrUICore/Cursor/UICursor.h`](../xrUICore/Cursor/UICursor.h.md) · [`xrEngine/CustomHUD.h`](../xrEngine/CustomHUD.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [Seam: Windowing and input](../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input) · [Seam: Debug overlay UI](../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIDialogHolder.h`](UIDialogHolder.h.md); callers name that, not this file.
 **Tier floor** — T2: list management with deferred mutation, and an input dispatch chain
 
 ## Purpose

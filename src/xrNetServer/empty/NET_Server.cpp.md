@@ -4,7 +4,7 @@
 > work, the session never opens.
 
 **Needs** — [`NET_Server.h`](NET_Server.h.md) · [`../NET_Common.h`](../NET_Common.h.md) · [`../NET_Messages.h`](../NET_Messages.h.md) · [`../NET_Log.h`](../NET_Log.h.md) · [`../NET_PlayersMonitor.h`](../NET_PlayersMonitor.h.md) · [`../ip_filter.h`](../ip_filter.h.md) · [Seam: Networking transport](../../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`NET_Server.h`](NET_Server.h.md); callers name that, not this file.
 **Tier floor** — T1, inherited.
 
 ## Purpose

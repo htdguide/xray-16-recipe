@@ -4,7 +4,7 @@
 > and clipping operations the visibility pass and the collision queries both live on.
 
 **Needs** — [`Frustum.h`](Frustum.h.md) · [`xrCore/_plane.h`](../xrCore/_plane.h.md) · [`xrCore/FixedVector.h`](../xrCore/FixedVector.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Frustum.h`](Frustum.h.md); callers name that, not this file.
 **Tier floor** — T2: plane and matrix arithmetic over small vectors, with a fixed-capacity
 polygon buffer that wants to be a stack value rather than a heap allocation.
 

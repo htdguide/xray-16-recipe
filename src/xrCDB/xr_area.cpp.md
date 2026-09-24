@@ -4,7 +4,7 @@
 > level file, a cache file, or a fresh build — and owns it for the level's lifetime.
 
 **Needs** — [`xr_area.h`](xr_area.h.md) · [`xrCDB.h`](xrCDB.h.md) · [`ISpatial.h`](ISpatial.h.md) · [`Common/LevelStructure.hpp`](../Common/LevelStructure.hpp.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xr_area.h`](xr_area.h.md); callers name that, not this file.
 **Tier floor** — T1: the collision file is read as a memory image — the header is taken
 whole and the two arrays are addressed by pointing at the mapped region, not parsed field by
 field.

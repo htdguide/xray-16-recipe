@@ -3,7 +3,7 @@
 > A ladder: an oriented box placed in the level that publishes the geometric questions a climbing character needs answered — where is the axis, which way is up it, am I in front of it, how far to the top — and that lets a character walk through it from behind.
 
 **Needs** — [`ClimableObject.h`](ClimableObject.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`xrPhysics/IClimableObject.h`](../xrPhysics/IClimableObject.h.md) · [`xrPhysics/IPHStaticGeomShell.h`](../xrPhysics/IPHStaticGeomShell.h.md) · [`xrPhysics/PHCharacter.h`](../xrPhysics/PHCharacter.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ClimableObject.h`](ClimableObject.h.md); callers name that, not this file.
 **Tier floor** — T2: vector geometry against a static collision volume
 
 ## Purpose

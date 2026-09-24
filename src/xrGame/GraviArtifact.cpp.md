@@ -3,7 +3,7 @@
 > The gravitational artefact: while lying loose in the world it repeatedly kicks itself upward so that it hovers unsteadily just above the ground.
 
 **Needs** — [`GraviArtifact.h`](GraviArtifact.h.md) · [`Artefact.h`](Artefact.h.md) · [`Level.h`](Level.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GraviArtifact.h`](GraviArtifact.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame impulse application against a rigid body and a ray query; no layout or device concern
 
 ## Purpose

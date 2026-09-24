@@ -3,7 +3,7 @@
 > Plays particle effects on an animated object's bones: effects are attached to authored skeleton points, follow the pose every frame, age out, and die with their carrier.
 
 **Needs** — [`ParticlesPlayer.h`](ParticlesPlayer.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`xrEngine/xr_object.h`](../xrEngine/xr_object.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ParticlesPlayer.h`](ParticlesPlayer.h.md); callers name that, not this file.
 **Tier floor** — T2: skeleton transforms and per-frame re-placement; no explicit layout or device contact
 
 ## Purpose

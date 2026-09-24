@@ -4,7 +4,7 @@
 > the debug overlay.
 
 **Needs** — [`xrXRC.h`](xrXRC.h.md) · [Seam: Debug overlay UI](../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrXRC.h`](xrXRC.h.md); callers name that, not this file.
 **Tier floor** — T3: one shared instance and some formatted text.
 
 ## Purpose

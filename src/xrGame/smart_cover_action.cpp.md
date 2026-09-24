@@ -3,7 +3,7 @@
 > Builds one loophole action from its authored table: the optional movement target, and the animation lists keyed by purpose.
 
 **Needs** — [`smart_cover_action.h`](smart_cover_action.h.md) · [`smart_cover_detail.h`](smart_cover_detail.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_action.h`](smart_cover_action.h.md); callers name that, not this file.
 **Tier floor** — T2: table parsing; no layout or device concern
 
 ## Purpose

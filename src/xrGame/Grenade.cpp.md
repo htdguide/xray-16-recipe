@@ -3,7 +3,7 @@
 > A thrown grenade: an inventory item that is simultaneously a missile and an explosive, with the sleight of hand that the thing that leaves the hand is a second object and the thing in the inventory is destroyed.
 
 **Needs** — [`Grenade.h`](Grenade.h.md) · [`Missile.h`](Missile.h.md) · [`Explosive.h`](Explosive.h.md) · [`Inventory.h`](Inventory.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`Entity.h`](Entity.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Grenade.h`](Grenade.h.md); callers name that, not this file.
 **Tier floor** — T2: state-machine transitions, timers and network events; the physics handoff is behind an interface
 
 ## Purpose

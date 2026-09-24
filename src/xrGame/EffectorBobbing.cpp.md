@@ -3,7 +3,7 @@
 > The walk cycle's effect on the first-person camera: a figure-of-eight bob whose amplitude and rate follow the gait, faded in and out so that starting and stopping do not snap.
 
 **Needs** — [`EffectorBobbing.h`](EffectorBobbing.h.md) · [`Actor.h`](Actor.h.md) · [`actor_defs.h`](actor_defs.h.md) · [`CameraEffector.h`](CameraEffector.h.md) · [`xrEngine/CameraManager.h`](../xrEngine/CameraManager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EffectorBobbing.h`](EffectorBobbing.h.md); callers name that, not this file.
 **Tier floor** — T2: a trigonometric perturbation of a camera basis, every frame
 
 ## Purpose

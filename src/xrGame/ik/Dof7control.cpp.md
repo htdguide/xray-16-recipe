@@ -6,7 +6,7 @@
 > the rotation carrying one pair of vectors onto another. No iteration anywhere.
 
 **Needs** — [`Dof7control.h`](Dof7control.h.md) · [`math3d.h`](math3d.h.md) · [`mathTrig.h`](mathTrig.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Dof7control.h`](Dof7control.h.md); callers name that, not this file.
 **Tier floor** — T2. A few dozen multiplies and four transcendental calls per solve, on
 fixed-size data, with no allocation. Nothing needs explicit layout.
 

@@ -6,7 +6,7 @@
 > list of conventions, because every formula in the directory assumes them.
 
 **Needs** — [`math3d.h`](math3d.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`math3d.h`](math3d.h.md); callers name that, not this file.
 **Tier floor** — T2. Fixed-size float arithmetic with no allocation, called a few hundred
 times per frame. Nothing here needs explicit layout — the one place that looks like it
 does, reinterpreting the engine's transform as this one's because both are sixteen

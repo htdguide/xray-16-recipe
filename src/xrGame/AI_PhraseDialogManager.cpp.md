@@ -3,7 +3,7 @@
 > The non-player half of a conversation: given a phrase graph the player has advanced, pick the reply that matches how much this character likes the player, and say it.
 
 **Needs** — [`AI_PhraseDialogManager.h`](AI_PhraseDialogManager.h.md) · [`PhraseDialog.h`](PhraseDialog.h.md) · [`PhraseDialogManager.h`](PhraseDialogManager.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`character_info.h`](../xrServerEntities/character_info.h.md) · [`GameObject.h`](GameObject.h.md) · [`relation_registry.h`](relation_registry.h.md) · [`UIGameSP.h`](UIGameSP.h.md) · [`ui/UITalkWnd.h`](ui/UITalkWnd.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`AI_PhraseDialogManager.h`](AI_PhraseDialogManager.h.md); callers name that, not this file.
 **Tier floor** — T3: a selection over a list plus one registry lookup
 
 ## Purpose

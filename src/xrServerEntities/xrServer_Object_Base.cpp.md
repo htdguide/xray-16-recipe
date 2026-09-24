@@ -3,7 +3,7 @@
 > The common header every entity record carries — identity, placement, flags, custom data — and the framing that lets a record written by any engine version be read by this one.
 
 **Needs** — [`xrServer_Objects.h`](xrServer_Objects.h.md) · [`xrMessages.h`](xrMessages.h.md) · [`clsid_game.h`](clsid_game.h.md) · [`object_factory.h`](object_factory.h.md) · [`alife_space.h`](alife_space.h.md) · [`script_value_container_impl.h`](script_value_container_impl.h.md) · [`gametype_chooser.h`](gametype_chooser.h.md) · [Data: level data — the spawn file](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence) · [Data: save games](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrServer_Object_Base.h`](xrServer_Object_Base.h.md); callers name that, not this file.
 **Tier floor** — T1: it defines an exact byte sequence that shipped files already contain.
 
 ## Purpose

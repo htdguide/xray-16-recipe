@@ -3,7 +3,7 @@
 > The master table of every alife server object in the world, and the save/load of that table as a parent-first tree of spawn-plus-update packets.
 
 **Needs** — [`alife_object_registry.h`](alife_object_registry.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`ai_debug.h`](ai_debug.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_object_registry.h`](alife_object_registry.h.md); callers name that, not this file.
 **Tier floor** — T2: owns entity lifetime and writes a frozen byte stream; the stream format is the only T1-adjacent part and it is delegated to the packet writer
 
 ## Purpose

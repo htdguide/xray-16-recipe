@@ -3,7 +3,7 @@
 > The concrete operators of the object-handling planner: eighteen small state machines that draw, sling, aim, reload, fire, throw and drop whatever a creature is holding.
 
 **Needs** — [`object_actions.h`](object_actions.h.md) · [`object_actions_inline.h`](object_actions_inline.h.md) · [`object_handler_space.h`](object_handler_space.h.md) · [`object_handler_planner.h`](object_handler_planner.h.md) · [`Inventory.h`](Inventory.h.md) · [`Weapon.h`](Weapon.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md) · [`FoodItem.h`](FoodItem.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`object_actions.h`](object_actions.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame operator steps driving an inventory and an animation manager
 
 ## Purpose

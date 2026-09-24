@@ -3,7 +3,7 @@
 > The compilation anchor for the script-facing header aggregation.
 
 **Needs** — [`pch_script.h`](pch_script.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`pch_script.h`](pch_script.h.md); callers name that, not this file.
 **Tier floor** — T4: a build artefact.
 
 ## Purpose

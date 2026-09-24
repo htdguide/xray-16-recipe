@@ -3,7 +3,7 @@
 > A model that is only a list of other models, loaded either as references into the level's model table or as nested streams — and the ownership question that distinguishes the two.
 
 **Needs** — [`FHierrarhyVisual.h`](FHierrarhyVisual.h.md) · [`ModelPool.h`](ModelPool.h.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FHierrarhyVisual.h`](FHierrarhyVisual.h.md); callers name that, not this file.
 **Tier floor** — T2: it is list management and a lifetime rule; nothing touches the device.
 
 ## Purpose

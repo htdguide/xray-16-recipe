@@ -3,7 +3,7 @@
 > Slows the simulation clock while certain menus are open, if the player asked for it.
 
 **Needs** — [`UITimeDilator.h`](UITimeDilator.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UITimeDilator.h`](UITimeDilator.h.md); callers name that, not this file.
 **Tier floor** — T3: two predicates over a flag set and one write to the clock's rate.
 
 ## Purpose

@@ -4,7 +4,7 @@
 > listener transform in the mixer's coordinate system.
 
 **Needs** — [`SoundRender_CoreA.h`](SoundRender_CoreA.h.md) · [`SoundRender_Core.h`](SoundRender_Core.h.md) · [`SoundRender_TargetA.h`](SoundRender_TargetA.h.md) · [`OpenALDeviceList.h`](OpenALDeviceList.h.md) · [`SoundRender_EffectsA_EAX.h`](SoundRender_EffectsA_EAX.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_CoreA.h`](SoundRender_CoreA.h.md); callers name that, not this file.
 **Tier floor** — T1: it owns device and context handles and pushes raw float triples at the mixer.
 
 ## Purpose

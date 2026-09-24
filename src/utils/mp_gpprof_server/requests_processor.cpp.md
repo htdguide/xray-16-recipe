@@ -4,7 +4,7 @@
 
 **Needs** — [`requests_processor.h`](requests_processor.h.md) · [`profile_request.h`](profile_request.h.md) · [`profiles_cache.h`](profiles_cache.h.md) · [`sake_worker.h`](sake_worker.h.md) · [`threads.h`](threads.h.md) · [Seam: Multiplayer matchmaking and accounts](../../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`requests_processor.h`](requests_processor.h.md); callers name that, not this file.
 
 **Tier floor** — T2: queue management and a polling loop.
 

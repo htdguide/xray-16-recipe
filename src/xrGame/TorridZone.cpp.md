@@ -3,7 +3,7 @@
 > The burner anomaly that moves: the same damaging zone as its static parent, driven along an authored path so that it drifts through the level.
 
 **Needs** — [`TorridZone.h`](TorridZone.h.md) · [`MosquitoBald.h`](MosquitoBald.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`xrEngine/ObjectAnimator.h`](../xrEngine/ObjectAnimator.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`TorridZone.h`](TorridZone.h.md); callers name that, not this file.
 **Tier floor** — T3: a transform driven from a clip, plus sound repositioning
 
 ## Purpose

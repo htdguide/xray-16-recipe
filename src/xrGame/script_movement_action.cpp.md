@@ -3,7 +3,7 @@
 > The movement channel's constructors that decide something: unpacking a patrol path parameter block, deriving a goal kind from a monster move action, and the pathless goal.
 
 **Needs** — [`script_movement_action.h`](script_movement_action.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`detail_path_manager_space.h`](detail_path_manager_space.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_path_params.h`](../xrAICore/Navigation/PatrolPath/patrol_path_params.h.md) · [`ai_monster_space.h`](ai_monster_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_movement_action.h`](script_movement_action.h.md); callers name that, not this file.
 **Tier floor** — T2
 
 ## Purpose

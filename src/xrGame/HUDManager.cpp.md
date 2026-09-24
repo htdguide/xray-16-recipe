@@ -3,7 +3,7 @@
 > The game's filling of the engine's heads-up-display hook: it owns the in-game screen set, the first-person weapon's two render passes, the look-at target and the damage-direction markers.
 
 **Needs** — [`HUDManager.h`](HUDManager.h.md) · [`HUDTarget.h`](HUDTarget.h.md) · [`HitMarker.h`](HitMarker.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`player_hud.h`](player_hud.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`Car.h`](Car.h.md) · [`Spectator.h`](Spectator.h.md) · [`MainMenu.h`](MainMenu.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`xrEngine/CustomHUD.h`](../xrEngine/CustomHUD.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HUDManager.h`](HUDManager.h.md); callers name that, not this file.
 **Tier floor** — T2: dispatch and flag tests; the two render brackets are ordering decisions, not device work
 
 ## Purpose

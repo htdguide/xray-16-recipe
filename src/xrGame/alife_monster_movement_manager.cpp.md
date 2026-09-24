@@ -3,7 +3,7 @@
 > The offline creature's movement brain: chooses between free travel to a destination and following an authored patrol path, and feeds whichever it chose into the detail mover each alife tick.
 
 **Needs** — [`alife_monster_movement_manager.h`](alife_monster_movement_manager.h.md) · [`alife_monster_detail_path_manager.h`](alife_monster_detail_path_manager.h.md) · [`alife_monster_patrol_path_manager.h`](alife_monster_patrol_path_manager.h.md) · [`movement_manager_space.h`](movement_manager_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_monster_movement_manager.h`](alife_monster_movement_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: a two-way dispatch over owned sub-managers; no layout or device concern
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Places one authored cover on a level: binds each enabled loophole to a navigation vertex, and answers the question the AI actually asks — which loophole should I use against a target standing there.
 
 **Needs** — [`smart_cover.h`](smart_cover.h.md) · [`smart_cover_storage.h`](smart_cover_storage.h.md) · [`smart_cover_object.h`](smart_cover_object.h.md) · [`smart_cover_action.h`](smart_cover_action.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/graph_engine.h`](../xrAICore/Navigation/graph_engine.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover.h`](smart_cover.h.md); callers name that, not this file.
 **Tier floor** — T2: navigation-vertex lookups at placement, a short scored scan per query
 
 ## Purpose

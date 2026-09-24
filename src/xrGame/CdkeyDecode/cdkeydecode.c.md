@@ -5,7 +5,7 @@
 > the string's own consistency without contacting anybody.
 
 **Needs** — [`base32.h`](base32.h.md) · [Seam: Multiplayer matchmaking and accounts](../../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`cdkeydecode.h`](cdkeydecode.h.md); callers name that, not this file.
 **Tier floor** — T2. The checksum relies on 32-bit unsigned multiply wrapping, and the
 stored checksum is read as a 16-bit little-endian field; both are frozen by keys printed
 in 2007. Nothing else here constrains the tier.

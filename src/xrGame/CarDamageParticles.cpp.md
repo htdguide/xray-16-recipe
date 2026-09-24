@@ -3,7 +3,7 @@
 > The smoke a damaged vehicle emits: two severity levels, each a named effect played from an authored set of bones.
 
 **Needs** — [`CarDamageParticles.h`](CarDamageParticles.h.md) · [`Car.h`](Car.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CarDamageParticles.h`](CarDamageParticles.h.md); callers name that, not this file.
 **Tier floor** — T3: a lookup table and a fan-out
 
 ## Purpose

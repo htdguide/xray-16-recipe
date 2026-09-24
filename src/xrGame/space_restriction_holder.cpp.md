@@ -3,7 +3,7 @@
 > The level's registry of restrictor volumes: it canonicalizes a comma-joined name list into a cache key, hands out one shared handle per distinct list, swaps geometry in and out as restrictor entities spawn and despawn, and maintains the two level-wide default restriction lists.
 
 **Needs** — [`space_restriction_holder.h`](space_restriction_holder.h.md) · [`space_restriction_holder_inline.h`](space_restriction_holder_inline.h.md) · [`space_restrictor.h`](space_restrictor.h.md) · [`space_restriction_bridge.h`](space_restriction_bridge.h.md) · [`space_restriction_shape.h`](space_restriction_shape.h.md) · [`space_restriction_composition.h`](space_restriction_composition.h.md) · [`xrServerEntities/restriction_space.h`](../xrServerEntities/restriction_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`space_restriction_holder.h`](space_restriction_holder.h.md); callers name that, not this file.
 **Tier floor** — T2: string canonicalization and a keyed registry with timed reclamation
 
 ## Purpose

@@ -3,7 +3,7 @@
 > An automatic shotgun: the shell-at-a-time reload of [`WeaponShotgun.cpp`](WeaponShotgun.cpp.md), grafted onto full-automatic fire instead of semi-automatic.
 
 **Needs** — [`WeaponAutomaticShotgun.h`](WeaponAutomaticShotgun.h.md) · [`WeaponMagazined.h`](WeaponMagazined.h.md) · [`WeaponShotgun.h`](WeaponShotgun.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`Inventory.h`](Inventory.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponAutomaticShotgun.h`](WeaponAutomaticShotgun.h.md); callers name that, not this file.
 **Tier floor** — T2: a sub-state machine nested inside the weapon state machine.
 
 ## Purpose

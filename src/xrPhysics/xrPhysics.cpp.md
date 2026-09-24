@@ -3,7 +3,7 @@
 > Routes every allocation the dynamics library makes through the engine's own allocator, before anything else in the module runs.
 
 **Needs** — [`xrPhysics.h`](xrPhysics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Allocator](../../SYSTEM-REQUIREMENTS.md#seam-allocator)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrPhysics.h`](xrPhysics.h.md); callers name that, not this file.
 **Tier floor** — T1: hands a foreign library three raw allocation functions and relies on them being installed before any of its state exists.
 
 ## Purpose

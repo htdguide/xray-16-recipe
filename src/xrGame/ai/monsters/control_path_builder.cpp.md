@@ -3,7 +3,7 @@
 > The path resource: it is simultaneously the creature's movement manager and a control channel, so the whole navigation stack of chapter 14 is reachable as one bus resource.
 
 **Needs** — [`control_path_builder.h`](control_path_builder.h.md) · [`control_manager.h`](control_manager.h.md) · [`movement_manager.h`](../../movement_manager.h.md) · [`detail_path_manager.h`](../../detail_path_manager.h.md) · [`level_path_manager.h`](../../level_path_manager.h.md) · [`level_location_selector.h`](../../level_location_selector.h.md) · [`game_location_selector.h`](../../game_location_selector.h.md) · [`xrAICore/Navigation/level_graph.h`](../../../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../../../xrAICore/Navigation/ai_object_location.h.md) · [`Actor.h`](../../Actor.h.md) · [`visual_memory_manager.h`](../../visual_memory_manager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_path_builder.h`](control_path_builder.h.md); callers name that, not this file.
 **Tier floor** — T2: issues bounded path searches on the scheduled tick and answers geometry queries
 
 ## Purpose

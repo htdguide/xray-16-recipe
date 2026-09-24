@@ -4,7 +4,7 @@
 
 **Needs** — [`cover_manager.h`](cover_manager.h.md) · [`cover_manager_inline.h`](cover_manager_inline.h.md) · [`cover_point.h`](cover_point.h.md) · [`quadtree.h`](quadtree.h.md) · [`ai_space.h`](ai_space.h.md) · [`smart_cover.h`](smart_cover.h.md) · [`smart_cover_storage.h`](smart_cover_storage.h.md) · [`smart_cover_object.h`](smart_cover_object.h.md) · [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrCore/Threading/ParallelFor.hpp`](../xrCore/Threading/ParallelFor.hpp.md) · [Seam: Threads, atomics and process services](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`cover_manager.h`](cover_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: a parallel sweep over a few hundred thousand navigation vertices at load time, feeding a spatial index; nothing here touches a device or a frozen layout
 
 ## Purpose

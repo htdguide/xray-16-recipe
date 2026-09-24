@@ -3,7 +3,7 @@
 > Dead file: an abandoned recoil variant that drove the character's camera angles directly instead of publishing an offset. Nothing is compiled.
 
 **Needs** — [`EffectorShotX.h`](EffectorShotX.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EffectorShotX.h`](EffectorShotX.h.md); callers name that, not this file.
 **Tier floor** — T4: nothing is built
 
 ## Purpose

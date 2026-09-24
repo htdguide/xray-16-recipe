@@ -3,7 +3,7 @@
 > The physics visualizer: a deferred draw list that lets code running inside the physics step — on another thread, at a different rate than the frame — record what it wants drawn, and have it drawn on the next frame that renders.
 
 **Needs** — [`PHDebug.h`](PHDebug.h.md) · [`Level.h`](Level.h.md) · [`debug_renderer.h`](debug_renderer.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`MathUtils.h`](MathUtils.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/ExtendedGeom.h`](../xrPhysics/ExtendedGeom.h.md) · [`xrPhysics/debug_output.h`](../xrPhysics/debug_output.h.md) · [`xrEngine/IPHdebug.h`](../xrEngine/IPHdebug.h.md) · [`xrEngine/StatGraph.h`](../xrEngine/StatGraph.h.md) · [`xrEngine/GameFont.h`](../xrEngine/GameFont.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [`xrCore/Animation/Bone.hpp`](../xrCore/Animation/Bone.hpp.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PHDebug.h`](PHDebug.h.md); callers name that, not this file.
 **Tier floor** — T2: a deferred command list crossing a thread boundary; only the font and depth-state calls reach the device
 
 ## Purpose

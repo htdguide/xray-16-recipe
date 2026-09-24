@@ -3,7 +3,7 @@
 > The creature's ability roster: it owns whichever abilities its creature was granted, offers each one a staging surface, watches every scheduled tick for the ones that fire on their own, and releases each when it reports done.
 
 **Needs** — [`control_manager_custom.h`](control_manager_custom.h.md) · [`control_manager.h`](control_manager.h.md) · [`control_jump.h`](control_jump.h.md) · [`control_rotation_jump.h`](control_rotation_jump.h.md) · [`control_melee_jump.h`](control_melee_jump.h.md) · [`control_run_attack.h`](control_run_attack.h.md) · [`control_threaten.h`](control_threaten.h.md) · [`control_critical_wound.h`](control_critical_wound.h.md) · [`control_sequencer.h`](control_sequencer.h.md) · [`anim_triple.h`](anim_triple.h.md) · [`control_animation_base.h`](control_animation_base.h.md) · [`detail_path_manager.h`](../../detail_path_manager.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md) · [Seam: Rigid-body dynamics](../../../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_manager_custom.h`](control_manager_custom.h.md); callers name that, not this file.
 **Tier floor** — T2: allocates the ability set at spawn and polls it every scheduled tick
 
 ## Purpose

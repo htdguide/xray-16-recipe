@@ -3,7 +3,7 @@
 > The simplest physical object: a rigid body while loose in the world, nothing at all while carried, and two shell shapes derived from the model's own bounding box.
 
 **Needs** — [`physic_item.h`](physic_item.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrServer_Objects.h`](../xrServerEntities/xrServer_Objects.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [`Include/xrRender/RenderVisual.h`](../Include/xrRender/RenderVisual.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`physic_item.h`](physic_item.h.md); callers name that, not this file.
 **Tier floor** — T2: rigid-body lifecycle tied to ownership transitions
 
 ## Purpose

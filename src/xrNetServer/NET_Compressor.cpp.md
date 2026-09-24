@@ -5,7 +5,7 @@
 > is expanded.
 
 **Needs** — [`NET_Compressor.h`](NET_Compressor.h.md) · [`NET_Common.h`](NET_Common.h.md) · [Seam: Compression](../../SYSTEM-REQUIREMENTS.md#seam-compression) · [Seam: Threads](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`NET_Compressor.h`](NET_Compressor.h.md); callers name that, not this file.
 **Tier floor** — T1: it writes a tag, a checksum and a compressed body into a caller-owned
 span at fixed offsets.
 

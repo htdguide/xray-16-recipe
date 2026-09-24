@@ -4,7 +4,7 @@
 
 **Needs** — [`mp_config_sections.h`](mp_config_sections.h.md) · [`pch.h`](pch.h.md) · [`xrCore/xr_ini.h`](../../xrCore/xr_ini.h.md) · [`xrCore/FS.h`](../../xrCore/FS.h.md) · [Data: Configuration](../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`mp_config_sections.h`](mp_config_sections.h.md); callers name that, not this file.
 
 **Tier floor** — T2: the enumeration order and the serialized form are a wire contract, because a digest is taken over the result.
 

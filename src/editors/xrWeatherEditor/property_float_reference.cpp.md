@@ -3,7 +3,7 @@
 > One grid row aliased straight onto a real field the engine owns.
 
 **Needs** — [`property_float_reference.hpp`](property_float_reference.hpp.md) · [`property_holder_include.hpp`](property_holder_include.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_float_reference.hpp`](property_float_reference.hpp.md); callers name that, not this file.
 **Tier floor** — T2: holds an alias into another runtime's storage; the alias has no validity check
 
 ## Purpose

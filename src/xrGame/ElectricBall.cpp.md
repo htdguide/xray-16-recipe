@@ -3,7 +3,7 @@
 > An artefact that, while carried, keeps its own transform pinned to its carrier's instead of following the usual attachment rules.
 
 **Needs** — [`ElectricBall.h`](ElectricBall.h.md) · [`Artefact.h`](Artefact.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ElectricBall.h`](ElectricBall.h.md); callers name that, not this file.
 **Tier floor** — T3: a transform copy once per frame
 
 ## Purpose

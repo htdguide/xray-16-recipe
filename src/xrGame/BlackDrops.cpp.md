@@ -3,7 +3,7 @@
 > An artefact with no behaviour of its own beyond what its configuration section gives it.
 
 **Needs** — [`BlackDrops.h`](BlackDrops.h.md) · [`Artefact.h`](Artefact.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`BlackDrops.h`](BlackDrops.h.md); callers name that, not this file.
 **Tier floor** — T3: a named subclass with no added behaviour
 
 ## Purpose

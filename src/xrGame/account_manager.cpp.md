@@ -3,7 +3,7 @@
 > Creating, deleting and looking up a player's online account: field validation done locally, the rest asked of the matchmaking service and answered by callback.
 
 **Needs** — [`account_manager.h`](account_manager.h.md) · [`login_manager.h`](login_manager.h.md) · [`MainMenu.h`](MainMenu.h.md) · [`queued_async_method.h`](queued_async_method.h.md) · [`mixed_delegate.h`](mixed_delegate.h.md) · [`xrGameSpy/GameSpy_GP.h`](../xrGameSpy/GameSpy_GP.h.md) · [Seam: Multiplayer matchmaking and accounts](../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`account_manager.h`](account_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: string validation and asynchronous request bookkeeping; nothing here touches a device or a byte layout
 
 ## Purpose

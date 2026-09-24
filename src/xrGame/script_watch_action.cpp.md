@@ -3,7 +3,7 @@
 > The one look-order setter that has to reach through the script facade: naming an object to watch.
 
 **Needs** — [`script_watch_action.h`](script_watch_action.h.md) · [`script_game_object.h`](script_game_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_watch_action.h`](script_watch_action.h.md); callers name that, not this file.
 **Tier floor** — T3
 
 ## Purpose

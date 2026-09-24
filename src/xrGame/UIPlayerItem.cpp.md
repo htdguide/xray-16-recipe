@@ -3,7 +3,7 @@
 > One row of the multiplayer scoreboard: a data-driven set of text and icon fields filled from one player's network state each frame.
 
 **Needs** — [`UIPlayerItem.h`](UIPlayerItem.h.md) · [`UITeamState.h`](UITeamState.h.md) · [`UITeamPanels.h`](UITeamPanels.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`game_cl_capture_the_artefact.h`](game_cl_capture_the_artefact.h.md) · [`game_cl_artefacthunt.h`](game_cl_artefacthunt.h.md) · [`ui/UIStatsIcon.h`](ui/UIStatsIcon.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIPlayerItem.h`](UIPlayerItem.h.md); callers name that, not this file.
 **Tier floor** — T3: string formatting driven by an authored field list.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Two-part animation for the controller: a torso clip chosen from what it is doing and a legs clip chosen from the angle between where it looks and where it walks.
 
 **Needs** — [`controller_animation.h`](controller_animation.h.md) · [`controller.h`](controller.h.md) · [`controller_direction.h`](controller_direction.h.md) · [`../control_animation_base.h`](../control_animation_base.h.md) · [`../control_animation.h`](../control_animation.h.md) · [`../control_direction_base.h`](../control_direction_base.h.md) · [`../control_path_builder_base.h`](../control_path_builder_base.h.md) · [`../monster_velocity_space.h`](../monster_velocity_space.h.md) · [`../../../detail_path_manager.h`](../../../detail_path_manager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`controller_animation.h`](controller_animation.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame clip selection over two body partitions
 
 ## Purpose

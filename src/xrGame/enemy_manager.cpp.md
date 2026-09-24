@@ -4,7 +4,7 @@
 
 **Needs** — [`enemy_manager.h`](enemy_manager.h.md) · [`enemy_manager_inline.h`](enemy_manager_inline.h.md) · [`object_manager.h`](object_manager.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`CustomMonster.h`](CustomMonster.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`hit_memory_manager.h`](hit_memory_manager.h.md) · [`ef_storage.h`](ef_storage.h.md) · [`ef_pattern.h`](ef_pattern.h.md) · [`autosave_manager.h`](autosave_manager.h.md) · [`agent_enemy_manager.h`](agent_enemy_manager.h.md) · [`movement_manager.h`](movement_manager.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`ai_space.h`](ai_space.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrEngine/profiler.h`](../xrEngine/profiler.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`enemy_manager.h`](enemy_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: a scored selection over a short list, run per creature per update; the cost is in the world-state evaluation it calls into
 
 ## Purpose

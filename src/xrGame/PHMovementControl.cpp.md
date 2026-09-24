@@ -3,7 +3,7 @@
 > The bridge between "I want to walk there" and a physically simulated body: it turns a desired path or an input acceleration into forces on a character body, and reports back what the body hit on the way.
 
 **Needs** — [`PHMovementControl.h`](PHMovementControl.h.md) · [`detail_path_manager.h`](detail_path_manager.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`CaptureBoneCallback.h`](CaptureBoneCallback.h.md) · [`Level.h`](Level.h.md) · [`ai/monsters/basemonster/base_monster.h`](ai/monsters/basemonster/base_monster.h.md) · [`xrPhysics/PHCharacter.h`](../xrPhysics/PHCharacter.h.md) · [`xrPhysics/IPHCapture.h`](../xrPhysics/IPHCapture.h.md) · [`xrPhysics/ElevatorState.h`](../xrPhysics/ElevatorState.h.md) · [`xrPhysics/IColisiondamageInfo.h`](../xrPhysics/IColisiondamageInfo.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md) · [`xrCDB/Intersect.hpp`](../xrCDB/Intersect.hpp.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PHMovementControl.h`](PHMovementControl.h.md); callers name that, not this file.
 **Tier floor** — T1: per-physics-step force control against a solver, with hard step-rate coupling
 
 ## Purpose

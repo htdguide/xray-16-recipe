@@ -3,7 +3,7 @@
 > Restocks a trader: reads an authored shopping list, rolls each line, spawns what came up, and records how short the roll fell so prices can react.
 
 **Needs** — [`purchase_list.h`](purchase_list.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`GameObject.h`](GameObject.h.md) · [`Level.h`](Level.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`purchase_list.h`](purchase_list.h.md); callers name that, not this file.
 **Tier floor** — T3: config iteration, a random roll, and a spawn request per item
 
 ## Purpose

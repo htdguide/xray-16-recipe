@@ -3,7 +3,7 @@
 > The script and information-portion gate attached to every phrase and every dialog: the predicates that decide whether a line may be said, and the effects that fire when it is.
 
 **Needs** — [`PhraseScript.h`](PhraseScript.h.md) · [`GameObject.h`](GameObject.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`InfoPortion.h`](InfoPortion.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Actor.h`](Actor.h.md) · [`xrUICore/XML/xrUIXmlParser.h`](../xrUICore/XML/xrUIXmlParser.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PhraseScript.h`](PhraseScript.h.md); callers name that, not this file.
 **Tier floor** — T3: string lists, an XML read and script calls
 
 ## Purpose

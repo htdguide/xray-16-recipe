@@ -5,7 +5,7 @@
 > through the shared shooting machinery.
 
 **Needs** — [`CarWeapon.h`](CarWeapon.h.md) · [`ShootingObject.h`](ShootingObject.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`HudSound.h`](HudSound.h.md) · [`game_object_space.h`](game_object_space.h.md) · [`ai_sounds.h`](../xrServerEntities/ai_sounds.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CarWeapon.h`](CarWeapon.h.md); callers name that, not this file.
 **Tier floor** — T2: the only sharp edge is that it writes into the pose while the animation
 system is composing it, which is a callback ordering constraint, not a memory one.
 

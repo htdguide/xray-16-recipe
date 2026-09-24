@@ -3,7 +3,7 @@
 > The under-barrel grenade launcher attachment: an inventory item whose entire content is one tuned number, the muzzle velocity it gives a launched grenade.
 
 **Needs** — [`GrenadeLauncher.h`](GrenadeLauncher.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GrenadeLauncher.h`](GrenadeLauncher.h.md); callers name that, not this file.
 **Tier floor** — T3: reads one configuration value; every other method is a pass-through
 
 ## Purpose

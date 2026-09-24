@@ -3,7 +3,7 @@
 > The run-through attack: a creature already running at its enemy plays a strike clip and builds a line that carries it exactly as far as the clip lasts.
 
 **Needs** — [`control_run_attack.h`](control_run_attack.h.md) · [`control_animation_base.h`](control_animation_base.h.md) · [`control_direction_base.h`](control_direction_base.h.md) · [`control_movement_base.h`](control_movement_base.h.md) · [`monster_velocity_space.h`](monster_velocity_space.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md) · [Seam: Configuration](../../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_run_attack.h`](control_run_attack.h.md); callers name that, not this file.
 **Tier floor** — T2: builds a path and drives the body for the duration of a clip
 
 ## Purpose

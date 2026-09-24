@@ -3,7 +3,7 @@
 > A lightmapped surface with an additive environment layer, written twice over — once for hardware with two texture stages and once for three.
 
 **Needs** — [`Blender_LaEmB.h`](Blender_LaEmB.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`Blender_CLSID.h`](../Blender_CLSID.h.md) · [`Shader.h`](../Shader.h.md) · [`HWCaps.h`](../HWCaps.h.md) · [`xrRender_console.h`](../xrRender_console.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Blender_LaEmB.h`](Blender_LaEmB.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description; the parameter block is a frozen tagged byte stream.
 
 ## Purpose

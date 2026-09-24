@@ -3,7 +3,7 @@
 > The creature's animation table and the logic that turns "do this action" into "play this clip": variant selection, conditional substitution, posture transitions, and the attack-timing table that decides which frame of which clip does damage.
 
 **Needs** — [`control_animation_base.h`](control_animation_base.h.md) · [`control_animation.h`](control_animation.h.md) · [`control_direction_base.h`](control_direction_base.h.md) · [`control_movement_base.h`](control_movement_base.h.md) · [`control_path_builder_base.h`](control_path_builder_base.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md) · [`anim_triple.h`](anim_triple.h.md) · [`monster_velocity_space.h`](monster_velocity_space.h.md) · [`ai_monster_defs.h`](ai_monster_defs.h.md) · [`control_jump.h`](control_jump.h.md) · [Seam: Graphics device](../../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_animation_base.h`](control_animation_base.h.md); callers name that, not this file.
 **Tier floor** — T1: resolves clip names against the model's motion bank and reads authored motion definitions in place
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Several named restrictors as one volume: the union of their shapes, with a single enclosing sphere for cheap rejection and a border that is the rim of the union rather than the concatenation of the rims.
 
 **Needs** — [`space_restriction_composition.h`](space_restriction_composition.h.md) · [`space_restriction_composition_inline.h`](space_restriction_composition_inline.h.md) · [`space_restriction_holder.h`](space_restriction_holder.h.md) · [`space_restriction_bridge.h`](space_restriction_bridge.h.md) · [`space_restriction_base.h`](space_restriction_base.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/graph_engine.h`](../xrAICore/Navigation/graph_engine.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`space_restriction_composition.h`](space_restriction_composition.h.md); callers name that, not this file.
 **Tier floor** — T2: a linear volume test behind a sphere reject, built once from member borders
 
 ## Purpose

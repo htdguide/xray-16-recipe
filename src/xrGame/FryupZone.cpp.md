@@ -3,7 +3,7 @@
 > An anomaly class that exists only as a name in the class-identifier table: it inherits everything and overrides nothing.
 
 **Needs** — [`FryupZone.h`](FryupZone.h.md) · [`script_object.h`](script_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FryupZone.h`](FryupZone.h.md); callers name that, not this file.
 **Tier floor** — T3: a named leaf of the entity class hierarchy with no behaviour of its own
 
 ## Purpose

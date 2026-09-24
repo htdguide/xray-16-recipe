@@ -3,7 +3,7 @@
 > Builds a browsable index of everything the mounted data can spawn, and drives the developer's spawn panel from it.
 
 **Needs** — [`object_factory.h`](object_factory.h.md) · [`object_factory_spawner.h`](object_factory_spawner.h.md) · [`ShapeData.h`](ShapeData.h.md) · [Seam: Debug overlay UI](../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui) · [Data: configuration](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`object_factory_spawner.h`](object_factory_spawner.h.md); callers name that, not this file.
 **Tier floor** — T3: a configuration scan and an immediate-mode panel. Debug-only; a rebuild may omit the whole file.
 
 ## Purpose

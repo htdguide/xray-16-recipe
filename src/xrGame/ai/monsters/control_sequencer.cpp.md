@@ -3,7 +3,7 @@
 > Plays a list of clips back to back on the whole body, one per animation-end event, and reports when the list runs out.
 
 **Needs** — [`control_sequencer.h`](control_sequencer.h.md) · [`control_manager.h`](control_manager.h.md) · [`control_animation.h`](control_animation.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_sequencer.h`](control_sequencer.h.md); callers name that, not this file.
 **Tier floor** — T2: seizes the body for the duration of a clip list
 
 ## Purpose

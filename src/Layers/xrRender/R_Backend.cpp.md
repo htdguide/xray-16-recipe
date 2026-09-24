@@ -3,7 +3,7 @@
 > Builds the shared quad index buffer — the one immutable index pattern every sprite, particle and screen quad in the engine draws through.
 
 **Needs** — [`R_Backend.h`](R_Backend.h.md) · [`BufferUtils.h`](BufferUtils.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`R_Backend.h`](R_Backend.h.md); callers name that, not this file.
 **Tier floor** — T1: it writes a 16-bit index array into a mapped device buffer.
 
 ## Purpose

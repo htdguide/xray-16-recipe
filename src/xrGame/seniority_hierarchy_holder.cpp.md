@@ -3,7 +3,7 @@
 > The root of the command hierarchy: hands out team holders by index, creating each on first demand and owning them all.
 
 **Needs** — [`seniority_hierarchy_holder.h`](seniority_hierarchy_holder.h.md) · [`team_hierarchy_holder.h`](team_hierarchy_holder.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`seniority_hierarchy_holder.h`](seniority_hierarchy_holder.h.md); callers name that, not this file.
 **Tier floor** — T2: an owning registry with a defined destruction point
 
 ## Purpose

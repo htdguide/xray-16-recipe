@@ -3,7 +3,7 @@
 > A reverb preset, its blend, and the library of presets a level's environment geometry names.
 
 **Needs** — [`SoundRender_Environment.h`](SoundRender_Environment.h.md) · [`SoundRender.h`](SoundRender.h.md) · [`SoundRender_EffectsA_EAX.h`](SoundRender_EffectsA_EAX.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_Environment.h`](SoundRender_Environment.h.md); callers name that, not this file.
 **Tier floor** — T1: the preset file is a frozen chunked binary read field by field, and the value
 ranges are the reverb model's, not the engine's.
 

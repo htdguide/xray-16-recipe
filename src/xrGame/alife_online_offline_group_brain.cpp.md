@@ -3,7 +3,7 @@
 > The squad's offline decision loop: ask the smart terrain what this squad is supposed to be doing, and walk there.
 
 **Needs** — [`alife_online_offline_group_brain.h`](alife_online_offline_group_brain.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`alife_monster_movement_manager.h`](alife_monster_movement_manager.h.md) · [`alife_monster_detail_path_manager.h`](alife_monster_detail_path_manager.h.md) · [`alife_smart_terrain_task.h`](alife_smart_terrain_task.h.md) · [`movement_manager_space.h`](movement_manager_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_online_offline_group_brain.h`](alife_online_offline_group_brain.h.md); callers name that, not this file.
 **Tier floor** — T2: one delegation per tick
 
 ## Purpose

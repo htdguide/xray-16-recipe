@@ -3,7 +3,7 @@
 > A text row that also carries the list of values it admits, snapshotted when the row was built.
 
 **Needs** — [`property_string_values_value.hpp`](property_string_values_value.hpp.md) · [`property_string.hpp`](property_string.hpp.md) · [`property_string_values_value_base.hpp`](property_string_values_value_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_string_values_value.hpp`](property_string_values_value.hpp.md); callers name that, not this file.
 **Tier floor** — T2: copies a native text array into a managed sequence at construction
 
 ## Purpose

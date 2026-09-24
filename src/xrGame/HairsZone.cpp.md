@@ -3,7 +3,7 @@
 > The "hairs" anomaly: a visible zone that wakes only when something inside it moves fast enough, then hits everything it holds in a random upward direction.
 
 **Needs** — [`HairsZone.h`](HairsZone.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`ZoneVisual.h`](ZoneVisual.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`PHMovementControl.h`](PHMovementControl.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HairsZone.h`](HairsZone.h.md); callers name that, not this file.
 **Tier floor** — T2: a proximity test and a hit per victim
 
 ## Purpose

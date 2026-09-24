@@ -3,7 +3,7 @@
 > The game module's process-lifetime object: it brings the game layer up and down around the engine's own startup, owns the main menu and loading screen, drives the intro chain, plays the weather system's ambient sounds and wind gusts, and animates the depth-of-field effector.
 
 **Needs** — [`GamePersistent.h`](GamePersistent.h.md) · [`xrEngine/IGame_Persistent.h`](../xrEngine/IGame_Persistent.h.md) · [`Level.h`](Level.h.md) · [`MainMenu.h`](MainMenu.h.md) · [`Actor.h`](Actor.h.md) · [`Spectator.h`](Spectator.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`game_base_space.h`](../xrServerEntities/game_base_space.h.md) · [`game_sv_single.h`](game_sv_single.h.md) · [`HUDManager.h`](HUDManager.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`ui/UIGameTutorial.h`](ui/UIGameTutorial.h.md) · [`ui/UILoadingScreen.h`](ui/UILoadingScreen.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device) · [Seam: Windowing and input](../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GamePersistent.h`](GamePersistent.h.md); callers name that, not this file.
 **Tier floor** — T2: lifecycle ordering, timer-driven scheduling and vector interpolation; nothing here touches a byte layout
 
 ## Purpose

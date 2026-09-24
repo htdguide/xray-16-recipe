@@ -3,7 +3,7 @@
 > Stores and clamps the two goodwill maps, and owns the process-wide registry they live in.
 
 **Needs** — [`relation_registry.h`](relation_registry.h.md) · [`relation_registry_defs.h`](relation_registry_defs.h.md) · [`alife_registry_wrappers.h`](alife_registry_wrappers.h.md) · [`character_community.h`](character_community.h.md) · [`character_reputation.h`](character_reputation.h.md) · [`character_rank.h`](character_rank.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`game_type.h`](game_type.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`relation_registry.h`](relation_registry.h.md); callers name that, not this file.
 **Tier floor** — T2: a keyed registry over the alife object set
 
 ## Purpose

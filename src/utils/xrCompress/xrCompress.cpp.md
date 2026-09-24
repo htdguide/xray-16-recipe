@@ -4,7 +4,7 @@
 
 **Needs** — [`xrCompress.h`](xrCompress.h.md) · [`StdAfx.h`](StdAfx.h.md) · [`xrCore/LocatorAPI.h`](../../xrCore/LocatorAPI.h.md) · [`xrCore/FS.h`](../../xrCore/FS.h.md) · [`xrCore/Xr_ini.h`](../../xrCore/Xr_ini.h.md) · [`xrCore/Compression/rt_compressor.h`](../../xrCore/Compression/rt_compressor.h.md) · [Seam: Compression](../../../SYSTEM-REQUIREMENTS.md#seam-compression) · [Data: Virtual filesystem](../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrCompress.h`](xrCompress.h.md); callers name that, not this file.
 
 **Tier floor** — T1: it emits a byte layout that another program reads as a memory image, at offsets it must record exactly, and it hands buffers to a compressor that writes into them with an externally specified worst-case bound.
 

@@ -3,7 +3,7 @@
 > Walks a creature along an authored waypoint graph: choose where to join it, then at each waypoint pick an outgoing edge by weighted chance, skipping anything the creature is not allowed to reach.
 
 **Needs** — [`patrol_path_manager.h`](patrol_path_manager.h.md) · [`patrol_path_manager_inline.h`](patrol_path_manager_inline.h.md) · [`restricted_object.h`](restricted_object.h.md) · [`GameObject.h`](GameObject.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`script_entity_space.h`](script_entity_space.h.md) · [`game_object_space.h`](game_object_space.h.md) · [`space_restriction_manager.h`](space_restriction_manager.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`patrol_path_manager.h`](patrol_path_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: weighted graph traversal with a script callback per waypoint
 
 ## Purpose

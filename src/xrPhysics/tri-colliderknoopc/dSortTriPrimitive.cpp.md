@@ -3,7 +3,7 @@
 > Empty.
 
 **Needs** — _(none)_
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`dSortTriPrimitive.h`](dSortTriPrimitive.h.md); callers name that, not this file.
 **Tier floor** — T4: it compiles nothing.
 
 ## Purpose

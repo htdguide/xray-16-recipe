@@ -3,7 +3,7 @@
 > The bodies of the smart-cover world-state questions, including the two dwell timers that flip the creature between idling and looking out.
 
 **Needs** — [`smart_cover_evaluators.h`](smart_cover_evaluators.h.md) · [`smart_cover.h`](smart_cover.h.md) · [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md) · [`smart_cover_transition.hpp`](smart_cover_transition.hpp.md) · [`smart_cover_transition_animation.hpp`](smart_cover_transition_animation.hpp.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_decision_space.h`](stalker_decision_space.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`enemy_manager.h`](enemy_manager.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_evaluators.h`](smart_cover_evaluators.h.md); callers name that, not this file.
 **Tier floor** — T2: cheap state queries on the planning path
 
 ## Purpose

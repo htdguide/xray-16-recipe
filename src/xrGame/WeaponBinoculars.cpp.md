@@ -3,7 +3,7 @@
 > Binoculars: a weapon that cannot fire, whose trigger zooms, and which draws a bracket around every living thing the actor can currently see.
 
 **Needs** — [`WeaponBinoculars.h`](WeaponBinoculars.h.md) · [`WeaponBinocularsVision.h`](WeaponBinocularsVision.h.md) · [`WeaponCustomPistol.h`](WeaponCustomPistol.h.md) · [`Level.h`](Level.h.md) · [`Inventory.h`](Inventory.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponBinoculars.h`](WeaponBinoculars.h.md); callers name that, not this file.
 **Tier floor** — T2: a per-frame overlay driven by the actor's vision memory.
 
 ## Purpose

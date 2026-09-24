@@ -3,7 +3,7 @@
 > The deathmatch interface: nine captions the game mode writes strings into, the money and rank readouts, the frag limit, the scoreboard and the vote banner.
 
 **Needs** — [`UIGameDM.h`](UIGameDM.h.md) · [`UIGameMP.h`](UIGameMP.h.md) · [`UITeamPanels.h`](UITeamPanels.h.md) · [`Level.h`](Level.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`game_cl_deathmatch.h`](game_cl_deathmatch.h.md) · [`Inventory.h`](Inventory.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Spectator.h`](Spectator.h.md) · [`ui/UIMoneyIndicator.h`](ui/UIMoneyIndicator.h.md) · [`ui/UIRankIndicator.h`](ui/UIRankIndicator.h.md) · [`ui/UIVoteStatusWnd.h`](ui/UIVoteStatusWnd.h.md) · [`ui/UIActorMenu.h`](ui/UIActorMenu.h.md) · [`ui/UIHelper.h`](ui/UIHelper.h.md) · [`ui/KillMessageStruct.h`](ui/KillMessageStruct.h.md) · [`xrUICore/XML/xrUIXmlParser.h`](../xrUICore/XML/xrUIXmlParser.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIGameDM.h`](UIGameDM.h.md); callers name that, not this file.
 **Tier floor** — T3: window construction from authored layout, and one-line setters
 
 ## Purpose

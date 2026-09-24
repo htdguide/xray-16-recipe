@@ -3,7 +3,7 @@
 > Wires the whole engine together at startup: picks a renderer, brings up the game module, starts the scheduler, and puts the audio update and the event pump into the frame sequence at the right priorities.
 
 **Needs** — [`Engine.h`](Engine.h.md) · [`EngineAPI.h`](EngineAPI.h.md) · [`EventAPI.h`](EventAPI.h.md) · [`xrSheduler.h`](xrSheduler.h.md) · [`XR_IOConsole.h`](XR_IOConsole.h.md) · [`xr_ioc_cmd.h`](xr_ioc_cmd.h.md) · [`xr_input.h`](xr_input.h.md) · [`device.h`](device.h.md) · [`xrSound`](../xrSound/README.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Engine.h`](Engine.h.md); callers name that, not this file.
 **Tier floor** — T2: composition and ordering. Nothing here touches a device directly.
 
 ## Purpose

@@ -4,7 +4,7 @@
 > coordinate and parameter conversions the mixer expects.
 
 **Needs** — [`SoundRender_TargetA.h`](SoundRender_TargetA.h.md) · [`SoundRender_Target.h`](SoundRender_Target.h.md) · [`SoundRender_Emitter.h`](SoundRender_Emitter.h.md) · [`SoundRender_Source.h`](SoundRender_Source.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_TargetA.h`](SoundRender_TargetA.h.md); callers name that, not this file.
 **Tier floor** — T1: it hands the mixer raw PCM with an explicit format identifier and a byte count.
 
 ## Purpose

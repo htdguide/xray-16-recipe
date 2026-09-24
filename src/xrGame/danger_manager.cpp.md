@@ -3,7 +3,7 @@
 > One creature's threat list: turns raw perceptions into typed danger records, ages and prunes them, and names the single most urgent one for the brain to react to.
 
 **Needs** — [`danger_manager.h`](danger_manager.h.md) · [`CustomMonster.h`](CustomMonster.h.md) · [`memory_space.h`](memory_space.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`enemy_manager.h`](enemy_manager.h.md) · [`Actor.h`](Actor.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`danger_manager.h`](danger_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: list maintenance and a scoring function
 
 ## Purpose

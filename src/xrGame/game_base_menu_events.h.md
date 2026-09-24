@@ -3,7 +3,7 @@
 > The three requests a player can make of the game rules from the in-match menu.
 
 **Needs** — _(none)_
-**Used by** — [`game_cl_capture_the_artefact.cpp`](game_cl_capture_the_artefact.cpp.md) · [`game_cl_capturetheartefact_buywnd.cpp`](game_cl_capturetheartefact_buywnd.cpp.md) · [`game_cl_teamdeathmatch.cpp`](game_cl_teamdeathmatch.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md)
+**Used by** — [`game_cl_capture_the_artefact.cpp`](game_cl_capture_the_artefact.cpp.md) · [`game_cl_capturetheartefact_buywnd.cpp`](game_cl_capturetheartefact_buywnd.cpp.md) · [`game_cl_teamdeathmatch.cpp`](game_cl_teamdeathmatch.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md) · [`game_sv_mp.h`](game_sv_mp.h.md)
 **Tier floor** — T3: one enumeration
 
 ## Purpose

@@ -3,7 +3,7 @@
 > A hand-held flare: a light that burns for a fixed number of seconds, dims on a fourth-power curve, throws itself away two seconds before it dies, and goes dark.
 
 **Needs** — [`flare.h`](flare.h.md) · [`player_hud.h`](player_hud.h.md) · [`hud_item_object.h`](hud_item_object.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`xrEngine/LightAnimLibrary.h`](../xrEngine/LightAnimLibrary.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`flare.h`](flare.h.md); callers name that, not this file.
 **Tier floor** — T2: creates a renderer light and drives it per frame
 
 ## Purpose

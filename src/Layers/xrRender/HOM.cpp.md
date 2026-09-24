@@ -3,7 +3,7 @@
 > Rasterize the level's authored occluders into a low-resolution depth hierarchy once per frame, then answer "is this box behind something" in a few comparisons — with a per-triangle and a per-object skip schedule so that neither side costs what it should.
 
 **Needs** — [`HOM.h`](HOM.h.md) · [`occRasterizer.h`](occRasterizer.h.md) · [`xrCDB/xrCDB.h`](../../xrCDB/xrCDB.h.md) · [`xrCore/Threading/ParallelFor.hpp`](../../xrCore/Threading/ParallelFor.hpp.md) · [Seam: Static collision database](../../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HOM.h`](HOM.h.md); callers name that, not this file.
 **Tier floor** — T1: it runs a software rasterizer over a shared buffer on a worker thread while the rest of the frame reads it.
 
 ## Purpose

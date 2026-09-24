@@ -3,7 +3,7 @@
 > The body armour: it wears out as it absorbs damage, reduces incoming damage by type and by which body part was struck, changes the wearer's appearance and first-person arms, and modifies carrying capacity and regeneration.
 
 **Needs** — [`CustomOutfit.h`](CustomOutfit.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md) · [`BoneProtections.h`](BoneProtections.h.md) · [`Inventory.h`](Inventory.h.md) · [`Actor.h`](Actor.h.md) · [`ActorHelmet.h`](ActorHelmet.h.md) · [`Torch.h`](Torch.h.md) · [`Level.h`](Level.h.md) · [`player_hud.h`](player_hud.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CustomOutfit.h`](CustomOutfit.h.md); callers name that, not this file.
 **Tier floor** — T2: damage arithmetic plus model and asset swaps
 
 ## Purpose

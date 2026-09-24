@@ -3,7 +3,7 @@
 > Resolves a logical root plus a relative name into one physical path, and matches a name against a wildcard mask.
 
 **Needs** — [`LocatorAPI_defs.h`](LocatorAPI_defs.h.md) · [`LocatorAPI.h`](LocatorAPI.h.md) · [`xrstring.h`](xrstring.h.md) · [`_flags.h`](_flags.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`LocatorAPI_defs.h`](LocatorAPI_defs.h.md); callers name that, not this file.
 **Tier floor** — T2: string normalization and a matcher. It touches the real filesystem only to probe for a case-exact file on case-sensitive systems.
 
 ## Purpose

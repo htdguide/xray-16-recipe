@@ -3,7 +3,7 @@
 > Joins the inventory-item role and the held-item role into one object, and fixes the order in which the two halves see every event.
 
 **Needs** — [`hud_item_object.h`](hud_item_object.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md) · [`HudItem.h`](HudItem.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`hud_item_object.h`](hud_item_object.h.md); callers name that, not this file.
 **Tier floor** — T2: sequencing two role implementations
 
 ## Purpose

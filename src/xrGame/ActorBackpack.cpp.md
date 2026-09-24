@@ -3,7 +3,7 @@
 > The backpack: a wearable inventory item whose only job is to alter the actor's carry limit and movement.
 
 **Needs** — [`ActorBackpack.h`](ActorBackpack.h.md) · [`Actor.h`](Actor.h.md) · [`Inventory.h`](Inventory.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ActorBackpack.h`](ActorBackpack.h.md); callers name that, not this file.
 **Tier floor** — T3: reads numbers from a section and exposes them
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Builds a rigid-body shell for an object straight from its skeleton, with no per-object authoring.
 
 **Needs** — [`PHShellCreator.h`](PHShellCreator.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`GameObject.h`](GameObject.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PHShellCreator.h`](PHShellCreator.h.md); callers name that, not this file.
 **Tier floor** — T2: assembling a body from model data
 
 ## Purpose

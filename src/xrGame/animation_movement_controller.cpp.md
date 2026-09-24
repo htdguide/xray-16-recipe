@@ -3,7 +3,7 @@
 > Lets an animation drive the object's world transform: the root bone's displacement is stripped out of the pose and applied to the object instead.
 
 **Needs** — [`animation_movement_controller.h`](animation_movement_controller.h.md) · [`poses_blending.h`](poses_blending.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [`game_object_space.h`](game_object_space.h.md) · [`xrPhysics/matrix_utils.h`](../xrPhysics/matrix_utils.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`animation_movement_controller.h`](animation_movement_controller.h.md); callers name that, not this file.
 **Tier floor** — T2: rigid-transform algebra and a bone callback; no byte layout, but it runs inside the per-frame pose evaluation and must not allocate there
 
 ## Purpose

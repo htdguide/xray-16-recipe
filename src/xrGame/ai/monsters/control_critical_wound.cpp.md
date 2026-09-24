@@ -3,7 +3,7 @@
 > The critical-wound collapse: the creature stops dead, plays one clip, and tells itself the state is over when it ends.
 
 **Needs** — [`control_critical_wound.h`](control_critical_wound.h.md) · [`control_animation_base.h`](control_animation_base.h.md) · [`control_direction_base.h`](control_direction_base.h.md) · [`control_movement_base.h`](control_movement_base.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_critical_wound.h`](control_critical_wound.h.md); callers name that, not this file.
 **Tier floor** — T2: seizes the body for the duration of a clip
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Declares the server half of the game rules: the interface every mode must satisfy, and the shared implementation of respawn points, map rotation and the delayed-event queue. Implemented in [`game_sv_base.cpp`](game_sv_base.cpp.md).
 
 **Needs** — [`game_sv_base.cpp`](game_sv_base.cpp.md) · [`game_base.h`](game_base.h.md) · [`game_sv_event_queue.h`](game_sv_event_queue.h.md) · [`game_sv_item_respawner.h`](game_sv_item_respawner.h.md) · [`game_sv_base_console_vars.h`](game_sv_base_console_vars.h.md) · [`xrServerEntities/alife_space.h`](../xrServerEntities/alife_space.h.md) · [`xrNetServer/NET_Server.h`](../xrNetServer/NET_Server.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — [`game_sv_base.cpp`](game_sv_base.cpp.md) · [`game_sv_base_script.cpp`](game_sv_base_script.cpp.md) · [`game_sv_item_respawner.cpp`](game_sv_item_respawner.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md) · [`game_sv_single.h`](game_sv_single.h.md) · [`screenshot_server.cpp`](screenshot_server.cpp.md) · [`xrServer.h`](xrServer.h.md)
+**Used by** — [`game_sv_base.cpp`](game_sv_base.cpp.md) · [`game_sv_base_script.cpp`](game_sv_base_script.cpp.md) · [`game_sv_item_respawner.cpp`](game_sv_item_respawner.cpp.md) · [`game_sv_mp.cpp`](game_sv_mp.cpp.md) · [`game_sv_mp.h`](game_sv_mp.h.md) · [`game_sv_single.h`](game_sv_single.h.md) · [`screenshot_server.cpp`](screenshot_server.cpp.md) · [`xrServer.h`](xrServer.h.md)
 **Tier floor** — T3: a declaration
 
 ## Purpose

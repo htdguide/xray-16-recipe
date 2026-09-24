@@ -3,7 +3,7 @@
 > Every record that is alive or is a zone: its fields, its three serializations, the version gates that let a 2007 save still load, and the algorithm that turns "profile *X*" into a named individual with a face, a name and a wallet.
 
 **Needs** — [`xrServer_Objects_ALife_Monsters.h`](xrServer_Objects_ALife_Monsters.h.md) · [`xrServer_Objects_ALife_Items.h`](xrServer_Objects_ALife_Items.h.md) · [`alife_space.h`](alife_space.h.md) · [`character_info.h`](character_info.h.md) · [`specific_character.h`](specific_character.h.md) · [`alife_human_brain.h`](alife_human_brain.h.md) · [`alife_monster_brain.h`](alife_monster_brain.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md) · [Data: save format](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrServer_Objects_ALife_Monsters.h`](xrServer_Objects_ALife_Monsters.h.md); callers name that, not this file.
 **Tier floor** — T1: on-disk and on-wire layouts, with version-gated field presence.
 
 ## Purpose

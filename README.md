@@ -152,11 +152,39 @@ Two further things a reader should know before planning work:
   original game data and comparing behaviour, which is why §6 of the preface states the
   acceptance criteria behaviourally.
 
-Each chapter README ends with its own honesty section listing what could not be recovered
-from the source: magic constants with no derivation, dead fields, abandoned designs, and
-decisions whose intent is simply not written down anywhere. Those lists are deliberately
-specific — "this value is unexplained" is more useful to a rebuilder than a confident
-invention.
+**[`UNRECOVERED.md`](UNRECOVERED.md)** collects the whole of it, chapter by chapter: the
+defects above, plus the magic constants with no derivation, the fields written and never
+read, the abandoned designs, and the decisions whose intent is simply not written down
+anywhere. Many chapter READMEs repeat the items that matter for reading that chapter; the
+collected file is the complete list. These entries are deliberately specific, and where the
+source does not answer they say so — "this value is unexplained" is worth more to a
+rebuilder than a confident invention.
+
+### The recipe has been tested, and it is not complete
+
+Three engineers were given this recipe alone — no source, no prior knowledge of the engine
+— and asked to plan a rebuild of one module each in a language the recipe never names.
+Their gap reports are the reason several pages above were corrected, and they found real
+holes that remain:
+
+- **The specification of *smart terrain* is missing.** Every offline decision bottoms out
+  in `task_for`, `suitability_for` and `enabled_for`, and all three are called, fatal on
+  failure, and defined nowhere. Chapter 23 assumes it; no twin supplies it.
+- **The alife tick has no rate.** Not one number: not the scheduler's period, not the
+  switch radii, not the travel speeds. Chapter 23 describes the machinery exactly and never
+  says how often it runs, because the values live in shipped configuration this recipe
+  treats as out of scope. For a weapon's damage that is the right call; for the clock of
+  the simulation it is not.
+- **`src/xrCDB`'s `Result` type has no record block**, alone among the module's types — so
+  the field order, the distance's meaning for a non-unit direction, and *which two* of the
+  three barycentric coordinates are reported are all unstated.
+- **A handful of tie-breaks are genuinely undetermined**: which triangle wins at exactly
+  equal ray distance, which axis wins on a variance tie, whether the positive subtree is
+  emitted before the negative one. Each changes a shipped cache file byte-for-byte.
+
+Where a rebuilder must simply decide, the pages now say so. Where two pages disagreed, the
+disagreement has been resolved against the source — but the tests found those by reading,
+and reading is not proof. Expect more.
 
 ---
 

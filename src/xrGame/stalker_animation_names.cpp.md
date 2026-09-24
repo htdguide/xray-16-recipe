@@ -3,7 +3,7 @@
 > The fragment tables whose cartesian product is a stalker's entire animation set.
 
 **Needs** — [`stalker_animation_names.h`](stalker_animation_names.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_animation_names.h`](stalker_animation_names.h.md); callers name that, not this file.
 **Tier floor** — T3: literal data
 
 ## Purpose

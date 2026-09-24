@@ -3,7 +3,7 @@
 > The material a model is drawn with while its silhouette is being rendered into a shadow texture: pure black, no texture, no depth.
 
 **Needs** — [`Blender_Shadow_Texture.h`](Blender_Shadow_Texture.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`Blender_CLSID.h`](../Blender_CLSID.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Blender_Shadow_Texture.h`](Blender_Shadow_Texture.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description with no parameter block.
 
 ## Purpose

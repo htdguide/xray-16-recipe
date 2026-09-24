@@ -3,7 +3,7 @@
 > The offline decision cycle for a creature: pick the smart terrain that wants it most, take the job that terrain hands out, and move toward it on the game graph.
 
 **Needs** — [`alife_monster_brain.h`](alife_monster_brain.h.md) · [`xrServer_Objects_ALife_Monsters.h`](xrServer_Objects_ALife_Monsters.h.md) · [`alife_space.h`](alife_space.h.md) · [Data: configuration](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_monster_brain.h`](alife_monster_brain.h.md); callers name that, not this file.
 **Tier floor** — T2: graph-level decisions, no byte layout, no device.
 
 ## Purpose

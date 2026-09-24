@@ -3,7 +3,7 @@
 > The compiled form of a material: a shader is a set of render-mode variants, each a short list of passes, each pass a bound set of device state, programs, textures and animated values — plus the equality rules that let identical ones be shared.
 
 **Needs** — [`Shader.h`](Shader.h.md) · [`ResourceManager.h`](ResourceManager.h.md) · [`SH_Atomic.h`](SH_Atomic.h.md) · [`SH_Texture.h`](SH_Texture.h.md) · [`SH_Matrix.h`](SH_Matrix.h.md) · [`SH_Constant.h`](SH_Constant.h.md) · [`SH_RT.h`](SH_RT.h.md) · [`r_constants.h`](r_constants.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Shader.h`](Shader.h.md); callers name that, not this file.
 **Tier floor** — T1: a pass is a bundle of device handles whose release order is load-bearing, and every one of these records unregisters itself from the resource registry as it dies.
 
 ## Purpose

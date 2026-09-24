@@ -3,7 +3,7 @@
 > A campfire: an anomaly zone that scripts can switch on and off, cross-fading its light, its particles and its sound over three seconds instead of popping.
 
 **Needs** — [`ZoneCampfire.h`](ZoneCampfire.h.md) · [`MosquitoBald.h`](MosquitoBald.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`GamePersistent.h`](GamePersistent.h.md) · [`xrEngine/LightAnimLibrary.h`](../xrEngine/LightAnimLibrary.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ZoneCampfire.h`](ZoneCampfire.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame colour and range interpolation against a light and a particle emitter
 
 ## Purpose

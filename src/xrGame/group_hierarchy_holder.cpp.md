@@ -3,7 +3,7 @@
 > A group of creatures that pool their perception: joining a group redirects a member's sight, hearing and hit memory into lists the whole group reads.
 
 **Needs** — [`group_hierarchy_holder.h`](group_hierarchy_holder.h.md) · [`squad_hierarchy_holder.h`](squad_hierarchy_holder.h.md) · [`Entity.h`](Entity.h.md) · [`agent_manager.h`](agent_manager.h.md) · [`agent_member_manager.h`](agent_member_manager.h.md) · [`agent_memory_manager.h`](agent_memory_manager.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`sound_memory_manager.h`](sound_memory_manager.h.md) · [`hit_memory_manager.h`](hit_memory_manager.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`group_hierarchy_holder.h`](group_hierarchy_holder.h.md); callers name that, not this file.
 **Tier floor** — T2: ownership and lifetime of shared structures; no device contact
 
 ## Purpose

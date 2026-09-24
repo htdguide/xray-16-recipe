@@ -3,7 +3,7 @@
 > The header strip above one team's scoreboard: authored column labels and authored aggregate fields refreshed from the team panel each frame.
 
 **Needs** — [`UITeamHeader.h`](UITeamHeader.h.md) · [`UITeamState.h`](UITeamState.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UITeamHeader.h`](UITeamHeader.h.md); callers name that, not this file.
 **Tier floor** — T3: label layout plus one formatted line per aggregate.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The starting sidearm: the pistol behaviour under its own class name.
 
 **Needs** — [`WeaponPM.h`](WeaponPM.h.md) · [`WeaponPistol.h`](WeaponPistol.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponPM.h`](WeaponPM.h.md); callers name that, not this file.
 **Tier floor** — T3: a name with a parent
 
 ## Purpose

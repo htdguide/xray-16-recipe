@@ -3,7 +3,7 @@
 > Declares the base entity record and the four-way serialization surface implemented in [`xrServer_Object_Base.cpp`](xrServer_Object_Base.cpp.md).
 
 **Needs** — [`xrServer_Objects_Abstract.h`](xrServer_Objects_Abstract.h.md) · [`script_value_container.h`](script_value_container.h.md) · [`alife_space.h`](alife_space.h.md) · [`Common/object_interfaces.h`](../Common/object_interfaces.h.md)
-**Used by** — [`base_client_classes_wrappers.h`](../xrGame/base_client_classes_wrappers.h.md) · [`console_commands_mp.cpp`](../xrGame/console_commands_mp.cpp.md) · [`game_sv_item_respawner.h`](../xrGame/game_sv_item_respawner.h.md) · [`game_sv_mp.cpp`](../xrGame/game_sv_mp.cpp.md) · [`script_properties_list_helper.cpp`](script_properties_list_helper.cpp.md) · [`xrServer_Objects.h`](xrServer_Objects.h.md)
+**Used by** — [`base_client_classes_wrappers.h`](../xrGame/base_client_classes_wrappers.h.md) · [`console_commands_mp.cpp`](../xrGame/console_commands_mp.cpp.md) · [`game_sv_capture_the_artefact.h`](../xrGame/game_sv_capture_the_artefact.h.md) · [`game_sv_item_respawner.h`](../xrGame/game_sv_item_respawner.h.md) · [`game_sv_mp.cpp`](../xrGame/game_sv_mp.cpp.md) · [`script_properties_list_helper.cpp`](script_properties_list_helper.cpp.md) · [`xrServer_Objects.h`](xrServer_Objects.h.md)
 **Tier floor** — T1: the field list is a byte layout.
 
 ## Purpose

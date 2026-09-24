@@ -3,7 +3,7 @@
 > The sense of being hurt: a bounded list of who has damaged this creature, how hard, from what direction, and when — the input the brain's danger model reads.
 
 **Needs** — [`hit_memory_manager.h`](hit_memory_manager.h.md) · [`memory_space_impl.h`](memory_space_impl.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`CustomMonster.h`](CustomMonster.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`agent_manager.h`](agent_manager.h.md) · [`agent_member_manager.h`](agent_member_manager.h.md) · [`client_spawn_manager.h`](client_spawn_manager.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`game_object_space.h`](game_object_space.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`hit_memory_manager.h`](hit_memory_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: a bounded list with an eviction policy and a deferred-resolution load path
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Hands the grid the list of values a text row admits, and declares the list closed.
 
 **Needs** — [`property_converter_string_values.hpp`](property_converter_string_values.hpp.md) · [`property_string_values_value_base.hpp`](property_string_values_value_base.hpp.md) · [`property_container.hpp`](property_container.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_converter_string_values.hpp`](property_converter_string_values.hpp.md); callers name that, not this file.
 **Tier floor** — T3: pure presentation; it never touches engine memory
 
 ## Purpose

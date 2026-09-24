@@ -3,7 +3,7 @@
 > Writes and reads a saved game: the chunk order, the compression wrapper, and the multi-pass restore that makes thousands of entities come back consistent.
 
 **Needs** — [`alife_storage_manager.h`](alife_storage_manager.h.md) · [`alife_simulator_header.h`](alife_simulator_header.h.md) · [`alife_time_manager.h`](alife_time_manager.h.md) · [`alife_spawn_registry.h`](alife_spawn_registry.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`alife_graph_registry.h`](alife_graph_registry.h.md) · [`alife_group_registry.h`](alife_group_registry.h.md) · [`alife_registry_container.h`](alife_registry_container.h.md) · [`saved_game_wrapper.h`](saved_game_wrapper.h.md) · [`autosave_manager.h`](autosave_manager.h.md) · [`Level.h`](Level.h.md) · [`xrServer.h`](xrServer.h.md) · [Seam: Compression](../../SYSTEM-REQUIREMENTS.md#seam-compression) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_storage_manager.h`](alife_storage_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: stream ordering and a whole-buffer compression round trip
 
 ## Purpose

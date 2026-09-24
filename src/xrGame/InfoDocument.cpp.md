@@ -3,7 +3,7 @@
 > A document you can pick up: an inventory item whose only behaviour is to hand one information portion to whoever picks it up.
 
 **Needs** — [`InfoDocument.h`](InfoDocument.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md) · [`InfoPortionDefs.h`](../xrServerEntities/InfoPortionDefs.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`PDA.h`](PDA.h.md) · [`xrServer_Objects_ALife_Items.h`](../xrServerEntities/xrServer_Objects_ALife_Items.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`InfoDocument.h`](InfoDocument.h.md); callers name that, not this file.
 **Tier floor** — T3: one identifier and one event; everything else delegates
 
 ## Purpose

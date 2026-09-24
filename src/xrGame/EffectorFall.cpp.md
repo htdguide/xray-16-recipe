@@ -3,7 +3,7 @@
 > Two one-shot camera effectors: the knee-bend dip after a landing, and a timed override of the depth-of-field parameters.
 
 **Needs** — [`EffectorFall.h`](EffectorFall.h.md) · [`CameraEffector.h`](CameraEffector.h.md) · [`GamePersistent.h`](GamePersistent.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EffectorFall.h`](EffectorFall.h.md); callers name that, not this file.
 **Tier floor** — T2: one scalar curve per frame, plus a render-parameter handoff
 
 ## Purpose

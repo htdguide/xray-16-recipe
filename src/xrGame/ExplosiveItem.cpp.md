@@ -3,7 +3,7 @@
 > A canister or gas bottle: an inventory item that takes damage like an item, counts down on a fuse once damaged enough, and then explodes.
 
 **Needs** — [`ExplosiveItem.h`](ExplosiveItem.h.md) · [`Explosive.h`](Explosive.h.md) · [`inventory_item_object.h`](inventory_item_object.h.md) · [`DelayedActionFuse.h`](DelayedActionFuse.h.md) · [`ParticlesPlayer.h`](ParticlesPlayer.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ExplosiveItem.h`](ExplosiveItem.h.md); callers name that, not this file.
 **Tier floor** — T3: a fuse over an item's condition, and three inheritance orderings
 
 ## Purpose

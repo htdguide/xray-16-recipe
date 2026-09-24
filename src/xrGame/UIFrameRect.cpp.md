@@ -3,7 +3,7 @@
 > A resizable decorated rectangle: nine texture pieces — four corners, four tiled edges, one tiled interior — laid out so a frame of any size is drawn from art of one size.
 
 **Needs** — [`UIFrameRect.h`](UIFrameRect.h.md) · [`ui/UITextureMaster.h`](../xrUICore/XML/UITextureMaster.h.md) · [`HUDManager.h`](HUDManager.h.md) · [`xrUICore/Static/UIStaticItem.h`](../xrUICore/Static/UIStaticItem.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIFrameRect.h`](UIFrameRect.h.md); callers name that, not this file.
 **Tier floor** — T2: tiling arithmetic against texture dimensions
 
 ## Purpose

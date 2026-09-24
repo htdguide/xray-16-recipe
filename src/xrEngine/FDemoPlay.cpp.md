@@ -3,7 +3,7 @@
 > Drives the camera along a recorded path and measures the frame rate while it does — the engine's benchmark.
 
 **Needs** — [`FDemoPlay.h`](FDemoPlay.h.md) · [`Effector.h`](Effector.h.md) · [`CameraManager.h`](CameraManager.h.md) · [`IGame_Level.h`](IGame_Level.h.md) · [`XR_IOConsole.h`](XR_IOConsole.h.md) · [`Render.h`](Render.h.md) · [`xrCore/Animation/Motion.hpp`](../xrCore/Animation/Motion.hpp.md) · [`device.h`](device.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FDemoPlay.h`](FDemoPlay.h.md); callers name that, not this file.
 **Tier floor** — T2: spline evaluation and timing. The raw path file is read as a memory image, which is the only T1 touch.
 
 ## Purpose

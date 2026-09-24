@@ -3,7 +3,7 @@
 > Decals: how a bullet hole is cut out of the world's collision geometry, how it is batched by material, and how it fades and dies.
 
 **Needs** — [`WallmarksEngine.h`](WallmarksEngine.h.md) · [`SkeletonCustom.h`](SkeletonCustom.h.md) · [`Shader.h`](Shader.h.md) · [`ResourceManager.h`](ResourceManager.h.md) · [`R_Backend.h`](R_Backend.h.md) · [`xrEngine/Render.h`](../../xrEngine/Render.h.md) · [`xrEngine/xr_object.h`](../../xrEngine/xr_object.h.md) · [Seam: Static collision database](../../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WallmarksEngine.h`](WallmarksEngine.h.md); callers name that, not this file.
 **Tier floor** — T1: it writes interleaved vertices straight into a mapped device buffer and owns the budget that keeps the write in bounds.
 
 ## Purpose

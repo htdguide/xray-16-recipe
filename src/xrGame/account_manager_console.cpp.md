@@ -3,7 +3,7 @@
 > The developer console's account commands: sign in and out, create and delete a profile, list and inspect profiles, all routed to the managers the main menu owns.
 
 **Needs** — [`account_manager_console.h`](account_manager_console.h.md) · [`account_manager.h`](account_manager.h.md) · [`login_manager.h`](login_manager.h.md) · [`profile_store.h`](profile_store.h.md) · [`MainMenu.h`](MainMenu.h.md) · [`xrGameSpy/GameSpy_Full.h`](../xrGameSpy/GameSpy_Full.h.md) · [Seam: Multiplayer matchmaking and accounts](../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`account_manager_console.h`](account_manager_console.h.md); callers name that, not this file.
 **Tier floor** — T3: argument splitting and delegation
 
 ## Purpose

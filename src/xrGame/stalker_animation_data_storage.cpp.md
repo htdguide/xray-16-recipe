@@ -3,7 +3,7 @@
 > Shares one loaded animation table between every stalker whose model draws on the same motion banks, keyed by the bank list rather than by the model.
 
 **Needs** — [`stalker_animation_data_storage.h`](stalker_animation_data_storage.h.md) · [`stalker_animation_data_storage_inline.h`](stalker_animation_data_storage_inline.h.md) · [`stalker_animation_data.h`](stalker_animation_data.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_animation_data_storage.h`](stalker_animation_data_storage.h.md); callers name that, not this file.
 **Tier floor** — T3: a small linear cache with a structural key
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Reads the summary block out of a recorded multiplayer demo file and caches it by filename, so a browse screen can list many demos without re-reading any.
 
 **Needs** — [`DemoInfo_Loader.h`](DemoInfo_Loader.h.md) · [`DemoInfo.h`](DemoInfo.h.md) · [`Level.h`](Level.h.md) · [`xrCore/stream_reader.h`](../xrCore/stream_reader.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`DemoInfo_Loader.h`](DemoInfo_Loader.h.md); callers name that, not this file.
 **Tier floor** — T2: streamed read of a frozen file prefix; no layout decisions of its own
 
 ## Purpose

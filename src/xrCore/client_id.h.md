@@ -3,7 +3,7 @@
 > A connected client's identity: a 32-bit number in a type of its own, so it cannot be confused with an entity identifier or a frame number.
 
 **Needs** — [`xr_types.h`](xr_types.h.md)
-**Used by** — [`NET_utils.cpp`](NET_utils.cpp.md) · [`net_utils.h`](net_utils.h.md) · [`game_base_script.cpp`](../xrGame/game_base_script.cpp.md) · [`game_cl_base.h`](../xrGame/game_cl_base.h.md) · [`game_sv_event_queue.h`](../xrGame/game_sv_event_queue.h.md) · [`NET_Shared.h`](../xrNetServer/NET_Shared.h.md)
+**Used by** — [`NET_utils.cpp`](NET_utils.cpp.md) · [`net_utils.h`](net_utils.h.md) · [`game_base_script.cpp`](../xrGame/game_base_script.cpp.md) · [`game_cl_base.h`](../xrGame/game_cl_base.h.md) · [`game_sv_deathmatch.h`](../xrGame/game_sv_deathmatch.h.md) · [`game_sv_event_queue.h`](../xrGame/game_sv_event_queue.h.md) · [`NET_Shared.h`](../xrNetServer/NET_Shared.h.md)
 **Tier floor** — T1: it is byte-packed because it is written into network packets and save records as a raw image.
 
 ## Purpose

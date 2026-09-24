@@ -3,7 +3,7 @@
 > The radiation anomaly: a zone that delivers a steady, distance-scaled dose in fixed time quanta rather than in discrete hits.
 
 **Needs** — [`RadioactiveZone.h`](RadioactiveZone.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`Hit.h`](Hit.h.md) · [`game_base_space.h`](../xrServerEntities/game_base_space.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`RadioactiveZone.h`](RadioactiveZone.h.md); callers name that, not this file.
 **Tier floor** — T3: accumulation arithmetic and a distance falloff
 
 ## Purpose

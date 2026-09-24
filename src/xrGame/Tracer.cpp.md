@@ -3,7 +3,7 @@
 > Draws a bullet in flight: a camera-facing streak along its path, plus a muzzle-facing disc when the round is the player's own.
 
 **Needs** — [`Tracer.h`](Tracer.h.md) · [`xrEngine/Render.h`](../xrEngine/Render.h.md) · [`Include/xrRender/UIShader.h`](../Include/xrRender/UIShader.h.md) · [`Include/xrRender/UIRender.h`](../Include/xrRender/UIRender.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Tracer.h`](Tracer.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits vertices with explicit texture coordinates into a shared draw list
 
 ## Purpose

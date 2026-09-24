@@ -3,7 +3,7 @@
 > The material that projects an already-rendered shadow silhouette back onto the world, by multiplying the frame where the silhouette is dark.
 
 **Needs** — [`Blender_Shadow_World.h`](Blender_Shadow_World.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`Blender_CLSID.h`](../Blender_CLSID.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Blender_Shadow_World.h`](Blender_Shadow_World.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description with no parameter block.
 
 ## Purpose

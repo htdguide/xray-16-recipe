@@ -3,7 +3,7 @@
 > The base behaviour every material template shares: its identity record, its two universal knobs (sort priority and strict back-to-front), and the rule that only the active render backend may make one.
 
 **Needs** — [`Blender.h`](Blender.h.md) · [`Blender_Recorder.h`](Blender_Recorder.h.md) · [`ResourceManager.h`](ResourceManager.h.md) · [`xrRender_console.h`](xrRender_console.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Blender.h`](Blender.h.md); callers name that, not this file.
 **Tier floor** — T2: nothing here touches the device. What stops T3 is the identity record, which is written to and read from a shipped binary file as a byte image.
 
 ## Purpose

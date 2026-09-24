@@ -3,7 +3,7 @@
 > Gives a vehicle a pair of eyes, so that it can see the actor and nothing else.
 
 **Needs** — [`car_memory.h`](car_memory.h.md) · [`vision_client.h`](vision_client.h.md) · [`Car.h`](Car.h.md) · [`Actor.h`](Actor.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`car_memory.h`](car_memory.h.md); callers name that, not this file.
 **Tier floor** — T2: a frustum description handed to the vision system
 
 ## Purpose

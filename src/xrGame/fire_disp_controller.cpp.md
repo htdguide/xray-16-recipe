@@ -3,7 +3,7 @@
 > Smooths the crosshair's spread: when the weapon's dispersion changes, the displayed value travels to the new one over time instead of jumping.
 
 **Needs** — [`fire_disp_controller.h`](fire_disp_controller.h.md) · [`Actor.h`](Actor.h.md) · [`Inventory.h`](Inventory.h.md) · [`Weapon.h`](Weapon.h.md) · [`Level.h`](Level.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`fire_disp_controller.h`](fire_disp_controller.h.md); callers name that, not this file.
 **Tier floor** — T3: one linear interpolation against the wall clock
 
 ## Purpose

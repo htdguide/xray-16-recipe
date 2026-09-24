@@ -4,7 +4,7 @@
 > ray-test pass, run on alternate scheduler ticks.
 
 **Needs** — [`vision_client.h`](vision_client.h.md) · [`Entity.h`](Entity.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`Level.h`](Level.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`vision_client.h`](vision_client.h.md); callers name that, not this file.
 **Tier floor** — T2: a two-phase perception pass on the scheduler.
 
 ## Purpose

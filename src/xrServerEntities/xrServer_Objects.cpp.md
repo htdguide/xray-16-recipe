@@ -3,7 +3,7 @@
 > Four small records that most other records are built out of: a volume, a saved ragdoll pose, an empty observer, and a bare navigation position.
 
 **Needs** — [`xrServer_Objects.h`](xrServer_Objects.h.md) · [`ShapeData.h`](ShapeData.h.md) · [`PHNetState.h`](PHNetState.h.md) · [`game_base_space.h`](game_base_space.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrServer_Objects.h`](xrServer_Objects.h.md); callers name that, not this file.
 **Tier floor** — T1: four on-disk field groups.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The human-specific part of an offline creature's record: randomized equipment tastes, and the version-gated read that lets a stalker saved by any of the three games load here.
 
 **Needs** — [`alife_human_brain.h`](alife_human_brain.h.md) · [`xrServer_Objects_ALife_Monsters.h`](xrServer_Objects_ALife_Monsters.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md) · [Data: save games](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_human_brain.h`](alife_human_brain.h.md); callers name that, not this file.
 **Tier floor** — T1: the read path is a byte-exact, version-gated walk over a saved record.
 
 ## Purpose

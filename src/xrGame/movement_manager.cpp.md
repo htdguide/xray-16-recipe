@@ -3,7 +3,7 @@
 > The path pipeline's lifecycle and state driver: what invalidates a path, which stage runs next, and where a moving creature will be a moment from now.
 
 **Needs** — [`movement_manager.h`](movement_manager.h.md) · [`movement_manager_space.h`](movement_manager_space.h.md) · [`game_location_selector.h`](game_location_selector.h.md) · [`level_location_selector.h`](level_location_selector.h.md) · [`game_path_manager.h`](game_path_manager.h.md) · [`level_path_manager.h`](level_path_manager.h.md) · [`detail_path_manager.h`](detail_path_manager.h.md) · [`patrol_path_manager.h`](patrol_path_manager.h.md) · [`location_manager.h`](location_manager.h.md) · [`level_path_builder.h`](level_path_builder.h.md) · [`detail_path_builder.h`](detail_path_builder.h.md) · [`steering_behaviour.h`](steering_behaviour.h.md) · [`CustomMonster.h`](CustomMonster.h.md) · [`mt_config.h`](mt_config.h.md) · [`Level.h`](Level.h.md) · [`xrServerEntities/xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`xrAICore/Navigation/ai_object_location.h`](../xrAICore/Navigation/ai_object_location.h.md) · [`xrEngine/profiler.h`](../xrEngine/profiler.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`movement_manager.h`](movement_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: a state machine over four search stages, with a hot prediction walk
 
 ## Purpose

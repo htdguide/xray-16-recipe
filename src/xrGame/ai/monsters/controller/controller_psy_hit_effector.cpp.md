@@ -3,7 +3,7 @@
 > Dead file: the bodies of the abandoned psi-attack effectors, entirely commented out.
 
 **Needs** — [`controller_psy_hit_effector.h`](controller_psy_hit_effector.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`controller_psy_hit_effector.h`](controller_psy_hit_effector.h.md); callers name that, not this file.
 **Tier floor** — T4: the translation unit is empty
 
 ## Purpose

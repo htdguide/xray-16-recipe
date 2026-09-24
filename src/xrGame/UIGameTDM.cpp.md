@@ -3,7 +3,7 @@
 > The team-deathmatch heads-up layer: two team score readouts, the team-panel scoreboard, and the hold-to-reveal player-name toggle.
 
 **Needs** — [`UIGameTDM.h`](UIGameTDM.h.md) · [`UIGameDM.h`](UIGameDM.h.md) · [`UITeamPanels.h`](UITeamPanels.h.md) · [`game_cl_teamdeathmatch.h`](game_cl_teamdeathmatch.h.md) · [`ui/UIMoneyIndicator.h`](ui/UIMoneyIndicator.h.md) · [`ui/UIRankIndicator.h`](ui/UIRankIndicator.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIGameTDM.h`](UIGameTDM.h.md); callers name that, not this file.
 **Tier floor** — T3: layout assembly and two text fields.
 
 ## Purpose

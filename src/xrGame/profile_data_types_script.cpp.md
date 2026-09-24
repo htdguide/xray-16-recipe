@@ -3,7 +3,7 @@
 > Exports the profile record shapes to the script layer.
 
 **Needs** — [`profile_data_types.h`](profile_data_types.h.md) · [`profile_data_types_script.h`](profile_data_types_script.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`profile_data_types_script.h`](profile_data_types_script.h.md); callers name that, not this file.
 **Tier floor** — T3: registration only
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Empty: it includes its own header and defines nothing.
 
 **Needs** — [`Light_Render_Direct.h`](Light_Render_Direct.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Light_Render_Direct.h`](Light_Render_Direct.h.md); callers name that, not this file.
 **Tier floor** — T4: there is nothing here to place on the ladder.
 
 ## Purpose

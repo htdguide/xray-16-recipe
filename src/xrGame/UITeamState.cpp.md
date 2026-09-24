@@ -3,7 +3,7 @@
 > One team's half of the multiplayer scoreboard: the rows for its members, spread across several authored columns, kept sorted by contribution and safely mutated while being iterated.
 
 **Needs** — [`UITeamState.h`](UITeamState.h.md) · [`UITeamPanels.h`](UITeamPanels.h.md) · [`UIPlayerItem.h`](UIPlayerItem.h.md) · [`UITeamHeader.h`](UITeamHeader.h.md) · [`game_cl_mp.h`](game_cl_mp.h.md) · [`game_cl_base.h`](game_cl_base.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UITeamState.h`](UITeamState.h.md); callers name that, not this file.
 **Tier floor** — T3: list maintenance and a comparison.
 
 ## Purpose

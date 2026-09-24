@@ -3,7 +3,7 @@
 > Owns the level's spawn file: loads it, verifies it matches the game graph and the save, and keeps the authored spawn records available for the whole session.
 
 **Needs** — [`alife_spawn_registry.h`](alife_spawn_registry.h.md) · [`alife_spawn_registry_header.h`](alife_spawn_registry_header.h.md) · [`server_entity_wrapper.h`](server_entity_wrapper.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md) · [`xrAICore/Navigation/graph_abstract.h`](../xrAICore/Navigation/graph_abstract.h.md) · [`game_base.h`](game_base.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_spawn_registry.h`](alife_spawn_registry.h.md); callers name that, not this file.
 **Tier floor** — T1: the spawn file is a frozen binary container held open and read in place
 
 ## Purpose

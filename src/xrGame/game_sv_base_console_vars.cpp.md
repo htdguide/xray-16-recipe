@@ -3,7 +3,7 @@
 > Empty. A translation unit that contains only its precompiled-header include.
 
 **Needs** — _(none)_
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`game_sv_base_console_vars.h`](game_sv_base_console_vars.h.md); callers name that, not this file.
 **Tier floor** — T4: nothing to write
 
 ## Purpose

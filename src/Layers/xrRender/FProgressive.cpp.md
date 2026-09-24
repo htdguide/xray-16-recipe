@@ -3,7 +3,7 @@
 > Level of detail without swapping meshes: the vertices are ordered most-important-first and the indices are grouped per level, so choosing a detail level is choosing a draw range.
 
 **Needs** — [`FProgressive.h`](FProgressive.h.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md) · [`R_Backend.h`](R_Backend.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FProgressive.h`](FProgressive.h.md); callers name that, not this file.
 **Tier floor** — T1: the table is read as a byte image and drives a draw's base offsets.
 
 ## Purpose

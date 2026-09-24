@@ -3,7 +3,7 @@
 > One creature's dealings with doors: which doors its path actually goes through, whether each one needs to be open or shut, and releasing each claim once the creature is past.
 
 **Needs** — [`doors_actor.h`](doors_actor.h.md) · [`doors_door.h`](doors_door.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`debug_renderer.h`](debug_renderer.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`doors_actor.h`](doors_actor.h.md); callers name that, not this file.
 **Tier floor** — T3: geometric tests against a path, plus claim bookkeeping
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Who a multiplayer player is according to the account service: their nickname, clan and profile number, and the frozen shape those take on the wire.
 
 **Needs** — [`player_account.h`](player_account.h.md) · [`MainMenu.h`](MainMenu.h.md) · [`login_manager.h`](login_manager.h.md) · [`profile_store.h`](profile_store.h.md) · [Seam: Multiplayer matchmaking and accounts](../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`player_account.h`](player_account.h.md); callers name that, not this file.
 **Tier floor** — T1: a message layout that must be read and skipped byte-exactly
 
 ## Purpose

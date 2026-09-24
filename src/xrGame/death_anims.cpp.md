@@ -3,7 +3,7 @@
 > Loads the per-creature table of death animations from configuration and, given a fatal hit, runs the kill-type predicates in order to pick one.
 
 **Needs** — [`death_anims.h`](death_anims.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`xrCore/xr_token.h`](../xrCore/xr_token.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`death_anims.h`](death_anims.h.md); callers name that, not this file.
 **Tier floor** — T3: table lookup and a weighted draw
 
 ## Purpose

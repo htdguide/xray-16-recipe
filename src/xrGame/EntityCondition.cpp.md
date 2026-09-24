@@ -3,7 +3,7 @@
 > Everything a living creature can be in the middle of: health, stamina, radiation, psychic health, morale and a set of open wounds, all advanced against in-world time and all changed through one accumulator per frame.
 
 **Needs** — [`EntityCondition.h`](EntityCondition.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`Wound.h`](Wound.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Inventory.h`](Inventory.h.md) · [`CustomOutfit.h`](CustomOutfit.h.md) · [`ActorHelmet.h`](ActorHelmet.h.md) · [`hit_immunity.h`](hit_immunity.h.md) · [`Level.h`](Level.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EntityCondition.h`](EntityCondition.h.md); callers name that, not this file.
 **Tier floor** — T2: scalar integration against a clock, plus a save format
 
 ## Purpose

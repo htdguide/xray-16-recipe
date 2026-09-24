@@ -3,7 +3,7 @@
 > Exports the brain to the script virtual machine: build a planner in Lua, give it actions and evaluators, aim it at a goal, and drive it.
 
 **Needs** — [`action_planner.h`](action_planner.h.md) · [`action_base.h`](action_base.h.md) · [`script_action_planner_wrapper.h`](script_action_planner_wrapper.h.md) · [`script_game_object.h`](script_game_object.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`action_planner_script.h`](action_planner_script.h.md); callers name that, not this file.
 **Tier floor** — T3: registration data plus three adapter functions
 
 ## Purpose

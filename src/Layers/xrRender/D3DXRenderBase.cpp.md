@@ -3,7 +3,7 @@
 > The renderer's lifecycle and frame bracket: bring up a device, build the shared resources, open and close each frame across every context, and report the frame's cost.
 
 **Needs** — [`D3DXRenderBase.h`](D3DXRenderBase.h.md) · [`D3DUtils.h`](D3DUtils.h.md) · [`dxUIRender.h`](dxUIRender.h.md) · [`ResourceManager.h`](ResourceManager.h.md) · [`HWCaps.h`](HWCaps.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device) · [Seam: Profiler and GPU debugging](../../../SYSTEM-REQUIREMENTS.md#seam-profiler-and-gpu-debugging)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`D3DXRenderBase.h`](D3DXRenderBase.h.md); callers name that, not this file.
 **Tier floor** — T1: it brackets the device's scene, owns the resource manager's lifetime and releases device objects in a defined order.
 
 ## Purpose

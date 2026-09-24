@@ -3,7 +3,7 @@
 > Parses one loophole out of its authored table, derives whether it is usable at all, and builds the inner graph of moves between its actions.
 
 **Needs** — [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`smart_cover_action.h`](smart_cover_action.h.md) · [`smart_cover_detail.h`](smart_cover_detail.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_loophole.h`](smart_cover_loophole.h.md); callers name that, not this file.
 **Tier floor** — T2: table parsing and graph construction at load time
 
 ## Purpose

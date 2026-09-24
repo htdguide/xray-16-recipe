@@ -3,7 +3,7 @@
 > A model of the graphics hardware's post-transform vertex cache, used to score candidate triangle orderings while a mesh is being stripified.
 
 **Needs** — [`VertexCache.h`](VertexCache.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`VertexCache.h`](VertexCache.h.md); callers name that, not this file.
 **Tier floor** — T3: it is a fixed-size most-recently-used list of integers. Nothing here touches a device; it only *predicts* one.
 
 ## Purpose

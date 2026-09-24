@@ -3,7 +3,7 @@
 > The half of a conversation that belongs to a *participant*: the set of dialogs this character could start, the set it is currently inside, and the rule that a dialog leaves the active set the moment it stops continuing.
 
 **Needs** — [`PhraseDialogManager.h`](PhraseDialogManager.h.md) · [`PhraseDialog.h`](PhraseDialog.h.md) · [`GameObject.h`](GameObject.h.md) · [`script_game_object.h`](script_game_object.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PhraseDialogManager.h`](PhraseDialogManager.h.md); callers name that, not this file.
 **Tier floor** — T3: list bookkeeping over shared dialog records; nothing here touches layout, a device or a clock.
 
 ## Purpose

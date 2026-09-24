@@ -3,7 +3,7 @@
 > Reads one info portion's authored definition out of the XML pool, and serializes the record of having received one.
 
 **Needs** — [`InfoPortion.h`](InfoPortion.h.md) · [`xml_str_id_loader.h`](../xrServerEntities/xml_str_id_loader.h.md) · [`PhraseScript.h`](PhraseScript.h.md) · [`GameObject.h`](GameObject.h.md) · [`xrServerEntities/InfoPortionDefs.h`](../xrServerEntities/InfoPortionDefs.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`InfoPortion.h`](InfoPortion.h.md); callers name that, not this file.
 **Tier floor** — T3: XML traversal and string identifiers
 
 ## Purpose

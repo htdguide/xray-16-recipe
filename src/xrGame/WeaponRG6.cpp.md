@@ -3,7 +3,7 @@
 > The revolving grenade launcher: a shotgun's shell-at-a-time reload feeding a launcher that spawns a real, physically simulated grenade for every round loaded.
 
 **Needs** — [`WeaponRG6.h`](WeaponRG6.h.md) · [`WeaponShotgun.h`](WeaponShotgun.h.md) · [`RocketLauncher.h`](RocketLauncher.h.md) · [`ExplosiveRocket.h`](ExplosiveRocket.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`xrPhysics/MathUtils.h`](../xrPhysics/MathUtils.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponRG6.h`](WeaponRG6.h.md); callers name that, not this file.
 **Tier floor** — T2: a ballistic solve and a ray query per trigger pull.
 
 ## Purpose

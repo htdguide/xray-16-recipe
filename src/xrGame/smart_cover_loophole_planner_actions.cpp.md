@@ -3,7 +3,7 @@
 > What a creature does while standing at a loophole: where it looks, which clip it plays, when it pulls the trigger, and how it changes posture.
 
 **Needs** — [`smart_cover_loophole_planner_actions.h`](smart_cover_loophole_planner_actions.h.md) · [`smart_cover.h`](smart_cover.h.md) · [`smart_cover_loophole.h`](smart_cover_loophole.h.md) · [`smart_cover_action.h`](smart_cover_action.h.md) · [`smart_cover_description.h`](smart_cover_description.h.md) · [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md) · [`sight_manager.h`](sight_manager.h.md) · [`sight_manager_space.h`](sight_manager_space.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`enemy_manager.h`](enemy_manager.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`object_handler_planner.h`](object_handler_planner.h.md) · [`Weapon.h`](Weapon.h.md) · [`property_storage.h`](property_storage.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_loophole_planner_actions.h`](smart_cover_loophole_planner_actions.h.md); callers name that, not this file.
 **Tier floor** — T2: per-cycle aiming and weapon commands on the AI path
 
 ## Purpose

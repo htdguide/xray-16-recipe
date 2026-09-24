@@ -3,7 +3,7 @@
 > Initializes one limb's solve working set.
 
 **Needs** — [`ik_calculate_data.h`](ik_calculate_data.h.md) · [`ik/IKLimb.h`](ik/IKLimb.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ik_calculate_data.h`](ik_calculate_data.h.md); callers name that, not this file.
 **Tier floor** — T2: initialization
 
 ## Purpose

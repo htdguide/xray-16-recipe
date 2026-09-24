@@ -3,7 +3,7 @@
 > The directional damage indicator and the grenade warning: full-screen sprites rotated to point at where the hit came from, or at where a live grenade is, fading out on a shared authored curve.
 
 **Needs** — [`HitMarker.h`](HitMarker.h.md) · [`Grenade.h`](Grenade.h.md) · [`xrEngine/LightAnimLibrary.h`](../xrEngine/LightAnimLibrary.h.md) · [`xrUICore/Static/UIStaticItem.h`](../xrUICore/Static/UIStaticItem.h.md) · [`Include/xrRender/UIShader.h`](../Include/xrRender/UIShader.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HitMarker.h`](HitMarker.h.md); callers name that, not this file.
 **Tier floor** — T2: two expiring queues and one rotated sprite each
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The first-person view: one pair of arms, up to two items in them, the authored measurements that place each item, the motion aliases that animate it, and the inertia that makes the weapon lag the camera.
 
 **Needs** — [`player_hud.h`](player_hud.h.md) · [`HudItem.h`](HudItem.h.md) · [`Actor.h`](Actor.h.md) · [`ActorEffector.h`](ActorEffector.h.md) · [`physic_item.h`](physic_item.h.md) · [`GamePersistent.h`](GamePersistent.h.md) · [`WeaponMagazinedWGrenade.h`](WeaponMagazinedWGrenade.h.md) · [`Level.h`](Level.h.md) · [`static_cast_checked.hpp`](static_cast_checked.hpp.md) · [`firedeps.h`](firedeps.h.md) · [`Include/xrRender/KinematicsAnimated.h`](../Include/xrRender/KinematicsAnimated.h.md) · [`xrUICore/ui_base.h`](../xrUICore/ui_base.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`player_hud.h`](player_hud.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame transform composition and skeletal animation driving
 
 ## Purpose

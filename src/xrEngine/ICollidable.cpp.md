@@ -3,7 +3,7 @@
 > Registers a collidable entity into the spatial database's collidable category, and owns its shape.
 
 **Needs** — [`ICollidable.h`](ICollidable.h.md) · [`xrCDB/ISpatial.h`](../xrCDB/ISpatial.h.md) · [`xr_collide_form.h`](xr_collide_form.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ICollidable.h`](ICollidable.h.md); callers name that, not this file.
 **Tier floor** — T2.
 
 ## Purpose

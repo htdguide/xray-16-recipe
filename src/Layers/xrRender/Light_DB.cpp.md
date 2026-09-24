@@ -3,7 +3,7 @@
 > The level's lights: read the baked set, pick the sun out of it, and every frame put the sun where the weather says the sun is — five hundred metres behind the camera.
 
 **Needs** — [`Light_DB.h`](Light_DB.h.md) · [`light.h`](light.h.md) · [`Light_Package.h`](Light_Package.h.md) · [`xrEngine/Environment.h`](../../xrEngine/Environment.h.md) · [`Common/LevelStructure.hpp`](../../Common/LevelStructure.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Light_DB.h`](Light_DB.h.md); callers name that, not this file.
 **Tier floor** — T1: two different frozen light records are read as byte images, and the count is derived by dividing the chunk length by the record size.
 
 ## Purpose

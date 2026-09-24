@@ -3,7 +3,7 @@
 > Parses one authored article out of XML — title, group, body, icon and type — and defines how the player's copy of an article is persisted.
 
 **Needs** — [`encyclopedia_article.h`](encyclopedia_article.h.md) · [`encyclopedia_article_defs.h`](encyclopedia_article_defs.h.md) · [`xrUICore/XML/xrUIXmlParser.h`](../xrUICore/XML/xrUIXmlParser.h.md) · [`ui/UIXmlInit.h`](ui/UIXmlInit.h.md) · [`ui/UIInventoryUtilities.h`](ui/UIInventoryUtilities.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`encyclopedia_article.h`](encyclopedia_article.h.md); callers name that, not this file.
 **Tier floor** — T3: XML parsing into a display record
 
 ## Purpose

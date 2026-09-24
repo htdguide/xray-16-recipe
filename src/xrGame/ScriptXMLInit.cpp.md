@@ -3,7 +3,7 @@
 > The script layer's window factory: a Lua-visible object that holds one parsed UI layout document and builds a typed widget from any node in it, attaching it to a parent that then owns it.
 
 **Needs** — [`ScriptXMLInit.h`](ScriptXMLInit.h.md) · [`ui/UIXmlInit.h`](ui/UIXmlInit.h.md) · [`ui/ServerList.h`](ui/ServerList.h.md) · [`ui/UIMapList.h`](ui/UIMapList.h.md) · [`ui/UIMapInfo.h`](ui/UIMapInfo.h.md) · [`ui/UIKeyBinding.h`](ui/UIKeyBinding.h.md) · [`ui/UICDkey.h`](ui/UICDkey.h.md) · [`ui/UIMMShniaga.h`](ui/UIMMShniaga.h.md) · [`ui/UISleepStatic.h`](ui/UISleepStatic.h.md) · [`xrUICore/XML/xrUIXmlParser.h`](../xrUICore/XML/xrUIXmlParser.h.md) · [`xrUICore/XML/UITextureMaster.h`](../xrUICore/XML/UITextureMaster.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ScriptXMLInit.h`](ScriptXMLInit.h.md); callers name that, not this file.
 **Tier floor** — T3: document navigation and object construction
 
 ## Purpose

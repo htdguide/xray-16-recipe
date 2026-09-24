@@ -3,7 +3,7 @@
 > Attaches a script-authored behaviour to a game object from its configuration, forwards the object's whole lifecycle to it, and detaches it rather than propagating any failure.
 
 **Needs** — [`script_binder.h`](script_binder.h.md) · [`script_binder_object.h`](script_binder_object.h.md) · [`script_game_object.h`](script_game_object.h.md) · [`GameObject.h`](GameObject.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`ai_space.h`](ai_space.h.md) · [`Level.h`](Level.h.md) · [`xrScriptEngine/script_engine.hpp`](../xrScriptEngine/script_engine.hpp.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_binder.h`](script_binder.h.md); callers name that, not this file.
 **Tier floor** — T2: an optional dispatch through the script virtual machine, on every entity lifecycle event
 
 ## Purpose

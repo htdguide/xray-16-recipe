@@ -3,7 +3,7 @@
 > The one line of the monster action channel that cannot be inline: unwrapping a script facade into the client object it fronts.
 
 **Needs** — [`script_monster_action.h`](script_monster_action.h.md) · [`script_game_object.h`](script_game_object.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_monster_action.h`](script_monster_action.h.md); callers name that, not this file.
 **Tier floor** — T2
 
 ## Purpose

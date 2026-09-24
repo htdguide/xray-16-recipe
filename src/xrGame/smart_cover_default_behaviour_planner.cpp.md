@@ -3,7 +3,7 @@
 > The peaceful half of cover behaviour: with no enemy to fight, alternate between staying down and looking out, on the dwell timers.
 
 **Needs** — [`smart_cover_default_behaviour_planner.hpp`](smart_cover_default_behaviour_planner.hpp.md) · [`smart_cover_animation_planner.h`](smart_cover_animation_planner.h.md) · [`smart_cover_planner_target_provider.h`](smart_cover_planner_target_provider.h.md) · [`smart_cover_evaluators.h`](smart_cover_evaluators.h.md) · [`stalker_decision_space.h`](stalker_decision_space.h.md) · [`stalker_property_evaluators.h`](stalker_property_evaluators.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`smart_cover_default_behaviour_planner.hpp`](smart_cover_default_behaviour_planner.hpp.md); callers name that, not this file.
 **Tier floor** — T2: a two-operator plan search
 
 ## Purpose

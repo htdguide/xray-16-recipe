@@ -3,7 +3,7 @@
 > How lit is this object: five sky rays a frame into a twenty-six-direction sphere, one sun ray every few frames, a per-light visibility that rises fast and falls slow — and an update schedule that drops to twice a minute for anything standing still.
 
 **Needs** — [`LightTrack.h`](LightTrack.h.md) · [`light.h`](light.h.md) · [`xrEngine/Environment.h`](../../xrEngine/Environment.h.md) · [`xrCDB/xrCDB.h`](../../xrCDB/xrCDB.h.md) · [Seam: Static collision database](../../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`LightTrack.h`](LightTrack.h.md); callers name that, not this file.
 **Tier floor** — T2: ray queries against an immutable tree plus running averages. It stays off T3 because it runs for every dynamic object in the scene and its cost is the reason for every schedule in it.
 
 ## Purpose

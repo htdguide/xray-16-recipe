@@ -3,7 +3,7 @@
 > The script-animation queue: how a script's request to play an animation is validated, queued, started, and advanced when one finishes.
 
 **Needs** — [`stalker_animation_script.h`](stalker_animation_script.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`stalker_animation_pair.h`](stalker_animation_pair.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`game_object_space.h`](game_object_space.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_animation_script.h`](stalker_animation_script.h.md); callers name that, not this file.
 **Tier floor** — T2: a callback arriving from the renderer's animation notification, carrying an opaque owner reference.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > A scenery object that is one rigid piece until it is hit hard enough, then becomes a pile of independently falling pieces that clean themselves up after a while.
 
 **Needs** — [`BreakableObject.h`](BreakableObject.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`xrServerEntities/xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`xrPhysics/IPHStaticGeomShell.h`](../xrPhysics/IPHStaticGeomShell.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/icollisiondamagereceiver.h`](../xrPhysics/icollisiondamagereceiver.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`BreakableObject.h`](BreakableObject.h.md); callers name that, not this file.
 **Tier floor** — T1: it swaps a static collision proxy for a live multi-body assembly inside a running physics world
 
 ## Purpose

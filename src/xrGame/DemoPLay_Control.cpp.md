@@ -3,7 +3,7 @@
 > Demo playback that can be told "run until someone kills Ivan, then stop": it subscribes to one kind of recorded game event, optionally fast-forwards until a matching one arrives, and pauses there.
 
 **Needs** — [`DemoPlay_Control.h`](DemoPlay_Control.h.md) · [`Level.h`](Level.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`Message_Filter.h`](Message_Filter.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`DemoPLay_Control.h`](DemoPLay_Control.h.md); callers name that, not this file.
 **Tier floor** — T2: a subscription to a recorded message stream, plus playback rate control
 
 ## Purpose

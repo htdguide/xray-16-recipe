@@ -3,7 +3,7 @@
 > A level prop whose whole skeleton is a jointed rigid-body assembly — the breakable, hinged scenery: fences, chains, hanging bodies, destructible frames.
 
 **Needs** — [`PhysicsSkeletonObject.h`](PhysicsSkeletonObject.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`PHSkeleton.h`](PHSkeleton.h.md) · [`PHSynchronize.h`](../xrServerEntities/PHSynchronize.h.md) · [`xrServerEntities/xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PhysicsSkeletonObject.h`](PhysicsSkeletonObject.h.md); callers name that, not this file.
 **Tier floor** — T2: it builds a body assembly from a model's bone hierarchy and hands it to the dynamics seam
 
 ## Purpose

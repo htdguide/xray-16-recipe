@@ -3,7 +3,7 @@
 > The leaf evaluation functions: each reads one property off the creature or item currently in the shared parameter block, from whichever of the two worlds — live objects or alife records — is in use.
 
 **Needs** — [`ef_primary.h`](ef_primary.h.md) · [`ef_storage.h`](ef_storage.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`Weapon.h`](Weapon.h.md) · [`Inventory.h`](Inventory.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`alife_human_brain.h`](../xrServerEntities/alife_human_brain.h.md) · [`alife_human_object_handler.h`](alife_human_object_handler.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ef_primary.h`](ef_primary.h.md); callers name that, not this file.
 **Tier floor** — T3: property reads with a two-world dispatch
 
 ## Purpose

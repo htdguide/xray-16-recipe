@@ -3,7 +3,7 @@
 > Empty: the camera-effector types are entirely declared in [`CameraEffector.h`](CameraEffector.h.md).
 
 **Needs** — [`CameraEffector.h`](CameraEffector.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CameraEffector.h`](CameraEffector.h.md); callers name that, not this file.
 **Tier floor** — T4: nothing compiles from this file
 
 ## Purpose

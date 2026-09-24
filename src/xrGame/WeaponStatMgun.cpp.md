@@ -3,7 +3,7 @@
 > The mounted machine gun: a world object the player climbs into rather than carries, whose barrel chases a desired direction through two hinge joints, and whose camera is a bone on its own model.
 
 **Needs** — [`WeaponStatMgun.h`](WeaponStatMgun.h.md) · [`holder_custom.h`](holder_custom.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`ShootingObject.h`](ShootingObject.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`CameraFirstEye.h`](CameraFirstEye.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponStatMgun.h`](WeaponStatMgun.h.md); callers name that, not this file.
 **Tier floor** — T2: two angle solves and a skeleton pose per frame, plus bone callbacks on the animation path.
 
 ## Purpose

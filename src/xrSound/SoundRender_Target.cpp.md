@@ -3,7 +3,7 @@
 > A hardware voice: the device-independent half of the contract between an emitter and the mixer.
 
 **Needs** — [`SoundRender_Target.h`](SoundRender_Target.h.md) · [`SoundRender_Emitter.h`](SoundRender_Emitter.h.md) · [`SoundRender_Source.h`](SoundRender_Source.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`SoundRender_Target.h`](SoundRender_Target.h.md); callers name that, not this file.
 **Tier floor** — T3 as written: it is bookkeeping around a subclass that does the real work.
 
 ## Purpose

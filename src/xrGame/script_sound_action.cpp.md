@@ -3,7 +3,7 @@
 > Naming the sound a channel will play, and deciding on the spot that a missing one is already finished.
 
 **Needs** — [`script_sound_action.h`](script_sound_action.h.md) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer) · [Seam: Virtual filesystem](../xrCore/README.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_sound_action.h`](script_sound_action.h.md); callers name that, not this file.
 **Tier floor** — T2
 
 ## Purpose

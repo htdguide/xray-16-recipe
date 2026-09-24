@@ -3,7 +3,7 @@
 > The artefact-hunt interface: the team-deathmatch screen plus a reinforcement timer and the offer to pay for an early respawn.
 
 **Needs** — [`UIGameAHunt.h`](UIGameAHunt.h.md) · [`UIGameTDM.h`](UIGameTDM.h.md) · [`UITeamPanels.h`](UITeamPanels.h.md) · [`Level.h`](Level.h.md) · [`game_cl_artefacthunt.h`](game_cl_artefacthunt.h.md) · [`team_base_zone.h`](team_base_zone.h.md) · [`ui/UIMessageBoxEx.h`](ui/UIMessageBoxEx.h.md) · [`ui/UIMoneyIndicator.h`](ui/UIMoneyIndicator.h.md) · [`ui/UIRankIndicator.h`](ui/UIRankIndicator.h.md) · [`ui/UIHelper.h`](ui/UIHelper.h.md) · [`ui/UIXmlInit.h`](ui/UIXmlInit.h.md) · [`xrUICore/ProgressBar/UIProgressShape.h`](../xrUICore/ProgressBar/UIProgressShape.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIGameAHunt.h`](UIGameAHunt.h.md); callers name that, not this file.
 **Tier floor** — T3: layout re-initialization and two forwards
 
 ## Purpose

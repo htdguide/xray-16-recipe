@@ -3,7 +3,7 @@
 > The entity a player becomes when he is dead, has not joined yet, or is watching a recorded match: a bodiless camera with five viewing modes and a rule set saying which of them this game mode will allow.
 
 **Needs** — [`Spectator.h`](Spectator.h.md) · [`Actor.h`](Actor.h.md) · [`CameraLook.h`](CameraLook.h.md) · [`spectator_camera_first_eye.h`](spectator_camera_first_eye.h.md) · [`EffectorFall.h`](EffectorFall.h.md) · [`Level.h`](Level.h.md) · [`Inventory.h`](Inventory.h.md) · [`HudItem.h`](HudItem.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`game_cl_mp.h`](game_cl_mp.h.md) · [`map_manager.h`](map_manager.h.md) · [`seniority_hierarchy_holder.h`](seniority_hierarchy_holder.h.md) · [`team_hierarchy_holder.h`](team_hierarchy_holder.h.md) · [`squad_hierarchy_holder.h`](squad_hierarchy_holder.h.md) · [`group_hierarchy_holder.h`](group_hierarchy_holder.h.md) · [`xrServerEntities/xrServer_Objects.h`](../xrServerEntities/xrServer_Objects.h.md) · [`xrEngine/CameraManager.h`](../xrEngine/CameraManager.h.md) · [`xrEngine/IInputReceiver.h`](../xrEngine/IInputReceiver.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Spectator.h`](Spectator.h.md); callers name that, not this file.
 **Tier floor** — T2: camera arithmetic, input handling and entity bookkeeping
 
 ## Purpose

@@ -3,7 +3,7 @@
 > A vector row is one value with three editable faces: the whole triple as text, and three component rows that each read-modify-write it.
 
 **Needs** — [`property_vec3f_base.hpp`](property_vec3f_base.hpp.md) · [`property_container.hpp`](property_container.hpp.md) · [`property_float.hpp`](property_float.hpp.md) · [`property_float_limited.hpp`](property_float_limited.hpp.md) · [`property_converter_float.hpp`](property_converter_float.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_vec3f_base.hpp`](property_vec3f_base.hpp.md); callers name that, not this file.
 **Tier floor** — T2: builds native callback objects bound to a managed object through a native trampoline that must keep it reachable
 
 ## Purpose

@@ -3,7 +3,7 @@
 > A static model: bind a slice of the level's shared buffers and draw it — or draw its position-only twin when the pass only needs depth.
 
 **Needs** — [`FVisual.h`](FVisual.h.md) · [`BufferUtils.h`](BufferUtils.h.md) · [`xrCore/FMesh.hpp`](../../xrCore/FMesh.hpp.md) · [`R_Backend.h`](R_Backend.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`FVisual.h`](FVisual.h.md); callers name that, not this file.
 **Tier floor** — T1: it maps and fills device buffers and issues draws with explicit base offsets.
 
 ## Purpose

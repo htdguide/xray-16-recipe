@@ -3,7 +3,7 @@
 > The row that makes the document a tree: its value is another node's whole property set.
 
 **Needs** — [`property_property_container.hpp`](property_property_container.hpp.md) · [`property_holder.hpp`](property_holder.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_property_container.hpp`](property_property_container.hpp.md); callers name that, not this file.
 **Tier floor** — T2: a managed adapter holding a native pointer to an editor-side node
 
 ## Purpose

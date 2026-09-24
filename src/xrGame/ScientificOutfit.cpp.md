@@ -3,7 +3,7 @@
 > The scientist's protective suit: a named outfit type with no behaviour of its own.
 
 **Needs** — [`ScientificOutfit.h`](ScientificOutfit.h.md) · [`CustomOutfit.h`](CustomOutfit.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ScientificOutfit.h`](ScientificOutfit.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identifier with a name
 
 ## Purpose

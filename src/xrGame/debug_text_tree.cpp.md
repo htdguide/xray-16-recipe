@@ -3,7 +3,7 @@
 > Measures a debug text tree into aligned columns, and provides the two sinks that render it — to the screen in alternating colours, or to the log.
 
 **Needs** — [`debug_text_tree.h`](debug_text_tree.h.md) · [`Level.h`](Level.h.md) · [`xrUICore/ui_base.h`](../xrUICore/ui_base.h.md) · [`xrEngine/GameFont.h`](../xrEngine/GameFont.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`debug_text_tree.h`](debug_text_tree.h.md); callers name that, not this file.
 **Tier floor** — T3: string measurement and text output
 
 ## Purpose

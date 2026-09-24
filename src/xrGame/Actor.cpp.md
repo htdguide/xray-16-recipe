@@ -3,7 +3,7 @@
 > The player's entity: the one object that is simultaneously a living creature, an inventory owner, an input receiver, a camera rig and a conversation partner — and the core of it, construction, tuning, damage, death and the two update paths.
 
 **Needs** — [`Actor.h`](Actor.h.md) · [`Actor_Flags.h`](Actor_Flags.h.md) · [`actor_defs.h`](actor_defs.h.md) · [`ActorCondition.h`](ActorCondition.h.md) · [`ActorEffector.h`](ActorEffector.h.md) · [`CameraFirstEye.h`](CameraFirstEye.h.md) · [`CameraLook.h`](CameraLook.h.md) · [`Artefact.h`](Artefact.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`Inventory.h`](Inventory.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`Level.h`](Level.h.md) · [`Hit.h`](Hit.h.md) · [`actor_memory.h`](actor_memory.h.md) · [`location_manager.h`](location_manager.h.md) · [`step_manager.h`](step_manager.h.md) · [`player_hud.h`](player_hud.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Script binding layer](../../SYSTEM-REQUIREMENTS.md#seam-script-binding-layer)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Actor.h`](Actor.h.md); callers name that, not this file.
 **Tier floor** — T2: game logic over a character controller; nothing here touches a byte layout, but the per-frame cost is real and the update is split across two rates.
 
 ## Purpose

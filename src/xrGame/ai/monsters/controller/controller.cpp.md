@@ -3,7 +3,7 @@
 > The controller creature: a slow, frail humanoid whose weapons are enthralment, a continuous psi aura, a psi bolt fired from a look, and a set-piece attack that seizes the player's camera.
 
 **Needs** — [`controller.h`](controller.h.md) · [`controller_animation.h`](controller_animation.h.md) · [`controller_direction.h`](controller_direction.h.md) · [`controller_psy_hit.h`](controller_psy_hit.h.md) · [`controller_state_manager.h`](controller_state_manager.h.md) · [`../controlled_entity.h`](../controlled_entity.h.md) · [`../controlled_actor.h`](../controlled_actor.h.md) · [`../control_animation_base.h`](../control_animation_base.h.md) · [`../control_movement_base.h`](../control_movement_base.h.md) · [`../control_path_builder_base.h`](../control_path_builder_base.h.md) · [`../basemonster/base_monster.h`](../basemonster/base_monster.h.md) · [`../ai_monster_effector.h`](../ai_monster_effector.h.md) · [`../monster_velocity_space.h`](../monster_velocity_space.h.md) · [`../../../Actor.h`](../../../Actor.h.md) · [`../../../ActorCondition.h`](../../../ActorCondition.h.md) · [`../../../ActorEffector.h`](../../../ActorEffector.h.md) · [`../../../character_community.h`](../../../character_community.h.md) · [Seam: Audio device](../../../../../SYSTEM-REQUIREMENTS.md#seam-audio-device) · [Seam: Configuration](../../../../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`controller.h`](controller.h.md); callers name that, not this file.
 **Tier floor** — T2: a creature class; the per-frame work is a screen overlay and a sound effector
 
 ## Purpose

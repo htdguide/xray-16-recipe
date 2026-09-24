@@ -3,7 +3,7 @@
 > Registers a live grenade as a danger area for the whole squad, and decides which single member shouts the warning.
 
 **Needs** — [`agent_explosive_manager.h`](agent_explosive_manager.h.md) · [`agent_manager.h`](agent_manager.h.md) · [`agent_location_manager.h`](agent_location_manager.h.md) · [`agent_member_manager.h`](agent_member_manager.h.md) · [`danger_explosive.h`](danger_explosive.h.md) · [`danger_object_location.h`](danger_object_location.h.md) · [`member_order.h`](member_order.h.md) · [`Missile.h`](Missile.h.md) · [`Explosive.h`](Explosive.h.md) · [`memory_manager.h`](memory_manager.h.md) · [`visual_memory_manager.h`](visual_memory_manager.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`agent_explosive_manager.h`](agent_explosive_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: a small assignment search plus one danger-area registration per grenade
 
 ## Purpose

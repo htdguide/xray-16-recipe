@@ -3,7 +3,7 @@
 > The one non-inline rule of a danger location: it stops being useful once its interval has run out.
 
 **Needs** — [`danger_location.h`](danger_location.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`danger_location.h`](danger_location.h.md); callers name that, not this file.
 **Tier floor** — T3: a clock comparison
 
 ## Purpose

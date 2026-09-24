@@ -59,7 +59,8 @@ RECORD Acoustics
 #   name is unique across the library; lookups by name are ASCII case-insensitive.
 #   id is unique; index (position in the loaded array) is NOT id and the two are
 #     routinely confused by anyone reading the source for the first time.
-#   index fits in 16 bits, because a collision triangle stores it inline.
+#   index fits in 14 bits, because a collision triangle packs it inline alongside two
+#   flags and a 16-bit sector id in one 32-bit word. Caps a level at 16384 materials.
 #   flotation_factor < 1 is mirrored in the slow-down flag; injurious_speed > 0 is
 #     mirrored in the injurious flag. The loader does not recompute either — the
 #     authoring tool wrote both, and a rebuild that writes the file must keep them

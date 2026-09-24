@@ -3,7 +3,7 @@
 > A drinkable that shatters: hit it hard enough and it breaks, with a sound and a particle burst, and ceases to exist.
 
 **Needs** — [`BottleItem.h`](BottleItem.h.md) · [`FoodItem.h`](FoodItem.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`EntityCondition.h`](EntityCondition.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`BottleItem.h`](BottleItem.h.md); callers name that, not this file.
 **Tier floor** — T3: an event, a sound and a particle effect
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Advances a creature's head and torso toward the angles its look order asked for, decides when it must turn its feet, and produces the additive bone rotations the animation layer lays over the playing clip.
 
 **Needs** — [`sight_manager.h`](sight_manager.h.md) · [`sight_action.h`](sight_action.h.md) · [`sight_manager_space.h`](sight_manager_space.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md) · [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`aimers_weapon.h`](aimers_weapon.h.md) · [`aimers_bone.h`](aimers_bone.h.md) · [`Weapon.h`](Weapon.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`sight_manager.h`](sight_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: quaternion interpolation per creature per frame; hot but not device-facing
 
 ## Purpose

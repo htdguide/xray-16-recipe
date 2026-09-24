@@ -4,7 +4,7 @@
 > limit analysis asks for the same three answers about the same curve over and over.
 
 **Needs** — [`eqn.h`](eqn.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`eqn.h`](eqn.h.md); callers name that, not this file.
 **Tier floor** — T2. Scalar arithmetic with a cached result behind a mutable-through-const
 back door, which is an artifact of the language and not a decision.
 

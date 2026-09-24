@@ -3,7 +3,7 @@
 > An energy budget that drains while a creature is hidden and refills while it is shown, with a burst of flicker covering each transition so the switch is seen rather than instantaneous.
 
 **Needs** — [`invisibility.h`](invisibility.h.md) · [Seam: Windowing and input](../../../../SYSTEM-REQUIREMENTS.md#seam-windowing-and-input)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`invisibility.h`](invisibility.h.md); callers name that, not this file.
 **Tier floor** — T3: one scalar integrated against frame time and two timestamps compared against a global clock
 
 ## Purpose

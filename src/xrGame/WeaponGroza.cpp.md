@@ -3,7 +3,7 @@
 > The bullpup assault rifle: a magazined weapon with an under-barrel grenade launcher, and nothing else.
 
 **Needs** — [`WeaponGroza.h`](WeaponGroza.h.md) · [`WeaponMagazinedWGrenade.h`](WeaponMagazinedWGrenade.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponGroza.h`](WeaponGroza.h.md); callers name that, not this file.
 **Tier floor** — T3: a constructor that picks a sound class
 
 ## Purpose

@@ -3,7 +3,7 @@
 > A container placed in the world: a stash, crate or locker that holds items without being able to use them.
 
 **Needs** — [`InventoryBox.h`](InventoryBox.h.md) · [`GameObject.h`](GameObject.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`xrServerEntities/xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [Seam: Script virtual machine](../../SYSTEM-REQUIREMENTS.md#seam-script-virtual-machine)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`InventoryBox.h`](InventoryBox.h.md); callers name that, not this file.
 **Tier floor** — T3: a list of identifiers and four event cases
 
 ## Purpose

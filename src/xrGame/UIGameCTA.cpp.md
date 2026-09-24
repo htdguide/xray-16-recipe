@@ -3,7 +3,7 @@
 > The capture-the-artefact interface, and the only place in the game where a player's *live inventory* is turned back into a shopping list — which is what makes their loadout survive a round.
 
 **Needs** — [`UIGameCTA.h`](UIGameCTA.h.md) · [`UIGameMP.h`](UIGameMP.h.md) · [`UITeamPanels.h`](UITeamPanels.h.md) · [`game_cl_capture_the_artefact.h`](game_cl_capture_the_artefact.h.md) · [`game_cl_mp.h`](game_cl_mp.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`Inventory.h`](Inventory.h.md) · [`Artefact.h`](Artefact.h.md) · [`Weapon.h`](Weapon.h.md) · [`WeaponMagazinedWGrenade.h`](WeaponMagazinedWGrenade.h.md) · [`WeaponKnife.h`](WeaponKnife.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`ui/UIMpTradeWnd.h`](ui/UIMpTradeWnd.h.md) · [`ui/UIBuyWndBase.h`](ui/UIBuyWndBase.h.md) · [`ui/UISpawnWnd.h`](ui/UISpawnWnd.h.md) · [`ui/UISkinSelector.h`](ui/UISkinSelector.h.md) · [`ui/UIMoneyIndicator.h`](ui/UIMoneyIndicator.h.md) · [`ui/UIRankIndicator.h`](ui/UIRankIndicator.h.md) · [`ui/UIVoteStatusWnd.h`](ui/UIVoteStatusWnd.h.md) · [`ui/UIMessageBoxEx.h`](ui/UIMessageBoxEx.h.md) · [`ui/UIHelper.h`](ui/UIHelper.h.md) · [`xrUICore/ProgressBar/UIProgressShape.h`](../xrUICore/ProgressBar/UIProgressShape.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`UIGameCTA.h`](UIGameCTA.h.md); callers name that, not this file.
 **Tier floor** — T2: inventory traversal and a round-trip between live items and purchase records
 
 ## Purpose

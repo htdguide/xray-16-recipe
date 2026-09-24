@@ -3,7 +3,7 @@
 > The single-player session: a game mode whose entire rule set is "there is an alife simulation, and it decides".
 
 **Needs** — [`game_sv_single.h`](game_sv_single.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`alife_graph_registry.h`](alife_graph_registry.h.md) · [`alife_time_manager.h`](alife_time_manager.h.md) · [`xrServer.h`](xrServer.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`GamePersistent.h`](GamePersistent.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`game_sv_single.h`](game_sv_single.h.md); callers name that, not this file.
 **Tier floor** — T2: session policy over the alife simulation; no device contact
 
 ## Purpose

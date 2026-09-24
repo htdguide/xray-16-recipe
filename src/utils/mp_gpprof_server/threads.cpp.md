@@ -4,7 +4,7 @@
 
 **Needs** — [`threads.h`](threads.h.md) · [Seam: Threads, atomics and process services](../../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`threads.h`](threads.h.md); callers name that, not this file.
 
 **Tier floor** — T1: it names a particular operating-system threading interface directly.
 

@@ -3,7 +3,7 @@
 > A CRC-32 over an arbitrary run of bytes, used to give a graphics-state description a small comparable key.
 
 **Needs** — _(none beyond the byte-width aliases)_
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`dxHashHelper.h`](dxHashHelper.h.md); callers name that, not this file.
 **Tier floor** — T1: it hashes a device state structure by walking its fields as raw bytes, so what it hashes is a memory layout.
 
 ## Purpose

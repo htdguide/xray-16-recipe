@@ -5,7 +5,7 @@
 > that get it there.
 
 **Needs** — [`IKLimb.h`](IKLimb.h.md) · [`limb.h`](limb.h.md) · [`math3d.h`](math3d.h.md) · [`IKFoot.h`](../IKFoot.h.md) · [`ik_foot_collider.h`](../ik_foot_collider.h.md) · [`ik_anim_state.h`](../ik_anim_state.h.md) · [`ik_calculate_data.h`](../ik_calculate_data.h.md) · [`ik_calculate_state.h`](../ik_calculate_state.h.md) · [`ik_collide_data.h`](../ik_collide_data.h.md) · [`ik_limb_state.h`](../ik_limb_state.h.md) · [`ik_limb_state_predict.h`](../ik_limb_state_predict.h.md) · [`pose_extrapolation.h`](../pose_extrapolation.h.md) · [`GameObject.h`](../GameObject.h.md) · [`Kinematics.h`](../../Include/xrRender/Kinematics.h.md) · [`KinematicsAnimated.h`](../../Include/xrRender/KinematicsAnimated.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`IKLimb.h`](IKLimb.h.md); callers name that, not this file.
 **Tier floor** — T2. It is geometry and bookkeeping on data someone else owns; it allocates
 nothing per frame, but nothing here needs explicit layout or deterministic destruction.
 Its one T1-flavoured habit — reinterpreting the engine's matrix as the solver's matrix

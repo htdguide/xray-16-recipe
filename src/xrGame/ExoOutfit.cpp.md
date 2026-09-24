@@ -3,7 +3,7 @@
 > The powered exoskeleton suit: the base outfit under its own class identifier, with every difference expressed in configuration.
 
 **Needs** — [`ExoOutfit.h`](ExoOutfit.h.md) · [`CustomOutfit.h`](CustomOutfit.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ExoOutfit.h`](ExoOutfit.h.md); callers name that, not this file.
 **Tier floor** — T3: a class identity and nothing else
 
 ## Purpose

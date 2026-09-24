@@ -3,7 +3,7 @@
 > The translation unit that materialises the precompiled header.
 
 **Needs** — [`stdafx.h`](stdafx.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stdafx.h`](stdafx.h.md); callers name that, not this file.
 **Tier floor** — T4. It does not survive a rebuild.
 
 ## Purpose

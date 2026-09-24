@@ -3,7 +3,7 @@
 > The four-channel mixing rule table: channels 0 and 1 replace, channels 2 and 3 layer on top.
 
 **Needs** — [`Animation.h`](Animation.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`Animation.h`](Animation.h.md); callers name that, not this file.
 **Tier floor** — T3: a constant table and four weights.
 
 ## Purpose

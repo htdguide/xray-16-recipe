@@ -3,7 +3,7 @@
 > Nothing: the script hit is entirely inline.
 
 **Needs** — [`script_hit.h`](script_hit.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_hit.h`](script_hit.h.md); callers name that, not this file.
 **Tier floor** — T2
 
 ## Purpose

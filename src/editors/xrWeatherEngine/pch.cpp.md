@@ -3,7 +3,7 @@
 > Nothing. It exists so the build has one translation unit to compile the prelude from.
 
 **Needs** — [`pch.hpp`](pch.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`pch.hpp`](pch.hpp.md); callers name that, not this file.
 **Tier floor** — T4: a build artifact with no runtime content.
 
 ## Purpose

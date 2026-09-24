@@ -3,7 +3,7 @@
 > A generic mountable object: a static prop the player can occupy, which takes over the camera and the input while occupied. The minimum viable holder, with the weapon and driving behaviour deliberately absent.
 
 **Needs** — [`HolderEntityObject.h`](HolderEntityObject.h.md) · [`holder_custom.h`](holder_custom.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`Actor.h`](Actor.h.md) · [`CameraFirstEye.h`](CameraFirstEye.h.md) · [`ActorEffector.h`](ActorEffector.h.md) · [`Level.h`](Level.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HolderEntityObject.h`](HolderEntityObject.h.md); callers name that, not this file.
 **Tier floor** — T2: camera transform composition and input forwarding
 
 ## Purpose

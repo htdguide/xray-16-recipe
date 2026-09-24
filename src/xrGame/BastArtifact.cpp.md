@@ -3,7 +3,7 @@
 > The artefact that fights back: shoot it, and it charges up and hurls itself repeatedly at whoever is standing near.
 
 **Needs** — [`BastArtifact.h`](BastArtifact.h.md) · [`Artefact.h`](Artefact.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/ExtendedGeom.h`](../xrPhysics/ExtendedGeom.h.md) · [`xrEngine/Feel_Touch.h`](../xrEngine/Feel_Touch.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`BastArtifact.h`](BastArtifact.h.md); callers name that, not this file.
 **Tier floor** — T2: a physics contact callback and per-frame impulses
 
 ## Purpose

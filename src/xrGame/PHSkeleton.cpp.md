@@ -3,7 +3,7 @@
 > A skeleton whose joints can break: splitting one articulated body into two objects at a broken bone, and aging the pieces out again.
 
 **Needs** — [`PHSkeleton.h`](PHSkeleton.h.md) · [`PHDestroyableNotificate.h`](PHDestroyableNotificate.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`PHSynchronize.h`](../xrServerEntities/PHSynchronize.h.md) · [`Level.h`](Level.h.md) · [`xrServerEntities/xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PHSkeleton.h`](PHSkeleton.h.md); callers name that, not this file.
 **Tier floor** — T2: skeleton surgery plus a spawn handshake and a compressed wire format
 
 ## Purpose

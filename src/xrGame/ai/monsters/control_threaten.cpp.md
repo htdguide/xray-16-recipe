@@ -3,7 +3,7 @@
 > The threat display: the creature stops, faces its enemy, plays a warning clip, and fires a single authored callback partway through it.
 
 **Needs** — [`control_threaten.h`](control_threaten.h.md) · [`control_animation_base.h`](control_animation_base.h.md) · [`control_animation.h`](control_animation.h.md) · [`control_direction_base.h`](control_direction_base.h.md) · [`control_movement_base.h`](control_movement_base.h.md) · [`basemonster/base_monster.h`](basemonster/base_monster.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`control_threaten.h`](control_threaten.h.md); callers name that, not this file.
 **Tier floor** — T2: seizes the body for the duration of a clip and tracks the enemy
 
 ## Purpose

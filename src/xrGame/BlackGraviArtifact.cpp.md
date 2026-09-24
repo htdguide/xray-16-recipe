@@ -3,7 +3,7 @@
 > A hovering artefact that, when struck hard enough, detonates a gravitational shockwave that throws and injures everything around it.
 
 **Needs** — [`BlackGraviArtifact.h`](BlackGraviArtifact.h.md) · [`GraviArtifact.h`](GraviArtifact.h.md) · [`Explosive.h`](Explosive.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`PHMovementControl.h`](PHMovementControl.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [`xrEngine/Feel_Touch.h`](../xrEngine/Feel_Touch.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`BlackGraviArtifact.h`](BlackGraviArtifact.h.md); callers name that, not this file.
 **Tier floor** — T2: a radial query with line-of-sight tests, then hit events
 
 ## Purpose

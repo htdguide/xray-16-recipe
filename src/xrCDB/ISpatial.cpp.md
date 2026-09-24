@@ -4,7 +4,7 @@
 > position, and the registration lifecycle that keeps every object in exactly one node.
 
 **Needs** — [`ISpatial.h`](ISpatial.h.md) · [`xrCore/_fbox.h`](../xrCore/_fbox.h.md) · [Seam: Threads, atomics and process services](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ISpatial.h`](ISpatial.h.md); callers name that, not this file.
 **Tier floor** — T2: a tree of small nodes with a free list; the pooling is a throughput
 choice, not a layout requirement.
 

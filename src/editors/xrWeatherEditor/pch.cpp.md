@@ -3,7 +3,7 @@
 > The translation unit that exists so the shared preamble has something to compile into.
 
 **Needs** — [`pch.hpp`](pch.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`pch.hpp`](pch.hpp.md); callers name that, not this file.
 **Tier floor** — T4: a build artifact with no content.
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Every carryable record: what a weapon remembers, what a dropped item sends over the wire, and the quantization change at version 122.
 
 **Needs** — [`xrServer_Objects_ALife_Items.h`](xrServer_Objects_ALife_Items.h.md) · [`clsid_game.h`](clsid_game.h.md) · [`xrMessages.h`](xrMessages.h.md) · [`alife_space.h`](alife_space.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrServer_Objects_ALife_Items.h`](xrServer_Objects_ALife_Items.h.md); callers name that, not this file.
 **Tier floor** — T1: on-disk and on-wire layouts, including a quantized encoding.
 
 ## Purpose

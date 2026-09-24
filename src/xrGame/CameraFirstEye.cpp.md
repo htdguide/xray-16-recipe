@@ -3,7 +3,7 @@
 > The first-person camera: the eye sits exactly where it is put, looks where the player aims, and can be eased onto a point when something else wants to direct the view.
 
 **Needs** — [`CameraFirstEye.h`](CameraFirstEye.h.md) · [`xrEngine/CameraBase.h`](../xrEngine/CameraBase.h.md) · [`xrEngine/xr_level_controller.h`](../xrEngine/xr_level_controller.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`CameraFirstEye.h`](CameraFirstEye.h.md); callers name that, not this file.
 **Tier floor** — T2: per-frame rotation composition
 
 ## Purpose

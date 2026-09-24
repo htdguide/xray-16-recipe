@@ -3,7 +3,7 @@
 > What the player is looking at: a ray cast from the camera each frame that sees through glass and foliage, and the cursor, name plate and reticle colour derived from whatever it hits.
 
 **Needs** — [`HUDTarget.h`](HUDTarget.h.md) · [`HUDCrosshair.h`](HUDCrosshair.h.md) · [`Level.h`](Level.h.md) · [`entity_alive.h`](entity_alive.h.md) · [`InventoryOwner.h`](InventoryOwner.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`relation_registry.h`](relation_registry.h.md) · [`character_info.h`](../xrServerEntities/character_info.h.md) · [`ai/monsters/poltergeist/poltergeist.h`](ai/monsters/poltergeist/poltergeist.h.md) · [`xrMaterialSystem/GameMtlLib.h`](../xrMaterialSystem/GameMtlLib.h.md) · [`xrCDB/xr_collide_defs.h`](../xrCDB/xr_collide_defs.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HUDTarget.h`](HUDTarget.h.md); callers name that, not this file.
 **Tier floor** — T2: one ray query and a screen-space quad per frame; the material lookup is by index into a shared table
 
 ## Purpose

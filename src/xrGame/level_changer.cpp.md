@@ -3,7 +3,7 @@
 > The volume at the edge of a level that asks the player whether to travel, and carries the destination he arrives at.
 
 **Needs** — [`level_changer.h`](level_changer.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`UIGameSP.h`](UIGameSP.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_level_cross_table.h`](../xrAICore/Navigation/game_level_cross_table.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_path.h`](../xrAICore/Navigation/PatrolPath/patrol_path.h.md) · [`xrEngine/xr_collide_form.h`](../xrEngine/xr_collide_form.h.md) · [`xrNetServer/NET_Messages.h`](../xrNetServer/NET_Messages.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`level_changer.h`](level_changer.h.md); callers name that, not this file.
 **Tier floor** — T3: a trigger volume and a confirmation prompt
 
 ## Purpose

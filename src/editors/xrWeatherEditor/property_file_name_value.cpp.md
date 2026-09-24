@@ -3,7 +3,7 @@
 > A text row that names a file, carrying the five settings its chooser needs.
 
 **Needs** — [`property_file_name_value.hpp`](property_file_name_value.hpp.md) · [`property_string.hpp`](property_string.hpp.md) · [`property_file_name_value_base.hpp`](property_file_name_value_base.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_file_name_value.hpp`](property_file_name_value.hpp.md); callers name that, not this file.
 **Tier floor** — T2: a managed refinement of the accessor-bound text adapter
 
 ## Purpose

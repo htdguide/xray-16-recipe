@@ -4,7 +4,7 @@
 > uniform sample, a rule for testing containment, and a rule for being moved by a matrix.
 
 **Needs** — [`particle_core.h`](particle_core.h.md) · [`psystem.h`](psystem.h.md) · [`xrCore/_fbox.h`](../xrCore/_fbox.h.md) · [`xrCore/_random.h`](../xrCore/_random.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`particle_core.h`](particle_core.h.md); callers name that, not this file.
 **Tier floor** — T1: one record is reinterpreted eleven ways and is read from authored files
 as raw bytes; nothing above T1 can promise that layout.
 

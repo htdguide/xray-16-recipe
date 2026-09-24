@@ -3,7 +3,7 @@
 > Periodically saves the game by itself, but only at a moment when saving is safe and the result is worth loading.
 
 **Needs** — [`autosave_manager.h`](autosave_manager.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`ai_space.h`](ai_space.h.md) · [`date_time.h`](date_time.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`UIGameCustom.h`](UIGameCustom.h.md) · [`MainMenu.h`](MainMenu.h.md) · [`xrEngine/ISheduled.h`](../xrEngine/ISheduled.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`autosave_manager.h`](autosave_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: a timer on the scheduler, a save request and a screenshot; the file-attribute call is the only platform contact
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Captures every intermediate transform of a foot-placement solve into a bounded history.
 
 **Needs** — [`ik_dbg_matrix.h`](ik_dbg_matrix.h.md) · [`ik/IKLimb.h`](ik/IKLimb.h.md) · [`ik_calculate_data.h`](ik_calculate_data.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ik_dbg_matrix.h`](ik_dbg_matrix.h.md); callers name that, not this file.
 **Tier floor** — T3: instrumentation
 
 ## Purpose

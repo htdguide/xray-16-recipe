@@ -3,7 +3,7 @@
 > Per-bone damage multipliers: how much a hit on this bone hurts, how much it wounds, and whether the first aimed shot gets its own number.
 
 **Needs** — [`damage_manager.h`](damage_manager.h.md) · [`xrEngine/xr_object.h`](../xrEngine/xr_object.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrCore/Animation/Bone.hpp`](../xrCore/Animation/Bone.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`damage_manager.h`](damage_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: two scaling factors read from a skeleton; the only awkwardness is where they are stored
 
 ## Purpose

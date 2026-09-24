@@ -3,7 +3,7 @@
 > Turns "this creature is profile *X*" into a named individual with a faction, a rank, a reputation and an opening line, filling in from the authored character only what the record did not already decide.
 
 **Needs** — [`character_info.h`](character_info.h.md) · [`specific_character.h`](specific_character.h.md) · [`xrServer_Objects_ALife_Monsters.h`](xrServer_Objects_ALife_Monsters.h.md) · [`xrUICore/XML/xrUIXmlParser.h`](../xrUICore/XML/xrUIXmlParser.h.md) · [Data: UI layout and text](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`character_info.h`](character_info.h.md); callers name that, not this file.
 **Tier floor** — T2.
 
 ## Purpose

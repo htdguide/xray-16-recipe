@@ -3,7 +3,7 @@
 > Weapon recoil as a camera offset: each shot kicks the aim up and sideways by a randomized amount, the kick accumulates over a burst, and it relaxes back at a configured rate.
 
 **Needs** — [`EffectorShot.h`](EffectorShot.h.md) · [`Weapon.h`](Weapon.h.md) · [`CameraRecoil.h`](CameraRecoil.h.md) · [`CameraEffector.h`](CameraEffector.h.md) · [`Actor.h`](Actor.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`EffectorShot.h`](EffectorShot.h.md); callers name that, not this file.
 **Tier floor** — T2: two accumulating angles integrated per frame
 
 ## Purpose

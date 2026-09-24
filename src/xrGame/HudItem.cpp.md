@@ -3,7 +3,7 @@
 > Anything the player holds in their hands: the state machine every held item runs, the animation whose *end* drives the next state, the sound bank keyed by alias, and the two transforms that put a world position into the first-person view's own projection.
 
 **Needs** — [`HudItem.h`](HudItem.h.md) · [`HudSound.h`](HudSound.h.md) · [`player_hud.h`](player_hud.h.md) · [`physic_item.h`](physic_item.h.md) · [`inventory_item.h`](inventory_item.h.md) · [`Inventory.h`](Inventory.h.md) · [`Actor.h`](Actor.h.md) · [`Level.h`](Level.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md) · [`actor_defs.h`](actor_defs.h.md) · [`inventory_space.h`](../xrServerEntities/inventory_space.h.md) · [`xrCore/Animation/SkeletonMotions.hpp`](../xrCore/Animation/SkeletonMotions.hpp.md) · [`xrEngine/CameraBase.h`](../xrEngine/CameraBase.h.md) · [Seam: Audio device](../../SYSTEM-REQUIREMENTS.md#seam-audio-device) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HudItem.h`](HudItem.h.md); callers name that, not this file.
 **Tier floor** — T2: a state machine, timers and matrix composition; the animation and sound handles are interfaces
 
 ## Purpose

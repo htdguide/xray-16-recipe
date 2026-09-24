@@ -4,7 +4,7 @@
 > was written to justify it.
 
 **Needs** — [`MathUtils.h`](MathUtils.h.md) · [`utils/xrMiscMath`](../utils/xrMiscMath/README.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`MathUtils.h`](MathUtils.h.md); callers name that, not this file.
 **Tier floor** — T2: closed-form geometry, no device or layout concern.
 
 ## Purpose

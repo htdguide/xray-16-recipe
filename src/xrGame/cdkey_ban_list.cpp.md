@@ -3,7 +3,7 @@
 > The multiplayer server's persistent list of banned players, keyed by the hash of a player's product key.
 
 **Needs** — [`cdkey_ban_list.h`](cdkey_ban_list.h.md) · [`xrServer.h`](xrServer.h.md) · [`Common/object_broker.h`](../Common/object_broker.h.md) · [Seam: Multiplayer matchmaking and accounts](../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`cdkey_ban_list.h`](cdkey_ban_list.h.md); callers name that, not this file.
 **Tier floor** — T3: a list, a text file and a wall-clock comparison
 
 ## Purpose

@@ -3,7 +3,7 @@
 > Brings a stalker's animation system to a known state on spawn and on every reinitialization, binds it to the shared animation table for its model, and fires one-shot reaction motions.
 
 **Needs** — [`stalker_animation_manager.h`](stalker_animation_manager.h.md) · [`stalker_animation_manager_inline.h`](stalker_animation_manager_inline.h.md) · [`stalker_animation_data_storage.h`](stalker_animation_data_storage.h.md) · [`stalker_animation_data.h`](stalker_animation_data.h.md) · [`ai/stalker/ai_stalker.h`](ai/stalker/ai_stalker.h.md) · [`stalker_movement_manager_smart_cover.h`](stalker_movement_manager_smart_cover.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`stalker_animation_manager.h`](stalker_animation_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: state reset and one table lookup per model
 
 ## Purpose

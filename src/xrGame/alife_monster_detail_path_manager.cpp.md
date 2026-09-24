@@ -3,7 +3,7 @@
 > Walks an off-screen creature along the cross-level graph toward a destination, consuming game time at its travel speed and stepping it from vertex to vertex — the off-screen equivalent of walking.
 
 **Needs** — [`alife_monster_detail_path_manager.h`](alife_monster_detail_path_manager.h.md) · [`alife_monster_brain.h`](../xrServerEntities/alife_monster_brain.h.md) · [`alife_smart_terrain_task.h`](alife_smart_terrain_task.h.md) · [`alife_simulator.h`](alife_simulator.h.md) · [`alife_time_manager.h`](alife_time_manager.h.md) · [`alife_graph_registry.h`](alife_graph_registry.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_level_cross_table.h`](../xrAICore/Navigation/game_level_cross_table.h.md) · [`xrAICore/Navigation/graph_engine.h`](../xrAICore/Navigation/graph_engine.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_monster_detail_path_manager.h`](alife_monster_detail_path_manager.h.md); callers name that, not this file.
 **Tier floor** — T3: a graph search and an arc-length walk.
 
 ## Purpose

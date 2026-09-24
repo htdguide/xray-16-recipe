@@ -3,7 +3,7 @@
 > Walks an offline creature around an authored patrol path: picks where to join, decides which branch to take at each point, and decides what happens at a dead end.
 
 **Needs** — [`alife_monster_patrol_path_manager.h`](alife_monster_patrol_path_manager.h.md) · [`xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_path.h`](../xrAICore/Navigation/PatrolPath/patrol_path.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_path_storage.h`](../xrAICore/Navigation/PatrolPath/patrol_path_storage.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_point.h`](../xrAICore/Navigation/PatrolPath/patrol_point.h.md) · [`xrAICore/Navigation/game_graph.h`](../xrAICore/Navigation/game_graph.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_monster_patrol_path_manager.h`](alife_monster_patrol_path_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: graph walking over shared immutable level data
 
 ## Purpose

@@ -3,7 +3,7 @@
 > The workhorse world-surface template for the forward renderer: a base texture modulated by a baked lightmap, plus the additive passes that add a dynamic point or spot light on top of it.
 
 **Needs** — [`BlenderDefault.h`](BlenderDefault.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`Blender_CLSID.h`](../Blender_CLSID.h.md) · [`Shader.h`](../Shader.h.md) · [`xrRender_console.h`](../xrRender_console.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`BlenderDefault.h`](BlenderDefault.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description. What stops T3 is the parameter block, which is read from the shipped material library as a tagged byte stream.
 
 ## Purpose

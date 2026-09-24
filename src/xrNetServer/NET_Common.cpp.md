@@ -4,7 +4,7 @@
 > envelope that both ends of the connection share.
 
 **Needs** — [`NET_Common.h`](NET_Common.h.md) · [`NET_Messages.h`](NET_Messages.h.md) · [`NET_Compressor.h`](NET_Compressor.h.md) · [`xrCore/net_utils.h`](../xrCore/net_utils.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport) · [Seam: Threads](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`NET_Common.h`](NET_Common.h.md); callers name that, not this file.
 **Tier floor** — T1: it composes a byte layout in place and is on the per-frame send path for
 every connected client, so it must not allocate.
 

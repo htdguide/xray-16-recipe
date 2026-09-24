@@ -3,7 +3,7 @@
 > Promotion and demotion: turning an offline record into a live client object and back, without losing state and without leaving an entity registered twice.
 
 **Needs** — [`alife_switch_manager.h`](alife_switch_manager.h.md) · [`xrServer_Objects_ALife.h`](../xrServerEntities/xrServer_Objects_ALife.h.md) · [`alife_graph_registry.h`](alife_graph_registry.h.md) · [`alife_object_registry.h`](alife_object_registry.h.md) · [`alife_schedule_registry.h`](alife_schedule_registry.h.md) · [`xrServer.h`](xrServer.h.md) · [`ai_space.h`](ai_space.h.md) · [`xrAICore/Navigation/level_graph.h`](../xrAICore/Navigation/level_graph.h.md) · [`xrAICore/Navigation/game_level_cross_table.h`](../xrAICore/Navigation/game_level_cross_table.h.md) · [`xrNetServer/NET_Messages.h`](../xrNetServer/NET_Messages.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`alife_switch_manager.h`](alife_switch_manager.h.md); callers name that, not this file.
 **Tier floor** — T2: registry hand-offs and one spawn-message round trip
 
 ## Purpose

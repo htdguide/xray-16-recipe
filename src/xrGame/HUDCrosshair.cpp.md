@@ -3,7 +3,7 @@
 > The aiming reticle: four ticks whose distance from the screen centre is the weapon's current dispersion cone projected onto the screen.
 
 **Needs** — [`HUDCrosshair.h`](HUDCrosshair.h.md) · [`xrUICore/ui_base.h`](../xrUICore/ui_base.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`HUDCrosshair.h`](HUDCrosshair.h.md); callers name that, not this file.
 **Tier floor** — T2: a projection and ten screen-space vertices per frame
 
 ## Purpose

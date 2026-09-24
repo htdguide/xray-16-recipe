@@ -262,16 +262,23 @@ original library's units.
 **Must provide**
 - Build a tree over a triangle soup of a few hundred thousand triangles, once per level
   at load time, and serialize it
-- Ray-versus-mesh, box-versus-mesh and frustum-versus-mesh queries returning all hits or
-  the nearest, with a caller-supplied result budget
+- Ray-versus-mesh, box-versus-mesh and frustum-versus-mesh queries, each able to report
+  all hits, only the first found, or only the nearest. There is **no** result budget: a
+  query that matches a great many triangles returns a great many, and the caller either
+  asks a narrower question or copes
 - Thread-safe concurrent queries against an immutable tree
 
-**If you build it** — an AABB tree over triangle indices, built top-down by splitting on
-the longest axis at the median, with leaves of one triangle; queries are the obvious
-recursive descent with a slab test. This is a weekend's work and the recipe describes the
-engine's wrapper around it in
-[`src/xrCDB/README.md`](src/xrCDB/README.md). The original vendors a 2001-vintage library
-for the tree itself and writes its own everything-else.
+**If you build it** — an AABB tree over triangle indices with exactly one triangle per
+leaf, so a tree over *n* triangles has exactly *n*−1 interior nodes and leaves carry no
+box of their own. Split by picking the axis of greatest **centroid variance** and cutting
+at the **mean of the vertex coordinates** on that axis (not the longest axis, and not the
+median — the chapter explains why both of the obvious choices are worse here); when a
+split puts everything on one side, force a halving. Queries are the recursive descent with
+a slab test. This is a weekend's work, and
+[`src/xrCDB/README.md`](src/xrCDB/README.md) specifies it properly — read that before
+building, because several of the natural generalizations (multi-triangle leaves, a
+surface-area heuristic) break the shipped file format. The original vendors a 2001-vintage
+library for the tree itself and writes its own everything-else.
 
 ### Seam: Debug overlay UI
 
@@ -565,6 +572,22 @@ they are ordered so that each one is reachable once its predecessors pass.
 11. The off-screen simulation (entities outside the loaded level, advanced at a coarse
     rate) runs, and entities cross the boundary into and out of the detailed simulation
     without losing state.
+
+    **Making this checkable takes one more artifact than the recipe supplies.** "Without
+    losing state" only has meaning against a declared partition of every record's fields
+    into *persisted*, *derived on promotion*, *cleared on demotion* and *valid only while
+    online* — and that table does not exist here; the facts are scattered across chapter
+    22's twins and were never collected. Until it is written, test the half that **is**
+    pinned down, which is worth having on its own: at every tick boundary each entity is
+    registered in exactly one of (graph registry ∧ schedule registry) or (level registry),
+    never both and never neither; no entity appears twice in any registry; and a squad and
+    its members are never in mixed online states. Chapter 23 specifies those precisely.
+    Three further questions must be settled from a running original before the state half
+    can be asserted at all: whether the online flag is serialized (and therefore what state
+    a freshly loaded world is in), whether a demotion preserves or clears the live
+    instance's serialized state, and whether a demoted child keeps its entity identifier or
+    is re-issued one. The recipe records all three as contradictions rather than resolving
+    them.
 12. Non-player characters path through the navigation mesh, take cover, use the
     goal-and-plan layer, and hold conversations from the shipped dialogue tables.
 

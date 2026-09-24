@@ -3,7 +3,7 @@
 > A real that may only take one of an authored set of magnitudes, chosen by name.
 
 **Needs** — [`property_float_enum_value.hpp`](property_float_enum_value.hpp.md) · [`property_float.hpp`](property_float.hpp.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`property_float_enum_value.hpp`](property_float_enum_value.hpp.md); callers name that, not this file.
 **Tier floor** — T2: copies a native `(magnitude, label)` array into a managed list at construction
 
 ## Purpose

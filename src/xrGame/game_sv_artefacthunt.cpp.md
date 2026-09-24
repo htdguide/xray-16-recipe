@@ -4,7 +4,7 @@
 
 **Needs** — [`game_sv_artefacthunt.h`](game_sv_artefacthunt.h.md) · [`game_sv_teamdeathmatch.h`](game_sv_teamdeathmatch.h.md) · [`game_sv_artefacthunt_process_event.cpp`](game_sv_artefacthunt_process_event.cpp.md) · [`xrServer.h`](xrServer.h.md) · [`xrServerEntities/xrServer_Objects_ALife_Monsters.h`](../xrServerEntities/xrServer_Objects_ALife_Monsters.h.md) · [`Level.h`](Level.h.md) · [`Actor.h`](Actor.h.md) · [`Artefact.h`](Artefact.h.md) · [`Inventory.h`](Inventory.h.md) · [`MPPlayersBag.h`](MPPlayersBag.h.md) · [`WeaponKnife.h`](WeaponKnife.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`game_cl_base_weapon_usage_statistic.h`](game_cl_base_weapon_usage_statistic.h.md) · [`ui/UIBuyWndShared.h`](ui/UIBuyWndShared.h.md) · [`debug_renderer.h`](debug_renderer.h.md) · [`Common/LevelGameDef.h`](../Common/LevelGameDef.h.md) · [`xrNetServer/NET_Messages.h`](../xrNetServer/NET_Messages.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport) · [Seam: Debug overlay UI](../../SYSTEM-REQUIREMENTS.md#seam-debug-overlay-ui)
 
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — [`game_sv_artefacthunt.h`](game_sv_artefacthunt.h.md)
 **Tier floor** — T2: session rules over the network and entity layers; the one format-facing edge is reading the level's authored point chunk
 
 ## Purpose

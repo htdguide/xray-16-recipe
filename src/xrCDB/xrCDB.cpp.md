@@ -4,7 +4,7 @@
 > reads and writes that tree to disk so a level need not pay for the build twice.
 
 **Needs** — [`xrCDB.h`](xrCDB.h.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database) · [Seam: Threads, atomics and process services](../../SYSTEM-REQUIREMENTS.md#seam-threads-atomics-and-process-services)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`xrCDB.h`](xrCDB.h.md); callers name that, not this file.
 **Tier floor** — T1: it owns two large flat arrays that are handed out as raw spans to
 traversals in other files, and the serialized tree is a memory image whose node records
 must land at fixed byte offsets.
@@ -48,7 +48,11 @@ RECORD Triangle                     # exactly 16 bytes; frozen, see the level fo
   suppress_shadows : bool (1 bit)            # cached from the material
   suppress_wm      : bool (1 bit)            # cached from the material: takes no decals
   sector           : int (16-bit)            # visibility sector this surface belongs to
-# The last four fields share one 32-bit word and are also addressable as that whole word,
+# The last four fields share one 32-bit word, packed from the LOW bit upward in the order
+#   written above: material occupies bits 0-13, suppress_shadows bit 14, suppress_wm bit 15,
+#   sector bits 16-31. This layout is frozen - the word is read verbatim out of a shipped
+#   level's collision file - and a rebuild that packs it differently loads every level with
+#   the wrong materials and the wrong sectors, silently. The word is also addressable whole,
 # which is how a query copies the payload out in one move without unpacking it.
 ```
 

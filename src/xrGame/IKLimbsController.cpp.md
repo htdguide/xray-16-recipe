@@ -3,7 +3,7 @@
 > Foot placement for one character: it hooks into the pose evaluation, corrects each leg onto the ground it is standing on, and lifts or drops the whole body so that every planted foot can reach.
 
 **Needs** — [`IKLimbsController.h`](IKLimbsController.h.md) · [`ik/IKLimb.h`](ik/IKLimb.h.md) · [`ik_object_shift.h`](ik_object_shift.h.md) · [`pose_extrapolation.h`](pose_extrapolation.h.md) · [`ik_anim_state.h`](ik_anim_state.h.md) · [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`GameObject.h`](GameObject.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [`xrCore/Animation/Motion.hpp`](../xrCore/Animation/Motion.hpp.md) · [Seam: Static collision database](../../SYSTEM-REQUIREMENTS.md#seam-static-collision-database)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`IKLimbsController.h`](IKLimbsController.h.md); callers name that, not this file.
 **Tier floor** — T2: per-bone transform arithmetic on the pose-evaluation path
 
 ## Purpose

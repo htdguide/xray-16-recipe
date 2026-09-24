@@ -5,7 +5,7 @@
 > "this game mode does not have that".
 
 **Needs** — [`xrGameSpyServer.h`](../xrGameSpyServer.h.md) · [`xrGameSpy/GameSpy_Keys.h`](../../xrGameSpy/GameSpy_Keys.h.md) · [`xrGameSpy/GameSpy_QR2.h`](../../xrGameSpy/GameSpy_QR2.h.md) · [`Level.h`](../Level.h.md) · [`game_sv_artefacthunt.h`](../game_sv_artefacthunt.h.md) · [`ui/UIInventoryUtilities.h`](../ui/UIInventoryUtilities.h.md) · [Seam: Multiplayer matchmaking and accounts](../../../SYSTEM-REQUIREMENTS.md#seam-multiplayer-matchmaking-and-accounts)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`GameSpy_QR2_callbacks.h`](GameSpy_QR2_callbacks.h.md); callers name that, not this file.
 **Tier floor** — T3. Reads scalars off live objects and appends them to a text buffer. It
 is in the game module rather than the matchmaking module only because the properties it
 reports are game-mode properties.

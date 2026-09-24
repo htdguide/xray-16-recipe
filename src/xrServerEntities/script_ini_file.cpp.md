@@ -3,7 +3,7 @@
 > Wraps every configuration read in a check that names the missing section or key, because a script that mistypes one would otherwise get a default and a mystery.
 
 **Needs** — [`script_ini_file.h`](script_ini_file.h.md) · [`object_factory.h`](object_factory.h.md) · [Data: configuration](../../SYSTEM-REQUIREMENTS.md#5-data-and-persistence)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`script_ini_file.h`](script_ini_file.h.md); callers name that, not this file.
 **Tier floor** — T3.
 
 ## Purpose

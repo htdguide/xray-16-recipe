@@ -3,7 +3,7 @@
 > Everything a thing that fires shares: the rate of fire, the damage curve over difficulty, the dispersion cone, the muzzle light, the muzzle flash, smoke, tracer and casing effects, the silencer's multipliers, and the rule deciding which machine is allowed to compute a shot's damage.
 
 **Needs** — [`ShootingObject.h`](ShootingObject.h.md) · [`ParticlesObject.h`](ParticlesObject.h.md) · [`WeaponAmmo.h`](WeaponAmmo.h.md) · [`Actor.h`](Actor.h.md) · [`Spectator.h`](Spectator.h.md) · [`Level.h`](Level.h.md) · [`Level_Bullet_Manager.h`](Level_Bullet_Manager.h.md) · [`game_cl_base.h`](game_cl_base.h.md) · [`game_cl_single.h`](game_cl_single.h.md) · [`alife_space.h`](../xrServerEntities/alife_space.h.md) · [`xrEngine/Render.h`](../xrEngine/Render.h.md) · [Seam: Graphics device](../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`ShootingObject.h`](ShootingObject.h.md); callers name that, not this file.
 **Tier floor** — T2: parameter parsing, effect lifetimes and a dynamic light; nothing byte-level
 
 ## Purpose

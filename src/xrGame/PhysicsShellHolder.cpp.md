@@ -3,7 +3,7 @@
 > The base of every game object that can own a rigid-body assembly, and the adapter through which the physics module asks the game layer questions it is not allowed to know the answers to.
 
 **Needs** — [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md) · [`GameObject.h`](GameObject.h.md) · [`ParticlesPlayer.h`](ParticlesPlayer.h.md) · [`CharacterPhysicsSupport.h`](CharacterPhysicsSupport.h.md) · [`PHMovementControl.h`](PHMovementControl.h.md) · [`ph_shell_interface.h`](ph_shell_interface.h.md) · [`Level.h`](Level.h.md) · [`CustomRocket.h`](CustomRocket.h.md) · [`Grenade.h`](Grenade.h.md) · [`xrPhysics/PhysicsShell.h`](../xrPhysics/PhysicsShell.h.md) · [`xrPhysics/IPhysicsShellHolder.h`](../xrPhysics/IPhysicsShellHolder.h.md) · [`xrPhysics/PHCommander.h`](../xrPhysics/PHCommander.h.md) · [`xrPhysics/IPHWorld.h`](../xrPhysics/IPHWorld.h.md) · [`xrPhysics/IActivationShape.h`](../xrPhysics/IActivationShape.h.md) · [`xrEngine/IObjectPhysicsCollision.h`](../xrEngine/IObjectPhysicsCollision.h.md) · [`Include/xrRender/Kinematics.h`](../Include/xrRender/Kinematics.h.md) · [Seam: Rigid-body dynamics](../../SYSTEM-REQUIREMENTS.md#seam-rigid-body-dynamics)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`PhysicsShellHolder.h`](PhysicsShellHolder.h.md); callers name that, not this file.
 **Tier floor** — T2: it owns a body assembly and quantizes poses into a wire format, but the byte layout is delegated
 
 ## Purpose

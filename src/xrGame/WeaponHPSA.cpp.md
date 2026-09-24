@@ -3,7 +3,7 @@
 > A compact self-loading pistol: the pistol behaviour under its own class name.
 
 **Needs** — [`WeaponHPSA.h`](WeaponHPSA.h.md) · [`WeaponPistol.h`](WeaponPistol.h.md)
-**Used by** — nothing in this recipe; entry point or dead code.
+**Used by** — reached through its declarations in [`WeaponHPSA.h`](WeaponHPSA.h.md); callers name that, not this file.
 **Tier floor** — T3: a name with a parent
 
 ## Purpose
