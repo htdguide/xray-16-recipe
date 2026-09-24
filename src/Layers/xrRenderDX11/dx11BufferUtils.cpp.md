@@ -2,7 +2,7 @@
 
 > Buffer creation for this backend: the two lifetimes a buffer can have, and the translation of the engine's frozen vertex-layout description into something the device will accept.
 
-**Needs** — [`xrRender/BufferUtils.h`](../xrRender/BufferUtils.h.md) · [`CommonTypes.h`](CommonTypes.h.md) · [`dx11HW.h`](dx11HW.h.md) · [`xrCore/FlexibleVertexFormat.h`](../../xrCore/FlexibleVertexFormat.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
+**Needs** — [`xrRender/BufferUtils.h`](../xrRender/BufferUtils.h.md) · [`CommonTypes.h`](CommonTypes.h.md) · [`dx11HW.h`](dx11HW.h.md) · `xrCore/FlexibleVertexFormat.h` · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
 **Used by** — [`dx11ConstantBuffer.cpp`](dx11ConstantBuffer.cpp.md) · [`dx11ResourceManager_Resources.cpp`](dx11ResourceManager_Resources.cpp.md)
 **Tier floor** — T1: byte strides, explicit buffer usage classes, and a mapped pointer handed to the caller.
 

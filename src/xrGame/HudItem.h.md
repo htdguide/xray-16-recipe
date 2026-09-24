@@ -3,7 +3,7 @@
 > Declares the base of every item the player can hold, implemented in [`HudItem.cpp`](HudItem.cpp.md).
 
 **Needs** — [`HudSound.h`](HudSound.h.md) · [`actor_defs.h`](actor_defs.h.md) · [`inventory_space.h`](../xrServerEntities/inventory_space.h.md)
-**Used by** — [`ActorInput.cpp`](ActorInput.cpp.md) · [`HudItem.cpp`](HudItem.cpp.md) · [`Level_input.cpp`](Level_input.cpp.md) · [`Spectator.cpp`](Spectator.cpp.md) · [`game_sv_deathmatch.cpp`](game_sv_deathmatch.cpp.md) · [`hud_item_object.cpp`](hud_item_object.cpp.md) · [`hud_item_object.h`](hud_item_object.h.md) · [`player_hud.cpp`](player_hud.cpp.md) · [`player_hud_tune.cpp`](player_hud_tune.cpp.md) · [`smart_cover_animation_selector.cpp`](smart_cover_animation_selector.cpp.md)
+**Used by** — [`ActorInput.cpp`](ActorInput.cpp.md) · [`HudItem.cpp`](HudItem.cpp.md) · [`Level_input.cpp`](Level_input.cpp.md) · [`Spectator.cpp`](Spectator.cpp.md) · [`game_sv_capture_the_artefact.cpp`](game_sv_capture_the_artefact.cpp.md) · [`game_sv_deathmatch.cpp`](game_sv_deathmatch.cpp.md) · [`hud_item_object.cpp`](hud_item_object.cpp.md) · [`hud_item_object.h`](hud_item_object.h.md) · [`player_hud.cpp`](player_hud.cpp.md) · [`player_hud_tune.cpp`](player_hud_tune.cpp.md) · [`smart_cover_animation_selector.cpp`](smart_cover_animation_selector.cpp.md)
 **Tier floor** — T3: a declaration only, but it fixes the state enumeration every held item extends
 
 ## Purpose

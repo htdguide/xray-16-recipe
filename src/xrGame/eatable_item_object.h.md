@@ -3,7 +3,7 @@
 > Declares the concrete consumable world object implemented in [`eatable_item_object.cpp`](eatable_item_object.cpp.md).
 
 **Needs** — [`eatable_item.h`](eatable_item.h.md) · [`physic_item.h`](physic_item.h.md)
-**Used by** — [`FoodItem.cpp`](FoodItem.cpp.md) · [`FoodItem.h`](FoodItem.h.md) · [`antirad.cpp`](antirad.cpp.md) · [`antirad.h`](antirad.h.md) · [`eatable_item_object.cpp`](eatable_item_object.cpp.md) · [`game_cl_capturetheartefact_buywnd.cpp`](game_cl_capturetheartefact_buywnd.cpp.md) · [`game_sv_deathmatch.cpp`](game_sv_deathmatch.cpp.md) · [`medkit.cpp`](medkit.cpp.md) · [`medkit.h`](medkit.h.md)
+**Used by** — [`FoodItem.cpp`](FoodItem.cpp.md) · [`FoodItem.h`](FoodItem.h.md) · [`antirad.cpp`](antirad.cpp.md) · [`antirad.h`](antirad.h.md) · [`eatable_item_object.cpp`](eatable_item_object.cpp.md) · [`game_cl_capturetheartefact_buywnd.cpp`](game_cl_capturetheartefact_buywnd.cpp.md) · [`game_sv_capture_the_artefact.cpp`](game_sv_capture_the_artefact.cpp.md) · [`game_sv_deathmatch.cpp`](game_sv_deathmatch.cpp.md) · [`medkit.cpp`](medkit.cpp.md) · [`medkit.h`](medkit.h.md)
 **Tier floor** — T3: a declaration
 
 ## Purpose

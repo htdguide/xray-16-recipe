@@ -3,7 +3,7 @@
 > Declares capture the artefact: two teams, two artefacts, two bases — a sibling of team deathmatch rather than a descendant, which is why it declares its own teams, its own balancing, its own warm-up and its own buy cycle.
 
 **Needs** — [`game_sv_capture_the_artefact.cpp`](game_sv_capture_the_artefact.cpp.md) · [`game_sv_capture_the_artefact_buy_event.cpp`](game_sv_capture_the_artefact_buy_event.cpp.md) · [`game_sv_capture_the_artefact_myteam_impl.cpp`](game_sv_capture_the_artefact_myteam_impl.cpp.md) · [`game_sv_capture_the_artefact_process_event.cpp`](game_sv_capture_the_artefact_process_event.cpp.md) · [`game_sv_mp.h`](game_sv_mp.h.md) · [`actor_mp_server.h`](actor_mp_server.h.md) · [`xrServer.h`](xrServer.h.md) · [`CustomZone.h`](CustomZone.h.md) · [`xrServerEntities/xrServer_Object_Base.h`](../xrServerEntities/xrServer_Object_Base.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — [`console_commands_mp.cpp`](console_commands_mp.cpp.md) · [`game_sv_capture_the_artefact_process_event.cpp`](game_sv_capture_the_artefact_process_event.cpp.md)
+**Used by** — [`console_commands_mp.cpp`](console_commands_mp.cpp.md) · [`game_sv_capture_the_artefact.cpp`](game_sv_capture_the_artefact.cpp.md) · [`game_sv_capture_the_artefact_buy_event.cpp`](game_sv_capture_the_artefact_buy_event.cpp.md) · [`game_sv_capture_the_artefact_myteam_impl.cpp`](game_sv_capture_the_artefact_myteam_impl.cpp.md) · [`game_sv_capture_the_artefact_process_event.cpp`](game_sv_capture_the_artefact_process_event.cpp.md)
 **Tier floor** — T2: a class declaration over session rules
 
 ## Purpose

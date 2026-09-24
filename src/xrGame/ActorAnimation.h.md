@@ -2,7 +2,7 @@
 
 > Names for the movement-state bit combinations the animation selector switches on.
 
-**Needs** — [`actor_defs.h`](actor_defs.md) · [`ActorAnimation.cpp`](ActorAnimation.cpp.md)
+**Needs** — [`actor_defs.h`](actor_defs.h.md) · [`ActorAnimation.cpp`](ActorAnimation.cpp.md)
 **Used by** — [`ActorAnimation.cpp`](ActorAnimation.cpp.md)
 **Tier floor** — T3: a naming convention over an existing bit set.
 

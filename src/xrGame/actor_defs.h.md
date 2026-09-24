@@ -3,7 +3,7 @@
 > The player character's shared vocabulary: the movement command bit set, the camera modes, the context-action kinds, and the three record shapes the network and prediction paths pass around.
 
 **Needs** — [`PHSynchronize.h`](../xrServerEntities/PHSynchronize.h.md) · [`xrServer_Space.h`](../xrServerEntities/xrServer_Space.h.md) · [Seam: Networking transport](../../SYSTEM-REQUIREMENTS.md#seam-networking-transport)
-**Used by** — [`Actor.cpp`](Actor.cpp.md) · [`Actor.h`](Actor.h.md) · [`ActorCondition.h`](ActorCondition.h.md) · [`EffectorBobbing.cpp`](EffectorBobbing.cpp.md) · [`HudItem.cpp`](HudItem.cpp.md) · [`HudItem.h`](HudItem.h.md) · [`actor_anim_defs.h`](actor_anim_defs.h.md) · [`player_hud.h`](player_hud.h.md) · [`UIDragDropReferenceList.cpp`](ui/UIDragDropReferenceList.cpp.md) · [`UIHudStatesWnd.h`](ui/UIHudStatesWnd.h.md)
+**Used by** — [`Actor.cpp`](Actor.cpp.md) · [`Actor.h`](Actor.h.md) · [`ActorAnimation.h`](ActorAnimation.h.md) · [`ActorCondition.h`](ActorCondition.h.md) · [`EffectorBobbing.cpp`](EffectorBobbing.cpp.md) · [`HudItem.cpp`](HudItem.cpp.md) · [`HudItem.h`](HudItem.h.md) · [`actor_anim_defs.h`](actor_anim_defs.h.md) · [`player_hud.h`](player_hud.h.md) · [`UIDragDropReferenceList.cpp`](ui/UIDragDropReferenceList.cpp.md) · [`UIHudStatesWnd.h`](ui/UIHudStatesWnd.h.md)
 **Tier floor** — T1: the network records are wire-adjacent and their float widths are relied upon
 
 ## Purpose

@@ -2,7 +2,7 @@
 
 > The poltergeist's attack, which is a movement pattern and nothing else: orbit the target at an authored radius, reversing direction on a timer, shrinking the orbit when the level will not accommodate it and growing it back when it will.
 
-**Needs** — [`poltergeist_state_attack_hidden.h`](poltergeist_state_attack_hidden.h.md) · [`poltergeist.h`](poltergeist.h.md) · [`../states/monster_state_attack_move_to_home_point.h`](../states/monster_state_attack_move_to_home_point.h.md) · [`../monster_sound_defs.h`](../monster_sound_defs.h.md) · [`../../../xrAICore/Navigation/level_graph.h`](../../../../xrAICore/Navigation/level_graph.h.md)
+**Needs** — [`poltergeist_state_attack_hidden.h`](poltergeist_state_attack_hidden.h.md) · [`poltergeist.h`](poltergeist.h.md) · `../states/monster_state_attack_move_to_home_point.h` · [`../monster_sound_defs.h`](../monster_sound_defs.h.md) · [`../../../xrAICore/Navigation/level_graph.h`](../../../../xrAICore/Navigation/level_graph.h.md)
 **Used by** — [`poltergeist_state_attack_hidden.h`](poltergeist_state_attack_hidden.h.md)
 **Tier floor** — T3: sampling a circle against the navigation graph
 

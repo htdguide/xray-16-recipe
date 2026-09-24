@@ -17,10 +17,21 @@ convention and snaps to device texel centres.
 
 ## Purpose
 
-The sun is a directional light: it has no position and its shadow frustum is unbounded, so
-the only question is *which* region of the world gets shadow-map resolution. The answer is
-three nested regions — cascades — of fixed world size, each covering the slice of the view
+The sun lights the world as a *directional* source — every surface receives it from the
+same direction, and its shadow coverage is unbounded — so the only question this phase
+answers is *which* region of the world gets shadow-map resolution. The answer is three
+nested regions — cascades — of fixed world size, each covering the slice of the view
 frustum the previous one stopped at.
+
+**Its representation is not directional, and the arithmetic below depends on that.** The
+light database builds the sun as an ordinary *point* light placed 500 metres behind the
+camera along the sun direction, with a 600-metre range, re-placed every frame as the camera
+moves — see [`Light_DB.cpp`](../xrRender/Light_DB.cpp.md), which is authoritative and
+explains why (one set of light machinery then handles attenuation, shadow allocation and
+the occlusion query for every light in the scene). That is what gives the sun the position
+this phase's cascade fit measures against, and it is why the cascades are built around the
+camera rather than around the world. A rebuild that makes the sun genuinely directional
+must replace the fit's distance terms rather than porting them.
 
 Two things make this implementation distinctive. The cascades are *chained*: each one
 starts where the previous one ended, by carrying forward the frustum rays the previous

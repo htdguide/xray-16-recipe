@@ -455,11 +455,15 @@ case, and an invincibility indicator for protected teammates is present but comm
 
 **Contract** — an artefact carrier may not sprint.
 
-**Notes** — **the flag is tested the wrong way round.** The server sends a flag meaning "the
-bearer cannot sprint", and this returns *true* (may sprint) when it is set. The effect is
-that the restriction applies exactly when the server said it should not. The sibling mode
-([`game_cl_artefacthunt.cpp`](game_cl_artefacthunt.cpp.md)) tests the same flag correctly. A
-rebuild should implement the intended rule and not this one.
+**Notes** — **the rule is inverted end to end, and the fault is on the server.** This mode's
+server sends the *negation* of the configured setting — "the bearer **can** sprint" — into a
+client field named for the opposite sense, which this then tests as though it meant "cannot".
+Turning the restriction on therefore lets the carrier sprint, and turning it off forbids it.
+The client's own test is self-consistent; its field is simply misnamed, and the sibling mode
+([`game_cl_artefacthunt.cpp`](game_cl_artefacthunt.cpp.md)) sends the same setting
+un-negated and behaves correctly. One console setting drives both modes, so it cannot be
+configured to satisfy them both. A rebuild should send the setting un-negated in both and
+implement the intended rule.
 
 ## The guarded accessors
 

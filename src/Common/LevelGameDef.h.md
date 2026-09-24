@@ -3,7 +3,7 @@
 > The chunk identifiers and record layouts for the authored marker objects a level carries — spawn points, environment modifiers and patrol paths.
 
 **Needs** — _(none)_
-**Used by** — [`patrol_path.cpp`](../xrAICore/Navigation/PatrolPath/patrol_path.cpp.md) · [`patrol_path_storage.cpp`](../xrAICore/Navigation/PatrolPath/patrol_path_storage.cpp.md) · [`Environment_misc.cpp`](../xrEngine/Environment_misc.cpp.md) · [`game_sv_artefacthunt.cpp`](../xrGame/game_sv_artefacthunt.cpp.md)
+**Used by** — [`patrol_path.cpp`](../xrAICore/Navigation/PatrolPath/patrol_path.cpp.md) · [`patrol_path_storage.cpp`](../xrAICore/Navigation/PatrolPath/patrol_path_storage.cpp.md) · [`Environment_misc.cpp`](../xrEngine/Environment_misc.cpp.md) · [`game_sv_artefacthunt.cpp`](../xrGame/game_sv_artefacthunt.cpp.md) · [`game_sv_capture_the_artefact.cpp`](../xrGame/game_sv_capture_the_artefact.cpp.md)
 **Tier floor** — T1: it names identifiers in a frozen chunked binary format that the level editor already wrote.
 
 ## Purpose

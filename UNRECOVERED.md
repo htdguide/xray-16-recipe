@@ -664,3 +664,66 @@ Restrictors do NOT intersect. Within a list the volumes UNION; the two lists the
 - The matchmaking integration was never finished: two callbacks are empty and the public-address callback that would have driven server self-authentication is commented out with its path still present and uncalled.
 - With the service gone, the three degradations are: accounts fall back to offline profiles, statistics to zeroes that scripts still read, and remote key authentication FAILS OPEN. The last is a security-relevant default, harmless only because the service it would have consulted no longer exists and the shipped build has no working transport anyway.
 - Two recurring defects across the module: callback contexts held in stack frames, and unthrottled outage logging.
+
+---
+
+# Found by the rebuild tests
+
+Three engineers were given this recipe alone — no source, no prior knowledge of the engine
+— and asked to plan a rebuild of one module each in a language the recipe never names
+(the collision database in Rust, the deferred renderer in Zig on WebGPU, the alife
+simulation in Go). What they could not proceed without is listed below. Items that turned
+out to be errors in this recipe have been corrected; these are the ones that remain.
+
+## Gaps that remain
+
+- **Smart terrain has no specification.** Every offline decision bottoms out in
+  `task_for`, `suitability_for` and `enabled_for`. All three are called, all three are
+  fatal on failure, and none is defined anywhere. The suitability metric, the capacity
+  rule and the job record are absent, and conformance item 10 freezes their script
+  signatures by name.
+- **The alife tick has no rate.** Not the scheduler's period, not the switch radii, not
+  the travel speeds, not the per-creature search interval. The machinery is specified
+  exactly and how often it runs is nowhere, because those values live in shipped
+  configuration this recipe treats as out of scope. For a weapon's damage that is the
+  right call; for the clock of the simulation it is not.
+- **The collision module's result type has no record block**, alone among its types, so
+  the field order, the meaning of the distance for a non-unit direction, and which two of
+  the three barycentric coordinates are reported are all unstated.
+- **The renderer's packed geometry-buffer layout is the shipped default and is
+  unspecified.** The console flag that selects it defaults on; what it packs where, in
+  what encoding, and where the material id and hemisphere factor go once two channels are
+  consumed, is never stated.
+- **The transform that maps a unit sphere or cone onto a light's volume** is promised in
+  two places in the light record's page and written in neither, though every lighting draw
+  and every stencil-mask pass sets it.
+- **The bump-map pair's suffix spelling is contradicted across four pages**, and they also
+  disagree on which half of the pair carries height. Three consumers bind one spelling;
+  the loader produces the other.
+- **Several tie-breaks are undetermined**, each of which changes a built collision cache
+  byte for byte: which triangle wins at exactly equal ray distance, which axis wins on a
+  variance tie, whether the positive subtree is emitted before the negative one.
+- **Three screen-coverage heuristics disagree** while one of them carries an invariant
+  requiring that it match the others.
+- **The graphics seam's "pluggable" verdict is tested only against APIs shaped like
+  Direct3D 11.** A WebGPU rebuild hits five blockers the recipe never warns about:
+  same-frame occlusion-query availability, using the accumulator as target and input at
+  once, user clip planes for light shafts, the absence of shader reflection for the frozen
+  sampler names, and the map-discard vertex path.
+
+## Errors the tests found in this recipe, since corrected
+
+Listed so the reader knows what kind of mistake to keep watching for.
+
+- The preface specified the wrong tree build for the collision seam, and a result budget
+  the module does not have.
+- The plane type stated an inward frustum convention; the frustum is built outward.
+- The collision triangle's material field was documented as 14 bits in one chapter and 16
+  in another. It is 14.
+- The glossary described offline combat, communication, trade and free wandering as part
+  of the alife simulation. All four are commented out in the shipped engine.
+- Conformance item 11 was not checkable as written.
+- The sun's phase opened by calling it a directional light with no position; it is built
+  as a point light 500 metres behind the camera, and the cascade fit depends on that.
+- One multiplayer twin blamed the client for an inverted sprint rule that the server
+  causes.

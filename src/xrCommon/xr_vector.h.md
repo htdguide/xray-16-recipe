@@ -3,7 +3,7 @@
 > The engine's growable array: a contiguous sequence whose storage comes from the engine allocator.
 
 **Needs** — [`xr_allocator.h`](xr_allocator.h.md)
-**Used by** — [`graph_vertex.h`](../xrAICore/Navigation/graph_vertex.h.md) · [`vertex_allocator_fixed.h`](../xrAICore/Navigation/vertex_allocator_fixed.h.md) · [`vertex_path.h`](../xrAICore/Navigation/vertex_path.h.md) · [`xrCDB.h`](../xrCDB/xrCDB.h.md) · [`xr_stack.h`](xr_stack.h.md) · [`AssociativeVector.hpp`](../xrCore/Containers/AssociativeVector.hpp.md) · [`FixedMap.h`](../xrCore/Containers/FixedMap.h.md) · [`StackTrace.h`](../xrCore/Debug/StackTrace.h.md) · [`_stl_extensions.h`](../xrCore/_stl_extensions.h.md) · [`log.h`](../xrCore/log.h.md) · [`xrCore.h`](../xrCore/xrCore.h.md) · [`xrDebug.h`](../xrCore/xrDebug.h.md) · [`xrPool.h`](../xrCore/xrPool.h.md) · [`xr_ini.h`](../xrCore/xr_ini.h.md) · _and 5 more_
+**Used by** — [`graph_vertex.h`](../xrAICore/Navigation/graph_vertex.h.md) · [`vertex_allocator_fixed.h`](../xrAICore/Navigation/vertex_allocator_fixed.h.md) · [`vertex_path.h`](../xrAICore/Navigation/vertex_path.h.md) · [`xrCDB.h`](../xrCDB/xrCDB.h.md) · [`xr_stack.h`](xr_stack.h.md) · [`ChooseTypes.H`](../xrCore/ChooseTypes.H.md) · [`AssociativeVector.hpp`](../xrCore/Containers/AssociativeVector.hpp.md) · [`FixedMap.h`](../xrCore/Containers/FixedMap.h.md) · [`StackTrace.h`](../xrCore/Debug/StackTrace.h.md) · [`_stl_extensions.h`](../xrCore/_stl_extensions.h.md) · [`log.h`](../xrCore/log.h.md) · [`xrCore.h`](../xrCore/xrCore.h.md) · [`xrDebug.h`](../xrCore/xrDebug.h.md) · [`xrPool.h`](../xrCore/xrPool.h.md) · _and 6 more_
 **Tier floor** — T3: nothing here is device- or format-facing. The file exists only because the host language has no way to say "all arrays allocate here".
 
 ## Purpose

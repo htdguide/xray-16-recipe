@@ -246,7 +246,7 @@ standing on things, not at players hopping.
 interval, and it is a direct cost/quality trade: a dog at arm's length re-plans eight times a
 second and one across the clearing twice a second. The player only perceives the difference up
 close, and the pathfinder's budget is what is being protected. See the search budgets in
-[chapter 14](../../../../src/xrAICore/README.md).
+[chapter 14](../../../../xrAICore/README.md).
 
 ## `HitEntityInJump`
 

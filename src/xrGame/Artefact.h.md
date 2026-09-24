@@ -3,7 +3,7 @@
 > Declares the artefact base class and its detector-support helper, both implemented in [`Artefact.cpp`](Artefact.cpp.md).
 
 **Needs** — [`hud_item_object.h`](hud_item_object.h.md) · [`hit_immunity.h`](hit_immunity.h.md) · [`xrPhysics/PHUpdateObject.h`](../xrPhysics/PHUpdateObject.h.md) · [`xrAICore/Navigation/PatrolPath/patrol_path.h`](../xrAICore/Navigation/PatrolPath/patrol_path.h.md)
-**Used by** — [`Actor.cpp`](Actor.cpp.md) · [`ActorAnimation.cpp`](ActorAnimation.cpp.md) · [`Actor_Events.cpp`](Actor_Events.cpp.md) · [`Actor_Movement.cpp`](Actor_Movement.cpp.md) · [`Actor_Weapon.cpp`](Actor_Weapon.cpp.md) · [`AdvancedDetector.cpp`](AdvancedDetector.cpp.md) · [`Artefact.cpp`](Artefact.cpp.md) · [`BastArtifact.cpp`](BastArtifact.cpp.md) · [`BastArtifact.h`](BastArtifact.h.md) · [`BlackDrops.cpp`](BlackDrops.cpp.md) · [`BlackDrops.h`](BlackDrops.h.md) · [`CustomDetector.cpp`](CustomDetector.cpp.md) · [`CustomDetector.h`](CustomDetector.h.md) · [`CustomZone.cpp`](CustomZone.cpp.md) · _and 36 more_
+**Used by** — [`Actor.cpp`](Actor.cpp.md) · [`ActorAnimation.cpp`](ActorAnimation.cpp.md) · [`Actor_Events.cpp`](Actor_Events.cpp.md) · [`Actor_Movement.cpp`](Actor_Movement.cpp.md) · [`Actor_Weapon.cpp`](Actor_Weapon.cpp.md) · [`AdvancedDetector.cpp`](AdvancedDetector.cpp.md) · [`Artefact.cpp`](Artefact.cpp.md) · [`BastArtifact.cpp`](BastArtifact.cpp.md) · [`BastArtifact.h`](BastArtifact.h.md) · [`BlackDrops.cpp`](BlackDrops.cpp.md) · [`BlackDrops.h`](BlackDrops.h.md) · [`CustomDetector.cpp`](CustomDetector.cpp.md) · [`CustomDetector.h`](CustomDetector.h.md) · [`CustomZone.cpp`](CustomZone.cpp.md) · _and 37 more_
 **Tier floor** — T3: a declaration
 
 ## Purpose

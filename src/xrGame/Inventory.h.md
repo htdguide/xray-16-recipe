@@ -3,7 +3,7 @@
 > Declares the inventory, its slot record and the quick-switch priority group, implemented in [`Inventory.cpp`](Inventory.cpp.md) and [`inventory_quickswitch.cpp`](inventory_quickswitch.cpp.md).
 
 **Needs** — [`inventory_item.h`](inventory_item.h.md)
-**Used by** — [`Actor.cpp`](Actor.cpp.md) · [`ActorAnimation.cpp`](ActorAnimation.cpp.md) · [`ActorBackpack.cpp`](ActorBackpack.cpp.md) · [`ActorCondition.cpp`](ActorCondition.cpp.md) · [`ActorHelmet.cpp`](ActorHelmet.cpp.md) · [`ActorInput.cpp`](ActorInput.cpp.md) · [`ActorVehicle.cpp`](ActorVehicle.cpp.md) · [`Actor_Events.cpp`](Actor_Events.cpp.md) · [`Actor_Feel.cpp`](Actor_Feel.cpp.md) · [`Actor_Movement.cpp`](Actor_Movement.cpp.md) · [`Actor_Network.cpp`](Actor_Network.cpp.md) · [`Actor_Weapon.cpp`](Actor_Weapon.cpp.md) · [`Artefact.cpp`](Artefact.cpp.md) · [`Car.cpp`](Car.cpp.md) · _and 79 more_
+**Used by** — [`Actor.cpp`](Actor.cpp.md) · [`ActorAnimation.cpp`](ActorAnimation.cpp.md) · [`ActorBackpack.cpp`](ActorBackpack.cpp.md) · [`ActorCondition.cpp`](ActorCondition.cpp.md) · [`ActorHelmet.cpp`](ActorHelmet.cpp.md) · [`ActorInput.cpp`](ActorInput.cpp.md) · [`ActorVehicle.cpp`](ActorVehicle.cpp.md) · [`Actor_Events.cpp`](Actor_Events.cpp.md) · [`Actor_Feel.cpp`](Actor_Feel.cpp.md) · [`Actor_Movement.cpp`](Actor_Movement.cpp.md) · [`Actor_Network.cpp`](Actor_Network.cpp.md) · [`Actor_Weapon.cpp`](Actor_Weapon.cpp.md) · [`Artefact.cpp`](Artefact.cpp.md) · [`Car.cpp`](Car.cpp.md) · _and 80 more_
 **Tier floor** — T3: a declaration
 
 ## Purpose

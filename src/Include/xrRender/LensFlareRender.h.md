@@ -2,7 +2,7 @@
 
 > The renderer's half of the sun's lens flare: the materials of each flare element, and the draw of the sun disc, the flare chain and the screen gradient.
 
-**Needs** — [`RenderFactory.h`](RenderFactory.h.md) · [`xrEngine/LensFlare.h`](../../xrEngine/LensFlare.h.md) · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
+**Needs** — [`RenderFactory.h`](RenderFactory.h.md) · `xrEngine/LensFlare.h` · [Seam: Graphics device](../../../SYSTEM-REQUIREMENTS.md#seam-graphics-device)
 **Used by** — [`RenderFactory.h`](RenderFactory.h.md) · [`dxLensFlareRender.cpp`](../../Layers/xrRender/dxLensFlareRender.cpp.md) · [`dxLensFlareRender.h`](../../Layers/xrRender/dxLensFlareRender.h.md) · [`dxThunderboltRender.cpp`](../../Layers/xrRender/dxThunderboltRender.cpp.md) · [`thunderbolt.h`](../../xrEngine/thunderbolt.h.md) · [`xr_efflensflare.h`](../../xrEngine/xr_efflensflare.h.md)
 **Tier floor** — T2: material ownership and three draws.
 

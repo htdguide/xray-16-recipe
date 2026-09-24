@@ -3,7 +3,7 @@
 > Capture the artefact's four extra server events: suicide, purchase finished, and entering or leaving a team base — with the base identifier shifted to zero-based.
 
 **Needs** — [`game_sv_capture_the_artefact.h`](game_sv_capture_the_artefact.h.md) · [`xrServer.h`](xrServer.h.md) · [`xrMessages.h`](../xrServerEntities/xrMessages.h.md)
-**Used by** — [`game_sv_capture_the_artefact.h`](game_sv_capture_the_artefact.h.md)
+**Used by** — [`game_sv_capture_the_artefact.cpp`](game_sv_capture_the_artefact.cpp.md) · [`game_sv_capture_the_artefact.h`](game_sv_capture_the_artefact.h.md)
 **Tier floor** — T3: a dispatch on an event type
 
 ## Purpose

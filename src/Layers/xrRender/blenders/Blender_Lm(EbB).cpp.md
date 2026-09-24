@@ -3,7 +3,7 @@
 > A lightmapped surface whose base texture's alpha channel reveals a reflection underneath — the world-geometry counterpart of the reflective model template.
 
 **Needs** — [`Blender_Lm(EbB).h`](Blender_Lm%28EbB%29.h.md) · [`Blender.h`](../Blender.h.md) · [`Blender_Recorder.h`](../Blender_Recorder.h.md) · [`Blender_CLSID.h`](../Blender_CLSID.h.md) · [`Shader.h`](../Shader.h.md) · [`HWCaps.h`](../HWCaps.h.md) · [`xrRender_console.h`](../xrRender_console.h.md)
-**Used by** — reached through its declarations in [`Blender_Lm(EbB).h`](Blender_Lm(EbB).h.md); callers name that, not this file.
+**Used by** — reached through its declarations in [`Blender_Lm(EbB).h`](Blender_Lm%28EbB%29.h.md); callers name that, not this file.
 **Tier floor** — T2: it emits a pass description; the parameter block is a frozen tagged byte stream.
 
 ## Purpose

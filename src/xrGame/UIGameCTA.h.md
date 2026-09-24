@@ -3,7 +3,7 @@
 > Declares the capture-the-artefact interface, including the record that maps a buy-menu selection to a slot and item, implemented in [`UIGameCTA.cpp`](UIGameCTA.cpp.md).
 
 **Needs** — [`UIGameMP.h`](UIGameMP.h.md) · [`game_base.h`](game_base.h.md) · [`Inventory.h`](Inventory.h.md) · [`xrCommon/xr_vector.h`](../xrCommon/xr_vector.h.md) · [`xrCore/buffer_vector.h`](../xrCore/buffer_vector.h.md)
-**Used by** — [`UIGameCTA.cpp`](UIGameCTA.cpp.md) · [`game_cl_capture_the_artefact.cpp`](game_cl_capture_the_artefact.cpp.md) · [`game_cl_capture_the_artefact.h`](game_cl_capture_the_artefact.h.md) · [`game_cl_capture_the_artefact_captions_manager.cpp`](game_cl_capture_the_artefact_captions_manager.cpp.md) · [`game_cl_capture_the_artefact_captions_manager.h`](game_cl_capture_the_artefact_captions_manager.h.md) · [`game_cl_capturetheartefact_buywnd.cpp`](game_cl_capturetheartefact_buywnd.cpp.md)
+**Used by** — [`UIGameCTA.cpp`](UIGameCTA.cpp.md) · [`game_cl_capture_the_artefact.cpp`](game_cl_capture_the_artefact.cpp.md) · [`game_cl_capture_the_artefact.h`](game_cl_capture_the_artefact.h.md) · [`game_cl_capture_the_artefact_captions_manager.cpp`](game_cl_capture_the_artefact_captions_manager.cpp.md) · [`game_cl_capture_the_artefact_captions_manager.h`](game_cl_capture_the_artefact_captions_manager.h.md) · [`game_cl_capturetheartefact_buywnd.cpp`](game_cl_capturetheartefact_buywnd.cpp.md) · [`game_sv_capture_the_artefact.cpp`](game_sv_capture_the_artefact.cpp.md)
 **Tier floor** — T3: a declaration only
 
 ## Purpose

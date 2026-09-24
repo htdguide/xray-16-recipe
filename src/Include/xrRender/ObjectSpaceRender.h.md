@@ -2,7 +2,7 @@
 
 > Debug visualization of the collision query layer: a buffer of spheres, drawn once a frame.
 
-**Needs** — [`RenderFactory.h`](RenderFactory.h.md) · [`xrEngine/ObjectSpace.h`](../../xrEngine/ObjectSpace.h.md)
+**Needs** — [`RenderFactory.h`](RenderFactory.h.md) · `xrEngine/ObjectSpace.h`
 **Used by** — [`RenderFactory.h`](RenderFactory.h.md) · [`dxObjectSpaceRender.cpp`](../../Layers/xrRender/dxObjectSpaceRender.cpp.md) · [`dxObjectSpaceRender.h`](../../Layers/xrRender/dxObjectSpaceRender.h.md)
 **Tier floor** — T2: an accumulator and a draw; debug builds only.
 
